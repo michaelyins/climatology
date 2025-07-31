@@ -33,7 +33,7 @@
     background: #1a1a1a;
     padding: 2rem 0;
     position: relative;
-    z-index: 100;
+    z-index: 1100; /* 提高z-index，确保控件不被遮挡 */
 }
 
 .controls-container {
