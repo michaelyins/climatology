@@ -1,0 +1,682 @@
+/* Sea of Clouds Page Specific Styles */
+
+/* Main Layout */
+.models-main {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    min-height: 100vh;
+    padding-top: 80px; /* Account for fixed navbar */
+}
+
+/* Model Description Section */
+.model-description {
+    background: rgba(30, 60, 114, 0.8);
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.description-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.description-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #ffffff;
+    opacity: 0.9;
+    margin: 0;
+}
+
+/* Controls Section */
+.controls-section {
+    background: rgba(30, 60, 114, 0.6);
+    padding: 2rem 0;
+    position: relative;
+    z-index: 1100; /* 提高z-index，确保控件不被遮挡 */
+}
+
+.controls-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.control-button {
+    background: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 0.8rem 1.5rem;
+    cursor: pointer;
+    position: relative;
+    min-width: 180px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.control-button:hover {
+    background: #f8f9fa;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.button-text {
+    font-weight: 500;
+    color: #2c3e50;
+    font-size: 0.95rem;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1200; /* 进一步提高下拉菜单的z-index */
+    display: none;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.dropdown-menu.show {
+    display: block;
+}
+
+.dropdown-item {
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+    color: #2c3e50;
+    transition: background 0.2s ease;
+}
+
+.dropdown-item:last-child {
+    border-bottom: none;
+}
+
+.dropdown-item:hover {
+    background: #e8f4f8;
+}
+
+#search-button {
+    background: linear-gradient(135deg, #4a90e2, #357abd);
+    color: #ffffff;
+}
+
+#search-button .button-text {
+    color: #ffffff;
+}
+
+#search-button:hover {
+    background: linear-gradient(135deg, #357abd, #2968a3);
+    transform: translateY(-2px);
+}
+
+#empty-button {
+    background: #e74c3c;
+    color: #ffffff;
+}
+
+#empty-button .button-text {
+    color: #ffffff;
+}
+
+#empty-button:hover {
+    background: #c0392b;
+    transform: translateY(-2px);
+}
+
+/* Data Display Section */
+.data-display {
+    background: transparent;
+    margin: 2rem;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: none;
+    backdrop-filter: none;
+}
+
+.data-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.data-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.data-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin: 0;
+}
+
+.coverage-info {
+    text-align: right;
+}
+
+.coverage-info h3 {
+    color: #ffffff;
+    margin: 0 0 0.5rem 0;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.coverage-info span {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.data-metrics {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.metric-row {
+    display: grid;
+    grid-template-columns: 200px 150px 1fr;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid #ecf0f1;
+}
+
+.metric-row:last-child {
+    border-bottom: none;
+}
+
+.metric-label {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.metric-value {
+    font-size: 1.5rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #ffffff;
+}
+
+.metric-description {
+    color: #ffffff;
+    font-size: 1.1rem;
+    line-height: 1.4;
+    font-weight: 500;
+}
+
+/* Colors are now set dynamically via JavaScript */
+
+/* Coverage visualization */
+.coverage-circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: conic-gradient(
+        from 0deg,
+        #3498db 0deg,
+        #3498db var(--coverage-angle, 0deg),
+        #ecf0f1 var(--coverage-angle, 0deg),
+        #ecf0f1 360deg
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.coverage-circle::before {
+    content: '';
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #2c3e50;
+    position: absolute;
+}
+
+.coverage-circle span {
+    position: relative;
+    z-index: 1;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #ffffff;
+}
+
+/* Disclaimer Section */
+.disclaimer-section {
+    background: transparent;
+    margin: 2rem;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: none;
+}
+
+.disclaimer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.disclaimer-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+.disclaimer-text {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1.2 rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Interactive Section */
+.interactive-section {
+    background: transparent;
+    margin: 2rem;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: none;
+}
+
+.interactive-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.info-buttons {
+    display: flex;
+    gap: 0; /* 移除固定间距 */
+    margin-bottom: 2.5rem;
+    flex-wrap: nowrap;
+    justify-content: space-between; /* 改为space-between，实现左右对齐和中间均匀分布 */
+    overflow-x: auto;
+}
+
+.info-btn {
+    background: linear-gradient(135deg, #74b9ff, #0984e3);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    padding: 1.5rem 2.5rem; /* 减少高度(1.5rem)，增加宽度(2.5rem) */
+    color: #ffffff;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 1.1rem; /* 从1rem增加到1.1rem，适量放大文字 */
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem; /* 从0.3rem增加到0.4rem，增大标题和副标题间距 */
+    text-align: center;
+    min-width: 150px; /* 从180px减少到150px，让按钮变窄 */
+    flex-shrink: 0;
+    box-shadow: 0 4px 15px rgba(116, 185, 255, 0.3);
+}
+
+.info-btn:hover {
+    background: linear-gradient(135deg, #0984e3, #0770c2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(116, 185, 255, 0.4);
+}
+
+.info-btn.active {
+    background: linear-gradient(135deg, #00b894, #00a085);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 184, 148, 0.4);
+}
+
+.btn-title {
+    font-size: 1.2rem; /* 从1rem增加到1.1rem，适量放大 */
+    font-weight: 600; /* 加粗第一行 */
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #ffffff; /* 确保颜色一致 */
+    opacity: 1; /* 确保透明度一致 */
+}
+
+.btn-subtitle {
+    font-size: 0.9rem; /* 改为小标题字体大小 */
+    opacity: 1; /* 从0.9改为1，与主标题透明度一致 */
+    font-weight: 400; /* 第二行不加粗 */
+    color: #ffffff; /* 确保颜色一致 */
+}
+
+.content-display {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    padding: 2rem;
+    min-height: 250px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.content-panel {
+    display: none;
+}
+
+.content-panel.active {
+    display: block;
+}
+
+.content-panel h3 {
+    color: #ffffff;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.content-panel p {
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.content-panel ul {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.content-panel li {
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 0.5rem;
+}
+
+.content-panel strong {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+/* Daily forecast cards */
+.daily-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.daily-card {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    padding: 1.5rem;
+    border-left: 4px solid #3498db;
+}
+
+.daily-card h4 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.daily-card .coverage-stat {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.daily-card .coverage-stat span:first-child {
+    color: #7f8c8d;
+    font-size: 0.9rem;
+}
+
+.daily-card .coverage-stat span:last-child {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .controls-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .control-button {
+        width: 100%;
+        max-width: 300px;
+    }
+    
+    .data-display,
+    .disclaimer-section,
+    .interactive-section {
+        margin: 1rem;
+        padding: 1.5rem;
+    }
+    
+    .data-header {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .metric-row {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 0.5rem;
+    }
+    
+    .info-buttons {
+        flex-direction: column;
+    }
+    
+    .info-btn {
+        width: 100%;
+    }
+}
+
+/* Responsive adjustments for buttons */
+@media (max-width: 768px) {
+    .info-btn {
+        min-width: 130px; /* 从150px减少到130px，保持比例 */
+        padding: 1.2rem 2rem; /* 保持矮宽的比例 */
+        font-size: 1rem; /* 移动端适中字体 */
+    }
+    
+    .btn-title {
+        font-size: 1rem; /* 移动端标题字体 */
+    }
+    
+    .btn-subtitle {
+        font-size: 1rem; /* 保持与主标题一致 */
+    }
+    
+    .info-buttons {
+        gap: 0.8rem; /* 移动端适当增加一些间距 */
+        padding: 0 1rem;
+    }
+    
+    .content-display {
+        padding: 1.5rem;
+    }
+}
+
+/* For very small screens, allow wrapping */
+@media (max-width: 480px) {
+    .info-buttons {
+        flex-wrap: wrap;
+        gap: 1rem; /* 超小屏幕保持间距 */
+    }
+    
+    .info-btn {
+        min-width: 120px; /* 超小屏幕进一步减少宽度 */
+        padding: 1rem 1.5rem; /* 超小屏幕的矮宽比例 */
+        flex: 1 1 auto;
+    }
+}
+
+/* Clickable metric styles */
+.clickable-metric {
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 4px;
+    padding: 0.2rem 0.5rem;
+}
+
+.clickable-metric:hover {
+    background: rgba(79, 168, 216, 0.1);
+    color: #2980b9;
+    transform: scale(1.05);
+}
+
+.clickable-metric.active {
+    background: rgba(79, 168, 216, 0.2);
+    color: #2980b9;
+    box-shadow: 0 2px 8px rgba(79, 168, 216, 0.3);
+}
+
+.expand-icon {
+    margin-left: 0.5rem;
+    font-size: 0.8rem;
+    transition: transform 0.3s ease;
+    display: inline-block;
+}
+
+.clickable-metric.active .expand-icon {
+    transform: rotate(180deg);
+}
+
+/* Region details panel */
+.region-details {
+    background: rgba(79, 168, 216, 0.05);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-top: 1rem;
+    border-left: 4px solid #3498db;
+    animation: slideDown 0.3s ease;
+}
+
+.region-details h4 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.hourly-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 0.8rem;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.hourly-stat {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 6px;
+    padding: 0.8rem 0.6rem;
+    text-align: center;
+    border: 1px solid rgba(79, 168, 216, 0.2);
+    transition: transform 0.2s ease;
+}
+
+.hourly-stat:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 8px rgba(79, 168, 216, 0.2);
+}
+
+.hourly-stat .time {
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+
+.hourly-stat .coverage {
+    color: #3498db;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.hourly-stat .area {
+    color: #7f8c8d;
+    font-size: 0.9rem;
+    margin-top: 0.2rem;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 480px) {
+    .data-title {
+        font-size: 1.4rem;
+    }
+    
+    .metric-value {
+        font-size: 1.2rem;
+    }
+    
+    .daily-cards {
+        grid-template-columns: 1fr;
+    }
+} 
+
+/* Mermaid Diagram Styles */
+.mermaid-container {
+    margin: 2rem 0;
+    padding: 2rem;
+    background: transparent;
+    border-radius: 12px;
+    overflow-x: auto;
+    text-align: center;
+}
+
+.mermaid {
+    background: transparent;
+}
+
+#mermaid-diagram {
+    background: transparent;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+#mermaid-diagram svg {
+    background: transparent !important;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Responsive adjustments for mermaid */
+@media (max-width: 768px) {
+    .mermaid-container {
+        padding: 1rem;
+        overflow-x: scroll;
+        background: transparent;
+    }
+    
+    #mermaid-diagram {
+        background: transparent;
+    }
+}
+
+@media (max-width: 480px) {
+    .mermaid-container {
+        padding: 0.5rem;
+        background: transparent;
+    }
+    
+    #mermaid-diagram {
+        background: transparent;
+    }
+} 
