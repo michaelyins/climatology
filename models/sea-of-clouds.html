@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sea of Clouds - Climatology</title>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <link rel="stylesheet" href="../css/common.css?v=20250730-41">
+    <link rel="stylesheet" href="../css/sea-of-clouds.css?v=20250730-41">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10.6.1/dist/mermaid.min.js"></script>
+</head>
+<body>
+    <!-- Navigation Header -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="../index.html">Climatology</a>
+            </div>
+            <div class="nav-menu">
+                <div class="nav-dropdown">
+                    <a href="#" class="nav-link dropdown-toggle active">Models ▼</a>
+                    <div class="dropdown-content">
+                        <a href="firesky.html">🔥 Fire Sky</a>
+                        <a href="sea-of-clouds.html" class="active">☁️ Sea of Clouds</a>
+                        <a href="rainbow.html">🌈 Rainbow (Coming Soon)</a>
+                        <a href="fog.html">🌫️ Fog (Coming Soon)</a>
+                        <a href="starry-sky.html">⭐ Starry Sky (Coming Soon)</a>
+                    </div>
+                </div>
+                <a href="#knowledges" class="nav-link">Knowledges</a>
+                <a href="#community" class="nav-link">Community</a>
+                <a href="#competitions" class="nav-link">Competitions</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact Us</a>
+                <a href="#login" class="nav-link login-btn">Login</a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Models Main Content -->
+    <main class="models-main">
+        <!-- Model Description Section -->
+        <section class="model-description">
+            <div class="description-container">
+                <p class="description-text">
+                    The Sea of Clouds prediction model analyzes atmospheric conditions and topographical features to forecast cloud formation in valleys and mountainous regions. Based on high-resolution meteorological data and digital elevation models, the system predicts cloud coverage patterns and optimal viewing times for the ethereal phenomenon of clouds filling valleys like an ocean.
+                </p>
+            </div>
+        </section>
+
+        <!-- Control Buttons Section -->
+        <section class="controls-section">
+            <div class="controls-container">
+                <!-- Location Selection -->
+                <div class="control-button" id="location-toggle">
+                    <span class="button-text" id="location-text">Choose Location</span>
+                    <div class="dropdown-menu" id="location-dropdown">
+                        <!-- Populated dynamically by JavaScript -->
+                    </div>
+                </div>
+
+                <!-- Date Selection -->
+                <div class="control-button" id="date-toggle">
+                    <span class="button-text" id="date-text">Choose Date</span>
+                    <div class="dropdown-menu" id="date-dropdown">
+                        <!-- Populated dynamically by JavaScript -->
+                    </div>
+                </div>
+
+                <!-- Empty All Button -->
+                <div class="control-button" id="empty-button">
+                    <span class="button-text">Empty all selections</span>
+                </div>
+
+                <!-- Search Reports Button -->
+                <div class="control-button" id="search-button">
+                    <span class="button-text">Search The Reports</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Data Display Section -->
+        <section class="data-display">
+            <div class="data-container">
+                <div class="data-header">
+                    <h2 class="data-title">
+                        <span id="selected-location">Location</span> — 
+                        <span id="selected-date">Date</span> — 
+                        <span id="selected-weather">Sea of Clouds</span>
+                    </h2>
+                    <div class="coverage-info">
+                        <h3>Average Coverage</h3>
+                        <span id="coverage-display">--</span>
+                    </div>
+                </div>
+
+                <div class="data-metrics">
+                    <div class="metric-row">
+                        <div class="metric-label">Recommendation Level</div>
+                        <div class="metric-value" id="recommend-level">
+                            <div class="coverage-circle">
+                                <span>--%</span>
+                            </div>
+                        </div>
+                        <div class="metric-description" id="recommend-description">Select location and date to view prediction</div>
+                    </div>
+
+                    <div class="metric-row">
+                        <div class="metric-label">Peak Coverage Time</div>
+                        <div class="metric-value" id="peak-time">--:--</div>
+                        <div class="metric-description" id="peak-description">Best viewing time for maximum cloud coverage</div>
+                    </div>
+
+                    <div class="metric-row">
+                        <div class="metric-label">Monitoring Area</div>
+                        <div class="metric-value clickable-metric" id="region-area" onclick="toggleRegionDetails()">
+                            -- km² <span class="expand-icon">▼</span>
+                        </div>
+                        <div class="metric-description" id="region-description">Click to view detailed statistics</div>
+                    </div>
+                    
+                    <!-- Hidden detailed region statistics -->
+                    <div class="region-details" id="region-details" style="display: none;">
+                        <h4>Detailed Coverage Statistics</h4>
+                        <div class="hourly-stats" id="hourly-stats">
+                            <!-- Populated by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Disclaimer Section -->
+        <section class="disclaimer-section">
+            <div class="disclaimer-container">
+                <h2 class="disclaimer-title">Disclaimer</h2>
+                <p class="disclaimer-text">
+                    Sea of clouds formation is highly dependent on local microclimatic conditions, temperature inversions, and humidity levels. While our model provides scientific predictions based on atmospheric data, actual conditions may vary due to rapidly changing weather patterns. Use predictions as guidance for planning, and always check current weather conditions before traveling to viewing locations.
+                </p>
+            </div>
+        </section>
+
+        <!-- Interactive Buttons Section -->
+        <section class="interactive-section">
+            <div class="interactive-container">
+                <div class="info-buttons">
+                    <button class="info-btn active" data-target="workflow-panel">
+                        <span class="btn-title">Workflow</span>
+                        <span class="btn-subtitle">Diagram</span>
+                    </button>
+                    <button class="info-btn" data-target="methodology-panel">
+                        <span class="btn-title">Methodology</span>
+                        <span class="btn-subtitle">How We Measure</span>
+                    </button>
+                    <button class="info-btn" data-target="locations-panel">
+                        <span class="btn-title">Location Info</span>
+                        <span class="btn-subtitle">Places we include</span>
+                    </button>
+                    <button class="info-btn" data-target="tips-panel">
+                        <span class="btn-title">Viewing Tips</span>
+                        <span class="btn-subtitle">How, When, Where</span>
+                    </button>
+                    <button class="info-btn" data-target="forecast-panel">
+                        <span class="btn-title">Multi-Day</span>
+                        <span class="btn-subtitle">Forecast</span>
+                    </button>
+                </div>
+
+                <div class="content-display">
+                    <!-- Workflow Panel -->
+                    <div class="content-panel" id="workflow-panel">
+                        <h3>Workflow Diagram</h3>
+                        <p>Our Sea of Clouds prediction workflow follows a systematic approach:</p>
+                        
+                        <div class="mermaid-container">
+                            <div id="mermaid-diagram"></div>
+                        </div>
+                    </div>
+
+                    <!-- Methodology Panel -->
+                    <div class="content-panel" id="methodology-panel">
+                        <h3>Methodology & Analysis</h3>
+                        <p>Our Sea of Clouds prediction system combines multiple data sources and analytical approaches:</p>
+                        <ul>
+                            <li><strong>Temperature Inversion Detection:</strong> Analysis of atmospheric temperature profiles to identify inversion layers</li>
+                            <li><strong>Humidity and Dewpoint Analysis:</strong> Monitoring relative humidity and dewpoint spread for cloud formation potential</li>
+                            <li><strong>Topographical Integration:</strong> Using digital elevation models to understand valley formations and cloud behavior</li>
+                            <li><strong>Wind Pattern Assessment:</strong> Evaluating wind speed and direction for cloud stability and movement</li>
+                            <li><strong>Multi-Grid Analysis:</strong> Processing atmospheric data across a defined grid to calculate regional coverage</li>
+                        </ul>
+                    </div>
+
+                    <!-- Location Information Panel -->
+                    <div class="content-panel" id="locations-panel">
+                        <h3>Location Information</h3>
+                        <p>Our monitoring network covers prime sea of clouds viewing locations across mountainous regions:</p>
+                        <ul>
+                            <li><strong>Monitoring Areas:</strong> Each location covers a defined geographical grid with specific resolution for accurate predictions</li>
+                            <li><strong>Elevation Range:</strong> Locations selected based on optimal viewing elevation and valley characteristics</li>
+                            <li><strong>Access Information:</strong> Most locations are accessible by car or short hike, with varying difficulty levels</li>
+                            <li><strong>Best Viewing Points:</strong> Strategic positioning for maximum sea of clouds visibility and photographic opportunities</li>
+                            <li><strong>Climate Characteristics:</strong> Each region has unique microclimatic conditions affecting cloud formation patterns</li>
+                        </ul>
+                    </div>
+
+                    <!-- Viewing Tips Panel -->
+                    <div class="content-panel" id="tips-panel">
+                        <h3>Viewing Tips</h3>
+                        <p>Maximize your sea of clouds experience with these essential tips:</p>
+                        <ul>
+                            <li><strong>Timing:</strong> Arrive 30-60 minutes before predicted peak time for best positioning</li>
+                            <li><strong>Weather Check:</strong> Verify current conditions as they can change rapidly in mountain areas</li>
+                            <li><strong>Equipment:</strong> Bring warm clothing, as temperatures drop significantly at elevation</li>
+                            <li><strong>Photography:</strong> Use a tripod for stable shots and consider graduated filters for exposure balance</li>
+                            <li><strong>Safety:</strong> Check trail conditions and inform others of your plans when hiking to viewing points</li>
+                            <li><strong>Patience:</strong> Cloud formations can evolve quickly - stay flexible with timing and positioning</li>
+                        </ul>
+                    </div>
+
+                    <!-- Multi-Day Forecast Panel -->
+                    <div class="content-panel" id="forecast-panel">
+                        <h3>Multi-Day Forecast</h3>
+                        <p>Plan your sea of clouds adventures with our extended forecast capabilities:</p>
+                        <ul>
+                            <li><strong>3-Day Outlook:</strong> Detailed predictions for the next three days with hourly coverage data</li>
+                            <li><strong>Trend Analysis:</strong> Identify patterns in cloud formation timing and coverage intensity</li>
+                            <li><strong>Optimal Days:</strong> Recommendations for the best viewing opportunities within the forecast period</li>
+                            <li><strong>Weather Stability:</strong> Assessment of atmospheric stability affecting cloud persistence</li>
+                            <li><strong>Alternative Locations:</strong> Suggestions for backup locations when primary sites have lower coverage predictions</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- JavaScript -->
+    <script src="../js/common.js?v=20250730-41"></script>
+    <script src="../js/sea-of-clouds.js?v=20250730-41"></script>
+    <script>
+        // Initialize Mermaid after page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            mermaid.initialize({
+                startOnLoad: false,
+                theme: 'base',
+                securityLevel: 'loose',
+                themeVariables: {
+                    background: 'transparent',
+                    primaryColor: '#e0e0e0',
+                    primaryTextColor: '#333',
+                    primaryBorderColor: '#333',
+                    lineColor: '#ffffff',
+                    fontFamily: 'Inter, Arial, sans-serif',
+                    fontSize: '14px'
+                }
+            });
+            
+            // Define the workflow diagram exactly as shown in the image
+            const diagramDefinition = `
+flowchart LR
+    A["Choose<br/>Your<br/>Location"] --> B["Check The Day<br/>You Wish To<br/>Arrive"]
+    
+    B --> C1["RL = 25%<br/>Almost No<br/>Sea of Clouds"]
+    B --> D1["Rec Level = 90%<br/>Happens Almost<br/>All Day"]  
+    B --> E1["RL = 50%<br/>Only Some Hours<br/>Have Sea of Clouds"]
+    
+    C1 --> C2["Check<br/>Multi-day Report<br/>Before You Go"]
+    D1 --> D2["Get Ready and<br/>Check Viewing Tips<br/>⭐"]
+    E1 --> E2["Check Detailed Info<br/>and<br/>Choose Right Hours"]
+    
+    classDef default fill:#ffffff,stroke:#666,stroke-width:2px,color:#333
+    classDef highlight fill:#ffffff,stroke:#666,stroke-width:2px,color:#333,font-weight:bold
+    classDef startNode fill:#ffffff,stroke:#4a90e2,stroke-width:3px,color:#333
+    
+    class A startNode
+    class D1,D2 highlight
+            `;
+            
+            // Render the diagram
+            const element = document.getElementById('mermaid-diagram');
+            if (element) {
+                mermaid.render('workflow-svg', diagramDefinition)
+                    .then(result => {
+                        element.innerHTML = result.svg;
+                    })
+                    .catch(error => {
+                        console.error('Mermaid rendering error:', error);
+                        element.innerHTML = '<p style="color: white;">Workflow diagram could not be loaded. Please refresh the page.</p>';
+                    });
+            }
+        });
+    </script>
+</body>
+</html> 
