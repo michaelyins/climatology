@@ -1,0 +1,5910 @@
+{
+  "metadata": {
+    "generatedAt": "2025-07-29T13:10:50.280749Z",
+    "forecastDays": 3,
+    "forecastDates": [
+      "2025-07-29",
+      "2025-07-30",
+      "2025-07-31"
+    ],
+    "totalLocations": 12,
+    "version": "1.0",
+    "modelType": "sea_of_clouds"
+  },
+  "predictions": {
+    "sea_of_clouds": {
+      "Mt. Tamalpais, CA": {
+        "locationName": "Mt. Tamalpais, CA",
+        "timezone": "America/Los_Angeles",
+        "region_info": {
+          "total_area_km2": 391.14,
+          "grid_resolution": "0.035°",
+          "grid_size": "6 × 6",
+          "total_grid_points": 36,
+          "lat_range_km": 22.26,
+          "lon_range_km": 17.57
+        },
+        "forecasts": {
+          "2025-07-29": {
+            "date": "2025-07-29",
+            "dayOfWeek": "Tuesday",
+            "summary": {
+              "peakCoverageTime": "05:00",
+              "peakCoverageArea": 293.36,
+              "peakCoveragePercentage": 75.0,
+              "averageCoverage": 43.75,
+              "recommendLevel": 4,
+              "recommendPercentage": 50,
+              "recommendDescription": "Moderate conditions. Partial cloud sea coverage expected."
+            },
+            "hourlyData": [
+              {
+                "time": "00:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "01:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "02:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "03:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "04:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "05:00",
+                "area_km2": 293.36,
+                "coverage_percentage": 75.0,
+                "visibility_score": 7.5
+              },
+              {
+                "time": "06:00",
+                "area_km2": 293.36,
+                "coverage_percentage": 75.0,
+                "visibility_score": 7.5
+              },
+              {
+                "time": "07:00",
+                "area_km2": 293.36,
+                "coverage_percentage": 75.0,
+                "visibility_score": 7.5
+              },
+              {
+                "time": "08:00",
+                "area_km2": 293.36,
+                "coverage_percentage": 75.0,
+                "visibility_score": 7.5
+              },
+              {
+                "time": "09:00",
+                "area_km2": 293.36,
+                "coverage_percentage": 75.0,
+                "visibility_score": 7.5
+              },
+              {
+                "time": "10:00",
+                "area_km2": 293.36,
+                "coverage_percentage": 75.0,
+                "visibility_score": 7.5
+              },
+              {
+                "time": "11:00",
+                "area_km2": 293.36,
+                "coverage_percentage": 75.0,
+                "visibility_score": 7.5
+              },
+              {
+                "time": "12:00",
+                "area_km2": 293.36,
+                "coverage_percentage": 75.0,
+                "visibility_score": 7.5
+              },
+              {
+                "time": "13:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "14:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "15:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "16:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "17:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "18:00",
+                "area_km2": 293.36,
+                "coverage_percentage": 75.0,
+                "visibility_score": 7.5
+              },
+              {
+                "time": "19:00",
+                "area_km2": 293.36,
+                "coverage_percentage": 75.0,
+                "visibility_score": 7.5
+              },
+              {
+                "time": "20:00",
+                "area_km2": 293.36,
+                "coverage_percentage": 75.0,
+                "visibility_score": 7.5
+              },
+              {
+                "time": "21:00",
+                "area_km2": 293.36,
+                "coverage_percentage": 75.0,
+                "visibility_score": 7.5
+              },
+              {
+                "time": "22:00",
+                "area_km2": 293.36,
+                "coverage_percentage": 75.0,
+                "visibility_score": 7.5
+              },
+              {
+                "time": "23:00",
+                "area_km2": 293.36,
+                "coverage_percentage": 75.0,
+                "visibility_score": 7.5
+              }
+            ]
+          },
+          "2025-07-30": {
+            "date": "2025-07-30",
+            "dayOfWeek": "Wednesday",
+            "summary": {
+              "peakCoverageTime": "08:00",
+              "peakCoverageArea": 369.39,
+              "peakCoveragePercentage": 94.44,
+              "averageCoverage": 87.15,
+              "recommendLevel": 6,
+              "recommendPercentage": 90,
+              "recommendDescription": "Excellent conditions for sea of clouds viewing. Extensive coverage expected."
+            },
+            "hourlyData": [
+              {
+                "time": "00:00",
+                "area_km2": 293.36,
+                "coverage_percentage": 75.0,
+                "visibility_score": 7.5
+              },
+              {
+                "time": "01:00",
+                "area_km2": 293.36,
+                "coverage_percentage": 75.0,
+                "visibility_score": 7.5
+              },
+              {
+                "time": "02:00",
+                "area_km2": 293.36,
+                "coverage_percentage": 75.0,
+                "visibility_score": 7.5
+              },
+              {
+                "time": "03:00",
+                "area_km2": 293.36,
+                "coverage_percentage": 75.0,
+                "visibility_score": 7.5
+              },
+              {
+                "time": "04:00",
+                "area_km2": 293.36,
+                "coverage_percentage": 75.0,
+                "visibility_score": 7.5
+              },
+              {
+                "time": "05:00",
+                "area_km2": 293.36,
+                "coverage_percentage": 75.0,
+                "visibility_score": 7.5
+              },
+              {
+                "time": "06:00",
+                "area_km2": 293.36,
+                "coverage_percentage": 75.0,
+                "visibility_score": 7.5
+              },
+              {
+                "time": "07:00",
+                "area_km2": 293.36,
+                "coverage_percentage": 75.0,
+                "visibility_score": 7.5
+              },
+              {
+                "time": "08:00",
+                "area_km2": 369.39,
+                "coverage_percentage": 94.44,
+                "visibility_score": 9.4
+              },
+              {
+                "time": "09:00",
+                "area_km2": 369.39,
+                "coverage_percentage": 94.44,
+                "visibility_score": 9.4
+              },
+              {
+                "time": "10:00",
+                "area_km2": 369.39,
+                "coverage_percentage": 94.44,
+                "visibility_score": 9.4
+              },
+              {
+                "time": "11:00",
+                "area_km2": 369.39,
+                "coverage_percentage": 94.44,
+                "visibility_score": 9.4
+              },
+              {
+                "time": "12:00",
+                "area_km2": 369.39,
+                "coverage_percentage": 94.44,
+                "visibility_score": 9.4
+              },
+              {
+                "time": "13:00",
+                "area_km2": 369.39,
+                "coverage_percentage": 94.44,
+                "visibility_score": 9.4
+              },
+              {
+                "time": "14:00",
+                "area_km2": 369.39,
+                "coverage_percentage": 94.44,
+                "visibility_score": 9.4
+              },
+              {
+                "time": "15:00",
+                "area_km2": 369.39,
+                "coverage_percentage": 94.44,
+                "visibility_score": 9.4
+              },
+              {
+                "time": "16:00",
+                "area_km2": 369.39,
+                "coverage_percentage": 94.44,
+                "visibility_score": 9.4
+              },
+              {
+                "time": "17:00",
+                "area_km2": 369.39,
+                "coverage_percentage": 94.44,
+                "visibility_score": 9.4
+              },
+              {
+                "time": "18:00",
+                "area_km2": 369.39,
+                "coverage_percentage": 94.44,
+                "visibility_score": 9.4
+              },
+              {
+                "time": "19:00",
+                "area_km2": 369.39,
+                "coverage_percentage": 94.44,
+                "visibility_score": 9.4
+              },
+              {
+                "time": "20:00",
+                "area_km2": 369.39,
+                "coverage_percentage": 94.44,
+                "visibility_score": 9.4
+              },
+              {
+                "time": "21:00",
+                "area_km2": 369.39,
+                "coverage_percentage": 94.44,
+                "visibility_score": 9.4
+              },
+              {
+                "time": "22:00",
+                "area_km2": 369.39,
+                "coverage_percentage": 94.44,
+                "visibility_score": 9.4
+              },
+              {
+                "time": "23:00",
+                "area_km2": 293.36,
+                "coverage_percentage": 75.0,
+                "visibility_score": 7.5
+              }
+            ]
+          },
+          "2025-07-31": {
+            "date": "2025-07-31",
+            "dayOfWeek": "Thursday",
+            "summary": {
+              "peakCoverageTime": "22:00",
+              "peakCoverageArea": 369.39,
+              "peakCoveragePercentage": 94.44,
+              "averageCoverage": 48.73,
+              "recommendLevel": 4,
+              "recommendPercentage": 50,
+              "recommendDescription": "Moderate conditions. Partial cloud sea coverage expected."
+            },
+            "hourlyData": [
+              {
+                "time": "00:00",
+                "area_km2": 293.36,
+                "coverage_percentage": 75.0,
+                "visibility_score": 7.5
+              },
+              {
+                "time": "01:00",
+                "area_km2": 293.36,
+                "coverage_percentage": 75.0,
+                "visibility_score": 7.5
+              },
+              {
+                "time": "02:00",
+                "area_km2": 293.36,
+                "coverage_percentage": 75.0,
+                "visibility_score": 7.5
+              },
+              {
+                "time": "03:00",
+                "area_km2": 293.36,
+                "coverage_percentage": 75.0,
+                "visibility_score": 7.5
+              },
+              {
+                "time": "04:00",
+                "area_km2": 293.36,
+                "coverage_percentage": 75.0,
+                "visibility_score": 7.5
+              },
+              {
+                "time": "05:00",
+                "area_km2": 293.36,
+                "coverage_percentage": 75.0,
+                "visibility_score": 7.5
+              },
+              {
+                "time": "06:00",
+                "area_km2": 358.56,
+                "coverage_percentage": 91.67,
+                "visibility_score": 9.2
+              },
+              {
+                "time": "07:00",
+                "area_km2": 358.56,
+                "coverage_percentage": 91.67,
+                "visibility_score": 9.2
+              },
+              {
+                "time": "08:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "09:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "10:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "11:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "12:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "13:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "14:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "15:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "16:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "17:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "18:00",
+                "area_km2": 358.56,
+                "coverage_percentage": 91.67,
+                "visibility_score": 9.2
+              },
+              {
+                "time": "19:00",
+                "area_km2": 358.56,
+                "coverage_percentage": 91.67,
+                "visibility_score": 9.2
+              },
+              {
+                "time": "20:00",
+                "area_km2": 358.56,
+                "coverage_percentage": 91.67,
+                "visibility_score": 9.2
+              },
+              {
+                "time": "21:00",
+                "area_km2": 358.56,
+                "coverage_percentage": 91.67,
+                "visibility_score": 9.2
+              },
+              {
+                "time": "22:00",
+                "area_km2": 369.39,
+                "coverage_percentage": 94.44,
+                "visibility_score": 9.4
+              },
+              {
+                "time": "23:00",
+                "area_km2": 293.36,
+                "coverage_percentage": 75.0,
+                "visibility_score": 7.5
+              }
+            ]
+          }
+        }
+      },
+      "Mt. Hood, OR": {
+        "locationName": "Mt. Hood, OR",
+        "timezone": "America/Los_Angeles",
+        "region_info": {
+          "total_area_km2": 348.36,
+          "grid_resolution": "0.035°",
+          "grid_size": "6 × 6",
+          "total_grid_points": 36,
+          "lat_range_km": 22.26,
+          "lon_range_km": 15.65
+        },
+        "forecasts": {
+          "2025-07-29": {
+            "date": "2025-07-29",
+            "dayOfWeek": "Tuesday",
+            "summary": {
+              "peakCoverageTime": "00:00",
+              "peakCoverageArea": 0.0,
+              "peakCoveragePercentage": 0.0,
+              "averageCoverage": 0.0,
+              "recommendLevel": 2,
+              "recommendPercentage": 25,
+              "recommendDescription": "Poor conditions. Very limited cloud sea formation expected."
+            },
+            "hourlyData": [
+              {
+                "time": "00:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "01:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "02:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "03:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "04:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "05:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "06:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "07:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "08:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "09:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "10:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "11:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "12:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "13:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "14:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "15:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "16:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "17:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "18:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "19:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "20:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "21:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "22:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "23:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              }
+            ]
+          },
+          "2025-07-30": {
+            "date": "2025-07-30",
+            "dayOfWeek": "Wednesday",
+            "summary": {
+              "peakCoverageTime": "00:00",
+              "peakCoverageArea": 0.0,
+              "peakCoveragePercentage": 0.0,
+              "averageCoverage": 0.0,
+              "recommendLevel": 2,
+              "recommendPercentage": 25,
+              "recommendDescription": "Poor conditions. Very limited cloud sea formation expected."
+            },
+            "hourlyData": [
+              {
+                "time": "00:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "01:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "02:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "03:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "04:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "05:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "06:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "07:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "08:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "09:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "10:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "11:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "12:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "13:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "14:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "15:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "16:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "17:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "18:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "19:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "20:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "21:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "22:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "23:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              }
+            ]
+          },
+          "2025-07-31": {
+            "date": "2025-07-31",
+            "dayOfWeek": "Thursday",
+            "summary": {
+              "peakCoverageTime": "00:00",
+              "peakCoverageArea": 0.0,
+              "peakCoveragePercentage": 0.0,
+              "averageCoverage": 0.0,
+              "recommendLevel": 2,
+              "recommendPercentage": 25,
+              "recommendDescription": "Poor conditions. Very limited cloud sea formation expected."
+            },
+            "hourlyData": [
+              {
+                "time": "00:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "01:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "02:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "03:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "04:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "05:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "06:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "07:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "08:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "09:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "10:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "11:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "12:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "13:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "14:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "15:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "16:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "17:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "18:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "19:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "20:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "21:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "22:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "23:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              }
+            ]
+          }
+        }
+      },
+      "Mt. Rainier, WA": {
+        "locationName": "Mt. Rainier, WA",
+        "timezone": "America/Los_Angeles",
+        "region_info": {
+          "total_area_km2": 339.32,
+          "grid_resolution": "0.035°",
+          "grid_size": "6 × 6",
+          "total_grid_points": 36,
+          "lat_range_km": 22.26,
+          "lon_range_km": 15.24
+        },
+        "forecasts": {
+          "2025-07-29": {
+            "date": "2025-07-29",
+            "dayOfWeek": "Tuesday",
+            "summary": {
+              "peakCoverageTime": "00:00",
+              "peakCoverageArea": 0.0,
+              "peakCoveragePercentage": 0.0,
+              "averageCoverage": 0.0,
+              "recommendLevel": 2,
+              "recommendPercentage": 25,
+              "recommendDescription": "Poor conditions. Very limited cloud sea formation expected."
+            },
+            "hourlyData": [
+              {
+                "time": "00:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "01:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "02:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "03:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "04:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "05:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "06:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "07:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "08:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "09:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "10:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "11:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "12:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "13:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "14:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "15:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "16:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "17:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "18:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "19:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "20:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "21:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "22:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "23:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              }
+            ]
+          },
+          "2025-07-30": {
+            "date": "2025-07-30",
+            "dayOfWeek": "Wednesday",
+            "summary": {
+              "peakCoverageTime": "00:00",
+              "peakCoverageArea": 0.0,
+              "peakCoveragePercentage": 0.0,
+              "averageCoverage": 0.0,
+              "recommendLevel": 2,
+              "recommendPercentage": 25,
+              "recommendDescription": "Poor conditions. Very limited cloud sea formation expected."
+            },
+            "hourlyData": [
+              {
+                "time": "00:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "01:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "02:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "03:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "04:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "05:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "06:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "07:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "08:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "09:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "10:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "11:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "12:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "13:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "14:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "15:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "16:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "17:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "18:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "19:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "20:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "21:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "22:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "23:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              }
+            ]
+          },
+          "2025-07-31": {
+            "date": "2025-07-31",
+            "dayOfWeek": "Thursday",
+            "summary": {
+              "peakCoverageTime": "00:00",
+              "peakCoverageArea": 0.0,
+              "peakCoveragePercentage": 0.0,
+              "averageCoverage": 0.0,
+              "recommendLevel": 2,
+              "recommendPercentage": 25,
+              "recommendDescription": "Poor conditions. Very limited cloud sea formation expected."
+            },
+            "hourlyData": [
+              {
+                "time": "00:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "01:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "02:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "03:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "04:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "05:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "06:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "07:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "08:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "09:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "10:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "11:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "12:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "13:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "14:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "15:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "16:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "17:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "18:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "19:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "20:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "21:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "22:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "23:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              }
+            ]
+          }
+        }
+      },
+      "Crater Lake, OR": {
+        "locationName": "Crater Lake, OR",
+        "timezone": "America/Los_Angeles",
+        "region_info": {
+          "total_area_km2": 90.73,
+          "grid_resolution": "0.02°",
+          "grid_size": "5 × 6",
+          "total_grid_points": 30,
+          "lat_range_km": 11.13,
+          "lon_range_km": 8.15
+        },
+        "forecasts": {
+          "2025-07-29": {
+            "date": "2025-07-29",
+            "dayOfWeek": "Tuesday",
+            "summary": {
+              "peakCoverageTime": "00:00",
+              "peakCoverageArea": 0.0,
+              "peakCoveragePercentage": 0.0,
+              "averageCoverage": 0.0,
+              "recommendLevel": 2,
+              "recommendPercentage": 25,
+              "recommendDescription": "Poor conditions. Very limited cloud sea formation expected."
+            },
+            "hourlyData": [
+              {
+                "time": "00:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "01:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "02:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "03:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "04:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "05:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "06:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "07:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "08:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "09:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "10:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "11:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "12:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "13:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "14:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "15:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "16:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "17:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "18:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "19:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "20:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "21:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "22:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "23:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              }
+            ]
+          },
+          "2025-07-30": {
+            "date": "2025-07-30",
+            "dayOfWeek": "Wednesday",
+            "summary": {
+              "peakCoverageTime": "00:00",
+              "peakCoverageArea": 0.0,
+              "peakCoveragePercentage": 0.0,
+              "averageCoverage": 0.0,
+              "recommendLevel": 2,
+              "recommendPercentage": 25,
+              "recommendDescription": "Poor conditions. Very limited cloud sea formation expected."
+            },
+            "hourlyData": [
+              {
+                "time": "00:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "01:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "02:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "03:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "04:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "05:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "06:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "07:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "08:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "09:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "10:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "11:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "12:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "13:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "14:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "15:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "16:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "17:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "18:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "19:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "20:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "21:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "22:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "23:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              }
+            ]
+          },
+          "2025-07-31": {
+            "date": "2025-07-31",
+            "dayOfWeek": "Thursday",
+            "summary": {
+              "peakCoverageTime": "00:00",
+              "peakCoverageArea": 0.0,
+              "peakCoveragePercentage": 0.0,
+              "averageCoverage": 0.0,
+              "recommendLevel": 2,
+              "recommendPercentage": 25,
+              "recommendDescription": "Poor conditions. Very limited cloud sea formation expected."
+            },
+            "hourlyData": [
+              {
+                "time": "00:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "01:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "02:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "03:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "04:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "05:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "06:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "07:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "08:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "09:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "10:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "11:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "12:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "13:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "14:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "15:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "16:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "17:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "18:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "19:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "20:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "21:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "22:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "23:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              }
+            ]
+          }
+        }
+      },
+      "Yosemite Valley, CA": {
+        "locationName": "Yosemite Valley, CA",
+        "timezone": "America/Los_Angeles",
+        "region_info": {
+          "total_area_km2": 23.52,
+          "grid_resolution": "0.02°",
+          "grid_size": "2 × 4",
+          "total_grid_points": 8,
+          "lat_range_km": 4.45,
+          "lon_range_km": 5.28
+        },
+        "forecasts": {
+          "2025-07-29": {
+            "date": "2025-07-29",
+            "dayOfWeek": "Tuesday",
+            "summary": {
+              "peakCoverageTime": "00:00",
+              "peakCoverageArea": 0.0,
+              "peakCoveragePercentage": 0.0,
+              "averageCoverage": 0.0,
+              "recommendLevel": 2,
+              "recommendPercentage": 25,
+              "recommendDescription": "Poor conditions. Very limited cloud sea formation expected."
+            },
+            "hourlyData": [
+              {
+                "time": "00:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "01:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "02:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "03:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "04:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "05:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "06:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "07:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "08:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "09:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "10:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "11:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "12:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "13:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "14:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "15:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "16:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "17:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "18:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "19:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "20:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "21:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "22:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "23:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              }
+            ]
+          },
+          "2025-07-30": {
+            "date": "2025-07-30",
+            "dayOfWeek": "Wednesday",
+            "summary": {
+              "peakCoverageTime": "00:00",
+              "peakCoverageArea": 0.0,
+              "peakCoveragePercentage": 0.0,
+              "averageCoverage": 0.0,
+              "recommendLevel": 2,
+              "recommendPercentage": 25,
+              "recommendDescription": "Poor conditions. Very limited cloud sea formation expected."
+            },
+            "hourlyData": [
+              {
+                "time": "00:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "01:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "02:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "03:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "04:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "05:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "06:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "07:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "08:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "09:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "10:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "11:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "12:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "13:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "14:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "15:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "16:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "17:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "18:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "19:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "20:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "21:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "22:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "23:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              }
+            ]
+          },
+          "2025-07-31": {
+            "date": "2025-07-31",
+            "dayOfWeek": "Thursday",
+            "summary": {
+              "peakCoverageTime": "00:00",
+              "peakCoverageArea": 0.0,
+              "peakCoveragePercentage": 0.0,
+              "averageCoverage": 0.0,
+              "recommendLevel": 2,
+              "recommendPercentage": 25,
+              "recommendDescription": "Poor conditions. Very limited cloud sea formation expected."
+            },
+            "hourlyData": [
+              {
+                "time": "00:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "01:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "02:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "03:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "04:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "05:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "06:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "07:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "08:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "09:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "10:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "11:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "12:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "13:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "14:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "15:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "16:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "17:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "18:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "19:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "20:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "21:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "22:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "23:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              }
+            ]
+          }
+        }
+      },
+      "Grand Canyon, AZ": {
+        "locationName": "Grand Canyon, AZ",
+        "timezone": "America/Phoenix",
+        "region_info": {
+          "total_area_km2": 100.13,
+          "grid_resolution": "0.02°",
+          "grid_size": "6 × 6",
+          "total_grid_points": 36,
+          "lat_range_km": 11.13,
+          "lon_range_km": 8.99
+        },
+        "forecasts": {
+          "2025-07-29": {
+            "date": "2025-07-29",
+            "dayOfWeek": "Tuesday",
+            "summary": {
+              "peakCoverageTime": "00:00",
+              "peakCoverageArea": 0.0,
+              "peakCoveragePercentage": 0.0,
+              "averageCoverage": 0.0,
+              "recommendLevel": 2,
+              "recommendPercentage": 25,
+              "recommendDescription": "Poor conditions. Very limited cloud sea formation expected."
+            },
+            "hourlyData": [
+              {
+                "time": "00:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "01:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "02:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "03:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "04:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "05:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "06:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "07:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "08:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "09:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "10:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "11:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "12:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "13:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "14:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "15:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "16:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "17:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "18:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "19:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "20:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "21:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "22:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "23:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              }
+            ]
+          },
+          "2025-07-30": {
+            "date": "2025-07-30",
+            "dayOfWeek": "Wednesday",
+            "summary": {
+              "peakCoverageTime": "00:00",
+              "peakCoverageArea": 0.0,
+              "peakCoveragePercentage": 0.0,
+              "averageCoverage": 0.0,
+              "recommendLevel": 2,
+              "recommendPercentage": 25,
+              "recommendDescription": "Poor conditions. Very limited cloud sea formation expected."
+            },
+            "hourlyData": [
+              {
+                "time": "00:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "01:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "02:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "03:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "04:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "05:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "06:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "07:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "08:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "09:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "10:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "11:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "12:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "13:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "14:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "15:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "16:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "17:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "18:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "19:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "20:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "21:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "22:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "23:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              }
+            ]
+          },
+          "2025-07-31": {
+            "date": "2025-07-31",
+            "dayOfWeek": "Thursday",
+            "summary": {
+              "peakCoverageTime": "00:00",
+              "peakCoverageArea": 0.0,
+              "peakCoveragePercentage": 0.0,
+              "averageCoverage": 0.0,
+              "recommendLevel": 2,
+              "recommendPercentage": 25,
+              "recommendDescription": "Poor conditions. Very limited cloud sea formation expected."
+            },
+            "hourlyData": [
+              {
+                "time": "00:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "01:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "02:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "03:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "04:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "05:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "06:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "07:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "08:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "09:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "10:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "11:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "12:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "13:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "14:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "15:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "16:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "17:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "18:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "19:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "20:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "21:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "22:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "23:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              }
+            ]
+          }
+        }
+      },
+      "Zion Canyon, UT": {
+        "locationName": "Zion Canyon, UT",
+        "timezone": "America/Denver",
+        "region_info": {
+          "total_area_km2": 98.71,
+          "grid_resolution": "0.015°",
+          "grid_size": "7 × 7",
+          "total_grid_points": 49,
+          "lat_range_km": 11.13,
+          "lon_range_km": 8.87
+        },
+        "forecasts": {
+          "2025-07-29": {
+            "date": "2025-07-29",
+            "dayOfWeek": "Tuesday",
+            "summary": {
+              "peakCoverageTime": "00:00",
+              "peakCoverageArea": 0.0,
+              "peakCoveragePercentage": 0.0,
+              "averageCoverage": 0.0,
+              "recommendLevel": 2,
+              "recommendPercentage": 25,
+              "recommendDescription": "Poor conditions. Very limited cloud sea formation expected."
+            },
+            "hourlyData": [
+              {
+                "time": "00:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "01:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "02:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "03:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "04:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "05:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "06:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "07:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "08:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "09:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "10:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "11:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "12:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "13:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "14:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "15:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "16:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "17:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "18:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "19:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "20:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "21:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "22:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "23:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              }
+            ]
+          },
+          "2025-07-30": {
+            "date": "2025-07-30",
+            "dayOfWeek": "Wednesday",
+            "summary": {
+              "peakCoverageTime": "00:00",
+              "peakCoverageArea": 0.0,
+              "peakCoveragePercentage": 0.0,
+              "averageCoverage": 0.0,
+              "recommendLevel": 2,
+              "recommendPercentage": 25,
+              "recommendDescription": "Poor conditions. Very limited cloud sea formation expected."
+            },
+            "hourlyData": [
+              {
+                "time": "00:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "01:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "02:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "03:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "04:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "05:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "06:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "07:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "08:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "09:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "10:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "11:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "12:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "13:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "14:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "15:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "16:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "17:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "18:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "19:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "20:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "21:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "22:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "23:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              }
+            ]
+          },
+          "2025-07-31": {
+            "date": "2025-07-31",
+            "dayOfWeek": "Thursday",
+            "summary": {
+              "peakCoverageTime": "00:00",
+              "peakCoverageArea": 0.0,
+              "peakCoveragePercentage": 0.0,
+              "averageCoverage": 0.0,
+              "recommendLevel": 2,
+              "recommendPercentage": 25,
+              "recommendDescription": "Poor conditions. Very limited cloud sea formation expected."
+            },
+            "hourlyData": [
+              {
+                "time": "00:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "01:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "02:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "03:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "04:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "05:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "06:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "07:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "08:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "09:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "10:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "11:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "12:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "13:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "14:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "15:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "16:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "17:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "18:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "19:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "20:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "21:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "22:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "23:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              }
+            ]
+          }
+        }
+      },
+      "Jackson Hole, WY": {
+        "locationName": "Jackson Hole, WY",
+        "timezone": "America/Denver",
+        "region_info": {
+          "total_area_km2": 358.36,
+          "grid_resolution": "0.035°",
+          "grid_size": "6 × 6",
+          "total_grid_points": 36,
+          "lat_range_km": 22.26,
+          "lon_range_km": 16.1
+        },
+        "forecasts": {
+          "2025-07-29": {
+            "date": "2025-07-29",
+            "dayOfWeek": "Tuesday",
+            "summary": {
+              "peakCoverageTime": "00:00",
+              "peakCoverageArea": 0.0,
+              "peakCoveragePercentage": 0.0,
+              "averageCoverage": 0.0,
+              "recommendLevel": 2,
+              "recommendPercentage": 25,
+              "recommendDescription": "Poor conditions. Very limited cloud sea formation expected."
+            },
+            "hourlyData": [
+              {
+                "time": "00:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "01:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "02:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "03:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "04:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "05:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "06:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "07:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "08:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "09:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "10:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "11:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "12:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "13:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "14:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "15:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "16:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "17:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "18:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "19:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "20:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "21:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "22:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "23:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              }
+            ]
+          },
+          "2025-07-30": {
+            "date": "2025-07-30",
+            "dayOfWeek": "Wednesday",
+            "summary": {
+              "peakCoverageTime": "00:00",
+              "peakCoverageArea": 0.0,
+              "peakCoveragePercentage": 0.0,
+              "averageCoverage": 0.0,
+              "recommendLevel": 2,
+              "recommendPercentage": 25,
+              "recommendDescription": "Poor conditions. Very limited cloud sea formation expected."
+            },
+            "hourlyData": [
+              {
+                "time": "00:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "01:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "02:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "03:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "04:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "05:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "06:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "07:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "08:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "09:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "10:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "11:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "12:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "13:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "14:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "15:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "16:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "17:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "18:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "19:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "20:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "21:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "22:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "23:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              }
+            ]
+          },
+          "2025-07-31": {
+            "date": "2025-07-31",
+            "dayOfWeek": "Thursday",
+            "summary": {
+              "peakCoverageTime": "00:00",
+              "peakCoverageArea": 0.0,
+              "peakCoveragePercentage": 0.0,
+              "averageCoverage": 0.0,
+              "recommendLevel": 2,
+              "recommendPercentage": 25,
+              "recommendDescription": "Poor conditions. Very limited cloud sea formation expected."
+            },
+            "hourlyData": [
+              {
+                "time": "00:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "01:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "02:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "03:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "04:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "05:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "06:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "07:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "08:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "09:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "10:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "11:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "12:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "13:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "14:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "15:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "16:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "17:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "18:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "19:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "20:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "21:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "22:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "23:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              }
+            ]
+          }
+        }
+      },
+      "Aspen Valleys, CO": {
+        "locationName": "Aspen Valleys, CO",
+        "timezone": "America/Denver",
+        "region_info": {
+          "total_area_km2": 96.17,
+          "grid_resolution": "0.015°",
+          "grid_size": "7 × 7",
+          "total_grid_points": 49,
+          "lat_range_km": 11.13,
+          "lon_range_km": 8.64
+        },
+        "forecasts": {
+          "2025-07-29": {
+            "date": "2025-07-29",
+            "dayOfWeek": "Tuesday",
+            "summary": {
+              "peakCoverageTime": "00:00",
+              "peakCoverageArea": 0.0,
+              "peakCoveragePercentage": 0.0,
+              "averageCoverage": 0.0,
+              "recommendLevel": 2,
+              "recommendPercentage": 25,
+              "recommendDescription": "Poor conditions. Very limited cloud sea formation expected."
+            },
+            "hourlyData": [
+              {
+                "time": "00:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "01:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "02:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "03:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "04:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "05:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "06:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "07:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "08:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "09:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "10:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "11:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "12:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "13:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "14:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "15:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "16:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "17:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "18:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "19:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "20:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "21:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "22:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "23:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              }
+            ]
+          },
+          "2025-07-30": {
+            "date": "2025-07-30",
+            "dayOfWeek": "Wednesday",
+            "summary": {
+              "peakCoverageTime": "00:00",
+              "peakCoverageArea": 0.0,
+              "peakCoveragePercentage": 0.0,
+              "averageCoverage": 0.0,
+              "recommendLevel": 2,
+              "recommendPercentage": 25,
+              "recommendDescription": "Poor conditions. Very limited cloud sea formation expected."
+            },
+            "hourlyData": [
+              {
+                "time": "00:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "01:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "02:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "03:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "04:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "05:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "06:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "07:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "08:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "09:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "10:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "11:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "12:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "13:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "14:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "15:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "16:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "17:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "18:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "19:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "20:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "21:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "22:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "23:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              }
+            ]
+          },
+          "2025-07-31": {
+            "date": "2025-07-31",
+            "dayOfWeek": "Thursday",
+            "summary": {
+              "peakCoverageTime": "00:00",
+              "peakCoverageArea": 0.0,
+              "peakCoveragePercentage": 0.0,
+              "averageCoverage": 0.0,
+              "recommendLevel": 2,
+              "recommendPercentage": 25,
+              "recommendDescription": "Poor conditions. Very limited cloud sea formation expected."
+            },
+            "hourlyData": [
+              {
+                "time": "00:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "01:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "02:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "03:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "04:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "05:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "06:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "07:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "08:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "09:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "10:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "11:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "12:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "13:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "14:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "15:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "16:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "17:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "18:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "19:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "20:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "21:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "22:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "23:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              }
+            ]
+          }
+        }
+      },
+      "Great Smoky Mtns": {
+        "locationName": "Great Smoky Mtns",
+        "timezone": "America/New_York",
+        "region_info": {
+          "total_area_km2": 403.04,
+          "grid_resolution": "0.035°",
+          "grid_size": "6 × 6",
+          "total_grid_points": 36,
+          "lat_range_km": 22.26,
+          "lon_range_km": 18.1
+        },
+        "forecasts": {
+          "2025-07-29": {
+            "date": "2025-07-29",
+            "dayOfWeek": "Tuesday",
+            "summary": {
+              "peakCoverageTime": "00:00",
+              "peakCoverageArea": 0.0,
+              "peakCoveragePercentage": 0.0,
+              "averageCoverage": 0.0,
+              "recommendLevel": 2,
+              "recommendPercentage": 25,
+              "recommendDescription": "Poor conditions. Very limited cloud sea formation expected."
+            },
+            "hourlyData": [
+              {
+                "time": "00:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "01:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "02:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "03:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "04:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "05:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "06:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "07:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "08:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "09:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "10:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "11:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "12:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "13:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "14:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "15:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "16:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "17:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "18:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "19:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "20:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "21:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "22:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "23:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              }
+            ]
+          },
+          "2025-07-30": {
+            "date": "2025-07-30",
+            "dayOfWeek": "Wednesday",
+            "summary": {
+              "peakCoverageTime": "00:00",
+              "peakCoverageArea": 0.0,
+              "peakCoveragePercentage": 0.0,
+              "averageCoverage": 0.0,
+              "recommendLevel": 2,
+              "recommendPercentage": 25,
+              "recommendDescription": "Poor conditions. Very limited cloud sea formation expected."
+            },
+            "hourlyData": [
+              {
+                "time": "00:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "01:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "02:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "03:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "04:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "05:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "06:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "07:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "08:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "09:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "10:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "11:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "12:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "13:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "14:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "15:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "16:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "17:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "18:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "19:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "20:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "21:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "22:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "23:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              }
+            ]
+          },
+          "2025-07-31": {
+            "date": "2025-07-31",
+            "dayOfWeek": "Thursday",
+            "summary": {
+              "peakCoverageTime": "00:00",
+              "peakCoverageArea": 0.0,
+              "peakCoveragePercentage": 0.0,
+              "averageCoverage": 0.0,
+              "recommendLevel": 2,
+              "recommendPercentage": 25,
+              "recommendDescription": "Poor conditions. Very limited cloud sea formation expected."
+            },
+            "hourlyData": [
+              {
+                "time": "00:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "01:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "02:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "03:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "04:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "05:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "06:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "07:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "08:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "09:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "10:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "11:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "12:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "13:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "14:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "15:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "16:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "17:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "18:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "19:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "20:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "21:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "22:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "23:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              }
+            ]
+          }
+        }
+      },
+      "Shenandoah Valley, VA": {
+        "locationName": "Shenandoah Valley, VA",
+        "timezone": "America/New_York",
+        "region_info": {
+          "total_area_km2": 388.47,
+          "grid_resolution": "0.035°",
+          "grid_size": "6 × 6",
+          "total_grid_points": 36,
+          "lat_range_km": 22.26,
+          "lon_range_km": 17.45
+        },
+        "forecasts": {
+          "2025-07-29": {
+            "date": "2025-07-29",
+            "dayOfWeek": "Tuesday",
+            "summary": {
+              "peakCoverageTime": "00:00",
+              "peakCoverageArea": 0.0,
+              "peakCoveragePercentage": 0.0,
+              "averageCoverage": 0.0,
+              "recommendLevel": 2,
+              "recommendPercentage": 25,
+              "recommendDescription": "Poor conditions. Very limited cloud sea formation expected."
+            },
+            "hourlyData": [
+              {
+                "time": "00:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "01:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "02:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "03:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "04:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "05:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "06:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "07:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "08:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "09:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "10:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "11:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "12:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "13:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "14:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "15:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "16:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "17:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "18:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "19:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "20:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "21:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "22:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "23:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              }
+            ]
+          },
+          "2025-07-30": {
+            "date": "2025-07-30",
+            "dayOfWeek": "Wednesday",
+            "summary": {
+              "peakCoverageTime": "00:00",
+              "peakCoverageArea": 0.0,
+              "peakCoveragePercentage": 0.0,
+              "averageCoverage": 0.0,
+              "recommendLevel": 2,
+              "recommendPercentage": 25,
+              "recommendDescription": "Poor conditions. Very limited cloud sea formation expected."
+            },
+            "hourlyData": [
+              {
+                "time": "00:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "01:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "02:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "03:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "04:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "05:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "06:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "07:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "08:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "09:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "10:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "11:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "12:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "13:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "14:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "15:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "16:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "17:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "18:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "19:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "20:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "21:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "22:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "23:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              }
+            ]
+          },
+          "2025-07-31": {
+            "date": "2025-07-31",
+            "dayOfWeek": "Thursday",
+            "summary": {
+              "peakCoverageTime": "00:00",
+              "peakCoverageArea": 0.0,
+              "peakCoveragePercentage": 0.0,
+              "averageCoverage": 0.0,
+              "recommendLevel": 2,
+              "recommendPercentage": 25,
+              "recommendDescription": "Poor conditions. Very limited cloud sea formation expected."
+            },
+            "hourlyData": [
+              {
+                "time": "00:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "01:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "02:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "03:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "04:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "05:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "06:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "07:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "08:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "09:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "10:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "11:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "12:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "13:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "14:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "15:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "16:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "17:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "18:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "19:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "20:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "21:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "22:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "23:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              }
+            ]
+          }
+        }
+      },
+      "New River Gorge, WV": {
+        "locationName": "New River Gorge, WV",
+        "timezone": "America/New_York",
+        "region_info": {
+          "total_area_km2": 97.58,
+          "grid_resolution": "0.015°",
+          "grid_size": "7 × 7",
+          "total_grid_points": 49,
+          "lat_range_km": 11.13,
+          "lon_range_km": 8.77
+        },
+        "forecasts": {
+          "2025-07-29": {
+            "date": "2025-07-29",
+            "dayOfWeek": "Tuesday",
+            "summary": {
+              "peakCoverageTime": "00:00",
+              "peakCoverageArea": 0.0,
+              "peakCoveragePercentage": 0.0,
+              "averageCoverage": 0.0,
+              "recommendLevel": 2,
+              "recommendPercentage": 25,
+              "recommendDescription": "Poor conditions. Very limited cloud sea formation expected."
+            },
+            "hourlyData": [
+              {
+                "time": "00:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "01:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "02:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "03:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "04:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "05:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "06:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "07:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "08:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "09:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "10:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "11:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "12:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "13:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "14:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "15:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "16:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "17:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "18:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "19:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "20:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "21:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "22:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "23:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              }
+            ]
+          },
+          "2025-07-30": {
+            "date": "2025-07-30",
+            "dayOfWeek": "Wednesday",
+            "summary": {
+              "peakCoverageTime": "00:00",
+              "peakCoverageArea": 0.0,
+              "peakCoveragePercentage": 0.0,
+              "averageCoverage": 0.0,
+              "recommendLevel": 2,
+              "recommendPercentage": 25,
+              "recommendDescription": "Poor conditions. Very limited cloud sea formation expected."
+            },
+            "hourlyData": [
+              {
+                "time": "00:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "01:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "02:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "03:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "04:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "05:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "06:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "07:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "08:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "09:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "10:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "11:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "12:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "13:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "14:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "15:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "16:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "17:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "18:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "19:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "20:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "21:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "22:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "23:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              }
+            ]
+          },
+          "2025-07-31": {
+            "date": "2025-07-31",
+            "dayOfWeek": "Thursday",
+            "summary": {
+              "peakCoverageTime": "00:00",
+              "peakCoverageArea": 0.0,
+              "peakCoveragePercentage": 0.0,
+              "averageCoverage": 0.0,
+              "recommendLevel": 2,
+              "recommendPercentage": 25,
+              "recommendDescription": "Poor conditions. Very limited cloud sea formation expected."
+            },
+            "hourlyData": [
+              {
+                "time": "00:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "01:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "02:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "03:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "04:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "05:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "06:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "07:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "08:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "09:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "10:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "11:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "12:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "13:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "14:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "15:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "16:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "17:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "18:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "19:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "20:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "21:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "22:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              },
+              {
+                "time": "23:00",
+                "area_km2": 0.0,
+                "coverage_percentage": 0.0,
+                "visibility_score": 0.0
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
