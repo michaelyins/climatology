@@ -132,15 +132,15 @@
 
 /* Specific dropdown z-index adjustments */
 #time-toggle .dropdown-menu {
-    z-index: 99997; /* Time dropdown */
+    z-index: 999997; /* Time dropdown */
 }
 
 #data-toggle .dropdown-menu {
-    z-index: 99995; /* Data dropdown */
+    z-index: 999995; /* Data dropdown */
 }
 
 #location-toggle .dropdown-menu {
-    z-index: 99992; /* Location dropdown - highest */
+    z-index: 999992; /* Location dropdown */
 }
 
 .dropdown-menu.show {

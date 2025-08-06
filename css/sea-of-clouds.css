@@ -316,11 +316,11 @@
 
 /* Specific dropdown z-index adjustments */
 #location-toggle .dropdown-menu {
-    z-index: 99997; /* Location dropdown */
+    z-index: 999997; /* Location dropdown */
 }
 
 #date-toggle .dropdown-menu {
-    z-index: 99992; /* Date dropdown - highest */
+    z-index: 999992; /* Date dropdown */
 }
 
 .control-button:hover {
