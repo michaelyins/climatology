@@ -136,11 +136,11 @@
 
 /* Specific z-index for each button (top to bottom) */
 #location-toggle {
-    z-index: 99990; /* Location - topmost */
+    z-index: 99997; /* Location - topmost */
 }
 
 #time-toggle {
-    z-index: 99995; /* Time - bottom dropdown */
+    z-index: 99992; /* Time - bottom dropdown */
 }
 
 #empty-button, #search-button {
@@ -149,11 +149,11 @@
 
 /* Specific dropdown z-index adjustments */
 #location-toggle .dropdown-menu {
-    z-index: 99992; /* Location dropdown */
+    z-index: 99997; /* Location dropdown */
 }
 
 #time-toggle .dropdown-menu {
-    z-index: 99997; /* Time dropdown - highest */
+    z-index: 99992; /* Time dropdown - highest */
 }
 
 .control-button:hover {

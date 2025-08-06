@@ -303,11 +303,11 @@
 
 /* Specific z-index for each button (top to bottom) */
 #location-toggle {
-    z-index: 99990; /* Location - topmost */
+    z-index: 99997; /* Location - topmost */
 }
 
 #date-toggle {
-    z-index: 99995; /* Date - bottom dropdown */
+    z-index: 99992; /* Date - bottom dropdown */
 }
 
 #empty-button, #search-button {
@@ -316,11 +316,11 @@
 
 /* Specific dropdown z-index adjustments */
 #location-toggle .dropdown-menu {
-    z-index: 99992; /* Location dropdown */
+    z-index: 99997; /* Location dropdown */
 }
 
 #date-toggle .dropdown-menu {
-    z-index: 99997; /* Date dropdown - highest */
+    z-index: 99992; /* Date dropdown - highest */
 }
 
 .control-button:hover {

@@ -63,15 +63,15 @@
 
 /* Specific z-index for each button (top to bottom) */
 #time-toggle {
-    z-index: 99985; /* Time Type - topmost */
+    z-index: 99997; /* Time Type - topmost */
 }
 
 #data-toggle {
-    z-index: 99990; /* Data Source - middle */
+    z-index: 99995; /* Data Source - middle */
 }
 
 #location-toggle {
-    z-index: 99995; /* Location - bottom dropdown */
+    z-index: 99992; /* Location - bottom dropdown */
 }
 
 #empty-button, #search-button {
