@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stargazing - Climatology</title>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <link rel="stylesheet" href="../css/common.css?v=20250805-01">
+    <link rel="stylesheet" href="../css/stargazing.css?v=20250805-zindex">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10.6.1/dist/mermaid.min.js"></script>
+</head>
+<body>
+    <!-- Navigation Header -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="../index.html">Climatology</a>
+            </div>
+            <div class="nav-menu">
+                <div class="nav-dropdown">
+                    <a href="#" class="nav-link dropdown-toggle active">Models ▼</a>
+                    <div class="dropdown-content">
+                        <a href="firesky.html">🔥 Fire Sky</a>
+                        <a href="sea-of-clouds.html">☁️ Sea of Clouds</a>
+                        <a href="rainbow.html">🌈 Rainbow</a>
+                        <a href="stargazing.html" class="active">⭐ Stargazing</a>
+                    </div>
+                </div>
+                <a href="#knowledges" class="nav-link">Knowledges</a>
+                <a href="#community" class="nav-link">Community</a>
+                <a href="../about.html" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact Us</a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Models Main Content -->
+    <main class="models-main">
+        <!-- Model Description Section -->
+        <section class="model-description">
+            <div class="description-container">
+                <p class="description-text">
+                    The Stargazing prediction model analyzes atmospheric conditions including cloud cover, visibility, atmospheric stability, and astronomical events to forecast optimal stargazing opportunities. Using advanced weather data from ECMWF models combined with real-time atmospheric analysis, the system evaluates observing conditions across premier dark sky locations. Predictions include detailed assessments of seeing conditions, transparency, dew point risks, and astronomical timing for the best stargazing experiences.
+                </p>
+            </div>
+        </section>
+
+        <!-- Control Buttons Section -->
+        <section class="controls-section">
+            <div class="controls-container">
+                <!-- Location Selection -->
+                <div class="control-button" id="location-toggle">
+                    <span class="button-text" id="location-text">Choose Dark Sky Location</span>
+                    <div class="dropdown-menu" id="location-dropdown">
+                        <!-- Populated dynamically by JavaScript -->
+                    </div>
+                </div>
+
+                <!-- Empty All Button -->
+                <div class="control-button" id="empty-button">
+                    <span class="button-text">Reset Selection</span>
+                </div>
+
+                <!-- Search Reports Button -->
+                <div class="control-button" id="search-button">
+                    <span class="button-text">View Stargazing Forecast</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Data Display Section -->
+        <section class="data-display">
+            <div class="data-container">
+                <div class="data-header">
+                    <h2 class="data-title inline-title">
+                        <span id="selected-location">Dark Sky Location</span> — 
+                        <span id="selected-date">Date</span> — 
+                        <span id="selected-conditions">Stargazing Conditions</span>
+                    </h2>
+                    <div class="optimal-window-main">
+                        <span class="optimal-label">Optimal Observation Window:</span>
+                        <span id="optimal-time-range" class="optimal-time">--:-- - --:--</span>
+                    </div>
+                </div>
+
+                <!-- Astronomical Info Grid -->
+                <div class="astro-info-grid">
+                    <!-- First Row -->
+                    <div class="astro-card">
+                        <div class="astro-icon">🌙</div>
+                        <div class="astro-label">Dark Start</div>
+                        <div class="astro-value" id="dark-start-time">--:--</div>
+                    </div>
+                    <div class="astro-card">
+                        <div class="astro-icon">🌄</div>
+                        <div class="astro-label">Dark End</div>
+                        <div class="astro-value" id="dark-end-time">--:--</div>
+                    </div>
+                    <div class="astro-card">
+                        <div class="astro-icon">🌌</div>
+                        <div class="astro-label">Milky Way Rise</div>
+                        <div class="astro-value" id="milky-way-rise">--:--</div>
+                    </div>
+                    <div class="astro-card">
+                        <div class="astro-icon">🌌</div>
+                        <div class="astro-label">Milky Way Set</div>
+                        <div class="astro-value" id="milky-way-set">--:--</div>
+                    </div>
+                    
+                    <!-- Second Row -->
+                    <div class="astro-card">
+                        <div class="astro-icon moon-icon">🌙</div>
+                        <div class="astro-label">Moon Phase</div>
+                        <div class="astro-value" id="moon-phase">--</div>
+                        <div class="astro-detail" id="moon-illumination">--%</div>
+                    </div>
+                    <div class="astro-card">
+                        <div class="astro-icon">🌕</div>
+                        <div class="astro-label">Moon Rise</div>
+                        <div class="astro-value" id="moon-rise-time">--:--</div>
+                    </div>
+                    <div class="astro-card">
+                        <div class="astro-icon">🌑</div>
+                        <div class="astro-label">Moon Set</div>
+                        <div class="astro-value" id="moon-set-time">--:--</div>
+                    </div>
+                    <div class="astro-card">
+                        <div class="astro-icon">🏛️</div>
+                        <div class="astro-label">Bortle Class</div>
+                        <div class="astro-value" id="bortle-class">--</div>
+                    </div>
+                </div>
+
+                <!-- Weather Conditions Grid -->
+                <div class="weather-conditions">
+                    <h3 class="conditions-title">Atmospheric Conditions</h3>
+                    <div class="conditions-grid">
+                        <div class="condition-card clickable" onclick="showConditionDetail('cloudCover')">
+                            <div class="condition-icon">☁️</div>
+                            <div class="condition-label">CLOUD COVER</div>
+                            <div class="condition-rating" id="cloud-rating">--</div>
+                            <div class="condition-detail" id="cloud-detail">--% average</div>
+                            <div class="click-hint">
+                                <span class="hint-text">Click for details</span>
+                                <span class="hint-arrow">→</span>
+                            </div>
+                        </div>
+                        <div class="condition-card clickable" onclick="showConditionDetail('transparency')">
+                            <div class="condition-icon">👁️</div>
+                            <div class="condition-label">TRANSPARENCY</div>
+                            <div class="condition-rating" id="transparency-rating">--</div>
+                            <div class="condition-detail" id="transparency-detail">-- km visibility</div>
+                            <div class="click-hint">
+                                <span class="hint-text">Click for details</span>
+                                <span class="hint-arrow">→</span>
+                            </div>
+                        </div>
+                        <div class="condition-card clickable" onclick="showConditionDetail('seeing')">
+                            <div class="condition-icon">🎯</div>
+                            <div class="condition-label">SEEING</div>
+                            <div class="condition-rating" id="seeing-rating">--</div>
+                            <div class="condition-detail" id="seeing-detail">CAPE: --</div>
+                            <div class="click-hint">
+                                <span class="hint-text">Click for details</span>
+                                <span class="hint-arrow">→</span>
+                            </div>
+                        </div>
+                        <div class="condition-card clickable" onclick="showConditionDetail('dewRisk')">
+                            <div class="condition-icon">💧</div>
+                            <div class="condition-label">DEW RISK</div>
+                            <div class="condition-rating" id="dew-rating">--</div>
+                            <div class="condition-detail" id="dew-detail">--°C spread</div>
+                            <div class="click-hint">
+                                <span class="hint-text">Click for details</span>
+                                <span class="hint-arrow">→</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Condition Detail Modal -->
+                <div id="conditionModal" class="condition-modal" onclick="hideConditionDetail()">
+                    <div class="modal-content" onclick="event.stopPropagation()">
+                        <div class="modal-header">
+                            <h3 id="modalTitle">Condition Details</h3>
+                            <span class="close-btn" onclick="hideConditionDetail()">&times;</span>
+                        </div>
+                        <div class="modal-body">
+                            <div id="modalIcon" class="modal-icon"></div>
+                            <div id="modalDescription" class="modal-description"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Overall Rating -->
+                <div class="overall-rating">
+                    <div class="rating-circle">
+                        <div class="rating-percentage" id="overall-percentage">--%</div>
+                        <div class="rating-description" id="overall-description">--</div>
+                    </div>
+                    <div class="rating-recommendation">
+                        <h4>Tonight's Recommendation</h4>
+                        <p id="recommendation-text">Select a location to view stargazing conditions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Disclaimer Section -->
+        <section class="disclaimer-section">
+            <div class="disclaimer-container">
+                <h2 class="disclaimer-title">Stargazing Disclaimer</h2>
+                <p class="disclaimer-text">
+                    Astronomical observing conditions depend on complex atmospheric factors that can change rapidly. While our predictions are based on advanced meteorological models and real-time data, local conditions may vary significantly from forecasts. Weather patterns, atmospheric turbulence, and light pollution can affect viewing quality. Always check current conditions before traveling to observing sites, and consider backup plans for cloudy weather. Remember to dress warmly for nighttime observations and protect your equipment from dew formation.
+                </p>
+            </div>
+        </section>
+
+        <!-- Interactive Buttons Section -->
+        <section class="interactive-section">
+            <div class="interactive-container">
+                <div class="info-buttons">
+                    <button class="info-btn active" data-content="workflow">
+                        <span class="btn-title">Observation</span>
+                        <span class="btn-subtitle">Workflow</span>
+                    </button>
+                    <button class="info-btn" data-content="methodology">
+                        <span class="btn-title">Dark Sky</span>
+                        <span class="btn-subtitle">Site Guide</span>
+                    </button>
+                    <button class="info-btn" data-content="conditions">
+                        <span class="btn-title">Weather</span>
+                        <span class="btn-subtitle">Conditions Guide</span>
+                    </button>
+                    <button class="info-btn" data-content="equipment">
+                        <span class="btn-title">Equipment</span>
+                        <span class="btn-subtitle">Recommendations</span>
+                    </button>
+                    <button class="info-btn" data-content="bortle">
+                        <span class="btn-title">Bortle Scale</span>
+                        <span class="btn-subtitle">Explained</span>
+                    </button>
+                </div>
+
+                <!-- Content Display Area -->
+                <div class="content-display">
+                    <!-- Workflow Content -->
+                    <div class="content-panel active" id="workflow-content">
+                        <h3 class="content-title">Stargazing Observation Workflow</h3>
+                        <div class="workflow-diagram" id="workflow-mermaid">
+                            <!-- Mermaid diagram will be inserted here -->
+                        </div>
+                    </div>
+
+                    <!-- Dark Sky Site Guide -->
+                    <div class="content-panel" id="methodology-content">
+                        <h3 class="content-title">Dark Sky Site Selection Guide</h3>
+                        <p class="content-text">
+                            Our stargazing forecast covers premier dark sky locations across North America, each carefully selected for minimal light pollution and excellent atmospheric conditions. These sites represent some of the world's best stargazing destinations, from International Dark-Sky Parks to remote wilderness areas with exceptional sky quality.
+                        </p>
+                        <div class="site-categories">
+                            <div class="site-category">
+                                <h4>Bortle Class 1 Sites</h4>
+                                <p>Pristine dark sky locations with no light pollution. Milky Way casts visible shadows, zodiacal light extends across the sky.</p>
+                                <ul>
+                                    <li>Death Valley National Park</li>
+                                    <li>Great Basin National Park</li>
+                                    <li>Cosmic Campground</li>
+                                </ul>
+                            </div>
+                            <div class="site-category">
+                                <h4>Bortle Class 2 Sites</h4>
+                                <p>Excellent dark sky sites with minimal light dome on horizon. Milky Way highly detailed, M31 visible to naked eye.</p>
+                                <ul>
+                                    <li>Cherry Springs State Park</li>
+                                    <li>Joshua Tree National Park</li>
+                                    <li>Arches National Park</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Weather Conditions Guide -->
+                    <div class="content-panel" id="conditions-content">
+                        <h3 class="content-title">Weather Conditions Guide</h3>
+                        <p class="content-text">
+                            Understanding atmospheric conditions is crucial for successful stargazing. Our forecast evaluates four key factors that determine observation quality.
+                        </p>
+                        <div class="conditions-guide">
+                            <div class="guide-item">
+                                <h4>Cloud Cover</h4>
+                                <p>Clear skies (0-15% clouds) provide the best viewing. Partly cloudy conditions (15-50%) may still allow observation between cloud gaps.</p>
+                            </div>
+                            <div class="guide-item">
+                                <h4>Transparency</h4>
+                                <p>Atmospheric clarity affects how far you can see into space. High transparency allows observation of faint deep-sky objects.</p>
+                            </div>
+                            <div class="guide-item">
+                                <h4>Seeing</h4>
+                                <p>Atmospheric stability determines how steady stars appear. Good seeing is essential for planetary observation and high-magnification work.</p>
+                            </div>
+                            <div class="guide-item">
+                                <h4>Dew Point</h4>
+                                <p>Temperature and humidity differences affect dew formation on equipment. Use dew heaters when dew risk is high.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Equipment Recommendations -->
+                    <div class="content-panel" id="equipment-content">
+                        <h3 class="content-title">Equipment Recommendations</h3>
+                        <p class="content-text">
+                            Proper equipment preparation ensures successful observing sessions regardless of weather conditions.
+                        </p>
+                        <div class="equipment-sections">
+                            <div class="equipment-section">
+                                <h4>Essential Gear</h4>
+                                <ul>
+                                    <li>Red flashlight or headlamp (preserves night vision)</li>
+                                    <li>Star charts or astronomy apps</li>
+                                    <li>Comfortable chair or observing stool</li>
+                                    <li>Warm clothing (temperatures drop significantly at night)</li>
+                                </ul>
+                            </div>
+                            <div class="equipment-section">
+                                <h4>Dew Prevention</h4>
+                                <ul>
+                                    <li>Dew heaters for telescope optics</li>
+                                    <li>Dew shields for eyepieces</li>
+                                    <li>Lens cap covers when not observing</li>
+                                    <li>Silica gel packets for camera equipment</li>
+                                </ul>
+                            </div>
+                            <div class="equipment-section">
+                                <h4>Weather Protection</h4>
+                                <ul>
+                                    <li>Equipment covers for sudden weather changes</li>
+                                    <li>Wind-resistant setup for exposed locations</li>
+                                    <li>Battery warmers for cold weather electronics</li>
+                                    <li>Emergency shelter and warm drinks</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Bortle Scale Content -->
+                    <div class="content-panel" id="bortle-content">
+                        <h3 class="content-title">Bortle Dark-Sky Scale</h3>
+                        <p class="content-text">
+                            The Bortle scale measures night sky brightness and light pollution levels from 1 (pristine) to 9 (inner city).
+                        </p>
+                        <div class="bortle-scale">
+                            <div class="bortle-item excellent">
+                                <span class="bortle-number">1</span>
+                                <div class="bortle-info">
+                                    <h4>Excellent Dark Sky</h4>
+                                    <p>Pristine conditions. Milky Way casts shadows, zodiacal light visible, M33 easily seen naked-eye.</p>
+                                </div>
+                            </div>
+                            <div class="bortle-item excellent">
+                                <span class="bortle-number">2</span>
+                                <div class="bortle-info">
+                                    <h4>Typical Dark Sky</h4>
+                                    <p>Milky Way highly structured, M31 visible to naked eye, zodiacal light obvious in spring/fall.</p>
+                                </div>
+                            </div>
+                            <div class="bortle-item good">
+                                <span class="bortle-number">3</span>
+                                <div class="bortle-info">
+                                    <h4>Rural Sky</h4>
+                                    <p>Some light pollution on horizon. Milky Way appears complex, M15/M4 glimpsed naked-eye.</p>
+                                </div>
+                            </div>
+                            <div class="bortle-item fair">
+                                <span class="bortle-number">4-5</span>
+                                <div class="bortle-info">
+                                    <h4>Suburban Transition</h4>
+                                    <p>Light pollution domes visible. Milky Way visible but lacks detail, few globular clusters visible.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Subscribe Section -->
+        <section class="subscribe-section">
+            <div class="subscribe-container">
+                <h2 class="subscribe-title">Subscribe to Stargazing Forecasts</h2>
+                <p class="subscribe-description">Get notified about optimal stargazing conditions and celestial events.</p>
+                
+                <form class="subscribe-form">
+                    <input type="email" placeholder="Email Address" class="subscribe-email" required>
+                    <button type="submit" class="subscribe-btn">Sign Up</button>
+                </form>
+                
+                <p class="privacy-text">We respect your privacy.</p>
+                
+                <div class="social-links">
+                    <a href="#" class="social-link">Twitter</a>
+                    <a href="#" class="social-link">Facebook</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="../js/common.js"></script>
+    <script src="../js/stargazing.js?v=20250805-10"></script>
+</body>
+</html> 

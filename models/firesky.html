@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fire Sky - Climatology</title>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <link rel="stylesheet" href="../css/common.css?v=20250729-18">
+    <link rel="stylesheet" href="../css/firesky.css?v=20250805-zindex">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10.6.1/dist/mermaid.min.js"></script>
+</head>
+<body>
+    <!-- Navigation Header -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="../index.html">Climatology</a>
+            </div>
+            <div class="nav-menu">
+                <div class="nav-dropdown">
+                    <a href="#" class="nav-link dropdown-toggle active">Models ▼</a>
+                    <div class="dropdown-content">
+                        <a href="firesky.html" class="active">🔥 Fire Sky</a>
+                        <a href="sea-of-clouds.html">☁️ Sea of Clouds</a>
+                        <a href="rainbow.html">🌈 Rainbow</a>
+                        <a href="stargazing.html">⭐ Stargazing</a>
+                    </div>
+                </div>
+                <a href="#knowledges" class="nav-link">Knowledges</a>
+                <a href="#community" class="nav-link">Community</a>
+                <a href="../about.html" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact Us</a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Models Main Content -->
+    <main class="models-main">
+        <!-- Model Description Section -->
+        <section class="model-description">
+            <div class="description-container">
+                <p class="description-text">
+                    The Sunrise and Sunset model is based on ECMWF and GFS-HRRR model. The model will identify the appropriate cloud and weather structure that allows firesky to happen. Since the weather is a dynamic process and the current model data is based on prediction algorithms from climate satellites in different countries, the result might be wrong. Sunrise report will update each day at 1:00 am, and sunset report will update each day at 3:00 pm. There will be a final update 1 hr before sunset to optimize the accuracy of predictions.
+                </p>
+            </div>
+        </section>
+
+        <!-- Control Buttons Section -->
+        <section class="controls-section">
+            <div class="controls-container">
+                <!-- Time Type Toggle -->
+                <div class="control-button" id="time-toggle">
+                    <span class="button-text" id="time-text">Sunset</span>
+                    <div class="dropdown-menu" id="time-dropdown">
+                        <div class="dropdown-item" data-value="sunset">Sunset</div>
+                        <div class="dropdown-item" data-value="sunrise">Sunrise</div>
+                    </div>
+                </div>
+
+                <!-- Data Source Toggle -->
+                <div class="control-button" id="data-toggle">
+                    <span class="button-text" id="data-text">ECMWF</span>
+                    <div class="dropdown-menu" id="data-dropdown">
+                        <div class="dropdown-item" data-value="ECMWF">ECMWF</div>
+                        <div class="dropdown-item" data-value="GFS">GFS</div>
+                    </div>
+                </div>
+
+                <!-- Location Selection -->
+                <div class="control-button" id="location-toggle">
+                    <span class="button-text" id="location-text">Choose Location</span>
+                    <div class="dropdown-menu" id="location-dropdown">
+                        <!-- Populated dynamically by JavaScript -->
+                    </div>
+                </div>
+
+                <!-- Empty All Button -->
+                <div class="control-button" id="empty-button">
+                    <span class="button-text">Empty all selections</span>
+                </div>
+
+                <!-- Search Reports Button -->
+                <div class="control-button" id="search-button">
+                    <span class="button-text">Search The Reports</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Data Display Section -->
+        <section class="data-display">
+            <div class="data-container">
+                <div class="data-header">
+                    <h2 class="data-title">
+                        <span id="selected-location">Location</span> — 
+                        <span id="selected-date">Date</span> — 
+                        <span id="selected-weather">FireSky</span>
+                    </h2>
+                    <div class="sunset-time">
+                        <h3>Local Event Time</h3>
+                        <span id="sunset-display">--:--</span>
+                    </div>
+                </div>
+
+                <div class="data-metrics">
+                    <div class="metric-row">
+                        <div class="metric-label">Recommend Level</div>
+                        <div class="metric-value" id="recommend-level">--</div>
+                        <div class="metric-description" id="recommend-description">Reason and description</div>
+                    </div>
+
+                    <div class="metric-row">
+                        <div class="metric-label">Quality Level</div>
+                        <div class="metric-value" id="quality-level">--</div>
+                        <div class="metric-description" id="quality-description">Reason and description</div>
+                    </div>
+
+                    <div class="metric-row">
+                        <div class="metric-label">Air Quality Index</div>
+                        <div class="metric-value" id="air-quality">--</div>
+                        <div class="metric-description" id="air-description">Reason and description</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Disclaimer Section -->
+        <section class="disclaimer-section">
+            <div class="disclaimer-container">
+                <h2 class="disclaimer-title">Disclaimer</h2>
+                <p class="disclaimer-text">
+                    Atmospheric phenomena are dynamic processes, and a single prediction should be used as guidance rather than absolute certainty. Weather conditions can change rapidly, and spectacular displays may occur even when not predicted due to localized atmospheric variations. Since the model will gather more data in future, I will try my best to improve accuracy in future days.
+                </p>
+            </div>
+        </section>
+
+        <!-- Interactive Buttons Section -->
+        <section class="interactive-section">
+            <div class="interactive-container">
+                <div class="info-buttons">
+                    <button class="info-btn active" data-content="workflow">
+                        <span class="btn-title">Workflow</span>
+                        <span class="btn-subtitle">Diagram</span>
+                    </button>
+                    <button class="info-btn" data-content="methodology">
+                        <span class="btn-title">Methodology</span>
+                        <span class="btn-subtitle">And Photo Reference</span>
+                    </button>
+                    <button class="info-btn" data-content="recommendation">
+                        <span class="btn-title">Recommendation</span>
+                        <span class="btn-subtitle">Level(Possibility) Detailed Info</span>
+                    </button>
+                    <button class="info-btn" data-content="quality">
+                        <span class="btn-title">Quality Index</span>
+                        <span class="btn-subtitle">Detailed Explanation</span>
+                    </button>
+                    <button class="info-btn" data-content="aod">
+                        <span class="btn-title">AOD LEVEL</span>
+                        <span class="btn-subtitle">Detailed Explanation</span>
+                    </button>
+                </div>
+
+                <!-- Content Display Area -->
+                <div class="content-display">
+                    <!-- Workflow Content -->
+                    <div class="content-panel active" id="workflow-content">
+                        <div class="workflow-diagram" id="workflow-mermaid">
+                            <!-- Mermaid diagram will be inserted here -->
+                        </div>
+                    </div>
+
+                    <!-- Methodology Content -->
+                    <div class="content-panel" id="methodology-content">
+                        <h3 class="content-title">Methodology And Photo Reference</h3>
+                        <p class="content-text">
+                            Our advanced prediction system analyzes multiple atmospheric factors to generate comprehensive forecasts. Using proprietary machine learning algorithms, we process real-time meteorological data to create reliable probability assessments. AOD represents the Aerosol Optical Depth index, which affects sunset light color and image clarity.
+                        </p>
+                        <div class="photo-reference">
+                            <img src="../images/firesky-quality-reference.jpg" alt="Fire Sky Quality Reference" class="reference-image">
+                            <p class="reference-caption">Fire Sky Quality Reference: Visual examples of different quality levels from 2 (Ordinary) to 9 (Spectacular)</p>
+                        </div>
+                    </div>
+
+                    <!-- Recommendation Level Content -->
+                    <div class="content-panel" id="recommendation-content">
+                        <div class="recommendation-info-box">
+                            <h3 class="content-title">Recommendation Level Info</h3>
+                            <p class="content-text">
+                                Our advanced prediction system uses percentage-based probability assessments. <strong>Please remember:</strong> atmospheric phenomena are dynamic processes, and predictions should be used as guidance rather than absolute certainty. Weather conditions can change rapidly, and spectacular displays may occur even when not predicted due to localized atmospheric variations.
+                            </p>
+                            <div class="level-explanations">
+                                <div class="level-item">
+                                    <span class="level-number">5%</span>
+                                    <span class="level-desc">Local areas have almost no fire clouds, mostly overcast or completely cloudless. Very low probability of any significant display.</span>
+                                </div>
+                                <div class="level-item">
+                                    <span class="level-number">20%</span>
+                                    <span class="level-desc">Clear sky conditions with normal horizon glow, or atmospheric obstacles blocking distant light paths. Limited fire sky potential.</span>
+                                </div>
+                                <div class="level-item">
+                                    <span class="level-number">25%</span>
+                                    <span class="level-desc">Clear sky with enhanced aerosol content creating strong deep red light bands at the horizon. Moderate enhancement expected.</span>
+                                </div>
+                                <div class="level-item">
+                                    <span class="level-number">40%</span>
+                                    <span class="level-desc">Mixed conditions with heavy cloud cover or cloud layers that may be too thick or low to be properly illuminated. Results may vary significantly.</span>
+                                </div>
+                                <div class="level-item">
+                                    <span class="level-number">50%</span>
+                                    <span class="level-desc">Cloud formations present but with some limiting factors such as excessive thickness or suboptimal positioning. Moderate probability of display.</span>
+                                </div>
+                                <div class="level-item">
+                                    <span class="level-number">75%</span>
+                                    <span class="level-desc">Excellent conditions with suitable mid-high clouds as the 'stage' and clear distant light paths. Strong potential for memorable fire sky displays.</span>
+                                </div>
+                                <div class="level-item special">
+                                    <span class="level-number">90%</span>
+                                    <span class="level-desc">Outstanding atmospheric transparency combined with optimal cloud formations. Very likely to produce vivid, spectacular colors that photographers should not miss.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Quality Index Content -->
+                    <div class="content-panel" id="quality-content">
+                        <h3 class="content-title">Quality Index Detailed Explanation</h3>
+                        <p class="content-text">
+                            The quality index is a 0-10 scale that indicates the potential spectacle level when favorable conditions occur. Our proprietary scoring system analyzes multiple atmospheric factors to generate this assessment. Generally, higher scores indicate more dramatic displays. Note: this index is most reliable when the recommend level is 2 or above, as lower levels indicate limiting factors that may prevent optimal viewing conditions.
+                        </p>
+                        <div class="quality-explanations">
+                            <div class="quality-item">
+                                <span class="quality-range">0-2</span>
+                                <span class="quality-desc">Local sunset is ordinary, perhaps twilight glow or very small-scale, short-duration fire clouds.</span>
+                            </div>
+                            <div class="quality-item">
+                                <span class="quality-range">2-4</span>
+                                <span class="quality-desc">Will be a decent fire cloud, but the cloud coverage in the sky may not reach spectacular levels yet.</span>
+                            </div>
+                            <div class="quality-item">
+                                <span class="quality-range">4-6</span>
+                                <span class="quality-desc">This stage is already excellent fire clouds, with appropriate cloud coverage, suitable cloud height, and suitable cloud types. It will be a memorable fire cloud. Photographers should take action at this index.</span>
+                            </div>
+                            <div class="quality-item special">
+                                <span class="quality-range">7-10</span>
+                                <span class="quality-desc">This data has not appeared yet. But I think such fire clouds could perhaps be called once-in-a-decade. If you are lucky enough to see such fire clouds, it means your luck is beyond words. Perhaps you can make many people envious on social platforms.</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- AOD Level Content -->
+                    <div class="content-panel" id="aod-content">
+                        <h3 class="content-title">AOD LEVEL Detailed Explanation</h3>
+                        <p class="content-text">
+                            AOD (Aerosol Optical Depth) measures atmospheric particle concentration, which significantly affects sunset colors and clarity. The ideal range for spectacular fire clouds requires balanced aerosol levels - enough to enhance colors but not so much as to obscure the display.
+                        </p>
+                        <div class="aod-explanations">
+                            <div class="aod-item">
+                                <span class="aod-range">AOD &lt; 0.2</span>
+                                <span class="aod-desc">The sky has almost no pollution, the sun's outline is clear at sunset, and colors are mainly concentrated near the horizon, but overall not brilliant enough.</span>
+                            </div>
+                            <div class="aod-item optimal">
+                                <span class="aod-range">AOD 0.2 - 0.5</span>
+                                <span class="aod-desc">Aerosols fully scatter red and pink light, making evening glow colors saturated and richly layered, ideal conditions for producing the most brilliant fire clouds.</span>
+                            </div>
+                            <div class="aod-item">
+                                <span class="aod-range">AOD 0.5 - 1.0</span>
+                                <span class="aod-desc">Excessive particles start to obscure sunlight, causing colors to be widespread but tend toward dim yellow, reducing sky transparency and brightness.</span>
+                            </div>
+                            <div class="aod-item">
+                                <span class="aod-range">AOD &gt; 1.0</span>
+                                <span class="aod-desc">Sunlight is severely weakened, the sky appears dim and murky, evening glow loses almost all brilliance, appearing as dull gray-red.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Subscribe Section -->
+        <section class="subscribe-section">
+            <div class="subscribe-container">
+                <h2 class="subscribe-title">Subscribe</h2>
+                <p class="subscribe-description">Sign up with your email address to receive news and updates.</p>
+                
+                <form class="subscribe-form">
+                    <input type="email" placeholder="Email Address" class="subscribe-email" required>
+                    <button type="submit" class="subscribe-btn">Sign Up</button>
+                </form>
+                
+                <p class="privacy-text">We respect your privacy.</p>
+                
+                <div class="social-links">
+                    <a href="#" class="social-link">Twitter</a>
+                    <a href="#" class="social-link">Facebook</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="../js/common.js"></script>
+    <script src="../js/firesky.js"></script>
+</body>
+</html> 

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rainbow - Climatology</title>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/rainbow.css?v=20250805-zindex">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin=""></script>
+    <script src="https://unpkg.com/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10.6.1/dist/mermaid.min.js"></script>
+</head>
+<body>
+    <!-- Navigation Header -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="../index.html">Climatology</a>
+            </div>
+            <div class="nav-menu">
+                <div class="nav-dropdown">
+                    <a href="#" class="nav-link dropdown-toggle active">Models ▼</a>
+                    <div class="dropdown-content">
+                        <a href="firesky.html">🔥 Fire Sky</a>
+                        <a href="sea-of-clouds.html">☁️ Sea of Clouds</a>
+                        <a href="rainbow.html" class="active">🌈 Rainbow</a>
+                        <a href="stargazing.html">⭐ Stargazing</a>
+                    </div>
+                </div>
+                <a href="#knowledges" class="nav-link">Knowledges</a>
+                <a href="#community" class="nav-link">Community</a>
+                <a href="../about.html" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact Us</a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Models Main Content -->
+    <main class="models-main">
+        <!-- Model Description Section -->
+        <section class="model-description">
+            <div class="description-container">
+                <p class="description-text">
+                    The Rainbow prediction model analyzes weather conditions including rainfall patterns, sunlight intensity, solar angles, and atmospheric clarity to forecast rainbow formation opportunities. The model uses ECMWF weather data combined with aerosol optical depth measurements to provide accurate probability assessments. Rainbow forecasts are updated daily with real-time atmospheric conditions to maximize viewing success rates.
+                </p>
+            </div>
+        </section>
+
+        <!-- Control Buttons Section -->
+        <section class="controls-section">
+            <div class="controls-container">
+                <!-- Location Selection -->
+                <div class="control-button" id="location-toggle">
+                    <span class="button-text" id="location-text">Choose Location</span>
+                    <div class="dropdown-menu" id="location-dropdown">
+                        <!-- Populated dynamically by JavaScript -->
+                    </div>
+                </div>
+
+                <!-- Time Slot Selection -->
+                <div class="control-button" id="time-toggle">
+                    <span class="button-text" id="time-text">Choose Time Slot</span>
+                    <div class="dropdown-menu" id="time-dropdown">
+                        <!-- Populated dynamically by JavaScript -->
+                    </div>
+                </div>
+
+                <!-- Empty All Button -->
+                <div class="control-button" id="empty-button">
+                    <span class="button-text">Empty all selections</span>
+                </div>
+
+                <!-- Search Reports Button -->
+                <div class="control-button" id="search-button">
+                    <span class="button-text">Search The Reports</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Data Display Section -->
+        <section class="data-display">
+            <div class="data-container">
+                <div class="data-header">
+                    <h2 class="data-title">
+                        <span id="selected-location">Location</span> — 
+                        <span id="selected-date">Date</span> — 
+                        <span id="selected-weather">Rainbow</span>
+                    </h2>
+                    <div class="sunset-time">
+                        <h3>Local Rainbow Time</h3>
+                        <span id="sunset-display">--:--</span>
+                    </div>
+                </div>
+
+                <div class="data-metrics">
+                    <div class="metric-row">
+                        <div class="metric-label">Recommend Level</div>
+                        <div class="metric-value" id="recommend-level">--</div>
+                        <div class="metric-description" id="recommend-description">Reason and description</div>
+                    </div>
+
+                    <div class="metric-row">
+                        <div class="metric-label">Air Quality Index</div>
+                        <div class="metric-value" id="air-quality">--</div>
+                        <div class="metric-description" id="air-description">Reason and description</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Rainbow Map Section -->
+        <section class="map-section">
+            <div class="map-container">
+                <div class="map-header">
+                    <h2 class="map-title">Interactive Rainbow Grid Map</h2>
+                    <div class="map-controls">
+                        <div class="time-slider-container">
+                            <label for="time-slider">Time: <span id="current-time-display">17:00</span></label>
+                            <input type="range" id="time-slider" min="6" max="20" value="17" step="1">
+                        </div>
+                        <div class="map-legend">
+                            <div class="legend-item">
+                                <span class="legend-color high-probability"></span> High (>66%)
+                            </div>
+                            <div class="legend-item">
+                                <span class="legend-color medium-probability"></span> Medium (33-66%)
+                            </div>
+                            <div class="legend-item">
+                                <span class="legend-color low-probability"></span> Low (<33%)
+                            </div>
+                            <div class="legend-item">
+                                <span class="legend-color no-data"></span> No Data
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="rainbow-map" style="height: 500px; width: 100%; border-radius: 10px;"></div>
+            </div>
+        </section>
+
+        <!-- Interactive Buttons and Content Section -->
+        <section class="interactive-section">
+            <div class="interactive-container">
+                <div class="info-buttons">
+                    <button class="info-btn active" data-content="methodology">
+                        <span class="btn-title">METHODOLOGY</span>
+                        <span class="btn-subtitle">And Photo Reference</span>
+                    </button>
+                    <button class="info-btn" data-content="viewing-tips">
+                        <span class="btn-title">VIEWING TIPS</span>
+                        <span class="btn-subtitle">Optimal Observation Guide</span>
+                    </button>
+                    <button class="info-btn" data-content="atmospheric">
+                        <span class="btn-title">ATMOSPHERIC</span>
+                        <span class="btn-subtitle">Conditions Explanation</span>
+                    </button>
+                </div>
+
+                <!-- Content Display Area -->
+                <div class="content-display">
+                    <!-- Methodology Content -->
+                    <div class="content-panel active" id="methodology-content">
+                        <h3 class="content-title">Methodology And Photo Reference</h3>
+                        <p class="content-text">
+                            Our rainbow prediction system analyzes multiple atmospheric variables including precipitation patterns, direct solar irradiance, solar elevation angles, and aerosol optical depth. The model uses a 3x3 grid scanning approach around each location to capture localized weather variations. Advanced algorithms calculate the probability of simultaneous sunlight and rainfall conditions occurring at optimal solar angles for rainbow formation.
+                        </p>
+                        <div class="photo-reference">
+                            <img src="../images/rainbow-quality-reference.jpg" alt="Rainbow Quality Reference" class="reference-image">
+                            <p class="reference-caption">Rainbow Quality Reference: Examples of different rainbow intensities and atmospheric conditions from faint (1 star) to vivid (3 stars)</p>
+                        </div>
+                    </div>
+
+                    <!-- Viewing Tips Content -->
+                    <div class="content-panel" id="viewing-tips-content">
+                        <h3 class="content-title">Optimal Observation Guide</h3>
+                        <p class="content-text">
+                            Maximize your rainbow observation success with these professional tips based on meteorological principles and photography best practices.
+                        </p>
+                        <div class="tips-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-top: 2rem;">
+                            <div class="tip-item" style="background: rgba(102, 126, 234, 0.1); padding: 1.5rem; border-radius: 8px; border-left: 4px solid #667eea;">
+                                <h4 style="color: #667eea; margin: 0 0 1rem 0;">🌅 Optimal Timing</h4>
+                                <p style="margin: 0; color: #2d1b69;">Look for "sun showers" - when it's raining but the sun is still shining. Best opportunities occur just after thunderstorms when the sun breaks through clouds.</p>
+                            </div>
+                            <div class="tip-item" style="background: rgba(102, 126, 234, 0.1); padding: 1.5rem; border-radius: 8px; border-left: 4px solid #667eea;">
+                                <h4 style="color: #667eea; margin: 0 0 1rem 0;">📍 Best Positioning</h4>
+                                <p style="margin: 0; color: #2d1b69;">Stand with the sun behind you and look towards the rain. The rainbow will appear opposite the sun. Use elevated ground when possible for better viewing angles.</p>
+                            </div>
+                            <div class="tip-item" style="background: rgba(102, 126, 234, 0.1); padding: 1.5rem; border-radius: 8px; border-left: 4px solid #667eea;">
+                                <h4 style="color: #667eea; margin: 0 0 1rem 0;">🔍 What to Look For</h4>
+                                <p style="margin: 0; color: #2d1b69;">Watch for dark storm clouds with bright areas where sunlight breaks through. The contrast between dark clouds and bright light often creates the most vivid rainbows.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Atmospheric Conditions Content -->
+                    <div class="content-panel" id="atmospheric-content">
+                        <h3 class="content-title">Atmospheric Conditions Explanation</h3>
+                        <p class="content-text">
+                            Rainbow formation requires specific atmospheric conditions including simultaneous sunlight and rainfall, optimal solar angles, and atmospheric clarity. Understanding these factors helps interpret prediction accuracy and timing.
+                        </p>
+                        <div class="atmospheric-explanations" style="margin-top: 2rem;">
+                            <div class="atmospheric-item" style="display: flex; gap: 1rem; margin-bottom: 1.5rem; padding: 1rem; background: rgba(102, 126, 234, 0.1); border-radius: 8px;">
+                                <span class="atmospheric-factor" style="font-weight: 600; color: #667eea; min-width: 120px;">Solar Angle</span>
+                                <span class="atmospheric-desc" style="color: #2d1b69;">Optimal rainbow visibility occurs when the sun is 40-42° above the horizon. Lower angles may produce partial rainbows, while higher angles make rainbows invisible from ground level.</span>
+                            </div>
+                            <div class="atmospheric-item optimal" style="display: flex; gap: 1rem; margin-bottom: 1.5rem; padding: 1rem; background: rgba(102, 126, 234, 0.15); border-radius: 8px; border: 2px solid #667eea;">
+                                <span class="atmospheric-factor" style="font-weight: 600; color: #667eea; min-width: 120px;">Simultaneous Sun & Rain</span>
+                                <span class="atmospheric-desc" style="color: #2d1b69;">The critical requirement: sunlight must illuminate raindrops from behind the observer. This creates the refraction and reflection needed for rainbow formation. Timing is everything.</span>
+                            </div>
+                            <div class="atmospheric-item" style="display: flex; gap: 1rem; margin-bottom: 1.5rem; padding: 1rem; background: rgba(102, 126, 234, 0.1); border-radius: 8px;">
+                                <span class="atmospheric-factor" style="font-weight: 600; color: #667eea; min-width: 120px;">Air Quality (AOD)</span>
+                                <span class="atmospheric-desc" style="color: #2d1b69;">Clean air (low aerosol content) produces the most vivid colors. Moderate haze can enhance red colors but may obscure blue and violet bands. Heavy pollution significantly reduces rainbow visibility.</span>
+                            </div>
+                            <div class="atmospheric-item" style="display: flex; gap: 1rem; margin-bottom: 1.5rem; padding: 1rem; background: rgba(102, 126, 234, 0.1); border-radius: 8px;">
+                                <span class="atmospheric-factor" style="font-weight: 600; color: #667eea; min-width: 120px;">Precipitation Type</span>
+                                <span class="atmospheric-desc" style="color: #2d1b69;">Light to moderate rainfall with uniform droplet size creates the best rainbows. Heavy downpours can block sunlight, while very light mist may not provide sufficient refraction.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modal Background -->
+        <div id="modal-overlay" class="modal-overlay" onclick="closeModal()">
+            <div class="modal-container" onclick="event.stopPropagation()">
+                <div class="modal-header">
+                    <h2 id="modal-title">Modal Title</h2>
+                    <button class="modal-close" onclick="closeModal()">&times;</button>
+                </div>
+                <div class="modal-content" id="modal-content">
+                    <!-- Dynamic content will be inserted here -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Subscribe Section -->
+        <section class="subscribe-section">
+            <div class="subscribe-container">
+                <h2 class="subscribe-title">Subscribe</h2>
+                <p class="subscribe-description">Sign up with your email address to receive news and updates.</p>
+                
+                <form class="subscribe-form">
+                    <input type="email" placeholder="Email Address" class="subscribe-email" required>
+                    <button type="submit" class="subscribe-btn">Sign Up</button>
+                </form>
+                
+                <p class="privacy-text">We respect your privacy.</p>
+                
+                <div class="social-links">
+                    <a href="#" class="social-link">Twitter</a>
+                    <a href="#" class="social-link">Facebook</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="../js/common.js"></script>
+    <script src="../js/rainbow.js?v=20250805-31"></script>
+</body>
+</html> 
