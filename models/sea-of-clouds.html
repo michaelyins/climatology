@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sea of Clouds - Climatology</title>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <link rel="stylesheet" href="../css/common.css?v=20250804-20">
+    <link rel="stylesheet" href="../css/sea-of-clouds.css?v=20250805-noflash">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10.6.1/dist/mermaid.min.js"></script>
+</head>
+<body>
+    <!-- Navigation Header -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="../index.html">Climatology</a>
+            </div>
+            <div class="nav-menu">
+                <div class="nav-dropdown">
+                    <a href="#" class="nav-link dropdown-toggle active">Models ▼</a>
+                    <div class="dropdown-content">
+                        <a href="firesky.html">🔥 Fire Sky</a>
+                        <a href="sea-of-clouds.html" class="active">☁️ Sea of Clouds</a>
+                        <a href="rainbow.html">🌈 Rainbow</a>
+                        <a href="stargazing.html">⭐ Stargazing</a>
+                    </div>
+                </div>
+                <a href="#knowledges" class="nav-link">Knowledges</a>
+                <a href="#community" class="nav-link">Community</a>
+                <a href="../about.html" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact Us</a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Models Main Content -->
+    <main class="models-main">
+        <!-- Model Description Section -->
+        <section class="model-description">
+            <div class="description-container">
+                <p class="description-text">
+                    The Sea of Clouds prediction model analyzes atmospheric conditions and topographical features to forecast cloud formation in valleys and mountainous regions. Based on high-resolution meteorological data and digital elevation models, the system predicts cloud coverage patterns and optimal viewing times for the ethereal phenomenon of clouds filling valleys like an ocean.
+                </p>
+            </div>
+        </section>
+
+        <!-- Control Buttons Section -->
+        <section class="controls-section">
+            <div class="controls-container">
+                <!-- Location Selection -->
+                <div class="control-button" id="location-toggle">
+                    <span class="button-text" id="location-text">Choose Location</span>
+                    <div class="dropdown-menu" id="location-dropdown">
+                        <!-- Populated dynamically by JavaScript -->
+                    </div>
+                </div>
+
+                <!-- Date Selection -->
+                <div class="control-button" id="date-toggle">
+                    <span class="button-text" id="date-text">Choose Date</span>
+                    <div class="dropdown-menu" id="date-dropdown">
+                        <!-- Populated dynamically by JavaScript -->
+                    </div>
+                </div>
+
+                <!-- Empty All Button -->
+                <div class="control-button" id="empty-button">
+                    <span class="button-text">Empty all selections</span>
+                </div>
+
+                <!-- Search Reports Button -->
+                <div class="control-button" id="search-button">
+                    <span class="button-text">Search The Reports</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Data Display Section -->
+        <section class="data-display">
+            <div class="data-container">
+                <div class="data-header">
+                    <h2 class="data-title">
+                        <span id="selected-location">Location</span> — 
+                        <span id="selected-date">Date</span> — 
+                        <span id="selected-weather">Sea of Clouds</span>
+                    </h2>
+                    <div class="coverage-info">
+                        <h3>Average Coverage</h3>
+                        <span id="coverage-display">--</span>
+                    </div>
+                </div>
+
+                <div class="data-metrics">
+                    <div class="metric-row">
+                        <div class="metric-label">Recommendation Level</div>
+                        <div class="metric-value" id="recommend-level">
+                            <div class="coverage-circle">
+                                <span>--%</span>
+                            </div>
+                        </div>
+                        <div class="metric-description" id="recommend-description">Select location and date to view prediction</div>
+                    </div>
+
+                    <div class="metric-row">
+                        <div class="metric-label">Peak Coverage Time</div>
+                        <div class="metric-value" id="peak-time">--:--</div>
+                        <div class="metric-description" id="peak-description">Best viewing time for maximum cloud coverage</div>
+                    </div>
+
+                    <div class="metric-row">
+                        <div class="metric-label">Monitoring Area</div>
+                        <div class="metric-value clickable-metric" id="region-area" onclick="toggleRegionDetails()">
+                            -- km² <span class="expand-icon">▼</span>
+                        </div>
+                        <div class="metric-description" id="region-description">Click to view detailed statistics</div>
+                    </div>
+                    
+                    <!-- Hidden detailed region statistics -->
+                    <div class="region-details" id="region-details" style="display: none;">
+                        <h4>Detailed Coverage Statistics</h4>
+                        <div class="hourly-stats" id="hourly-stats">
+                            <!-- Populated by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Disclaimer Section -->
+        <section class="disclaimer-section">
+            <div class="disclaimer-container">
+                <h2 class="disclaimer-title">Disclaimer</h2>
+                <p class="disclaimer-text">
+                    Sea of clouds formation is highly dependent on local microclimatic conditions, temperature inversions, and humidity levels. While our model provides scientific predictions based on atmospheric data, actual conditions may vary due to rapidly changing weather patterns. Use predictions as guidance for planning, and always check current weather conditions before traveling to viewing locations.
+                </p>
+            </div>
+        </section>
+
+        <!-- Interactive Buttons Section -->
+        <section class="interactive-section">
+            <div class="interactive-container">
+                <div class="info-buttons">
+                    <button class="info-btn active" data-target="workflow-panel">
+                        <span class="btn-title">Workflow</span>
+                        <span class="btn-subtitle">Diagram</span>
+                    </button>
+                    <button class="info-btn" data-target="methodology-panel">
+                        <span class="btn-title">Methodology</span>
+                        <span class="btn-subtitle">How We Measure</span>
+                    </button>
+                    <button class="info-btn" data-target="locations-panel">
+                        <span class="btn-title">Location Info</span>
+                        <span class="btn-subtitle">Places we include</span>
+                    </button>
+                    <button class="info-btn" data-target="tips-panel">
+                        <span class="btn-title">Viewing Tips</span>
+                        <span class="btn-subtitle">How, When, Where</span>
+                    </button>
+                    <button class="info-btn" data-target="forecast-panel">
+                        <span class="btn-title">Multi-Day</span>
+                        <span class="btn-subtitle">Forecast</span>
+                    </button>
+                </div>
+
+                <div class="content-display">
+                    <!-- Workflow Panel -->
+                    <div class="content-panel" id="workflow-panel">
+                        <h3>Workflow Diagram</h3>
+                        <p>Our Sea of Clouds prediction workflow follows a systematic approach:</p>
+                        
+                        <div class="mermaid-container">
+                            <div id="mermaid-diagram"></div>
+                        </div>
+                    </div>
+
+                    <!-- Methodology Panel -->
+                    <div class="content-panel" id="methodology-panel">
+                        <h3>Methodology & Analysis</h3>
+                        <p>Our Sea of Clouds prediction system combines multiple data sources and analytical approaches:</p>
+                        <ul>
+                            <li><strong>Temperature Inversion Detection:</strong> Analysis of atmospheric temperature profiles to identify inversion layers</li>
+                            <li><strong>Humidity and Dewpoint Analysis:</strong> Monitoring relative humidity and dewpoint spread for cloud formation potential</li>
+                            <li><strong>Topographical Integration:</strong> Using digital elevation models to understand valley formations and cloud behavior</li>
+                            <li><strong>Wind Pattern Assessment:</strong> Evaluating wind speed and direction for cloud stability and movement</li>
+                            <li><strong>Multi-Grid Analysis:</strong> Processing atmospheric data across a defined grid to calculate regional coverage</li>
+                        </ul>
+                    </div>
+
+                    <!-- Location Information Panel -->
+                    <div class="content-panel" id="locations-panel">
+                        <div id="location-info-header">
+                            <h3>Location Information</h3>
+                            <div id="location-selection-hint" class="selection-hint">
+                                <p>👆 Select a location above to view detailed information about viewing conditions, seasonal patterns, and optimal times.</p>
+                            </div>
+                        </div>
+                        
+                        <div id="location-details" class="location-details-container" style="display: none;">
+                            <!-- Location Name & Category -->
+                            <div class="location-header">
+                                <h4 id="location-detail-name">Location Name</h4>
+                                <span id="location-category" class="location-category">Category</span>
+                            </div>
+
+                            <!-- Geography & Elevation Info -->
+                            <div class="info-section">
+                                <h5><span class="info-icon">🏔️</span> Geography & Elevation</h5>
+                                <div class="info-grid">
+                                    <div class="info-item">
+                                        <span class="info-label">Elevation Range:</span>
+                                        <span id="elevation-range" class="info-value">-- to -- meters</span>
+                                    </div>
+                                    <div class="info-item">
+                                        <span class="info-label">Best Viewing Height:</span>
+                                        <span id="viewing-height" class="info-value">-- meters</span>
+                                    </div>
+                                    <div class="info-item">
+                                        <span class="info-label">Cloud Formation Zone:</span>
+                                        <span id="cloud-zone" class="info-value">-- to -- meters</span>
+                                    </div>
+                                    <div class="info-item">
+                                        <span class="info-label">Analysis Method:</span>
+                                        <span id="analysis-method" class="info-value">--</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Seasonal Information -->
+                            <div class="info-section">
+                                <h5><span class="info-icon">📅</span> Seasonal Patterns</h5>
+                                <div class="seasonal-info">
+                                    <div class="seasonal-details">
+                                        <div class="seasonal-item">
+                                            <span class="seasonal-label">Peak Season:</span>
+                                            <span id="peak-season" class="seasonal-value">--</span>
+                                        </div>
+                                        <div class="seasonal-item">
+                                            <span class="seasonal-label">Formation Type:</span>
+                                            <span id="formation-type" class="seasonal-value">--</span>
+                                        </div>
+                                        <div class="seasonal-item">
+                                            <span class="seasonal-label">Moisture Source:</span>
+                                            <span id="moisture-source" class="seasonal-value">--</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Seasonal Calendar -->
+                                    <div class="seasonal-calendar">
+                                        <h6>Monthly Probability</h6>
+                                        <div class="calendar-months" id="seasonal-calendar">
+                                            <!-- Generated by JavaScript -->
+                                        </div>
+                                        <div class="calendar-legend">
+                                            <span class="legend-item"><span class="legend-color peak"></span>Peak Season</span>
+                                            <span class="legend-item"><span class="legend-color good"></span>Good</span>
+                                            <span class="legend-item"><span class="legend-color fair"></span>Fair</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Viewing Tips Panel -->
+                    <div class="content-panel" id="tips-panel">
+                        <div id="viewing-tips-header">
+                            <h3>Viewing Tips</h3>
+                            <div id="viewing-tips-hint" class="selection-hint">
+                                <p>👆 Select a location above to view specific viewing instructions, best vantage points, and photography tips for that location.</p>
+                            </div>
+                        </div>
+                        
+                        <div id="viewing-tips-details" class="location-details-container" style="display: none;">
+                            <!-- Viewing Instructions Header -->
+                            <div class="viewing-header">
+                                <h4 id="viewing-location-name">Location Viewing Guide</h4>
+                                <span id="viewing-best-time" class="viewing-time">Best Time</span>
+                            </div>
+
+                            <!-- To See Clouds Section -->
+                            <div class="info-section">
+                                <h5 class="collapsible-header" onclick="toggleViewingSection('see-clouds')">
+                                    <span class="info-icon">👁️</span> To See Sea of Clouds
+                                    <span class="collapse-icon" id="see-clouds-icon">▼</span>
+                                </h5>
+                                <div class="viewing-card collapsible-content" id="see-clouds-content">
+                                    <div class="viewing-item">
+                                        <span class="viewing-label">📍 Viewing Position:</span>
+                                        <span id="viewing-position" class="viewing-value">--</span>
+                                    </div>
+                                    <div class="viewing-item">
+                                        <span class="viewing-label">🧭 Look Direction:</span>
+                                        <span id="viewing-direction" class="viewing-value">--</span>
+                                    </div>
+                                    <div class="viewing-item">
+                                        <span class="viewing-label">🏔️ Best Vantage:</span>
+                                        <span id="viewing-vantage" class="viewing-value">--</span>
+                                    </div>
+                                    <div class="viewing-item">
+                                        <span class="viewing-label">🎯 What You'll See:</span>
+                                        <span id="viewing-description" class="viewing-value">--</span>
+                                    </div>
+                                    <div class="viewing-item">
+                                        <span class="viewing-label">🏞️ Landmarks:</span>
+                                        <span id="viewing-landmarks" class="viewing-value">--</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- To Be In Clouds Section -->
+                            <div class="info-section">
+                                <h5 class="collapsible-header" onclick="toggleViewingSection('be-in-clouds')">
+                                    <span class="info-icon">☁️</span> To Experience Being in Clouds
+                                    <span class="collapse-icon" id="be-in-clouds-icon">▼</span>
+                                </h5>
+                                <div class="viewing-card collapsible-content" id="be-in-clouds-content">
+                                    <div class="viewing-item">
+                                        <span class="viewing-label">📍 Immersion Position:</span>
+                                        <span id="immersion-position" class="viewing-value">--</span>
+                                    </div>
+                                    <div class="viewing-item">
+                                        <span class="viewing-label">🚶 Experience:</span>
+                                        <span id="immersion-experience" class="viewing-value">--</span>
+                                    </div>
+                                    <div class="viewing-item">
+                                        <span class="viewing-label">💭 What to Expect:</span>
+                                        <span id="immersion-description" class="viewing-value">--</span>
+                                    </div>
+                                    <div class="viewing-item">
+                                        <span class="viewing-label">📏 Fog Thickness:</span>
+                                        <span id="fog-thickness" class="viewing-value">--</span>
+                                    </div>
+                                    <div class="viewing-item">
+                                        <span class="viewing-label">📍 Key Spots:</span>
+                                        <div id="immersion-spots" class="spot-list">
+                                            <!-- Generated by JavaScript -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Photography Tips Section -->
+                            <div class="info-section">
+                                <h5 class="collapsible-header" onclick="toggleViewingSection('photography')">
+                                    <span class="info-icon">📸</span> Photography Tips
+                                    <span class="collapse-icon" id="photography-icon">▼</span>
+                                </h5>
+                                <div class="viewing-card collapsible-content" id="photography-content">
+                                    <div class="viewing-item">
+                                        <span class="viewing-label">🌅 Sunrise Spot:</span>
+                                        <span id="sunrise-spot" class="viewing-value">--</span>
+                                    </div>
+                                    <div class="viewing-item">
+                                        <span class="viewing-label">🌇 Sunset Spot:</span>
+                                        <span id="sunset-spot" class="viewing-value">--</span>
+                                    </div>
+                                    <div class="viewing-item">
+                                        <span class="viewing-label">📷 Recommended Equipment:</span>
+                                        <span id="photo-equipment" class="viewing-value">--</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Access & Safety -->
+                            <div class="info-section">
+                                <h5 class="collapsible-header" onclick="toggleViewingSection('access-safety')">
+                                    <span class="info-icon">🚗</span> Access & Safety
+                                    <span class="collapse-icon" id="access-safety-icon">▼</span>
+                                </h5>
+                                <div class="viewing-card collapsible-content" id="access-safety-content">
+                                    <div class="viewing-item">
+                                        <span class="viewing-label">🛣️ Access Routes:</span>
+                                        <span id="access-routes" class="viewing-value">--</span>
+                                    </div>
+                                    <div class="viewing-item">
+                                        <span class="viewing-label">🅿️ Parking:</span>
+                                        <span id="parking-info" class="viewing-value">--</span>
+                                    </div>
+                                    <div class="viewing-item">
+                                        <span class="viewing-label">🎒 Equipment:</span>
+                                        <span id="equipment-info" class="viewing-value">--</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Multi-Day Forecast Panel -->
+                    <div class="content-panel" id="forecast-panel">
+                        <h3>Multi-Day Forecast</h3>
+                        <p>Plan your sea of clouds adventures with our extended forecast capabilities:</p>
+                        <ul>
+                            <li><strong>3-Day Outlook:</strong> Detailed predictions for the next three days with hourly coverage data</li>
+                            <li><strong>Trend Analysis:</strong> Identify patterns in cloud formation timing and coverage intensity</li>
+                            <li><strong>Optimal Days:</strong> Recommendations for the best viewing opportunities within the forecast period</li>
+                            <li><strong>Weather Stability:</strong> Assessment of atmospheric stability affecting cloud persistence</li>
+                            <li><strong>Alternative Locations:</strong> Suggestions for backup locations when primary sites have lower coverage predictions</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- JavaScript -->
+    <script src="../js/common.js?v=20250804-18"></script>
+    <script src="../js/sea-of-clouds.js?v=20250805-04"></script>
+    <script>
+        // Initialize Mermaid after page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            mermaid.initialize({
+                startOnLoad: false,
+                theme: 'base',
+                securityLevel: 'loose',
+                themeVariables: {
+                    background: 'transparent',
+                    primaryColor: '#e0e0e0',
+                    primaryTextColor: '#333',
+                    primaryBorderColor: '#333',
+                    lineColor: '#ffffff',
+                    fontFamily: 'Inter, Arial, sans-serif',
+                    fontSize: '14px'
+                }
+            });
+            
+            // Define the workflow diagram exactly as shown in the image
+            const diagramDefinition = `
+flowchart LR
+    A["Choose<br/>Your<br/>Location"] --> B["Check The Day<br/>You Wish To<br/>Arrive"]
+    
+    B --> C1["RL = 25%<br/>Almost No<br/>Sea of Clouds"]
+    B --> D1["Rec Level = 90%<br/>Happens Almost<br/>All Day"]  
+    B --> E1["RL = 50%<br/>Only Some Hours<br/>Have Sea of Clouds"]
+    
+    C1 --> C2["Check<br/>Multi-day Report<br/>Before You Go"]
+    D1 --> D2["Get Ready and<br/>Check Viewing Tips<br/>⭐"]
+    E1 --> E2["Check Detailed Info<br/>and<br/>Choose Right Hours"]
+    
+    classDef default fill:#ffffff,stroke:#666,stroke-width:2px,color:#333
+    classDef highlight fill:#ffffff,stroke:#666,stroke-width:2px,color:#333,font-weight:bold
+    classDef startNode fill:#ffffff,stroke:#4a90e2,stroke-width:3px,color:#333
+    
+    class A startNode
+    class D1,D2 highlight
+            `;
+            
+            // Render the diagram
+            const element = document.getElementById('mermaid-diagram');
+            if (element) {
+                mermaid.render('workflow-svg', diagramDefinition)
+                    .then(result => {
+                        element.innerHTML = result.svg;
+                    })
+                    .catch(error => {
+                        console.error('Mermaid rendering error:', error);
+                        element.innerHTML = '<p style="color: white;">Workflow diagram could not be loaded. Please refresh the page.</p>';
+                    });
+            }
+        });
+    </script>
+</body>
+</html> 

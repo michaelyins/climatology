@@ -1,0 +1,926 @@
+{
+    "Boston": {
+        "ECMWF": {
+            "sunrise": {
+                "locationName": "Boston",
+                "modelName": "ECMWF",
+                "eventType": "sunrise",
+                "date": "2025-07-31",
+                "localEventTime": "05:36",
+                "recommendLevel": 3,
+                "recommendPercentage": 40,
+                "recommendDescription": "The main cloud layer above you (starting at 850hPa) is too low to be illuminated by the sun below the horizon.",
+                "qualityLevel": "5.0",
+                "qualityDescription": "For reference only when probability is below 70%.",
+                "airQuality": "Poor",
+                "airQualityValue": 0.496,
+                "airDescription": "There is obvious haze, the sky may appear gray and dark, stay at home plz."
+            },
+            "sunset": {
+                "locationName": "Boston",
+                "modelName": "ECMWF",
+                "eventType": "sunset",
+                "date": "2025-07-31",
+                "localEventTime": "20:04",
+                "recommendLevel": 3,
+                "recommendPercentage": 40,
+                "recommendDescription": "You are almost completely cloudy, the likelihood of seeing sunset is very low.",
+                "qualityLevel": "5.5",
+                "qualityDescription": "For reference only when probability is below 70%.",
+                "airQuality": "Medium",
+                "airQualityValue": 0.271,
+                "airDescription": "There is a slight haze or dust, which may make the color more red, but it will sacrifice some clarity."
+            }
+        },
+        "GFS": {
+            "sunrise": {
+                "locationName": "Boston",
+                "modelName": "GFS",
+                "eventType": "sunrise",
+                "date": "2025-07-31",
+                "localEventTime": "05:36",
+                "recommendLevel": 4,
+                "recommendPercentage": 50,
+                "recommendDescription": "The main cloud layer above you is thicker than 2500 meters, which may cause the sky to be too dark rather than colorful.",
+                "qualityLevel": "4.6",
+                "qualityDescription": "For reference only when probability is below 70%.",
+                "airQuality": "Poor",
+                "airQualityValue": 0.496,
+                "airDescription": "There is obvious haze, the sky may appear gray and dark, stay at home plz."
+            },
+            "sunset": {
+                "locationName": "Boston",
+                "modelName": "GFS",
+                "eventType": "sunset",
+                "date": "2025-07-31",
+                "localEventTime": "20:04",
+                "recommendLevel": 3,
+                "recommendPercentage": 40,
+                "recommendDescription": "You are almost completely cloudy, the likelihood of seeing sunset is very low.",
+                "qualityLevel": "4.0",
+                "qualityDescription": "For reference only when probability is below 70%.",
+                "airQuality": "Medium",
+                "airQualityValue": 0.271,
+                "airDescription": "There is a slight haze or dust, which may make the color more red, but it will sacrifice some clarity."
+            }
+        }
+    },
+    "New York": {
+        "ECMWF": {
+            "sunrise": {
+                "locationName": "New York",
+                "modelName": "ECMWF",
+                "eventType": "sunrise",
+                "date": "2025-07-31",
+                "localEventTime": "05:52",
+                "recommendLevel": 3,
+                "recommendPercentage": 40,
+                "recommendDescription": "The main cloud layer above you (starting at 925hPa) is too low to be illuminated by the sun below the horizon.",
+                "qualityLevel": "5.5",
+                "qualityDescription": "For reference only when probability is below 70%.",
+                "airQuality": "Poor",
+                "airQualityValue": 0.466,
+                "airDescription": "There is obvious haze, the sky may appear gray and dark, stay at home plz."
+            },
+            "sunset": {
+                "locationName": "New York",
+                "modelName": "ECMWF",
+                "eventType": "sunset",
+                "date": "2025-07-31",
+                "localEventTime": "20:12",
+                "recommendLevel": 3,
+                "recommendPercentage": 40,
+                "recommendDescription": "You are almost completely cloudy, the likelihood of seeing sunset is very low.",
+                "qualityLevel": "3.7",
+                "qualityDescription": "For reference only when probability is below 70%.",
+                "airQuality": "Medium",
+                "airQualityValue": 0.375,
+                "airDescription": "There is a slight haze or dust, which may make the color more red, but it will sacrifice some clarity."
+            }
+        },
+        "GFS": {
+            "sunrise": {
+                "locationName": "New York",
+                "modelName": "GFS",
+                "eventType": "sunrise",
+                "date": "2025-07-31",
+                "localEventTime": "05:52",
+                "recommendLevel": 3,
+                "recommendPercentage": 40,
+                "recommendDescription": "The main cloud layer above you (starting at 925hPa) is too low to be illuminated by the sun below the horizon.",
+                "qualityLevel": "5.1",
+                "qualityDescription": "For reference only when probability is below 70%.",
+                "airQuality": "Poor",
+                "airQualityValue": 0.466,
+                "airDescription": "There is obvious haze, the sky may appear gray and dark, stay at home plz."
+            },
+            "sunset": {
+                "locationName": "New York",
+                "modelName": "GFS",
+                "eventType": "sunset",
+                "date": "2025-07-31",
+                "localEventTime": "20:12",
+                "recommendLevel": 3,
+                "recommendPercentage": 40,
+                "recommendDescription": "You are almost completely cloudy, the likelihood of seeing sunset is very low.",
+                "qualityLevel": "3.8",
+                "qualityDescription": "For reference only when probability is below 70%.",
+                "airQuality": "Medium",
+                "airQualityValue": 0.375,
+                "airDescription": "There is a slight haze or dust, which may make the color more red, but it will sacrifice some clarity."
+            }
+        }
+    },
+    "Darien": {
+        "ECMWF": {
+            "sunrise": {
+                "locationName": "Darien",
+                "modelName": "ECMWF",
+                "eventType": "sunrise",
+                "date": "2025-07-31",
+                "localEventTime": "05:49",
+                "recommendLevel": 3,
+                "recommendPercentage": 40,
+                "recommendDescription": "The main cloud layer above you (starting at 1000hPa) is too low to be illuminated by the sun below the horizon.",
+                "qualityLevel": "5.8",
+                "qualityDescription": "For reference only when probability is below 70%.",
+                "airQuality": "Poor",
+                "airQualityValue": 0.442,
+                "airDescription": "There is obvious haze, the sky may appear gray and dark, stay at home plz."
+            },
+            "sunset": {
+                "locationName": "Darien",
+                "modelName": "ECMWF",
+                "eventType": "sunset",
+                "date": "2025-07-31",
+                "localEventTime": "20:10",
+                "recommendLevel": 3,
+                "recommendPercentage": 40,
+                "recommendDescription": "You are almost completely cloudy, the likelihood of seeing sunset is very low.",
+                "qualityLevel": "3.7",
+                "qualityDescription": "For reference only when probability is below 70%.",
+                "airQuality": "Medium",
+                "airQualityValue": 0.354,
+                "airDescription": "There is a slight haze or dust, which may make the color more red, but it will sacrifice some clarity."
+            }
+        },
+        "GFS": {
+            "sunrise": {
+                "locationName": "Darien",
+                "modelName": "GFS",
+                "eventType": "sunrise",
+                "date": "2025-07-31",
+                "localEventTime": "05:49",
+                "recommendLevel": 3,
+                "recommendPercentage": 40,
+                "recommendDescription": "The main cloud layer above you (starting at 1000hPa) is too low to be illuminated by the sun below the horizon.",
+                "qualityLevel": "5.4",
+                "qualityDescription": "For reference only when probability is below 70%.",
+                "airQuality": "Poor",
+                "airQualityValue": 0.442,
+                "airDescription": "There is obvious haze, the sky may appear gray and dark, stay at home plz."
+            },
+            "sunset": {
+                "locationName": "Darien",
+                "modelName": "GFS",
+                "eventType": "sunset",
+                "date": "2025-07-31",
+                "localEventTime": "20:10",
+                "recommendLevel": 3,
+                "recommendPercentage": 40,
+                "recommendDescription": "You are almost completely cloudy, the likelihood of seeing sunset is very low.",
+                "qualityLevel": "3.7",
+                "qualityDescription": "For reference only when probability is below 70%.",
+                "airQuality": "Medium",
+                "airQualityValue": 0.354,
+                "airDescription": "There is a slight haze or dust, which may make the color more red, but it will sacrifice some clarity."
+            }
+        }
+    },
+    "Cleveland": {
+        "ECMWF": {
+            "sunrise": {
+                "locationName": "Cleveland",
+                "modelName": "ECMWF",
+                "eventType": "sunrise",
+                "date": "2025-07-31",
+                "localEventTime": "06:20",
+                "recommendLevel": 3,
+                "recommendPercentage": 40,
+                "recommendDescription": "You are almost completely cloudy, the likelihood of seeing sunrise is very low.",
+                "qualityLevel": "4.8",
+                "qualityDescription": "For reference only when probability is below 70%.",
+                "airQuality": "Very Poor",
+                "airQualityValue": 0.709,
+                "airDescription": "Severe pollution or dust weather, almost impossible to see clear scenery."
+            },
+            "sunset": {
+                "locationName": "Cleveland",
+                "modelName": "ECMWF",
+                "eventType": "sunset",
+                "date": "2025-07-31",
+                "localEventTime": "20:44",
+                "recommendLevel": 3,
+                "recommendPercentage": 40,
+                "recommendDescription": "The main cloud layer above you (starting at 925hPa) is too low to be illuminated by the sun below the horizon.",
+                "qualityLevel": "4.6",
+                "qualityDescription": "For reference only when probability is below 70%.",
+                "airQuality": "Poor",
+                "airQualityValue": 0.589,
+                "airDescription": "There is obvious haze, the sky may appear gray and dark, stay at home plz."
+            }
+        },
+        "GFS": {
+            "sunrise": {
+                "locationName": "Cleveland",
+                "modelName": "GFS",
+                "eventType": "sunrise",
+                "date": "2025-07-31",
+                "localEventTime": "06:20",
+                "recommendLevel": 3,
+                "recommendPercentage": 40,
+                "recommendDescription": "You are almost completely cloudy, the likelihood of seeing sunrise is very low.",
+                "qualityLevel": "4.4",
+                "qualityDescription": "For reference only when probability is below 70%.",
+                "airQuality": "Very Poor",
+                "airQualityValue": 0.709,
+                "airDescription": "Severe pollution or dust weather, almost impossible to see clear scenery."
+            },
+            "sunset": {
+                "locationName": "Cleveland",
+                "modelName": "GFS",
+                "eventType": "sunset",
+                "date": "2025-07-31",
+                "localEventTime": "20:44",
+                "recommendLevel": 3,
+                "recommendPercentage": 40,
+                "recommendDescription": "You have some clouds, but they are not forming enough moist saturated clouds, making it difficult to be illuminated.",
+                "qualityLevel": "1.2",
+                "qualityDescription": "For reference only when probability is below 70%.",
+                "airQuality": "Poor",
+                "airQualityValue": 0.589,
+                "airDescription": "There is obvious haze, the sky may appear gray and dark, stay at home plz."
+            }
+        }
+    },
+    "Chicago": {
+        "ECMWF": {
+            "sunrise": {
+                "locationName": "Chicago",
+                "modelName": "ECMWF",
+                "eventType": "sunrise",
+                "date": "2025-07-31",
+                "localEventTime": "05:43",
+                "recommendLevel": 3,
+                "recommendPercentage": 40,
+                "recommendDescription": "The main cloud layer above you (starting at 1000hPa) is too low to be illuminated by the sun below the horizon.",
+                "qualityLevel": "4.9",
+                "qualityDescription": "For reference only when probability is below 70%.",
+                "airQuality": "Poor",
+                "airQualityValue": 0.689,
+                "airDescription": "There is obvious haze, the sky may appear gray and dark, stay at home plz."
+            },
+            "sunset": {
+                "locationName": "Chicago",
+                "modelName": "ECMWF",
+                "eventType": "sunset",
+                "date": "2025-07-31",
+                "localEventTime": "20:09",
+                "recommendLevel": 3,
+                "recommendPercentage": 40,
+                "recommendDescription": "The main cloud layer above you (starting at 850hPa) is too low to be illuminated by the sun below the horizon.",
+                "qualityLevel": "5.4",
+                "qualityDescription": "For reference only when probability is below 70%.",
+                "airQuality": "Poor",
+                "airQualityValue": 0.625,
+                "airDescription": "There is obvious haze, the sky may appear gray and dark, stay at home plz."
+            }
+        },
+        "GFS": {
+            "sunrise": {
+                "locationName": "Chicago",
+                "modelName": "GFS",
+                "eventType": "sunrise",
+                "date": "2025-07-31",
+                "localEventTime": "05:43",
+                "recommendLevel": 3,
+                "recommendPercentage": 40,
+                "recommendDescription": "You are almost completely cloudy, the likelihood of seeing sunrise is very low.",
+                "qualityLevel": "5.1",
+                "qualityDescription": "For reference only when probability is below 70%.",
+                "airQuality": "Poor",
+                "airQualityValue": 0.689,
+                "airDescription": "There is obvious haze, the sky may appear gray and dark, stay at home plz."
+            },
+            "sunset": {
+                "locationName": "Chicago",
+                "modelName": "GFS",
+                "eventType": "sunset",
+                "date": "2025-07-31",
+                "localEventTime": "20:09",
+                "recommendLevel": 3,
+                "recommendPercentage": 40,
+                "recommendDescription": "The main cloud layer above you (starting at 925hPa) is too low to be illuminated by the sun below the horizon.",
+                "qualityLevel": "7.1",
+                "qualityDescription": "For reference only when probability is below 70%.",
+                "airQuality": "Poor",
+                "airQualityValue": 0.625,
+                "airDescription": "There is obvious haze, the sky may appear gray and dark, stay at home plz."
+            }
+        }
+    },
+    "Madison": {
+        "ECMWF": {
+            "sunrise": {
+                "locationName": "Madison",
+                "modelName": "ECMWF",
+                "eventType": "sunrise",
+                "date": "2025-07-31",
+                "localEventTime": "05:47",
+                "recommendLevel": 3,
+                "recommendPercentage": 40,
+                "recommendDescription": "The main cloud layer above you (starting at 1000hPa) is too low to be illuminated by the sun below the horizon.",
+                "qualityLevel": "5.0",
+                "qualityDescription": "For reference only when probability is below 70%.",
+                "airQuality": "Very Poor",
+                "airQualityValue": 0.881,
+                "airDescription": "Severe pollution or dust weather, almost impossible to see clear scenery."
+            },
+            "sunset": {
+                "locationName": "Madison",
+                "modelName": "ECMWF",
+                "eventType": "sunset",
+                "date": "2025-07-31",
+                "localEventTime": "20:19",
+                "recommendLevel": 2,
+                "recommendPercentage": 25,
+                "recommendDescription": "Sky is clear, but the high aerosol content will make the horizon appear as a very strong deep red light band.",
+                "qualityLevel": "2.8",
+                "qualityDescription": "For reference only when probability is below 70%.",
+                "airQuality": "Poor",
+                "airQualityValue": 0.614,
+                "airDescription": "There is obvious haze, the sky may appear gray and dark, stay at home plz."
+            }
+        },
+        "GFS": {
+            "sunrise": {
+                "locationName": "Madison",
+                "modelName": "GFS",
+                "eventType": "sunrise",
+                "date": "2025-07-31",
+                "localEventTime": "05:47",
+                "recommendLevel": 3,
+                "recommendPercentage": 40,
+                "recommendDescription": "You are almost completely cloudy, the likelihood of seeing sunrise is very low.",
+                "qualityLevel": "5.0",
+                "qualityDescription": "For reference only when probability is below 70%.",
+                "airQuality": "Very Poor",
+                "airQualityValue": 0.881,
+                "airDescription": "Severe pollution or dust weather, almost impossible to see clear scenery."
+            },
+            "sunset": {
+                "locationName": "Madison",
+                "modelName": "GFS",
+                "eventType": "sunset",
+                "date": "2025-07-31",
+                "localEventTime": "20:19",
+                "recommendLevel": 5,
+                "recommendPercentage": 75,
+                "recommendDescription": "Conditions are good: There are suitable mid-high clouds as the 'stage', and the distant light path is clear. Strong wind shear helps form more visually appealing broken cloud formations.",
+                "qualityLevel": "1.7",
+                "qualityDescription": "Accurate when recommendation probability is above 70%.",
+                "airQuality": "Poor",
+                "airQualityValue": 0.614,
+                "airDescription": "There is obvious haze, the sky may appear gray and dark, stay at home plz."
+            }
+        }
+    },
+    "Zion National Park": {
+        "ECMWF": {
+            "sunrise": {
+                "locationName": "Zion National Park",
+                "modelName": "ECMWF",
+                "eventType": "sunrise",
+                "date": "2025-07-31",
+                "localEventTime": "06:36",
+                "recommendLevel": 1,
+                "recommendPercentage": 20,
+                "recommendDescription": "Sky is clear, expected normal light at the horizon.",
+                "qualityLevel": "1.9",
+                "qualityDescription": "For reference only when probability is below 70%.",
+                "airQuality": "Good",
+                "airQualityValue": 0.14,
+                "airDescription": "Atmospheric clarity, good visibility, suitable for watch。"
+            },
+            "sunset": {
+                "locationName": "Zion National Park",
+                "modelName": "ECMWF",
+                "eventType": "sunset",
+                "date": "2025-07-31",
+                "localEventTime": "20:40",
+                "recommendLevel": 1,
+                "recommendPercentage": 20,
+                "recommendDescription": "Sky is clear, expected normal light at the horizon.",
+                "qualityLevel": "1.6",
+                "qualityDescription": "For reference only when probability is below 70%.",
+                "airQuality": "Excellent",
+                "airQualityValue": 0.067,
+                "airDescription": "High atmospheric transparency, sky is pure, the color is expected to be very vivid。"
+            }
+        },
+        "GFS": {
+            "sunrise": {
+                "locationName": "Zion National Park",
+                "modelName": "GFS",
+                "eventType": "sunrise",
+                "date": "2025-07-31",
+                "localEventTime": "06:36",
+                "recommendLevel": 1,
+                "recommendPercentage": 20,
+                "recommendDescription": "Sky is clear, expected normal light at the horizon.",
+                "qualityLevel": "3.3",
+                "qualityDescription": "For reference only when probability is below 70%.",
+                "airQuality": "Good",
+                "airQualityValue": 0.14,
+                "airDescription": "Atmospheric clarity, good visibility, suitable for watch。"
+            },
+            "sunset": {
+                "locationName": "Zion National Park",
+                "modelName": "GFS",
+                "eventType": "sunset",
+                "date": "2025-07-31",
+                "localEventTime": "20:40",
+                "recommendLevel": 1,
+                "recommendPercentage": 20,
+                "recommendDescription": "Sky is clear, expected normal light at the horizon.",
+                "qualityLevel": "2.7",
+                "qualityDescription": "For reference only when probability is below 70%.",
+                "airQuality": "Excellent",
+                "airQualityValue": 0.067,
+                "airDescription": "High atmospheric transparency, sky is pure, the color is expected to be very vivid。"
+            }
+        }
+    },
+    "Monument Valley": {
+        "ECMWF": {
+            "sunrise": {
+                "locationName": "Monument Valley",
+                "modelName": "ECMWF",
+                "eventType": "sunrise",
+                "date": "2025-07-31",
+                "localEventTime": "06:25",
+                "recommendLevel": 1,
+                "recommendPercentage": 20,
+                "recommendDescription": "Sky is clear, expected normal light at the horizon.",
+                "qualityLevel": "1.5",
+                "qualityDescription": "For reference only when probability is below 70%.",
+                "airQuality": "Good",
+                "airQualityValue": 0.178,
+                "airDescription": "Atmospheric clarity, good visibility, suitable for watch。"
+            },
+            "sunset": {
+                "locationName": "Monument Valley",
+                "modelName": "ECMWF",
+                "eventType": "sunset",
+                "date": "2025-07-31",
+                "localEventTime": "20:27",
+                "recommendLevel": 6,
+                "recommendPercentage": 90,
+                "recommendDescription": "Conditions are good: There are suitable mid-high clouds as the 'stage', and the distant light path is clear. Strong wind shear helps form more visually appealing broken cloud formations. Excellent atmospheric transparency, very likely to produce vivid colors!",
+                "qualityLevel": "4.9",
+                "qualityDescription": "Accurate when recommendation probability is above 70%.",
+                "airQuality": "Good",
+                "airQualityValue": 0.184,
+                "airDescription": "Atmospheric clarity, good visibility, suitable for watch。"
+            }
+        },
+        "GFS": {
+            "sunrise": {
+                "locationName": "Monument Valley",
+                "modelName": "GFS",
+                "eventType": "sunrise",
+                "date": "2025-07-31",
+                "localEventTime": "06:25",
+                "recommendLevel": 3,
+                "recommendPercentage": 40,
+                "recommendDescription": "You are almost completely cloudy, the likelihood of seeing sunrise is very low.",
+                "qualityLevel": "5.3",
+                "qualityDescription": "For reference only when probability is below 70%.",
+                "airQuality": "Good",
+                "airQualityValue": 0.178,
+                "airDescription": "Atmospheric clarity, good visibility, suitable for watch。"
+            },
+            "sunset": {
+                "locationName": "Monument Valley",
+                "modelName": "GFS",
+                "eventType": "sunset",
+                "date": "2025-07-31",
+                "localEventTime": "20:27",
+                "recommendLevel": 3,
+                "recommendPercentage": 40,
+                "recommendDescription": "You are almost completely cloudy, the likelihood of seeing sunset is very low.",
+                "qualityLevel": "5.8",
+                "qualityDescription": "For reference only when probability is below 70%.",
+                "airQuality": "Good",
+                "airQualityValue": 0.184,
+                "airDescription": "Atmospheric clarity, good visibility, suitable for watch。"
+            }
+        }
+    },
+    "Lake Tahoe": {
+        "ECMWF": {
+            "sunrise": {
+                "locationName": "Lake Tahoe",
+                "modelName": "ECMWF",
+                "eventType": "sunrise",
+                "date": "2025-07-31",
+                "localEventTime": "06:00",
+                "recommendLevel": 1,
+                "recommendPercentage": 20,
+                "recommendDescription": "Sky is clear, expected normal light at the horizon.",
+                "qualityLevel": "1.7",
+                "qualityDescription": "For reference only when probability is below 70%.",
+                "airQuality": "Excellent",
+                "airQualityValue": 0.08,
+                "airDescription": "High atmospheric transparency, sky is pure, the color is expected to be very vivid。"
+            },
+            "sunset": {
+                "locationName": "Lake Tahoe",
+                "modelName": "ECMWF",
+                "eventType": "sunset",
+                "date": "2025-07-31",
+                "localEventTime": "20:12",
+                "recommendLevel": 1,
+                "recommendPercentage": 20,
+                "recommendDescription": "Sky is clear, expected normal light at the horizon.",
+                "qualityLevel": "1.4",
+                "qualityDescription": "For reference only when probability is below 70%.",
+                "airQuality": "Excellent",
+                "airQualityValue": 0.071,
+                "airDescription": "High atmospheric transparency, sky is pure, the color is expected to be very vivid。"
+            }
+        },
+        "GFS": {
+            "sunrise": {
+                "locationName": "Lake Tahoe",
+                "modelName": "GFS",
+                "eventType": "sunrise",
+                "date": "2025-07-31",
+                "localEventTime": "06:00",
+                "recommendLevel": 1,
+                "recommendPercentage": 20,
+                "recommendDescription": "Sky is clear, expected normal light at the horizon.",
+                "qualityLevel": "1.7",
+                "qualityDescription": "For reference only when probability is below 70%.",
+                "airQuality": "Excellent",
+                "airQualityValue": 0.08,
+                "airDescription": "High atmospheric transparency, sky is pure, the color is expected to be very vivid。"
+            },
+            "sunset": {
+                "locationName": "Lake Tahoe",
+                "modelName": "GFS",
+                "eventType": "sunset",
+                "date": "2025-07-31",
+                "localEventTime": "20:12",
+                "recommendLevel": 1,
+                "recommendPercentage": 20,
+                "recommendDescription": "Sky is clear, expected normal light at the horizon.",
+                "qualityLevel": "1.3",
+                "qualityDescription": "For reference only when probability is below 70%.",
+                "airQuality": "Excellent",
+                "airQualityValue": 0.071,
+                "airDescription": "High atmospheric transparency, sky is pure, the color is expected to be very vivid。"
+            }
+        }
+    },
+    "Mt. Whitney": {
+        "ECMWF": {
+            "sunrise": {
+                "locationName": "Mt. Whitney",
+                "modelName": "ECMWF",
+                "eventType": "sunrise",
+                "date": "2025-07-31",
+                "localEventTime": "05:58",
+                "recommendLevel": 1,
+                "recommendPercentage": 20,
+                "recommendDescription": "Sky is clear, expected normal light at the horizon.",
+                "qualityLevel": "1.6",
+                "qualityDescription": "For reference only when probability is below 70%.",
+                "airQuality": "Excellent",
+                "airQualityValue": 0.069,
+                "airDescription": "High atmospheric transparency, sky is pure, the color is expected to be very vivid。"
+            },
+            "sunset": {
+                "locationName": "Mt. Whitney",
+                "modelName": "ECMWF",
+                "eventType": "sunset",
+                "date": "2025-07-31",
+                "localEventTime": "19:59",
+                "recommendLevel": 1,
+                "recommendPercentage": 20,
+                "recommendDescription": "Sky is clear, expected normal light at the horizon.",
+                "qualityLevel": "1.0",
+                "qualityDescription": "For reference only when probability is below 70%.",
+                "airQuality": "Excellent",
+                "airQualityValue": 0.071,
+                "airDescription": "High atmospheric transparency, sky is pure, the color is expected to be very vivid。"
+            }
+        },
+        "GFS": {
+            "sunrise": {
+                "locationName": "Mt. Whitney",
+                "modelName": "GFS",
+                "eventType": "sunrise",
+                "date": "2025-07-31",
+                "localEventTime": "05:58",
+                "recommendLevel": 1,
+                "recommendPercentage": 20,
+                "recommendDescription": "Sky is clear, expected normal light at the horizon.",
+                "qualityLevel": "1.6",
+                "qualityDescription": "For reference only when probability is below 70%.",
+                "airQuality": "Excellent",
+                "airQualityValue": 0.069,
+                "airDescription": "High atmospheric transparency, sky is pure, the color is expected to be very vivid。"
+            },
+            "sunset": {
+                "locationName": "Mt. Whitney",
+                "modelName": "GFS",
+                "eventType": "sunset",
+                "date": "2025-07-31",
+                "localEventTime": "19:59",
+                "recommendLevel": 1,
+                "recommendPercentage": 20,
+                "recommendDescription": "Sky is clear, expected normal light at the horizon.",
+                "qualityLevel": "1.1",
+                "qualityDescription": "For reference only when probability is below 70%.",
+                "airQuality": "Excellent",
+                "airQualityValue": 0.071,
+                "airDescription": "High atmospheric transparency, sky is pure, the color is expected to be very vivid。"
+            }
+        }
+    },
+    "Houston": {
+        "ECMWF": {
+            "sunrise": {
+                "locationName": "Houston",
+                "modelName": "ECMWF",
+                "eventType": "sunrise",
+                "date": "2025-07-31",
+                "localEventTime": "06:40",
+                "recommendLevel": 3,
+                "recommendPercentage": 40,
+                "recommendDescription": "The main cloud layer above you (starting at 1000hPa) is too low to be illuminated by the sun below the horizon.",
+                "qualityLevel": "4.3",
+                "qualityDescription": "For reference only when probability is below 70%.",
+                "airQuality": "Medium",
+                "airQualityValue": 0.395,
+                "airDescription": "There is a slight haze or dust, which may make the color more red, but it will sacrifice some clarity."
+            },
+            "sunset": {
+                "locationName": "Houston",
+                "modelName": "ECMWF",
+                "eventType": "sunset",
+                "date": "2025-07-31",
+                "localEventTime": "20:14",
+                "recommendLevel": 3,
+                "recommendPercentage": 40,
+                "recommendDescription": "The main cloud layer above you (starting at 1000hPa) is too low to be illuminated by the sun below the horizon.",
+                "qualityLevel": "6.7",
+                "qualityDescription": "For reference only when probability is below 70%.",
+                "airQuality": "Good",
+                "airQualityValue": 0.179,
+                "airDescription": "Atmospheric clarity, good visibility, suitable for watch。"
+            }
+        },
+        "GFS": {
+            "sunrise": {
+                "locationName": "Houston",
+                "modelName": "GFS",
+                "eventType": "sunrise",
+                "date": "2025-07-31",
+                "localEventTime": "06:40",
+                "recommendLevel": 3,
+                "recommendPercentage": 40,
+                "recommendDescription": "You are almost completely cloudy, the likelihood of seeing sunrise is very low.",
+                "qualityLevel": "4.9",
+                "qualityDescription": "For reference only when probability is below 70%.",
+                "airQuality": "Medium",
+                "airQualityValue": 0.395,
+                "airDescription": "There is a slight haze or dust, which may make the color more red, but it will sacrifice some clarity."
+            },
+            "sunset": {
+                "locationName": "Houston",
+                "modelName": "GFS",
+                "eventType": "sunset",
+                "date": "2025-07-31",
+                "localEventTime": "20:14",
+                "recommendLevel": 6,
+                "recommendPercentage": 90,
+                "recommendDescription": "Conditions are good: There are suitable mid-high clouds as the 'stage', and the distant light path is clear. Strong wind shear helps form more visually appealing broken cloud formations. Excellent atmospheric transparency, very likely to produce vivid colors!",
+                "qualityLevel": "5.8",
+                "qualityDescription": "Accurate when recommendation probability is above 70%.",
+                "airQuality": "Good",
+                "airQualityValue": 0.179,
+                "airDescription": "Atmospheric clarity, good visibility, suitable for watch。"
+            }
+        }
+    },
+    "Death Valley": {
+        "ECMWF": {
+            "sunrise": {
+                "locationName": "Death Valley",
+                "modelName": "ECMWF",
+                "eventType": "sunrise",
+                "date": "2025-07-31",
+                "localEventTime": "05:53",
+                "recommendLevel": 1,
+                "recommendPercentage": 20,
+                "recommendDescription": "Sky is clear, expected normal light at the horizon.",
+                "qualityLevel": "1.6",
+                "qualityDescription": "For reference only when probability is below 70%.",
+                "airQuality": "Excellent",
+                "airQualityValue": 0.056,
+                "airDescription": "High atmospheric transparency, sky is pure, the color is expected to be very vivid。"
+            },
+            "sunset": {
+                "locationName": "Death Valley",
+                "modelName": "ECMWF",
+                "eventType": "sunset",
+                "date": "2025-07-31",
+                "localEventTime": "19:53",
+                "recommendLevel": 1,
+                "recommendPercentage": 20,
+                "recommendDescription": "Sky is clear, expected normal light at the horizon.",
+                "qualityLevel": "1.6",
+                "qualityDescription": "For reference only when probability is below 70%.",
+                "airQuality": "Excellent",
+                "airQualityValue": 0.066,
+                "airDescription": "High atmospheric transparency, sky is pure, the color is expected to be very vivid。"
+            }
+        },
+        "GFS": {
+            "sunrise": {
+                "locationName": "Death Valley",
+                "modelName": "GFS",
+                "eventType": "sunrise",
+                "date": "2025-07-31",
+                "localEventTime": "05:53",
+                "recommendLevel": 1,
+                "recommendPercentage": 20,
+                "recommendDescription": "Sky is clear, expected normal light at the horizon.",
+                "qualityLevel": "1.6",
+                "qualityDescription": "For reference only when probability is below 70%.",
+                "airQuality": "Excellent",
+                "airQualityValue": 0.056,
+                "airDescription": "High atmospheric transparency, sky is pure, the color is expected to be very vivid。"
+            },
+            "sunset": {
+                "locationName": "Death Valley",
+                "modelName": "GFS",
+                "eventType": "sunset",
+                "date": "2025-07-31",
+                "localEventTime": "19:53",
+                "recommendLevel": 1,
+                "recommendPercentage": 20,
+                "recommendDescription": "Sky is clear, expected normal light at the horizon.",
+                "qualityLevel": "1.6",
+                "qualityDescription": "For reference only when probability is below 70%.",
+                "airQuality": "Excellent",
+                "airQualityValue": 0.066,
+                "airDescription": "High atmospheric transparency, sky is pure, the color is expected to be very vivid。"
+            }
+        }
+    },
+    "Los Angeles": {
+        "ECMWF": {
+            "sunrise": {
+                "locationName": "Los Angeles",
+                "modelName": "ECMWF",
+                "eventType": "sunrise",
+                "date": "2025-07-31",
+                "localEventTime": "06:03",
+                "recommendLevel": 3,
+                "recommendPercentage": 40,
+                "recommendDescription": "The main cloud layer above you (starting at 1000hPa) is too low to be illuminated by the sun below the horizon.",
+                "qualityLevel": "4.4",
+                "qualityDescription": "For reference only when probability is below 70%.",
+                "airQuality": "Excellent",
+                "airQualityValue": 0.071,
+                "airDescription": "High atmospheric transparency, sky is pure, the color is expected to be very vivid。"
+            },
+            "sunset": {
+                "locationName": "Los Angeles",
+                "modelName": "ECMWF",
+                "eventType": "sunset",
+                "date": "2025-07-31",
+                "localEventTime": "19:54",
+                "recommendLevel": 1,
+                "recommendPercentage": 20,
+                "recommendDescription": "Sky is clear, expected normal light at the horizon.",
+                "qualityLevel": "1.3",
+                "qualityDescription": "For reference only when probability is below 70%.",
+                "airQuality": "Excellent",
+                "airQualityValue": 0.082,
+                "airDescription": "High atmospheric transparency, sky is pure, the color is expected to be very vivid。"
+            }
+        },
+        "GFS": {
+            "sunrise": {
+                "locationName": "Los Angeles",
+                "modelName": "GFS",
+                "eventType": "sunrise",
+                "date": "2025-07-31",
+                "localEventTime": "06:03",
+                "recommendLevel": 3,
+                "recommendPercentage": 40,
+                "recommendDescription": "The main cloud layer above you (starting at 1000hPa) is too low to be illuminated by the sun below the horizon.",
+                "qualityLevel": "4.3",
+                "qualityDescription": "For reference only when probability is below 70%.",
+                "airQuality": "Excellent",
+                "airQualityValue": 0.071,
+                "airDescription": "High atmospheric transparency, sky is pure, the color is expected to be very vivid。"
+            },
+            "sunset": {
+                "locationName": "Los Angeles",
+                "modelName": "GFS",
+                "eventType": "sunset",
+                "date": "2025-07-31",
+                "localEventTime": "19:54",
+                "recommendLevel": 1,
+                "recommendPercentage": 20,
+                "recommendDescription": "Sky is clear, expected normal light at the horizon.",
+                "qualityLevel": "1.0",
+                "qualityDescription": "For reference only when probability is below 70%.",
+                "airQuality": "Excellent",
+                "airQualityValue": 0.082,
+                "airDescription": "High atmospheric transparency, sky is pure, the color is expected to be very vivid。"
+            }
+        }
+    },
+    "San Francisco": {
+        "ECMWF": {
+            "sunrise": {
+                "locationName": "San Francisco",
+                "modelName": "ECMWF",
+                "eventType": "sunrise",
+                "date": "2025-07-31",
+                "localEventTime": "06:12",
+                "recommendLevel": 3,
+                "recommendPercentage": 40,
+                "recommendDescription": "The main cloud layer above you (starting at 1000hPa) is too low to be illuminated by the sun below the horizon.",
+                "qualityLevel": "5.0",
+                "qualityDescription": "For reference only when probability is below 70%.",
+                "airQuality": "Excellent",
+                "airQualityValue": 0.081,
+                "airDescription": "High atmospheric transparency, sky is pure, the color is expected to be very vivid。"
+            },
+            "sunset": {
+                "locationName": "San Francisco",
+                "modelName": "ECMWF",
+                "eventType": "sunset",
+                "date": "2025-07-31",
+                "localEventTime": "20:18",
+                "recommendLevel": 3,
+                "recommendPercentage": 40,
+                "recommendDescription": "The main cloud layer above you (starting at 1000hPa) is too low to be illuminated by the sun below the horizon.",
+                "qualityLevel": "3.7",
+                "qualityDescription": "For reference only when probability is below 70%.",
+                "airQuality": "Excellent",
+                "airQualityValue": 0.078,
+                "airDescription": "High atmospheric transparency, sky is pure, the color is expected to be very vivid。"
+            }
+        },
+        "GFS": {
+            "sunrise": {
+                "locationName": "San Francisco",
+                "modelName": "GFS",
+                "eventType": "sunrise",
+                "date": "2025-07-31",
+                "localEventTime": "06:12",
+                "recommendLevel": 3,
+                "recommendPercentage": 40,
+                "recommendDescription": "The main cloud layer above you (starting at 1000hPa) is too low to be illuminated by the sun below the horizon.",
+                "qualityLevel": "4.7",
+                "qualityDescription": "For reference only when probability is below 70%.",
+                "airQuality": "Excellent",
+                "airQualityValue": 0.081,
+                "airDescription": "High atmospheric transparency, sky is pure, the color is expected to be very vivid。"
+            },
+            "sunset": {
+                "locationName": "San Francisco",
+                "modelName": "GFS",
+                "eventType": "sunset",
+                "date": "2025-07-31",
+                "localEventTime": "20:18",
+                "recommendLevel": 3,
+                "recommendPercentage": 40,
+                "recommendDescription": "The main cloud layer above you (starting at 1000hPa) is too low to be illuminated by the sun below the horizon.",
+                "qualityLevel": "4.5",
+                "qualityDescription": "For reference only when probability is below 70%.",
+                "airQuality": "Excellent",
+                "airQualityValue": 0.078,
+                "airDescription": "High atmospheric transparency, sky is pure, the color is expected to be very vivid。"
+            }
+        }
+    }
+}
