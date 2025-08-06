@@ -8,6 +8,7 @@ run_daily_predictions.py
 config/
 *.json
 !public/data/*.json
+!data/*.json
 
 # 数据文件
 data_archive/

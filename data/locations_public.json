@@ -1,0 +1,754 @@
+{
+  "locations": [
+    {
+      "key": "mount_tamalpais_ca",
+      "display_name": "Mt. Tamalpais, CA",
+      "region": "Northern California",
+      "category": "West Coast Marine",
+      "description": "Iconic Bay Area mountain offering spectacular Pacific marine layer views",
+      "geography": {
+        "elevation_range": "0 - 784 meters",
+        "best_viewing_elevation": "400 - 600 meters",
+        "terrain_type": "Coastal Mountain",
+        "access_difficulty": "Easy to Moderate"
+      },
+      "viewing_info": {
+        "cloud_formation_zone": "Sea level to 400m",
+        "best_viewing_position": "Above the marine layer",
+        "typical_cloud_thickness": "200 - 400 meters",
+        "visibility_range": "San Francisco Bay to Pacific Ocean"
+      },
+      "seasonal_patterns": {
+        "peak_season": "June-September",
+        "peak_months": ["June", "July", "August", "September"],
+        "formation_type": "Marine Layer Fog",
+        "best_conditions": "Summer morning inversions",
+        "moisture_source": "Pacific Ocean"
+      },
+      "visiting_tips": {
+        "best_time": "Early morning (5:00 AM - 8:00 AM)",
+        "access_routes": "West Peak Trail, Fire Roads",
+        "parking": "Mountain Home Inn, West Peak parking",
+        "equipment": "Warm clothing, camera with telephoto lens",
+        "viewing_instructions": {
+          "to_see_clouds": {
+            "position": "West Peak Summit (2,571 ft / 784m)",
+            "direction": "Look EAST toward San Francisco Bay and SOUTH toward San Francisco",
+            "description": "Stand on the summit rocks facing east. The marine layer typically fills the valleys below, creating a white sea with San Francisco's skyline emerging like islands.",
+            "best_vantage": "West Peak Fire Road viewpoint at 2,400 ft offers broader panoramic views",
+            "landmarks": "Golden Gate Bridge towers and SF skyscrapers visible above clouds"
+          },
+          "to_be_in_clouds": {
+            "position": "Rock Spring Trail at 1,000-1,500 ft elevation",
+            "experience": "Hike the Cataract Falls trail starting from Alpine Lake",
+            "description": "Enter the fog layer along Rock Spring Trail. The redwood and oak forest becomes mystical with visibility reduced to 20-50 feet.",
+            "immersion_spots": [
+              "Cataract Falls viewing area (1,200 ft)",
+              "Alpine Lake shoreline (644 ft)",
+              "Potrero Meadow (1,000 ft)"
+            ],
+            "fog_thickness": "Typically 200-400 feet thick, so hiking up 200ft will bring you above it"
+          },
+          "photography_tips": {
+            "sunrise_spot": "West Peak - arrive 30 min before sunrise",
+            "sunset_spot": "East Peak for backlit fog effects",
+            "equipment": "Wide-angle lens for expansive views, telephoto for city details emerging from fog"
+          }
+        }
+      }
+    },
+    {
+      "key": "mt_hood_valleys_or",
+      "display_name": "Mt. Hood, OR",
+      "region": "Oregon Cascades",
+      "category": "West Coast Marine",
+      "description": "Majestic volcanic peak with frequent cloud inversions in surrounding valleys",
+      "geography": {
+        "elevation_range": "550 - 3,429 meters",
+        "best_viewing_elevation": "1,200 - 2,000 meters",
+        "terrain_type": "Volcanic Mountain",
+        "access_difficulty": "Moderate to Difficult"
+      },
+      "viewing_info": {
+        "cloud_formation_zone": "Valley floors to 1,000m",
+        "best_viewing_position": "Mid-elevation viewpoints",
+        "typical_cloud_thickness": "300 - 600 meters",
+        "visibility_range": "Hood River Valley, Government Camp area"
+      },
+      "seasonal_patterns": {
+        "peak_season": "October-March",
+        "peak_months": ["October", "November", "December", "January", "February", "March"],
+        "formation_type": "Regional Inversion",
+        "best_conditions": "Winter high pressure systems",
+        "moisture_source": "Columbia River Gorge"
+      },
+      "visiting_tips": {
+        "best_time": "Dawn to mid-morning",
+        "access_routes": "Timberline Lodge Road, Mirror Lake Trail",
+        "parking": "Government Camp, Timberline Lodge",
+        "equipment": "Winter gear, crampons (seasonal)",
+        "viewing_instructions": {
+          "to_see_clouds": {
+            "position": "Timberline Lodge (6,000 ft / 1,829m) and Palmer Chairlift (8,500 ft / 2,591m)",
+            "direction": "Look SOUTH and WEST into Hood River Valley and Government Camp basin",
+            "description": "Stand at Timberline Lodge deck or ride Palmer Chairlift for elevated views. Winter inversions fill valleys with dramatic white ocean while Mt. Hood summit towers above.",
+            "best_vantage": "Palmer Chairlift mid-station offers spectacular 360-degree views above the cloud layer",
+            "landmarks": "Government Camp, Ski Bowl, and Hood River Valley completely filled with clouds below"
+          },
+          "to_be_in_clouds": {
+            "position": "Government Camp area (3,900 ft / 1,189m) and lower valley roads",
+            "experience": "Drive down from Timberline to Government Camp during active inversion",
+            "description": "Experience complete fog immersion at Government Camp level. Dense clouds create zero visibility with mysterious forest atmosphere.",
+            "immersion_spots": [
+              "Government Camp village (3,900 ft)",
+              "Mirror Lake trailhead (4,000 ft)",
+              "Tom Dick and Harry Mountain base (4,200 ft)"
+            ],
+            "fog_thickness": "Typically 500-1,000 feet thick, extending from 3,500 to 4,500 ft elevation"
+          },
+          "photography_tips": {
+            "sunrise_spot": "Timberline Lodge - dramatic side-lighting on cloud tops",
+            "sunset_spot": "Palmer Chairlift for golden hour cloud illumination",
+            "equipment": "Wide-angle for mountain-cloud contrast, telephoto for compressed valley views"
+          }
+        }
+      }
+    },
+    {
+      "key": "mt_rainier_valleys_wa",
+      "display_name": "Mt. Rainier, WA",
+      "region": "Washington Cascades",
+      "category": "West Coast Marine",
+      "description": "The most glaciated peak in the contiguous US, famous for valley fog formations",
+      "geography": {
+        "elevation_range": "767 - 4,392 meters",
+        "best_viewing_elevation": "1,500 - 2,500 meters",
+        "terrain_type": "Glaciated Volcanic Mountain",
+        "access_difficulty": "Moderate to Difficult"
+      },
+      "viewing_info": {
+        "cloud_formation_zone": "Valley floors to 1,200m",
+        "best_viewing_position": "Paradise, Sunrise viewpoints",
+        "typical_cloud_thickness": "400 - 800 meters",
+        "visibility_range": "Nisqually, White River valleys"
+      },
+      "seasonal_patterns": {
+        "peak_season": "October-March",
+        "peak_months": ["October", "November", "December", "January", "February", "March"],
+        "formation_type": "Regional Inversion",
+        "best_conditions": "Winter inversions with clear skies",
+        "moisture_source": "Puget Sound"
+      },
+      "visiting_tips": {
+        "best_time": "Early morning (6:00 AM - 9:00 AM)",
+        "access_routes": "Paradise Road, Sunrise Road (seasonal)",
+        "parking": "Paradise Visitor Center, Sunrise",
+        "equipment": "Winter clothing, snowshoes/chains (winter)",
+        "viewing_instructions": {
+          "to_see_clouds": {
+            "position": "Paradise Visitor Center (5,400 ft / 1,646m) and Sunrise Point (6,400 ft / 1,951m)",
+            "direction": "Look NORTH and EAST into Nisqually, Paradise, and White River valleys",
+            "description": "Stand on Paradise or Sunrise viewpoints looking down into the valleys. Winter inversions create a dramatic white ocean filling valleys with mountain peaks emerging as islands.",
+            "best_vantage": "Sunrise Point offers the most expansive views of multiple valley systems",
+            "landmarks": "Little Tahoma, Goat Island Mountain, and Cowlitz Chimneys rising above the cloud layer"
+          },
+          "to_be_in_clouds": {
+            "position": "Valley floors: Nisqually entrance (2,000 ft) and White River campground (4,200 ft)",
+            "experience": "Drive down into valleys early morning when inversion is active",
+            "description": "Experience complete fog immersion in valley floors. Visibility drops to 50-100 feet with ethereal forest atmosphere.",
+            "immersion_spots": [
+              "Longmire area (2,761 ft)",
+              "Cougar Rock Campground (3,180 ft)",
+              "White River Campground (4,200 ft)"
+            ],
+            "fog_thickness": "Can extend 1,000-2,000 feet vertically, often reaching up to Paradise level"
+          },
+          "photography_tips": {
+            "sunrise_spot": "Sunrise Point - best for dramatic lighting on cloud tops",
+            "sunset_spot": "Paradise Point for western valley views",
+            "equipment": "Telephoto lens for compressed perspective, wide-angle for mountain-cloud contrast"
+          }
+        }
+      }
+    },
+    {
+      "key": "crater_lake_or",
+      "display_name": "Crater Lake, OR",
+      "region": "Oregon Cascades",
+      "category": "High Elevation Lake",
+      "description": "Deep caldera lake creating unique thermal fog patterns",
+      "geography": {
+        "elevation_range": "1,857 - 2,388 meters",
+        "best_viewing_elevation": "2,100 - 2,400 meters",
+        "terrain_type": "Volcanic Caldera",
+        "access_difficulty": "Easy to Moderate"
+      },
+      "viewing_info": {
+        "cloud_formation_zone": "Lake surface to rim level",
+        "best_viewing_position": "Crater rim viewpoints",
+        "typical_cloud_thickness": "100 - 300 meters",
+        "visibility_range": "Crater Lake interior"
+      },
+      "seasonal_patterns": {
+        "peak_season": "September-November",
+        "peak_months": ["September", "October", "November"],
+        "formation_type": "Lake Effect Fog",
+        "best_conditions": "Cool autumn mornings",
+        "moisture_source": "Crater Lake"
+      },
+      "visiting_tips": {
+        "best_time": "Dawn hours",
+        "access_routes": "Rim Drive (seasonal)",
+        "parking": "Rim Village, Steel Visitor Center",
+        "equipment": "Warm layers, wind protection",
+        "viewing_instructions": {
+          "to_see_clouds": {
+            "position": "Crater Rim overlooks at Rim Village (7,100 ft / 2,164m) and Watchman Peak (8,013 ft / 2,442m)",
+            "direction": "Look DOWN into Crater Lake caldera and ACROSS the lake surface",
+            "description": "Stand on caldera rim looking down into the crater. Lake effect fog forms over the deep blue water, creating ethereal mist layers that rise and fall with temperature changes.",
+            "best_vantage": "Watchman Peak offers the highest vantage point for observing fog patterns across the entire lake",
+            "landmarks": "Wizard Island emerging through fog, Phantom Ship rock formation, crater walls"
+          },
+          "to_be_in_clouds": {
+            "position": "Boat tour level at lake surface (6,178 ft / 1,883m)",
+            "experience": "Take the boat tour during foggy conditions (seasonal access only)",
+            "description": "Experience being completely enveloped in lake-generated fog at water level. Visibility can drop to just a few boat lengths with mystical atmosphere.",
+            "immersion_spots": [
+              "Cleetwood Cove boat dock (6,178 ft)",
+              "Wizard Island landing (6,178 ft)",
+              "Lake surface during boat tour"
+            ],
+            "fog_thickness": "Typically 100-300 feet thick, confined within the crater caldera"
+          },
+          "photography_tips": {
+            "sunrise_spot": "Watchman Peak - dramatic lighting on fog over deep blue water",
+            "sunset_spot": "Rim Village - golden light illuminating crater walls and fog",
+            "equipment": "Polarizing filter for water clarity, telephoto for Wizard Island details through fog"
+          }
+        }
+      }
+    },
+    {
+      "key": "yosemite_valley_ca",
+      "display_name": "Yosemite Valley, CA",
+      "region": "California Sierra Nevada",
+      "category": "Valley Cold Pool",
+      "description": "Iconic granite valley with dramatic radiation fog formations",
+      "geography": {
+        "elevation_range": "1,213 - 2,372 meters",
+        "best_viewing_elevation": "1,500 - 2,000 meters",
+        "terrain_type": "Granite Valley",
+        "access_difficulty": "Easy to Difficult"
+      },
+      "viewing_info": {
+        "cloud_formation_zone": "Valley floor to mid-elevation",
+        "best_viewing_position": "Tunnel View, Glacier Point",
+        "typical_cloud_thickness": "200 - 500 meters",
+        "visibility_range": "Yosemite Valley floor"
+      },
+      "seasonal_patterns": {
+        "peak_season": "November-February",
+        "peak_months": ["November", "December", "January", "February"],
+        "formation_type": "Valley Radiation Fog",
+        "best_conditions": "Clear winter nights with calm winds",
+        "moisture_source": "Merced River, valley moisture"
+      },
+      "visiting_tips": {
+        "best_time": "Sunrise hours (6:00 AM - 8:00 AM)",
+        "access_routes": "Tunnel View, Glacier Point Road",
+        "parking": "Tunnel View pullout, Glacier Point",
+        "equipment": "Winter gear, early arrival recommended",
+        "viewing_instructions": {
+          "to_see_clouds": {
+            "position": "Tunnel View (4,200 ft / 1,280m) and Glacier Point (7,214 ft / 2,199m)",
+            "direction": "Look EAST into Yosemite Valley from elevated viewpoints",
+            "description": "Stand at Tunnel View or Glacier Point looking down into the valley. Winter radiation fog fills the valley floor like a white river, with El Capitan and Half Dome rising as granite islands.",
+            "best_vantage": "Glacier Point offers the most dramatic elevated perspective of fog-filled valley",
+            "landmarks": "El Capitan, Half Dome, Bridalveil Fall, Cathedral Rocks emerging above fog layer"
+          },
+          "to_be_in_clouds": {
+            "position": "Valley floor at Swinging Bridge and Yosemite Village (4,000 ft / 1,219m)",
+            "experience": "Walk or drive on valley floor during early morning fog formation",
+            "description": "Experience mystical atmosphere on valley floor with towering granite walls disappearing into thick fog. Visibility reduced to 50-100 feet with cathedral-like silence.",
+            "immersion_spots": [
+              "Swinging Bridge (4,000 ft)",
+              "Yosemite Village (4,035 ft)",
+              "Valley View (3,967 ft)",
+              "Merced River banks"
+            ],
+            "fog_thickness": "Typically 200-500 feet thick, filling the valley from floor to mid-wall height"
+          },
+          "photography_tips": {
+            "sunrise_spot": "Tunnel View - iconic composition with fog flowing around El Capitan",
+            "sunset_spot": "Glacier Point for golden light on Half Dome above fog",
+            "equipment": "Graduated neutral density filters for high contrast, wide-angle for valley perspectives"
+          }
+        }
+      }
+    },
+    {
+      "key": "redwood_national_park_ca",
+      "display_name": "Redwood National Park, CA",
+      "region": "Northern California Coast",
+      "category": "West Coast Marine",
+      "description": "Ancient redwood forests shrouded in Pacific marine layer fog",
+      "geography": {
+        "elevation_range": "0 - 1,085 meters",
+        "best_viewing_elevation": "200 - 600 meters",
+        "terrain_type": "Coastal Forest",
+        "access_difficulty": "Easy to Moderate"
+      },
+      "viewing_info": {
+        "cloud_formation_zone": "Coast to 500m elevation",
+        "best_viewing_position": "Coastal bluffs, forest canopy level",
+        "typical_cloud_thickness": "300 - 600 meters",
+        "visibility_range": "Pacific Coast, redwood canopy"
+      },
+      "seasonal_patterns": {
+        "peak_season": "May-September",
+        "peak_months": ["May", "June", "July", "August", "September"],
+        "formation_type": "Marine Layer Fog",
+        "best_conditions": "Summer marine inversions",
+        "moisture_source": "Pacific Ocean"
+      },
+      "visiting_tips": {
+        "best_time": "Early morning (5:00 AM - 9:00 AM)",
+        "access_routes": "Coastal Drive, Lady Bird Johnson Grove",
+        "parking": "Visitor centers, designated pullouts",
+        "equipment": "Moisture-resistant gear, wide-angle lens",
+        "viewing_instructions": {
+          "to_see_clouds": {
+            "position": "Coastal bluffs and Prairie Creek overlooks (200-600 ft / 61-183m)",
+            "direction": "Look WEST toward Pacific Ocean and EAST into redwood groves",
+            "description": "Stand on coastal bluffs watching marine layer roll inland over ancient redwood canopy. The fog creates dramatic layers between tree tops and ocean.",
+            "best_vantage": "Lady Bird Johnson Grove elevated walkway offers views above and within the fog layer",
+            "landmarks": "Pacific coastline, redwood canopy, Fern Canyon area shrouded in mist"
+          },
+          "to_be_in_clouds": {
+            "position": "Cathedral tree groves and Fern Canyon (sea level to 300 ft / 0-91m)",
+            "experience": "Walk the forest floor trails during active marine layer penetration",
+            "description": "Experience the mystical redwood forest cathedral with fog filtering through 300-foot tall trees. Condensation drips constantly creating a primeval atmosphere.",
+            "immersion_spots": [
+              "Cathedral Trees Trail (100 ft)",
+              "Fern Canyon (sea level)",
+              "James Irvine Trail (200 ft)",
+              "Lady Bird Johnson Grove (400 ft)"
+            ],
+            "fog_thickness": "Typically 300-600 feet thick, extending from ocean to inland ridges"
+          },
+          "photography_tips": {
+            "sunrise_spot": "Coastal bluffs - dramatic backlit fog rolling through trees",
+            "sunset_spot": "Prairie Creek area for golden light filtering through fog",
+            "equipment": "Macro lens for fog droplets on ferns, wide-angle for cathedral perspectives"
+          }
+        }
+      }
+    },
+    {
+      "key": "grand_canyon_az",
+      "display_name": "Grand Canyon, AZ",
+      "region": "Arizona Plateau",
+      "category": "Desert Canyon",
+      "description": "Spectacular canyon with occasional temperature inversion fog",
+      "geography": {
+        "elevation_range": "924 - 2,169 meters",
+        "best_viewing_elevation": "2,000 - 2,200 meters",
+        "terrain_type": "Desert Canyon",
+        "access_difficulty": "Easy"
+      },
+      "viewing_info": {
+        "cloud_formation_zone": "Canyon interior",
+        "best_viewing_position": "South Rim viewpoints",
+        "typical_cloud_thickness": "200 - 400 meters",
+        "visibility_range": "Grand Canyon interior"
+      },
+      "seasonal_patterns": {
+        "peak_season": "December-February",
+        "peak_months": ["December", "January", "February"],
+        "formation_type": "Canyon Inversion",
+        "best_conditions": "Winter storms with clear skies",
+        "moisture_source": "Colorado River, winter precipitation"
+      },
+      "visiting_tips": {
+        "best_time": "Sunrise hours",
+        "access_routes": "Desert View Drive, Hermit Road",
+        "parking": "Visitor center, viewpoint lots",
+        "equipment": "Layers for temperature variation",
+        "viewing_instructions": {
+          "to_see_clouds": {
+            "position": "South Rim viewpoints: Mather Point (7,120 ft / 2,170m) and Desert View (7,438 ft / 2,267m)",
+            "direction": "Look NORTH into Grand Canyon interior and WEST along canyon length",
+            "description": "Stand at South Rim viewpoints during rare winter inversions. Temperature inversion fog fills the canyon interior creating a mystical white sea with red rock formations emerging like islands.",
+            "best_vantage": "Desert View Watchtower offers the highest elevated perspective of canyon-filling fog",
+            "landmarks": "Colorado River corridor, Bright Angel Trail switchbacks, North Rim peaks emerging above fog"
+          },
+          "to_be_in_clouds": {
+            "position": "Canyon interior: Bright Angel Trail below Kolb Studio (6,860 ft / 2,091m)",
+            "experience": "Hike partway down Bright Angel Trail during active inversion",
+            "description": "Experience dense fog within the canyon walls. Visibility drops dramatically with red rock walls appearing and disappearing through thick mist.",
+            "immersion_spots": [
+              "Kolb Studio area (6,860 ft)",
+              "Mile-and-a-Half Resthouse (5,729 ft)",
+              "Three-Mile Resthouse (4,720 ft)",
+              "Indian Garden area (3,800 ft)"
+            ],
+            "fog_thickness": "Can extend 1,000+ feet vertically, from river level to mid-canyon walls"
+          },
+          "photography_tips": {
+            "sunrise_spot": "Mather Point - dramatic lighting on fog-filled canyon",
+            "sunset_spot": "Hermit's Rest for western canyon fog illumination",
+            "equipment": "Telephoto for compressed canyon views, wide-angle for rim perspectives"
+          }
+        }
+      }
+    },
+    {
+      "key": "zion_canyon_ut",
+      "display_name": "Zion Canyon, UT",
+      "region": "Utah Plateau",
+      "category": "Desert Canyon",
+      "description": "Red rock canyon with dramatic temperature inversion events",
+      "geography": {
+        "elevation_range": "1,182 - 2,104 meters",
+        "best_viewing_elevation": "1,800 - 2,100 meters",
+        "terrain_type": "Sandstone Canyon",
+        "access_difficulty": "Moderate"
+      },
+      "viewing_info": {
+        "cloud_formation_zone": "Canyon floor to rim level",
+        "best_viewing_position": "Canyon Overlook, Angels Landing",
+        "typical_cloud_thickness": "300 - 500 meters",
+        "visibility_range": "Zion Canyon interior"
+      },
+      "seasonal_patterns": {
+        "peak_season": "November-February",
+        "peak_months": ["November", "December", "January", "February"],
+        "formation_type": "Canyon Inversion",
+        "best_conditions": "Winter high pressure systems",
+        "moisture_source": "Virgin River, winter storms"
+      },
+      "visiting_tips": {
+        "best_time": "Early morning",
+        "access_routes": "Canyon Overlook Trail, shuttle system",
+        "parking": "Visitor center, town of Springdale",
+        "equipment": "Hiking gear, warm layers",
+        "viewing_instructions": {
+          "to_see_clouds": {
+            "position": "Canyon Overlook Trail (5,790 ft / 1,765m) and Angels Landing summit (5,790 ft / 1,765m)",
+            "direction": "Look DOWN into Zion Canyon and NORTH along Virgin River valley",
+            "description": "Stand on Canyon Overlook or Angels Landing looking down into the narrow canyon. Winter inversions fill the red rock canyon with white fog, creating dramatic contrast between red sandstone walls and white clouds.",
+            "best_vantage": "Angels Landing summit offers the most dramatic bird's-eye view of fog-filled canyon floor",
+            "landmarks": "Temple of Sinawava, Weeping Rock, Great White Throne emerging above fog layer"
+          },
+          "to_be_in_clouds": {
+            "position": "Canyon floor: Zion Lodge area (4,300 ft / 1,311m) and Virgin River corridor",
+            "experience": "Walk the Riverside Walk or drive scenic canyon road during inversion",
+            "description": "Experience complete fog immersion on canyon floor with towering 2,000-foot red walls disappearing into thick mist. Creates an otherworldly cathedral atmosphere.",
+            "immersion_spots": [
+              "Zion Lodge (4,300 ft)",
+              "Temple of Sinawava (4,350 ft)",
+              "Weeping Rock area (4,350 ft)",
+              "Virgin River Narrows entrance (4,400 ft)"
+            ],
+            "fog_thickness": "Typically 300-500 feet thick, filling canyon from river level to mid-wall height"
+          },
+          "photography_tips": {
+            "sunrise_spot": "Canyon Overlook - dramatic side lighting on fog within red canyon",
+            "sunset_spot": "Angels Landing for golden light on red rocks above fog",
+            "equipment": "Wide-angle for canyon scale, polarizing filter for red rock contrast"
+          }
+        }
+      }
+    },
+    {
+      "key": "jackson_hole_wy",
+      "display_name": "Jackson Hole, WY",
+      "region": "Wyoming Rockies",
+      "category": "Mountain Valley",
+      "description": "High mountain valley famous for dramatic winter inversions",
+      "geography": {
+        "elevation_range": "1,934 - 3,386 meters",
+        "best_viewing_elevation": "2,500 - 3,000 meters",
+        "terrain_type": "Glacial Valley",
+        "access_difficulty": "Moderate to Difficult"
+      },
+      "viewing_info": {
+        "cloud_formation_zone": "Valley floor to 2,400m",
+        "best_viewing_position": "Teton Pass, ski area summits",
+        "typical_cloud_thickness": "400 - 800 meters",
+        "visibility_range": "Jackson Hole valley"
+      },
+      "seasonal_patterns": {
+        "peak_season": "December-February",
+        "peak_months": ["December", "January", "February"],
+        "formation_type": "Cold Air Drainage",
+        "best_conditions": "High pressure winter systems",
+        "moisture_source": "Snake River, valley moisture"
+      },
+      "visiting_tips": {
+        "best_time": "Dawn to mid-morning",
+        "access_routes": "Teton Pass, Jackson Hole ski resort",
+        "parking": "Village base areas, Teton Pass",
+        "equipment": "Full winter gear, avalanche awareness",
+        "viewing_instructions": {
+          "to_see_clouds": {
+            "position": "Teton Pass summit (8,431 ft / 2,570m) and Jackson Hole ski resort summit (10,450 ft / 3,185m)",
+            "direction": "Look EAST and SOUTH into Jackson Hole valley",
+            "description": "Stand on Teton Pass or ride ski lifts to elevated viewpoints. Winter inversions create a spectacular white ocean filling the entire Jackson Hole valley with Grand Teton peaks rising dramatically above.",
+            "best_vantage": "Jackson Hole ski resort aerial tram offers the highest and most expansive views above cloud layer",
+            "landmarks": "Grand Teton, Middle Teton, Mount Moran peaks emerging above valley fog like alpine islands"
+          },
+          "to_be_in_clouds": {
+            "position": "Jackson town and valley floor (6,200 ft / 1,890m)",
+            "experience": "Drive or walk through Jackson town during active winter inversion",
+            "description": "Experience complete fog immersion in the valley floor with zero visibility. The massive scale of surrounding peaks is completely hidden, creating an isolated, mystical atmosphere.",
+            "immersion_spots": [
+              "Jackson town square (6,237 ft)",
+              "Snake River bottom lands (6,100 ft)",
+              "Jackson Hole Airport (6,300 ft)",
+              "Gros Ventre River area (6,150 ft)"
+            ],
+            "fog_thickness": "Can extend 1,500+ feet vertically, often reaching up to ski resort mid-mountain"
+          },
+          "photography_tips": {
+            "sunrise_spot": "Teton Pass - dramatic lighting on Teton peaks above fog ocean",
+            "sunset_spot": "Ski resort summit for alpenglow on peaks above clouds",
+            "equipment": "Telephoto for compressed mountain views, extreme weather protection"
+          }
+        }
+      }
+    },
+    {
+      "key": "valleys_near_aspen_co",
+      "display_name": "Aspen Valleys, CO",
+      "region": "Colorado Rockies",
+      "category": "Mountain Valley",
+      "description": "High-altitude valleys with spectacular winter cloud inversions",
+      "geography": {
+        "elevation_range": "2,725 - 4,051 meters",
+        "best_viewing_elevation": "3,200 - 3,800 meters",
+        "terrain_type": "Alpine Valley",
+        "access_difficulty": "Difficult"
+      },
+      "viewing_info": {
+        "cloud_formation_zone": "Valley floors to 3,000m",
+        "best_viewing_position": "Aspen Mountain, Snowmass summits",
+        "typical_cloud_thickness": "300 - 600 meters",
+        "visibility_range": "Roaring Fork Valley"
+      },
+      "seasonal_patterns": {
+        "peak_season": "December-February",
+        "peak_months": ["December", "January", "February"],
+        "formation_type": "Cold Air Drainage",
+        "best_conditions": "High pressure with cold valley air",
+        "moisture_source": "Roaring Fork River, snow sublimation"
+      },
+      "visiting_tips": {
+        "best_time": "Early morning",
+        "access_routes": "Ski lifts, hiking trails (seasonal)",
+        "parking": "Ski area base lodges",
+        "equipment": "High-altitude winter gear",
+        "viewing_instructions": {
+          "to_see_clouds": {
+            "position": "Aspen Mountain summit (11,212 ft / 3,417m) and Snowmass summit (12,510 ft / 3,813m)",
+            "direction": "Look DOWN into Roaring Fork Valley and WEST toward multiple tributary valleys",
+            "description": "Ride ski lifts to summit viewpoints above treeline. Winter inversions fill the high-altitude valleys with brilliant white fog contrasting against snow-covered peaks and dark evergreen forests.",
+            "best_vantage": "Snowmass summit offers the highest viewpoint with expansive views of multiple fog-filled valleys",
+            "landmarks": "Capitol Peak, Pyramid Peak, Maroon Bells visible above valley fog layers"
+          },
+          "to_be_in_clouds": {
+            "position": "Aspen town and Roaring Fork Valley floor (7,900 ft / 2,408m)",
+            "experience": "Walk through downtown Aspen during winter inversion conditions",
+            "description": "Experience high-altitude fog immersion with complete whiteout conditions. The surrounding 14,000-foot peaks are completely hidden, creating an alpine cloud chamber effect.",
+            "immersion_spots": [
+              "Downtown Aspen (7,908 ft)",
+              "Aspen Golf Course (7,800 ft)",
+              "Roaring Fork River corridor (7,700 ft)",
+              "Snowmass Village (8,100 ft)"
+            ],
+            "fog_thickness": "Typically 500-800 feet thick, from valley floor to mid-mountain ski runs"
+          },
+          "photography_tips": {
+            "sunrise_spot": "Aspen Mountain summit - dramatic alpine lighting on fog-filled valleys",
+            "sunset_spot": "Snowmass summit for golden hour on surrounding 14ers above fog",
+            "equipment": "Cold weather battery protection, wide-angle for alpine scale"
+          }
+        }
+      }
+    },
+    {
+      "key": "great_smoky_mtns_valleys",
+      "display_name": "Great Smoky Mountains, TN/NC",
+      "region": "Appalachian Mountains",
+      "category": "Eastern Humid",
+      "description": "Ancient mountains famous for natural fog and mist formations",
+      "geography": {
+        "elevation_range": "526 - 1,703 meters",
+        "best_viewing_elevation": "1,200 - 1,600 meters",
+        "terrain_type": "Forested Mountains",
+        "access_difficulty": "Easy to Moderate"
+      },
+      "viewing_info": {
+        "cloud_formation_zone": "Valley floors to mid-elevation",
+        "best_viewing_position": "Cataract Falls, Clingmans Dome",
+        "typical_cloud_thickness": "200 - 500 meters",
+        "visibility_range": "Tennessee/North Carolina valleys"
+      },
+      "seasonal_patterns": {
+        "peak_season": "September-November",
+        "peak_months": ["September", "October", "November"],
+        "formation_type": "Orographic Lifting",
+        "best_conditions": "Cool autumn mornings with humidity",
+        "moisture_source": "Gulf of Mexico, regional humidity"
+      },
+      "visiting_tips": {
+        "best_time": "Early morning (6:00 AM - 9:00 AM)",
+        "access_routes": "Cataract Falls Trail, Clingmans Dome Road",
+        "parking": "Visitor centers, trailhead lots",
+        "equipment": "Rain gear, insect protection",
+        "viewing_instructions": {
+          "to_see_clouds": {
+            "position": "Clingmans Dome (6,643 ft / 2,025m) and Cataract Falls overlook (5,200 ft / 1,585m)",
+            "direction": "Look SOUTH and WEST into Tennessee valleys and EAST into North Carolina valleys",
+            "description": "Stand on observation tower at Clingmans Dome for 360-degree views. Morning fog fills countless Appalachian valleys creating a white sea with forested ridges emerging like green islands.",
+            "best_vantage": "Clingmans Dome observation tower offers the highest elevation views above multiple fog-filled valleys",
+            "landmarks": "Gatlinburg area, Pigeon Forge, endless Appalachian ridges and valleys"
+          },
+          "to_be_in_clouds": {
+            "position": "Valley floors: Gatlinburg (1,300 ft / 396m) and Cades Cove (1,800 ft / 549m)",
+            "experience": "Drive Cades Cove loop road or walk Gatlinburg during morning fog",
+            "description": "Experience the mystical Appalachian morning mist with dense fog flowing through ancient hardwood and evergreen forests. Wildlife viewing enhanced by ethereal atmosphere.",
+            "immersion_spots": [
+              "Cades Cove meadows (1,800 ft)",
+              "Gatlinburg downtown (1,300 ft)",
+              "Elkmont area (2,150 ft)",
+              "Sugarlands Valley (1,462 ft)"
+            ],
+            "fog_thickness": "Typically 200-500 feet thick, following river valleys and coves"
+          },
+          "photography_tips": {
+            "sunrise_spot": "Clingmans Dome - golden light on layered mountain ridges above fog",
+            "sunset_spot": "Cataract Falls for evening mist in forested valleys",
+            "equipment": "Telephoto for layered ridge compression, macro for fog droplets on leaves"
+          }
+        }
+      }
+    },
+    {
+      "key": "shenandoah_valley_va",
+      "display_name": "Shenandoah Valley, VA",
+      "region": "Virginia Blue Ridge",
+      "category": "Eastern Humid",
+      "description": "Historic valley with beautiful morning fog in agricultural areas",
+      "geography": {
+        "elevation_range": "207 - 1,042 meters",
+        "best_viewing_elevation": "800 - 1,000 meters",
+        "terrain_type": "Agricultural Valley",
+        "access_difficulty": "Easy"
+      },
+      "viewing_info": {
+        "cloud_formation_zone": "Valley floor to 600m",
+        "best_viewing_position": "Skyline Drive overlooks",
+        "typical_cloud_thickness": "150 - 300 meters",
+        "visibility_range": "Shenandoah River valley"
+      },
+      "seasonal_patterns": {
+        "peak_season": "September-November",
+        "peak_months": ["September", "October", "November"],
+        "formation_type": "Basin Inversion",
+        "best_conditions": "Cool autumn nights with clear skies",
+        "moisture_source": "Shenandoah River, valley agriculture"
+      },
+      "visiting_tips": {
+        "best_time": "Sunrise to mid-morning",
+        "access_routes": "Skyline Drive, Blue Ridge Parkway",
+        "parking": "Overlook parking areas",
+        "equipment": "Light layers, binoculars",
+        "viewing_instructions": {
+          "to_see_clouds": {
+            "position": "Skyline Drive overlooks (2,000-3,500 ft / 610-1,067m) and Stony Man Summit (4,011 ft / 1,223m)",
+            "direction": "Look WEST into Shenandoah Valley and EAST toward Virginia Piedmont",
+            "description": "Stand at Skyline Drive overlooks for panoramic views of historic Shenandoah Valley. Morning fog flows through agricultural valleys creating pastoral scenes with farms and fields emerging from mist.",
+            "best_vantage": "Stony Man Summit offers the highest viewpoint with expansive valley views",
+            "landmarks": "Luray area, Front Royal, Shenandoah River meanders, Blue Ridge foothills"
+          },
+          "to_be_in_clouds": {
+            "position": "Valley floor: Front Royal (560 ft / 171m) and Luray area (800 ft / 244m)",
+            "experience": "Drive valley roads through agricultural areas during morning fog",
+            "description": "Experience gentle morning mist flowing through historic farmland and river bottoms. Visibility reduced with pastoral fog creating dreamy countryside atmosphere.",
+            "immersion_spots": [
+              "Front Royal downtown (560 ft)",
+              "Luray Caverns area (800 ft)",
+              "Shenandoah River corridor (500 ft)",
+              "New Market area (1,050 ft)"
+            ],
+            "fog_thickness": "Typically 150-300 feet thick, following river valleys and agricultural areas"
+          },
+          "photography_tips": {
+            "sunrise_spot": "Skyline Drive overlooks - golden light on pastoral valley fog",
+            "sunset_spot": "Stony Man for evening mist in agricultural valleys",
+            "equipment": "Telephoto for pastoral compression, polarizing filter for morning clarity"
+          }
+        }
+      }
+    },
+    {
+      "key": "new_river_gorge_wv",
+      "display_name": "New River Gorge, WV",
+      "region": "West Virginia Appalachians",
+      "category": "Eastern Humid",
+      "description": "Deep river gorge with morning mist and fog formations",
+      "geography": {
+        "elevation_range": "257 - 690 meters",
+        "best_viewing_elevation": "500 - 650 meters",
+        "terrain_type": "River Gorge",
+        "access_difficulty": "Moderate"
+      },
+      "viewing_info": {
+        "cloud_formation_zone": "River level to mid-gorge",
+        "best_viewing_position": "Bridge overlooks, rim trails",
+        "typical_cloud_thickness": "100 - 250 meters",
+        "visibility_range": "New River Gorge"
+      },
+      "seasonal_patterns": {
+        "peak_season": "September-November",
+        "peak_months": ["September", "October", "November"],
+        "formation_type": "Gorge Drainage",
+        "best_conditions": "Cool mornings with river moisture",
+        "moisture_source": "New River, gorge microclimate"
+      },
+      "visiting_tips": {
+        "best_time": "Early morning",
+        "access_routes": "New River Gorge Bridge, various overlooks",
+        "parking": "Bridge visitor center, overlook areas",
+        "equipment": "Camera with telephoto, comfortable shoes",
+        "viewing_instructions": {
+          "to_see_clouds": {
+            "position": "New River Gorge Bridge (876 ft / 267m) and Long Point overlook (2,000 ft / 610m)",
+            "direction": "Look DOWN into New River Gorge and NORTH/SOUTH along river corridor",
+            "description": "Stand on bridge overlooks or Long Point for dramatic views into the deep gorge. Morning mist rises from New River creating ethereal layers within the forested canyon walls.",
+            "best_vantage": "Long Point offers the most elevated perspective of mist-filled gorge below",
+            "landmarks": "New River Gorge Bridge, river rafting areas, endless forested gorge walls"
+          },
+          "to_be_in_clouds": {
+            "position": "River level: New River access points (800 ft / 244m) and Sandstone Falls area",
+            "experience": "Hike down to river level or drive to river access during morning mist",
+            "description": "Experience intimate gorge atmosphere with mist rising from river and clinging to forested walls. Creates a secluded, primeval environment with limited visibility.",
+            "immersion_spots": [
+              "Sandstone Falls area (800 ft)",
+              "Bridge View overlook (900 ft)",
+              "River access points (800-850 ft)",
+              "Thurmond depot area (820 ft)"
+            ],
+            "fog_thickness": "Typically 100-250 feet thick, concentrated along river corridor"
+          },
+          "photography_tips": {
+            "sunrise_spot": "Long Point - dramatic side lighting on mist in deep gorge",
+            "sunset_spot": "New River Gorge Bridge for evening light on gorge walls",
+            "equipment": "Telephoto for gorge compression, wide-angle for bridge scale"
+          }
+        }
+      }
+    }
+  ]
+} 
