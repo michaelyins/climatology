@@ -150,9 +150,9 @@
     z-index: 99985; /* Action buttons - no dropdowns */
 }
 
-/* Location dropdown z-index */
+/* Specific dropdown z-index adjustments */
 #location-toggle .dropdown-menu {
-    z-index: 99997; /* Location dropdown */
+    z-index: 99992; /* Location dropdown */
 }
 
 /* Dropdown Menu Styles */
