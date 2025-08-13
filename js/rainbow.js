@@ -44,7 +44,14 @@ document.addEventListener('DOMContentLoaded', () => {
         "Houston": [29.7604, -95.3698],
         "Death Valley": [36.2689, -116.8611],
         "Los Angeles": [34.0522, -118.2437],
-        "San Francisco": [37.7749, -122.4194]
+        "San Francisco": [37.7749, -122.4194],
+        "Yosemite National Park": [37.8651, -119.5383],
+        "Seattle": [47.6062, -122.3321],
+        "Mt. Rainier": [46.8521, -121.7603],
+        "Mt. Hood": [45.3300, -121.6944],
+        "Yellowstone National Park": [44.4280, -110.5885],
+        "Grand Teton National Park": [43.7904, -110.6818],
+        "Glacier National Park": [48.7819, -113.7267]
     };
 
     // Initialize the application
