@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     const selectedLocationEl = document.getElementById('selected-location');
     const selectedDateEl = document.getElementById('selected-date');
-    const coverageDisplayEl = document.getElementById('coverage-display');
+    const recLevelDisplayEl = document.getElementById('rec-level-display');
     const recommendLevelEl = document.getElementById('recommend-level');
     const recommendDescEl = document.getElementById('recommend-description');
     const peakTimeEl = document.getElementById('peak-time');
@@ -245,17 +245,168 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('equipment-info').textContent = visitingTips.equipment || '--';
     }
 
+    // --- Update Multi-Day Forecast Panel ---
+    function updateMultiDayForecast(locationKey) {
+        console.log('updateMultiDayForecast called with:', locationKey);
+        
+        // locationKey might be a display name or internal key
+        let locationData = locationsPublicData[locationKey];
+        
+        // If not found by key, try to find by display name with smart matching
+        if (!locationData) {
+            locationData = Object.values(locationsPublicData).find(loc => {
+                // Exact match
+                if (loc.display_name === locationKey || loc.key === locationKey) {
+                    return true;
+                }
+                
+                // Smart matching for common variations
+                const normalizedKey = locationKey.toLowerCase().replace(/[.,]/g, '').trim();
+                const normalizedDisplay = loc.display_name.toLowerCase().replace(/[.,]/g, '').trim();
+                
+                // Handle common abbreviations
+                if (normalizedKey.includes('mt.') && normalizedDisplay.includes('mount')) {
+                    return true;
+                }
+                if (normalizedKey.includes('mount') && normalizedDisplay.includes('mt.')) {
+                    return true;
+                }
+                
+                // Handle "National Park" vs "NP" variations
+                if (normalizedKey.includes('np') && normalizedDisplay.includes('national park')) {
+                    return true;
+                }
+                
+                // Partial matching for similar names
+                return normalizedKey.includes(normalizedDisplay) || normalizedDisplay.includes(normalizedKey);
+            });
+        }
+        
+        if (!locationData) {
+            console.log('No location data found for:', locationKey);
+            // Show hint if no location selected
+            const forecastHint = document.getElementById('forecast-selection-hint');
+            const forecastDetails = document.getElementById('forecast-details');
+            
+            if (forecastHint) forecastHint.style.display = 'block';
+            if (forecastDetails) forecastDetails.style.display = 'none';
+            return;
+        }
+
+        console.log('Updating multi-day forecast for:', locationData.display_name);
+
+        // Hide hint and show details
+        const forecastHint = document.getElementById('forecast-selection-hint');
+        const forecastDetails = document.getElementById('forecast-details');
+        
+        if (forecastHint) forecastHint.style.display = 'none';
+        if (forecastDetails) forecastDetails.style.display = 'block';
+
+        // Update header
+        const forecastLocationNameEl = document.getElementById('forecast-location-name');
+        if (forecastLocationNameEl) forecastLocationNameEl.textContent = locationData.display_name;
+        
+        const forecastDateRangeEl = document.getElementById('forecast-date-range');
+        if (forecastDateRangeEl) forecastDateRangeEl.textContent = '2-Day Forecast';
+
+        // Generate daily forecast cards
+        generateDailyForecastCards(locationData);
+    }
+
+    // --- Generate Daily Forecast Cards ---
+    function generateDailyForecastCards(locationData) {
+        const dailyForecastGrid = document.getElementById('daily-forecast-grid');
+        if (!dailyForecastGrid) return;
+
+        // Get real forecast data from allPredictionData
+        if (!allPredictionData || !allPredictionData.predictions || !allPredictionData.predictions.sea_of_clouds) {
+            console.log('No prediction data available for multi-day forecast');
+            return;
+        }
+
+        const locationKey = locationData.display_name || locationData.key;
+        const locationForecasts = allPredictionData.predictions.sea_of_clouds[locationKey];
+        
+        if (!locationForecasts || !locationForecasts.forecasts) {
+            console.log('No forecast data found for location:', locationKey);
+            return;
+        }
+
+        // Get available dates and sort them
+        const availableDates = Object.keys(locationForecasts.forecasts).sort();
+        console.log('Available forecast dates for', locationKey, ':', availableDates);
+
+        // Show up to 2 days of forecast data
+        const datesToShow = availableDates.slice(0, 2);
+        
+        let html = '';
+        datesToShow.forEach(dateStr => {
+            const forecastData = locationForecasts.forecasts[dateStr];
+            const summary = forecastData.summary;
+            
+            // Format date
+            const dateObj = new Date(dateStr);
+            const formattedDate = dateObj.toLocaleDateString('en-US', { 
+                month: 'short', 
+                day: 'numeric',
+                weekday: 'short'
+            });
+
+            // Get day name
+            const dayName = dateObj.toLocaleDateString('en-US', { weekday: 'long' });
+
+            html += `
+                <div class="daily-forecast-card">
+                    <h5>${formattedDate}</h5>
+                    <div class="forecast-metrics">
+                        <div class="forecast-metric">
+                            <span class="forecast-metric-label">AVG Probability</span>
+                            <span class="forecast-metric-value">${(summary.avg_probability * 100).toFixed(1)}%</span>
+                        </div>
+                        <div class="forecast-metric">
+                            <span class="forecast-metric-label">AVG Quality</span>
+                            <span class="forecast-metric-value">${(summary.avg_quality * 100).toFixed(1)}%</span>
+                        </div>
+                        <div class="forecast-metric">
+                            <span class="forecast-metric-label">AVG AOD</span>
+                            <span class="forecast-metric-value">${summary.avg_aod.toFixed(3)}</span>
+                        </div>
+                        <div class="forecast-metric">
+                            <span class="forecast-metric-label">Day</span>
+                            <span class="forecast-metric-value">${dayName}</span>
+                        </div>
+                    </div>
+                    <div class="forecast-recommendation">
+                        <span class="forecast-recommendation-label">Recommendation:</span>
+                        <p class="forecast-recommendation-text">${summary.recommendationDescription || 'No specific recommendation available.'}</p>
+                    </div>
+                </div>
+            `;
+        });
+
+        dailyForecastGrid.innerHTML = html;
+    }
+
     // Global function for monitoring area interaction
     window.toggleRegionDetails = function() {
         const detailsPanel = document.getElementById('region-details');
-        const regionAreaEl = document.getElementById('region-area');
+        const avgProbabilityEl = document.getElementById('avg-probability');
+        const expandIcon = avgProbabilityEl.querySelector('.expand-icon');
         
         if (detailsPanel.style.display === 'none' || !detailsPanel.style.display) {
             detailsPanel.style.display = 'block';
-            regionAreaEl.classList.add('active');
+            if (expandIcon) {
+                expandIcon.style.transform = 'rotate(180deg)';
+            }
+            // 添加active类来保持高亮状态
+            avgProbabilityEl.classList.add('active');
         } else {
             detailsPanel.style.display = 'none';
-            regionAreaEl.classList.remove('active');
+            if (expandIcon) {
+                expandIcon.style.transform = 'rotate(0deg)';
+            }
+            // 移除active类
+            avgProbabilityEl.classList.remove('active');
         }
     };
 
@@ -290,16 +441,16 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     async function loadPredictionData() {
-        console.log("Loading sea_of_clouds_results.json...");
+        console.log("Loading real sea of clouds prediction data...");
         try {
-            const response = await fetch(`../data/sea_of_clouds_results.json?v=20250729-3&t=${Date.now()}`);
+            const response = await fetch(`../云海/data_final/master_forecast_20250812.json?v=${Date.now()}`);
             if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
             allPredictionData = await response.json();
-            console.log("✅ Sea of clouds data loaded successfully:", allPredictionData);
+            console.log("✅ Real sea of clouds prediction data loaded successfully:", allPredictionData);
             populateLocationDropdown();
             populateDateDropdown();
         } catch (error) {
-            console.error("❌ Failed to load prediction data:", error);
+            console.error("❌ Failed to load real prediction data:", error);
             alert("Error: Unable to load sea of clouds prediction data.");
         }
     }
@@ -393,6 +544,7 @@ document.addEventListener('DOMContentLoaded', () => {
         updateButtonTexts();
         updateLocationInfoPanel(location); // Update location info panel
         updateViewingTipsPanel(location); // Update viewing tips panel
+        updateMultiDayForecast(location); // Update multi-day forecast panel
     }
 
     function selectDate(date) {
@@ -460,13 +612,30 @@ document.addEventListener('DOMContentLoaded', () => {
     function clearDisplay() {
         selectedLocationEl.textContent = 'Location';
         selectedDateEl.textContent = 'Date';
-        coverageDisplayEl.textContent = '--';
-        recommendLevelEl.innerHTML = '--';
-        recommendDescEl.textContent = 'Please select location and date';
-        peakTimeEl.textContent = '--:--';
-        peakDescEl.textContent = 'Peak coverage time information';
-        regionAreaEl.textContent = '--';
-        regionDescEl.textContent = 'Total monitoring area information';
+        
+        // Clear AVG Probability (now as clickable text)
+        const avgProbabilityEl = document.getElementById('avg-probability');
+        if (avgProbabilityEl) {
+            avgProbabilityEl.innerHTML = '--% <span class="expand-icon">▼</span>';
+        }
+        
+        // Clear AVG Probability description
+        const avgProbabilityDescEl = document.getElementById('avg-probability-description');
+        if (avgProbabilityDescEl) {
+            avgProbabilityDescEl.textContent = 'Select location and date to view prediction';
+        }
+        
+        // Clear AVG Quality
+        const avgQualityEl = document.getElementById('avg-quality');
+        if (avgQualityEl) {
+            avgQualityEl.textContent = '--%';
+        }
+        
+        // Clear AVG AOD
+        const avgAodEl = document.getElementById('avg-aod');
+        if (avgAodEl) {
+            avgAodEl.textContent = '--';
+        }
     }
 
     function performSearch() {
@@ -504,70 +673,107 @@ document.addEventListener('DOMContentLoaded', () => {
         selectedLocationEl.textContent = userSelection.location;
         selectedDateEl.textContent = formatDateDisplay(userSelection.date);
 
-        // Update coverage display - format to 1 decimal place
-        const coverage = parseFloat(dateData.summary.averageCoverage).toFixed(1);
-        coverageDisplayEl.textContent = `${coverage}%`;
+        // Update AVG Probability (now as clickable text)
+        const avgProbability = dateData.summary.avg_probability || 0;
+        const avgProbabilityEl = document.getElementById('avg-probability');
+        if (avgProbabilityEl) {
+            avgProbabilityEl.innerHTML = `${(avgProbability * 100).toFixed(1)}% <span class="expand-icon">▼</span>`;
+        }
         
-        // Update coverage circle
-        const coverageCircle = document.querySelector('.coverage-circle');
-        if (coverageCircle) {
-            const angle = (parseFloat(coverage) / 100) * 360;
-            coverageCircle.style.setProperty('--coverage-angle', `${angle}deg`);
-            const span = coverageCircle.querySelector('span');
-            if (span) span.textContent = `${coverage}%`;
+        // Update AVG Probability description
+        const avgProbabilityDescEl = document.getElementById('avg-probability-description');
+        if (avgProbabilityDescEl) {
+            avgProbabilityDescEl.textContent = dateData.summary.recommendationDescription || 'Select location and date to view prediction';
         }
 
-        // Update recommendation level
-        const recommendLevel = dateData.summary.recommendLevel;
-        const recommendPercentage = dateData.summary.recommendPercentage;
-        
-        console.log("Recommendation:", recommendLevel, recommendPercentage + "%", dateData.summary.recommendDescription);
-        
-        recommendLevelEl.innerHTML = `
-            <div class="coverage-circle" style="--coverage-angle: ${(recommendPercentage / 100) * 360}deg;">
-                <span>${recommendPercentage}%</span>
-            </div>
-        `;
-        recommendDescEl.textContent = dateData.summary.recommendDescription;
-        // Removed force blue color - now using CSS white color
+        // Update AVG Quality
+        const avgQuality = dateData.summary.avg_quality || 0;
+        const avgQualityEl = document.getElementById('avg-quality');
+        if (avgQualityEl) {
+            avgQualityEl.textContent = `${(avgQuality * 100).toFixed(1)}%`;
+        }
 
-        // Update peak time
-        peakTimeEl.textContent = dateData.summary.peakCoverageTime;
-        peakDescEl.textContent = `Peak coverage of ${parseFloat(dateData.summary.peakCoverageArea).toFixed(1)} km² (${parseFloat(dateData.summary.peakCoveragePercentage).toFixed(1)}%) expected`;
+        // Update AVG AOD
+        const avgAod = dateData.summary.avg_aod || 0;
+        const avgAodEl = document.getElementById('avg-aod');
+        if (avgAodEl) {
+            avgAodEl.textContent = avgAod.toFixed(3);
+        }
 
-        // Update region info
-        const regionInfo = locationData.region_info;
-        regionAreaEl.innerHTML = `${regionInfo.total_area_km2} km² <span class="expand-icon">▼</span>`;
-        regionDescEl.textContent = `Grid: ${regionInfo.grid_size} (${regionInfo.total_grid_points} points) - Click for details`;
-
-        // Prepare detailed hourly statistics
+        // Update hourly statistics
         updateHourlyStatistics(dateData);
-
-        // Update daily forecast in interactive section
-        updateDailyForecast(locationData);
     }
 
     function updateHourlyStatistics(dateData) {
         const hourlyStatsEl = document.getElementById('hourly-stats');
         if (!hourlyStatsEl || !dateData.hourlyData) return;
 
-        let html = '';
-
-        // Show all 24 hours
+        // Show all hours from 00:00 to 23:00 (24 hours total)
         if (dateData.hourlyData.length === 0) {
-            html = '<div class="hourly-stat"><div class="time">No data available</div></div>';
-        } else {
-            dateData.hourlyData.forEach(hourData => {
-                const time = hourData.time;
-                html += `
-                    <div class="hourly-stat">
-                        <div class="time">${time}</div>
-                        <div class="coverage">${hourData.coverage_percentage.toFixed(1)}%</div>
-                        <div class="area">${hourData.area_km2.toFixed(1)} km²</div>
-                    </div>
-                `;
-            });
+            hourlyStatsEl.innerHTML = '<div class="hourly-stat"><div class="time">No data available</div></div>';
+            return;
         }
+
+        // Create a complete 24-hour grid from 00:00 to 23:00
+        const hours = [];
+        for (let i = 0; i <= 23; i++) {
+            const hourStr = i.toString().padStart(2, '0') + ':00';
+            const hourData = dateData.hourlyData.find(h => h.time === hourStr);
+            
+            if (hourData) {
+                hours.push({
+                    time: hourStr,
+                    probability: hourData.probability || 0,
+                    quality_score: hourData.quality_score || 0,
+                    cloud_top_asl: hourData.cloud_top_asl || 0
+                });
+            } else {
+                // If no data for this hour, create placeholder
+                hours.push({
+                    time: hourStr,
+                    probability: 0,
+                    quality_score: 0,
+                    cloud_top_asl: 0
+                });
+            }
+        }
+        
+        let html = '';
+        hours.forEach(hourData => {
+            const time = hourData.time;
+            const probability = hourData.probability || 0;
+            const quality = hourData.quality_score || 0;
+            const cloudTop = hourData.cloud_top_asl || 0;
+            
+            // Format values with proper handling of 0/null values
+            const probDisplay = probability > 0 ? `${(probability * 100).toFixed(1)}%` : 'N/A';
+            const qualityDisplay = quality > 0 ? quality.toFixed(4) : 'N/A';
+            const cloudTopDisplay = cloudTop > 0 ? `${cloudTop}m` : 'N/A';
+            
+            // Determine color class based on probability
+            let colorClass = '';
+            if (probability > 0) {
+                const probPercent = probability * 100;
+                if (probPercent >= 70) {
+                    colorClass = 'high-probability';
+                } else if (probPercent >= 40) {
+                    colorClass = 'medium-probability';
+                } else {
+                    colorClass = 'low-probability';
+                }
+            }
+            
+            html += `
+                <div class="hourly-stat ${colorClass}">
+                    <div class="time">${time}</div>
+                    <div class="data-content">
+                        <div>P: ${probDisplay}</div>
+                        <div>Q: ${qualityDisplay}</div>
+                        <div>H: ${cloudTopDisplay}</div>
+                    </div>
+                </div>
+            `;
+        });
 
         hourlyStatsEl.innerHTML = html;
     }

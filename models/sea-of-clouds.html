@@ -8,7 +8,7 @@
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
     <link rel="stylesheet" href="../css/common.css?v=20250804-20">
-    <link rel="stylesheet" href="../css/sea-of-clouds.css?v=20250805-noflash">
+    <link rel="stylesheet" href="../css/sea-of-clouds.css?v=20250812-02">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/mermaid@10.6.1/dist/mermaid.min.js"></script>
 </head>
@@ -93,40 +93,56 @@
                         <span id="selected-date">Date</span> — 
                         <span id="selected-weather">Sea of Clouds</span>
                     </h2>
-                    <div class="coverage-info">
-                        <h3>Average Coverage</h3>
-                        <span id="coverage-display">--</span>
-                    </div>
                 </div>
 
                 <div class="data-metrics">
                     <div class="metric-row">
-                        <div class="metric-label">Recommendation Level</div>
-                        <div class="metric-value" id="recommend-level">
-                            <div class="coverage-circle">
-                                <span>--%</span>
-                            </div>
+                        <div class="metric-label">AVG Probability</div>
+                        <div class="metric-value clickable-metric" id="avg-probability" onclick="toggleRegionDetails()">
+                            --% <span class="expand-icon">▼</span>
                         </div>
-                        <div class="metric-description" id="recommend-description">Select location and date to view prediction</div>
+                        <div class="metric-description" id="avg-probability-description">Select location and date to view prediction</div>
                     </div>
 
                     <div class="metric-row">
-                        <div class="metric-label">Peak Coverage Time</div>
-                        <div class="metric-value" id="peak-time">--:--</div>
-                        <div class="metric-description" id="peak-description">Best viewing time for maximum cloud coverage</div>
+                        <div class="metric-label">AVG Quality</div>
+                        <div class="metric-value" id="avg-quality">--%</div>
+                        <div class="metric-description" id="avg-quality-description">Average quality score for cloud formation conditions</div>
                     </div>
 
                     <div class="metric-row">
-                        <div class="metric-label">Monitoring Area</div>
-                        <div class="metric-value clickable-metric" id="region-area" onclick="toggleRegionDetails()">
-                            -- km² <span class="expand-icon">▼</span>
-                        </div>
-                        <div class="metric-description" id="region-description">Click to view detailed statistics</div>
+                        <div class="metric-label">AVG AOD</div>
+                        <div class="metric-value" id="avg-aod">--</div>
+                        <div class="metric-description" id="avg-aod-description">Average Aerosol Optical Depth for visibility assessment</div>
                     </div>
                     
-                    <!-- Hidden detailed region statistics -->
+                    <!-- Hidden detailed hourly data -->
                     <div class="region-details" id="region-details" style="display: none;">
-                        <h4>Detailed Coverage Statistics</h4>
+                        <h4 style="color: #e8e8e8; font-size: 1.2rem; ">Hourly Data</h4>
+                        
+                        <p style="color: #e8e8e8; font-size: 1rem; margin-bottom: 1rem; line-height: 1.4;">
+                            P represents the probability of sea of clouds occurrence for the current hour, 
+                            Q represents the quality of sea of clouds for the current hour, 
+                            H represents the approximate altitude where sea of clouds appears.
+                        </p>
+                        
+                        <!-- Color Legend -->
+                        <div class="color-legend" style="margin-bottom: 1rem; padding: 0.8rem; background: rgba(255, 255, 255, 0.1); border-radius: 8px; border: 1px solid rgba(255, 255, 255, 0.2);">
+                            <div style="display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap; align-items: center;">
+                                <div class="legend-item" style="display: flex; align-items: center; gap: 0.5rem;">
+                                    <div class="legend-color high-prob" style="width: 20px; height: 20px; border-radius: 4px; background: linear-gradient(135deg, rgba(39, 174, 96, 0.9), rgba(46, 204, 113, 0.8)); border: 1px solid rgba(39, 174, 96, 0.4);"></div>
+                                    <span style="color: #e8e8e8; font-size: 0.9rem;">High Probability (70%+)</span>
+                                </div>
+                                <div class="legend-item" style="display: flex; align-items: center; gap: 0.5rem;">
+                                    <div class="legend-color medium-prob" style="width: 20px; height: 20px; border-radius: 4px; background: linear-gradient(135deg, rgba(168, 230, 207, 0.9), rgba(126, 214, 160, 0.8)); border: 1px solid rgba(168, 230, 207, 0.4);"></div>
+                                    <span style="color: #e8e8e8; font-size: 0.9rem;">Medium Probability (40-69%)</span>
+                                </div>
+                                <div class="legend-item" style="display: flex; align-items: center; gap: 0.5rem;">
+                                    <div class="legend-color low-prob" style="width: 20px; height: 20px; border-radius: 4px; background: linear-gradient(135deg, rgba(149, 165, 166, 0.9), rgba(127, 140, 141, 0.8)); border: 1px solid rgba(149, 165, 166, 0.4);"></div>
+                                    <span style="color: #e8e8e8; font-size: 0.9rem;">Low Probability (0-39%)</span>
+                                </div>
+                            </div>
+                        </div>
                         <div class="hourly-stats" id="hourly-stats">
                             <!-- Populated by JavaScript -->
                         </div>
@@ -396,15 +412,25 @@
 
                     <!-- Multi-Day Forecast Panel -->
                     <div class="content-panel" id="forecast-panel">
-                        <h3>Multi-Day Forecast</h3>
-                        <p>Plan your sea of clouds adventures with our extended forecast capabilities:</p>
-                        <ul>
-                            <li><strong>3-Day Outlook:</strong> Detailed predictions for the next three days with hourly coverage data</li>
-                            <li><strong>Trend Analysis:</strong> Identify patterns in cloud formation timing and coverage intensity</li>
-                            <li><strong>Optimal Days:</strong> Recommendations for the best viewing opportunities within the forecast period</li>
-                            <li><strong>Weather Stability:</strong> Assessment of atmospheric stability affecting cloud persistence</li>
-                            <li><strong>Alternative Locations:</strong> Suggestions for backup locations when primary sites have lower coverage predictions</li>
-                        </ul>
+                        <div id="forecast-panel-header">
+                            <h3>Multi-Day Forecast</h3>
+                            <div id="forecast-selection-hint" class="selection-hint">
+                                <p>👆 Select a location above to view multi-day forecast data.</p>
+                            </div>
+                        </div>
+                        
+                        <div id="forecast-details" class="forecast-details-container" style="display: none;">
+                            <!-- Location Name & Date Range -->
+                            <div class="forecast-header">
+                                <h4 id="forecast-location-name">Location Name</h4>
+                                <span id="forecast-date-range" class="forecast-date-range">Date Range</span>
+                            </div>
+
+                            <!-- Daily Forecast Cards -->
+                            <div class="daily-forecast-grid" id="daily-forecast-grid">
+                                <!-- Generated by JavaScript -->
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -429,28 +455,37 @@
                     lineColor: '#ffffff',
                     fontFamily: 'Inter, Arial, sans-serif',
                     fontSize: '14px'
+                },
+                flowchart: {
+                    nodeSpacing: 80,
+                    rankSpacing: 120,
+                    curve: 'basis',
+                    htmlLabels: true
                 }
             });
             
             // Define the workflow diagram exactly as shown in the image
             const diagramDefinition = `
 flowchart LR
-    A["Choose<br/>Your<br/>Location"] --> B["Check The Day<br/>You Wish To<br/>Arrive"]
+    A["<div style='padding: 15px; line-height: 1.5; font-size: 20px;'>Choose Your<br/>Location</div>"] --> B["<div style='padding: 15px; line-height: 1.5; font-size: 20px;'>Check The Day You<br/>Wish To<br/>Arrive</div>"]
     
-    B --> C1["RL = 25%<br/>Almost No<br/>Sea of Clouds"]
-    B --> D1["Rec Level = 90%<br/>Happens Almost<br/>All Day"]  
-    B --> E1["RL = 50%<br/>Only Some Hours<br/>Have Sea of Clouds"]
+    B --> C1["<div style='padding: 15px; line-height: 1.5; font-size: 20px;'>30< AVG P < 50<br/>AOD good<br/>Condition</div>"]
+    B --> C2["<div style='padding: 15px; line-height: 1.5; font-size: 20px;'>AVG P > 50<br/>Check Quality<br/>Check Hourly Data</div>"]
+    B --> C3["<div style='padding: 15px; line-height: 1.5; font-size: 20px;'>AVG P < 30<br/>Low<br/>Probability</div>"]
     
-    C1 --> C2["Check<br/>Multi-day Report<br/>Before You Go"]
-    D1 --> D2["Get Ready and<br/>Check Viewing Tips<br/>⭐"]
-    E1 --> E2["Check Detailed Info<br/>and<br/>Choose Right Hours"]
+    C1 --> D1["<div style='padding: 15px; line-height: 1.5; font-size: 20px;'>Monitor The Area<br/>Via Webcams<br/>Before You Go</div>"]
+    C2 --> D2["<div style='padding: 15px; line-height: 1.5; font-size: 20px;'>Check Best Time<br/>Check Cloud<br/>Height</div>"]
+    C3 --> D3["<div style='padding: 15px; line-height: 1.5; font-size: 20px;'>Check More Days<br/>Consider<br/>Reschedule</div>"]
+    
+    D2 --> E1["<div style='padding: 15px; line-height: 1.5; font-size: 20px;'>If Cloud Height ><br/>Mountain<br/>You Are In Fog ⭐</div>"]
+    D2 --> E2["<div style='padding: 15px; line-height: 1.5; font-size: 20px;'>If Cloud Height <<br/>Mountain<br/>Good Sea of Clouds ⭐</div>"]
     
     classDef default fill:#ffffff,stroke:#666,stroke-width:2px,color:#333
-    classDef highlight fill:#ffffff,stroke:#666,stroke-width:2px,color:#333,font-weight:bold
-    classDef startNode fill:#ffffff,stroke:#4a90e2,stroke-width:3px,color:#333
+    classDef decision fill:#ffffff,stroke:#666,stroke-width:2px,color:#333
+    classDef success fill:#ffffff,stroke:#666,stroke-width:2px,color:#333
     
-    class A startNode
-    class D1,D2 highlight
+    class B decision
+    class E1,E2 success
             `;
             
             // Render the diagram

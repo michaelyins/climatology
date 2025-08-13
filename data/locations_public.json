@@ -2,7 +2,7 @@
   "locations": [
     {
       "key": "mount_tamalpais_ca",
-      "display_name": "Mt. Tamalpais, CA",
+      "display_name": "Mount Tamalpais, CA",
       "region": "Northern California",
       "category": "West Coast Marine",
       "description": "Iconic Bay Area mountain offering spectacular Pacific marine layer views",
@@ -59,7 +59,7 @@
     },
     {
       "key": "mt_hood_valleys_or",
-      "display_name": "Mt. Hood, OR",
+      "display_name": "Mt. Hood National Forest, OR",
       "region": "Oregon Cascades",
       "category": "West Coast Marine",
       "description": "Majestic volcanic peak with frequent cloud inversions in surrounding valleys",
@@ -115,8 +115,8 @@
       }
     },
     {
-      "key": "mt_rainier_valleys_wa",
-      "display_name": "Mt. Rainier, WA",
+      "key": "mt_rainier_wa",
+      "display_name": "Mt. Rainier National Park, WA",
       "region": "Washington Cascades",
       "category": "West Coast Marine",
       "description": "The most glaciated peak in the contiguous US, famous for valley fog formations",
@@ -173,8 +173,8 @@
     },
     {
       "key": "crater_lake_or",
-      "display_name": "Crater Lake, OR",
-      "region": "Oregon Cascades",
+      "display_name": "Crater Lake National Park, OR",
+      "region": "Southern Oregon",
       "category": "High Elevation Lake",
       "description": "Deep caldera lake creating unique thermal fog patterns",
       "geography": {
@@ -230,8 +230,8 @@
     },
     {
       "key": "yosemite_valley_ca",
-      "display_name": "Yosemite Valley, CA",
-      "region": "California Sierra Nevada",
+      "display_name": "Yosemite National Park, CA",
+      "region": "Sierra Nevada",
       "category": "Valley Cold Pool",
       "description": "Iconic granite valley with dramatic radiation fog formations",
       "geography": {
@@ -404,8 +404,8 @@
     },
     {
       "key": "zion_canyon_ut",
-      "display_name": "Zion Canyon, UT",
-      "region": "Utah Plateau",
+      "display_name": "Zion National Park, UT",
+      "region": "Southern Utah",
       "category": "Desert Canyon",
       "description": "Red rock canyon with dramatic temperature inversion events",
       "geography": {
@@ -519,8 +519,8 @@
       }
     },
     {
-      "key": "valleys_near_aspen_co",
-      "display_name": "Aspen Valleys, CO",
+      "key": "aspen_valleys_co",
+      "display_name": "Aspen Mountain, CO",
       "region": "Colorado Rockies",
       "category": "Mountain Valley",
       "description": "High-altitude valleys with spectacular winter cloud inversions",
@@ -577,9 +577,9 @@
       }
     },
     {
-      "key": "great_smoky_mtns_valleys",
-      "display_name": "Great Smoky Mountains, TN/NC",
-      "region": "Appalachian Mountains",
+      "key": "great_smoky_mountains_tn_nc",
+      "display_name": "Great Smoky Mountains National Park, TN",
+      "region": "Tennessee/North Carolina",
       "category": "Eastern Humid",
       "description": "Ancient mountains famous for natural fog and mist formations",
       "geography": {
@@ -635,8 +635,8 @@
       }
     },
     {
-      "key": "shenandoah_valley_va",
-      "display_name": "Shenandoah Valley, VA",
+      "key": "shenandoah_national_park_va",
+      "display_name": "Shenandoah National Park, VA",
       "region": "Virginia Blue Ridge",
       "category": "Eastern Humid",
       "description": "Historic valley with beautiful morning fog in agricultural areas",
@@ -694,8 +694,8 @@
     },
     {
       "key": "new_river_gorge_wv",
-      "display_name": "New River Gorge, WV",
-      "region": "West Virginia Appalachians",
+      "display_name": "New River Gorge National Park, WV",
+      "region": "West Virginia",
       "category": "Eastern Humid",
       "description": "Deep river gorge with morning mist and fog formations",
       "geography": {

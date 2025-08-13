@@ -1,3 +1,9 @@
+:root {
+    --row1-col2-offset: -13px; /* 第一行第二列的偏移 */
+    --row2-col2-offset: 0px; /* 第二行第二列的偏移 */
+    --row3-col2-offset: 0px; /* 第三行第二列的偏移 */
+}
+
 /* Sea of Clouds Page Specific Styles */
 
 /* Location Information Styles */
@@ -486,7 +492,7 @@
 .metric-row {
     display: grid;
     grid-template-columns: 200px 150px 1fr;
-    align-items: center;
+    align-items: flex-start;
     gap: 1.5rem;
     padding: 1rem 0;
     border-bottom: 1px solid #ecf0f1;
@@ -500,6 +506,7 @@
     color: #ffffff;
     font-weight: 600;
     font-size: 1rem;
+    text-align: left;
 }
 
 .metric-value {
@@ -509,6 +516,8 @@
     align-items: center;
     gap: 0.5rem;
     color: #ffffff;
+    text-align: left;
+    justify-content: flex-start;
 }
 
 .metric-description {
@@ -516,6 +525,7 @@
     font-size: 1.1rem;
     line-height: 1.4;
     font-weight: 500;
+    text-align: left;
 }
 
 /* Colors are now set dynamically via JavaScript */
@@ -826,15 +836,16 @@
 }
 
 .clickable-metric:hover {
-    background: rgba(79, 168, 216, 0.1);
-    color: #2980b9;
-    transform: scale(1.05);
+    background: rgba(79, 168, 216, 0.2);
+    cursor: pointer;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(79, 168, 216, 0.3);
 }
 
 .clickable-metric.active {
-    background: rgba(79, 168, 216, 0.2);
-    color: #2980b9;
-    box-shadow: 0 2px 8px rgba(79, 168, 216, 0.3);
+    background: rgba(79, 168, 216, 0.3);
+    color: #ffffff;
+    box-shadow: 0 2px 8px rgba(79, 168, 216, 0.4);
 }
 
 .expand-icon {
@@ -850,7 +861,7 @@
 
 /* Region details panel */
 .region-details {
-    background: rgba(79, 168, 216, 0.05);
+    background: rgba(79, 168, 216, 0.05); /* 改回原来的深色背景 */
     border-radius: 8px;
     padding: 1.5rem;
     margin-top: 1rem;
@@ -859,49 +870,101 @@
 }
 
 .region-details h4 {
-    color: #2c3e50;
+    color: #2c3e50; /* 改回深色文字，因为背景是浅色了 */
     margin-bottom: 1rem;
     font-size: 1.1rem;
 }
 
 .hourly-stats {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-    gap: 0.8rem;
-    max-height: 400px;
+    grid-template-columns: repeat(8, 1fr); /* 8列布局，3行显示24小时 */
+    gap: 0.6rem;
+    max-height: 600px; /* 增加高度以适应更多行 */
     overflow-y: auto;
+    margin-bottom: 1rem;
 }
 
 .hourly-stat {
-    background: rgba(255, 255, 255, 0.8);
-    border-radius: 6px;
+    background: rgba(225, 225, 225, 0.8); /* 默认浅灰色背景 */
+    border-radius: 8px;
     padding: 0.8rem 0.6rem;
     text-align: center;
-    border: 1px solid rgba(79, 168, 216, 0.2);
-    transition: transform 0.2s ease;
+    border: 1px solid rgba(200, 200, 200, 0.3);
+    transition: all 0.3s ease;
+    min-height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+}
+
+/* 基于概率值的颜色类 */
+.hourly-stat.high-probability {
+    background: linear-gradient(135deg, rgba(39, 174, 96, 0.9), rgba(46, 204, 113, 0.8)); /* 深绿色 - Peak Season */
+    border-color: rgba(39, 174, 96, 0.4);
+    color: white;
+}
+
+.hourly-stat.medium-probability {
+    background: linear-gradient(135deg, rgba(168, 230, 207, 0.9), rgba(126, 214, 160, 0.8)); /* 浅绿色 - Good */
+    border-color: rgba(168, 230, 207, 0.4);
+    color: #2c3e50;
+}
+
+.hourly-stat.low-probability {
+    background: linear-gradient(135deg, rgba(149, 165, 166, 0.9), rgba(127, 140, 141, 0.8)); /* 灰色 - Fair */
+    border-color: rgba(149, 165, 166, 0.4);
+    color: white;
 }
 
 .hourly-stat:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 2px 8px rgba(79, 168, 216, 0.2);
+    transform: translateY(-3px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    z-index: 10;
 }
 
 .hourly-stat .time {
     font-weight: 600;
-    color: #2c3e50;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.4rem;
+    font-size: 1rem;
+    position: relative;
+    z-index: 2;
 }
 
-.hourly-stat .coverage {
-    color: #3498db;
-    font-size: 1.1rem;
+.hourly-stat .data-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    flex-grow: 1;
+    position: relative;
+    z-index: 2;
+}
+
+.hourly-stat .data-content div {
+    font-size: 0.85rem;
     font-weight: 500;
 }
 
-.hourly-stat .area {
-    color: #7f8c8d;
-    font-size: 0.9rem;
-    margin-top: 0.2rem;
+/* 高概率卡片的文字颜色 */
+.hourly-stat.high-probability .time,
+.hourly-stat.high-probability .data-content div {
+    color: #ffffff;
+    text-shadow: 0 1px 2px rgba(255, 255, 255, 0.5);
+}
+
+/* 中概率卡片的文字颜色 */
+.hourly-stat.medium-probability .time,
+.hourly-stat.medium-probability .data-content div {
+    color: #ffffff;
+    text-shadow: 0 1px 2px rgba(255, 255, 255, 0.5);
+}
+
+/* 低概率卡片的文字颜色 */
+.hourly-stat.low-probability .time,
+.hourly-stat.low-probability .data-content div {
+    color: #ffffff;
+    text-shadow: 0 1px 2px rgba(255, 255, 255, 0.5);
 }
 
 @keyframes slideDown {
@@ -1208,4 +1271,121 @@
     .collapsible-content.expanded {
         max-height: 400px;
     }
+} 
+
+/* Multi-Day Forecast Panel Styles */
+.forecast-details-container {
+    margin-top: 1rem;
+}
+
+.forecast-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.forecast-location-name {
+    color: #ffffff;
+    margin: 0;
+    font-size: 1.3rem;
+}
+
+.forecast-date-range {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.9rem;
+    background: rgba(79, 168, 216, 0.2);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+}
+
+.daily-forecast-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.daily-forecast-card {
+    background: rgba(79, 168, 216, 0.1);
+    border: 1px solid rgba(79, 168, 216, 0.3);
+    border-radius: 12px;
+    padding: 1.5rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.daily-forecast-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(79, 168, 216, 0.2);
+}
+
+.daily-forecast-card h5 {
+    color: #ffffff;
+    margin: 0 0 1rem 0;
+    font-size: 1.2rem;
+    text-align: center;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.forecast-metrics {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.forecast-metric {
+    text-align: center;
+    padding: 0.8rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+}
+
+.forecast-metric-label {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.85rem;
+    margin-bottom: 0.3rem;
+    display: block;
+}
+
+.forecast-metric-value {
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.forecast-recommendation {
+    background: rgba(79, 168, 216, 0.15);
+    border-radius: 8px;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.forecast-recommendation-label {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.forecast-recommendation-text {
+    color: #ffffff;
+    font-size: 0.95rem;
+    line-height: 1.4;
+    margin: 0;
+} 
+
+.metric-row:nth-child(1) .metric-value {
+    transform: translateX(var(--row1-col2-offset));
+}
+
+.metric-row:nth-child(2) .metric-value {
+    transform: translateX(var(--row2-col2-offset));
+}
+
+.metric-row:nth-child(3) .metric-value {
+    transform: translateX(var(--row3-col2-offset));
 } 
