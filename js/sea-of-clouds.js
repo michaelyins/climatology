@@ -441,17 +441,30 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     async function loadPredictionData() {
-        console.log("Loading real sea of clouds prediction data...");
+        console.log("Loading sea of clouds prediction data from data directory...");
         try {
-            const response = await fetch(`../云海/data_final/master_forecast_20250812.json?v=${Date.now()}`);
+            // 优先读取data目录中的集成数据
+            const response = await fetch(`../data/sea_of_clouds_results.json?v=${Date.now()}`);
             if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
             allPredictionData = await response.json();
-            console.log("✅ Real sea of clouds prediction data loaded successfully:", allPredictionData);
+            console.log("✅ Sea of clouds prediction data loaded successfully from data directory:", allPredictionData);
             populateLocationDropdown();
             populateDateDropdown();
         } catch (error) {
-            console.error("❌ Failed to load real prediction data:", error);
-            alert("Error: Unable to load sea of clouds prediction data.");
+            console.error("❌ Failed to load prediction data from data directory:", error);
+            // 如果data目录中没有数据，尝试读取云海目录中的最新文件
+            try {
+                console.log("Trying to load from 云海 directory as fallback...");
+                const fallbackResponse = await fetch(`../云海/data_final/master_forecast_20250812.json?v=${Date.now()}`);
+                if (!fallbackResponse.ok) throw new Error(`HTTP error! status: ${fallbackResponse.status}`);
+                allPredictionData = await fallbackResponse.json();
+                console.log("✅ Fallback data loaded successfully:", allPredictionData);
+                populateLocationDropdown();
+                populateDateDropdown();
+            } catch (fallbackError) {
+                console.error("❌ Failed to load fallback data:", fallbackError);
+                alert("Error: Unable to load sea of clouds prediction data from any source.");
+            }
         }
     }
 
