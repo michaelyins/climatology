@@ -1,0 +1,163 @@
+{
+  "metadata": {
+    "generatedAt": "2025-08-12T04:11:12.760388+00:00",
+    "forecastDays": 2,
+    "forecastDates": [
+      "2025-08-12",
+      "2025-08-13"
+    ],
+    "totalLocations": 13,
+    "version": "6.0",
+    "modelType": "sea_of_clouds_probability"
+  },
+  "predictions": {
+    "sea_of_clouds": {
+      "Mt. Tamalpais, CA": {
+        "locationName": "Mt. Tamalpais, CA",
+        "timezone": "America/Los_Angeles",
+        "latitude": 37.9235,
+        "longitude": -122.5961,
+        "region_info": {
+          "total_area_km2": 391.14,
+          "grid_resolution": "0.040°",
+          "grid_size": "6 × 6",
+          "total_grid_points": 36,
+          "lat_range_km": 22.26,
+          "lon_range_km": 17.57
+        },
+        "forecasts": {
+          "2025-08-12": {
+            "date": "2025-08-12",
+            "dayOfWeek": "Tuesday",
+            "summary": {
+              "avg_probability": 0.6963,
+              "avg_quality": 0.7213,
+              "avg_aod": 0.1392,
+              "recommendationDescription": "绝佳机会！预计将有非常壮观的云海。",
+              "peakCoverageTime": "03:00",
+              "peakCoverageArea": 0.0,
+              "peakCoveragePercentage": 0.0,
+              "averageCoverage": 0.0,
+              "recommendLevel": 5,
+              "recommendPercentage": 90
+            },
+            "hourlyData": [
+              {
+                "time": "03:00",
+                "probability": 0.801,
+                "quality_score": 0.7272,
+                "cloud_top_asl": 352,
+                "aod": 0.17
+              },
+              {
+                "time": "04:00",
+                "probability": 0.777,
+                "quality_score": 0.7326,
+                "cloud_top_asl": 353,
+                "aod": 0.17
+              },
+              {
+                "time": "05:00",
+                "probability": 0.841,
+                "quality_score": 0.6704,
+                "cloud_top_asl": 351,
+                "aod": 0.16
+              },
+              {
+                "time": "06:00",
+                "probability": 0.877,
+                "quality_score": 0.6316,
+                "cloud_top_asl": 470,
+                "aod": 0.16
+              },
+              {
+                "time": "07:00",
+                "probability": 0.893,
+                "quality_score": 0.6595,
+                "cloud_top_asl": 350,
+                "aod": 0.16
+              },
+              {
+                "time": "08:00",
+                "probability": 0.763,
+                "quality_score": 0.7007,
+                "cloud_top_asl": 571,
+                "aod": 0.16
+              },
+              {
+                "time": "09:00",
+                "probability": 0.807,
+                "quality_score": 0.8363,
+                "cloud_top_asl": 572,
+                "aod": 0.15
+              },
+              {
+                "time": "10:00",
+                "probability": 0.807,
+                "quality_score": 0.8298,
+                "cloud_top_asl": 573,
+                "aod": 0.15
+              },
+              {
+                "time": "11:00",
+                "probability": 0.783,
+                "quality_score": 0.7115,
+                "cloud_top_asl": 576,
+                "aod": 0.15
+              },
+              {
+                "time": "12:00",
+                "probability": 0.808,
+                "quality_score": 0.6239,
+                "cloud_top_asl": 578,
+                "aod": 0.15
+              },
+              {
+                "time": "13:00",
+                "probability": 0.792,
+                "quality_score": 0.6543,
+                "cloud_top_asl": 356,
+                "aod": 0.15
+              },
+              {
+                "time": "14:00",
+                "probability": 0.754,
+                "quality_score": 0.6803,
+                "cloud_top_asl": 359,
+                "aod": 0.15
+              },
+              {
+                "time": "15:00",
+                "probability": 0.753,
+                "quality_score": 0.6861,
+                "cloud_top_asl": 359,
+                "aod": 0.15
+              },
+              {
+                "time": "16:00",
+                "probability": 0.755,
+                "quality_score": 0.7467,
+                "cloud_top_asl": 354,
+                "aod": 0.15
+              },
+              {
+                "time": "17:00",
+                "probability": 0.749,
+                "quality_score": 0.7492,
+                "cloud_top_asl": 356,
+                "aod": 0.15
+              },
+              {
+                "time": "18:00",
+                "probability": 0.738,
+                "quality_score": 0.7699,
+                "cloud_top_asl": 353,
+                "aod": 0.15
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
