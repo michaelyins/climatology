@@ -1,7 +1,7 @@
 {
     "Cleveland": {
         "locationName": "Cleveland",
-        "bestTimeSlot": "15:00",
+        "bestTimeSlot": "12:00",
         "bestRecommendLevel": 2,
         "bestRecommendPercentage": 66,
         "allTimeSlots": [
@@ -37,18 +37,18 @@
             },
             {
                 "time": "12:00",
-                "level": 0,
-                "percentage": 0
+                "level": 2,
+                "percentage": 66
             },
             {
                 "time": "13:00",
-                "level": 0,
-                "percentage": 0
+                "level": 2,
+                "percentage": 66
             },
             {
                 "time": "14:00",
-                "level": 0,
-                "percentage": 0
+                "level": 2,
+                "percentage": 66
             },
             {
                 "time": "15:00",
@@ -81,7 +81,7 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.102,
+        "airQualityValue": 0.06,
         "airQuality": "Good"
     },
     "Zion National Park": {
@@ -166,92 +166,7 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.047,
-        "airQuality": "Good"
-    },
-    "Monument Valley": {
-        "locationName": "Monument Valley",
-        "bestTimeSlot": "15:00",
-        "bestRecommendLevel": 2,
-        "bestRecommendPercentage": 66,
-        "allTimeSlots": [
-            {
-                "time": "06:00",
-                "level": 0,
-                "percentage": 0
-            },
-            {
-                "time": "07:00",
-                "level": 0,
-                "percentage": 0
-            },
-            {
-                "time": "08:00",
-                "level": 0,
-                "percentage": 0
-            },
-            {
-                "time": "09:00",
-                "level": 0,
-                "percentage": 0
-            },
-            {
-                "time": "10:00",
-                "level": 0,
-                "percentage": 0
-            },
-            {
-                "time": "11:00",
-                "level": 0,
-                "percentage": 0
-            },
-            {
-                "time": "12:00",
-                "level": 0,
-                "percentage": 0
-            },
-            {
-                "time": "13:00",
-                "level": 0,
-                "percentage": 0
-            },
-            {
-                "time": "14:00",
-                "level": 0,
-                "percentage": 0
-            },
-            {
-                "time": "15:00",
-                "level": 2,
-                "percentage": 66
-            },
-            {
-                "time": "16:00",
-                "level": 2,
-                "percentage": 66
-            },
-            {
-                "time": "17:00",
-                "level": 2,
-                "percentage": 66
-            },
-            {
-                "time": "18:00",
-                "level": 0,
-                "percentage": 0
-            },
-            {
-                "time": "19:00",
-                "level": 0,
-                "percentage": 0
-            },
-            {
-                "time": "20:00",
-                "level": 0,
-                "percentage": 0
-            }
-        ],
-        "airQualityValue": 0.051,
+        "airQualityValue": 0.052,
         "airQuality": "Good"
     },
     "Lake Tahoe": {
@@ -336,7 +251,7 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.048,
+        "airQualityValue": 0.04,
         "airQuality": "Good"
     },
     "Seattle": {
@@ -397,8 +312,8 @@
             },
             {
                 "time": "16:00",
-                "level": 2,
-                "percentage": 66
+                "level": 1,
+                "percentage": 33
             },
             {
                 "time": "17:00",
@@ -421,7 +336,7 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.103,
+        "airQualityValue": 0.13,
         "airQuality": "Good"
     },
     "Yellowstone National Park": {
@@ -467,18 +382,18 @@
             },
             {
                 "time": "13:00",
-                "level": 1,
-                "percentage": 33
+                "level": 2,
+                "percentage": 66
             },
             {
                 "time": "14:00",
-                "level": 1,
-                "percentage": 33
+                "level": 2,
+                "percentage": 66
             },
             {
                 "time": "15:00",
-                "level": 1,
-                "percentage": 33
+                "level": 2,
+                "percentage": 66
             },
             {
                 "time": "16:00",
@@ -506,14 +421,14 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.03,
+        "airQualityValue": 0.053,
         "airQuality": "Good"
     },
     "Grand Teton National Park": {
         "locationName": "Grand Teton National Park",
-        "bestTimeSlot": "12:00",
-        "bestRecommendLevel": 1,
-        "bestRecommendPercentage": 33,
+        "bestTimeSlot": "13:00",
+        "bestRecommendLevel": 2,
+        "bestRecommendPercentage": 66,
         "allTimeSlots": [
             {
                 "time": "06:00",
@@ -542,8 +457,8 @@
             },
             {
                 "time": "11:00",
-                "level": 0,
-                "percentage": 0
+                "level": 1,
+                "percentage": 33
             },
             {
                 "time": "12:00",
@@ -552,8 +467,8 @@
             },
             {
                 "time": "13:00",
-                "level": 1,
-                "percentage": 33
+                "level": 2,
+                "percentage": 66
             },
             {
                 "time": "14:00",
@@ -567,8 +482,8 @@
             },
             {
                 "time": "16:00",
-                "level": 1,
-                "percentage": 33
+                "level": 0,
+                "percentage": 0
             },
             {
                 "time": "17:00",
@@ -591,7 +506,7 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.03,
+        "airQualityValue": 0.054,
         "airQuality": "Good"
     },
     "Glacier National Park": {
@@ -676,7 +591,7 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.02,
+        "airQualityValue": 0.127,
         "airQuality": "Good"
     }
 }
