@@ -1,9 +1,9 @@
 {
     "Cleveland": {
         "locationName": "Cleveland",
-        "bestTimeSlot": "10:00",
-        "bestRecommendLevel": 1,
-        "bestRecommendPercentage": 33,
+        "bestTimeSlot": "14:00",
+        "bestRecommendLevel": 2,
+        "bestRecommendPercentage": 66,
         "allTimeSlots": [
             {
                 "time": "06:00",
@@ -27,8 +27,8 @@
             },
             {
                 "time": "10:00",
-                "level": 1,
-                "percentage": 33
+                "level": 0,
+                "percentage": 0
             },
             {
                 "time": "11:00",
@@ -37,23 +37,23 @@
             },
             {
                 "time": "12:00",
-                "level": 0,
-                "percentage": 0
+                "level": 1,
+                "percentage": 33
             },
             {
                 "time": "13:00",
-                "level": 0,
-                "percentage": 0
+                "level": 1,
+                "percentage": 33
             },
             {
                 "time": "14:00",
-                "level": 0,
-                "percentage": 0
+                "level": 2,
+                "percentage": 66
             },
             {
                 "time": "15:00",
-                "level": 0,
-                "percentage": 0
+                "level": 1,
+                "percentage": 33
             },
             {
                 "time": "16:00",
@@ -81,12 +81,12 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.083,
+        "airQualityValue": 0.033,
         "airQuality": "Good"
     },
-    "Yellowstone National Park": {
-        "locationName": "Yellowstone National Park",
-        "bestTimeSlot": "10:00",
+    "Mt. Rainier": {
+        "locationName": "Mt. Rainier",
+        "bestTimeSlot": "12:00",
         "bestRecommendLevel": 1,
         "bestRecommendPercentage": 33,
         "allTimeSlots": [
@@ -112,8 +112,8 @@
             },
             {
                 "time": "10:00",
-                "level": 1,
-                "percentage": 33
+                "level": 0,
+                "percentage": 0
             },
             {
                 "time": "11:00",
@@ -122,8 +122,8 @@
             },
             {
                 "time": "12:00",
-                "level": 0,
-                "percentage": 0
+                "level": 1,
+                "percentage": 33
             },
             {
                 "time": "13:00",
@@ -166,12 +166,12 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.073,
+        "airQualityValue": 0.023,
         "airQuality": "Good"
     },
-    "Grand Teton National Park": {
-        "locationName": "Grand Teton National Park",
-        "bestTimeSlot": "10:00",
+    "Mt. Hood": {
+        "locationName": "Mt. Hood",
+        "bestTimeSlot": "12:00",
         "bestRecommendLevel": 1,
         "bestRecommendPercentage": 33,
         "allTimeSlots": [
@@ -197,8 +197,8 @@
             },
             {
                 "time": "10:00",
-                "level": 1,
-                "percentage": 33
+                "level": 0,
+                "percentage": 0
             },
             {
                 "time": "11:00",
@@ -207,8 +207,8 @@
             },
             {
                 "time": "12:00",
-                "level": 0,
-                "percentage": 0
+                "level": 1,
+                "percentage": 33
             },
             {
                 "time": "13:00",
@@ -251,7 +251,7 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.104,
+        "airQualityValue": 0.038,
         "airQuality": "Good"
     }
 }
