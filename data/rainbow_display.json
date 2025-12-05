@@ -1,9 +1,9 @@
 {
-    "Monument Valley": {
-        "locationName": "Monument Valley",
-        "bestTimeSlot": "10:00",
-        "bestRecommendLevel": 1,
-        "bestRecommendPercentage": 33,
+    "Madison": {
+        "locationName": "Madison",
+        "bestTimeSlot": "13:00",
+        "bestRecommendLevel": 2,
+        "bestRecommendPercentage": 66,
         "allTimeSlots": [
             {
                 "time": "06:00",
@@ -27,23 +27,23 @@
             },
             {
                 "time": "10:00",
-                "level": 1,
-                "percentage": 33
+                "level": 0,
+                "percentage": 0
             },
             {
                 "time": "11:00",
-                "level": 1,
-                "percentage": 33
+                "level": 0,
+                "percentage": 0
             },
             {
                 "time": "12:00",
-                "level": 1,
-                "percentage": 33
+                "level": 0,
+                "percentage": 0
             },
             {
                 "time": "13:00",
-                "level": 1,
-                "percentage": 33
+                "level": 2,
+                "percentage": 66
             },
             {
                 "time": "14:00",
@@ -52,8 +52,8 @@
             },
             {
                 "time": "15:00",
-                "level": 1,
-                "percentage": 33
+                "level": 0,
+                "percentage": 0
             },
             {
                 "time": "16:00",
@@ -81,7 +81,7 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.163,
+        "airQualityValue": 0.133,
         "airQuality": "Good"
     }
 }
