@@ -1,4 +1,89 @@
 {
+    "Mt. Whitney": {
+        "locationName": "Mt. Whitney",
+        "bestTimeSlot": "14:00",
+        "bestRecommendLevel": 1,
+        "bestRecommendPercentage": 33,
+        "allTimeSlots": [
+            {
+                "time": "06:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "07:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "08:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "09:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "10:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "11:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "12:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "13:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "14:00",
+                "level": 1,
+                "percentage": 33
+            },
+            {
+                "time": "15:00",
+                "level": 1,
+                "percentage": 33
+            },
+            {
+                "time": "16:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "17:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "18:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "19:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "20:00",
+                "level": 0,
+                "percentage": 0
+            }
+        ],
+        "airQualityValue": 0.108,
+        "airQuality": "Good"
+    },
     "Houston": {
         "locationName": "Houston",
         "bestTimeSlot": "12:00",
@@ -81,97 +166,12 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.134,
-        "airQuality": "Good"
-    },
-    "San Francisco": {
-        "locationName": "San Francisco",
-        "bestTimeSlot": "12:00",
-        "bestRecommendLevel": 2,
-        "bestRecommendPercentage": 66,
-        "allTimeSlots": [
-            {
-                "time": "06:00",
-                "level": 0,
-                "percentage": 0
-            },
-            {
-                "time": "07:00",
-                "level": 0,
-                "percentage": 0
-            },
-            {
-                "time": "08:00",
-                "level": 0,
-                "percentage": 0
-            },
-            {
-                "time": "09:00",
-                "level": 0,
-                "percentage": 0
-            },
-            {
-                "time": "10:00",
-                "level": 0,
-                "percentage": 0
-            },
-            {
-                "time": "11:00",
-                "level": 1,
-                "percentage": 33
-            },
-            {
-                "time": "12:00",
-                "level": 2,
-                "percentage": 66
-            },
-            {
-                "time": "13:00",
-                "level": 2,
-                "percentage": 66
-            },
-            {
-                "time": "14:00",
-                "level": 1,
-                "percentage": 33
-            },
-            {
-                "time": "15:00",
-                "level": 1,
-                "percentage": 33
-            },
-            {
-                "time": "16:00",
-                "level": 0,
-                "percentage": 0
-            },
-            {
-                "time": "17:00",
-                "level": 0,
-                "percentage": 0
-            },
-            {
-                "time": "18:00",
-                "level": 0,
-                "percentage": 0
-            },
-            {
-                "time": "19:00",
-                "level": 0,
-                "percentage": 0
-            },
-            {
-                "time": "20:00",
-                "level": 0,
-                "percentage": 0
-            }
-        ],
-        "airQualityValue": 0.107,
+        "airQualityValue": 0.186,
         "airQuality": "Good"
     },
     "Yosemite National Park": {
         "locationName": "Yosemite National Park",
-        "bestTimeSlot": "10:00",
+        "bestTimeSlot": "13:00",
         "bestRecommendLevel": 2,
         "bestRecommendPercentage": 66,
         "allTimeSlots": [
@@ -192,38 +192,38 @@
             },
             {
                 "time": "09:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "10:00",
                 "level": 1,
                 "percentage": 33
             },
             {
-                "time": "10:00",
+                "time": "11:00",
+                "level": 1,
+                "percentage": 33
+            },
+            {
+                "time": "12:00",
+                "level": 1,
+                "percentage": 33
+            },
+            {
+                "time": "13:00",
                 "level": 2,
                 "percentage": 66
             },
             {
-                "time": "11:00",
-                "level": 0,
-                "percentage": 0
-            },
-            {
-                "time": "12:00",
-                "level": 0,
-                "percentage": 0
-            },
-            {
-                "time": "13:00",
-                "level": 0,
-                "percentage": 0
-            },
-            {
                 "time": "14:00",
-                "level": 0,
-                "percentage": 0
+                "level": 1,
+                "percentage": 33
             },
             {
                 "time": "15:00",
-                "level": 0,
-                "percentage": 0
+                "level": 1,
+                "percentage": 33
             },
             {
                 "time": "16:00",
@@ -251,7 +251,7 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.099,
+        "airQualityValue": 0.111,
         "airQuality": "Good"
     }
 }
