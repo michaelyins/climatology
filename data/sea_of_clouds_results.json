@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generatedAt": "2026-01-01T08:37:32.231532+00:00",
+    "generatedAt": "2026-01-01T20:37:29.262717+00:00",
     "forecastDays": 2,
     "forecastDates": [
       "2026-01-01",
@@ -22,179 +22,179 @@
             "date": "2026-01-01",
             "dayOfWeek": "Thursday",
             "summary": {
-              "avg_probability": 0.4905,
-              "avg_quality": 0.3746,
-              "avg_aod": 0.1062,
+              "avg_probability": 0.4746,
+              "avg_quality": 0.4031,
+              "avg_aod": 0.1058,
               "recommendationDescription": "Moderate opportunity! Worth considering. Some cloud formation possible."
             },
             "hourlyData": [
               {
                 "time": "00:00",
-                "probability": 0.5388,
+                "probability": 0.5185,
                 "quality_score": 0.43,
-                "cloud_top_asl": 3035,
+                "cloud_top_asl": 3027,
                 "aod": 0.17
               },
               {
                 "time": "01:00",
-                "probability": 0.5186,
-                "quality_score": 0.43,
+                "probability": 0.4982,
+                "quality_score": 0.0,
                 "cloud_top_asl": 3029,
-                "aod": 0.15
+                "aod": 0.14
               },
               {
                 "time": "02:00",
                 "probability": 0.5388,
                 "quality_score": 0.43,
-                "cloud_top_asl": 3027,
+                "cloud_top_asl": 3024,
                 "aod": 0.11
               },
               {
                 "time": "03:00",
-                "probability": 0.5388,
-                "quality_score": 0.4338,
-                "cloud_top_asl": 3028,
+                "probability": 0.532,
+                "quality_score": 0.43,
+                "cloud_top_asl": 3024,
                 "aod": 0.1
               },
               {
                 "time": "04:00",
-                "probability": 0.5253,
-                "quality_score": 0.43,
-                "cloud_top_asl": 3021,
-                "aod": 0.1
+                "probability": 0.5388,
+                "quality_score": 0.28,
+                "cloud_top_asl": 3018,
+                "aod": 0.11
               },
               {
                 "time": "05:00",
-                "probability": 0.532,
+                "probability": 0.5185,
                 "quality_score": 0.28,
-                "cloud_top_asl": 3016,
-                "aod": 0.09
+                "cloud_top_asl": 3014,
+                "aod": 0.11
               },
               {
                 "time": "06:00",
-                "probability": 0.505,
+                "probability": 0.5253,
                 "quality_score": 0.28,
-                "cloud_top_asl": 3014,
-                "aod": 0.09
+                "cloud_top_asl": 3005,
+                "aod": 0.1
               },
               {
                 "time": "07:00",
-                "probability": 0.424,
+                "probability": 0.2508,
                 "quality_score": 0.0,
-                "cloud_top_asl": 3008,
-                "aod": 0.09
+                "cloud_top_asl": 2449,
+                "aod": 0.08
               },
               {
                 "time": "08:00",
-                "probability": 0.4442,
+                "probability": 0.3367,
                 "quality_score": 0.0,
-                "cloud_top_asl": 1430,
-                "aod": 0.09
+                "cloud_top_asl": 1112,
+                "aod": 0.08
               },
               {
                 "time": "09:00",
-                "probability": 0.4173,
-                "quality_score": 0.0,
-                "cloud_top_asl": 3009,
+                "probability": 0.5185,
+                "quality_score": 0.3363,
+                "cloud_top_asl": 3006,
                 "aod": 0.08
               },
               {
                 "time": "10:00",
-                "probability": 0.5348,
-                "quality_score": 0.28,
+                "probability": 0.5388,
+                "quality_score": 0.4355,
                 "cloud_top_asl": 3011,
                 "aod": 0.07
               },
               {
                 "time": "11:00",
-                "probability": 0.5268,
-                "quality_score": 0.28,
-                "cloud_top_asl": 3009,
-                "aod": 0.06
+                "probability": 0.5118,
+                "quality_score": 0.3456,
+                "cloud_top_asl": 3015,
+                "aod": 0.07
               },
               {
                 "time": "12:00",
-                "probability": 0.5248,
-                "quality_score": 0.3569,
-                "cloud_top_asl": 3011,
+                "probability": 0.4247,
+                "quality_score": 0.0,
+                "cloud_top_asl": 1444,
                 "aod": 0.06
               },
               {
                 "time": "13:00",
-                "probability": 0.5113,
-                "quality_score": 0.3231,
-                "cloud_top_asl": 3011,
-                "aod": 0.07
+                "probability": 0.4207,
+                "quality_score": 0.0,
+                "cloud_top_asl": 3008,
+                "aod": 0.08
               },
               {
                 "time": "14:00",
-                "probability": 0.4167,
+                "probability": 0.441,
                 "quality_score": 0.0,
-                "cloud_top_asl": 1943,
-                "aod": 0.06
+                "cloud_top_asl": 3017,
+                "aod": 0.12
               },
               {
                 "time": "15:00",
-                "probability": 0.47,
+                "probability": 0.466,
                 "quality_score": 0.0,
-                "cloud_top_asl": 1944,
-                "aod": 0.06
-              },
-              {
-                "time": "16:00",
-                "probability": 0.5368,
-                "quality_score": 0.28,
-                "cloud_top_asl": 3020,
-                "aod": 0.09
-              },
-              {
-                "time": "17:00",
-                "probability": 0.4375,
-                "quality_score": 0.0,
-                "cloud_top_asl": 3024,
-                "aod": 0.13
-              },
-              {
-                "time": "18:00",
-                "probability": 0.5328,
-                "quality_score": 0.43,
-                "cloud_top_asl": 3027,
-                "aod": 0.16
-              },
-              {
-                "time": "19:00",
-                "probability": 0.418,
-                "quality_score": 0.0,
-                "cloud_top_asl": 3032,
-                "aod": 0.17
-              },
-              {
-                "time": "20:00",
-                "probability": 0.528,
-                "quality_score": 0.58,
-                "cloud_top_asl": 3034,
-                "aod": 0.16
-              },
-              {
-                "time": "21:00",
-                "probability": 0.4712,
-                "quality_score": 0.0,
-                "cloud_top_asl": 3036,
+                "cloud_top_asl": 1950,
                 "aod": 0.14
               },
               {
-                "time": "22:00",
-                "probability": 0.424,
+                "time": "16:00",
+                "probability": 0.433,
                 "quality_score": 0.0,
-                "cloud_top_asl": 3038,
+                "cloud_top_asl": 1949,
+                "aod": 0.15
+              },
+              {
+                "time": "17:00",
+                "probability": 0.466,
+                "quality_score": 0.0,
+                "cloud_top_asl": 3023,
+                "aod": 0.16
+              },
+              {
+                "time": "18:00",
+                "probability": 0.414,
+                "quality_score": 0.0,
+                "cloud_top_asl": 3026,
                 "aod": 0.13
               },
               {
-                "time": "23:00",
-                "probability": 0.4558,
-                "quality_score": 0.0,
-                "cloud_top_asl": 3038,
+                "time": "19:00",
+                "probability": 0.5308,
+                "quality_score": 0.43,
+                "cloud_top_asl": 3027,
                 "aod": 0.12
+              },
+              {
+                "time": "20:00",
+                "probability": 0.5173,
+                "quality_score": 0.58,
+                "cloud_top_asl": 3029,
+                "aod": 0.11
+              },
+              {
+                "time": "21:00",
+                "probability": 0.4411,
+                "quality_score": 0.0,
+                "cloud_top_asl": 3030,
+                "aod": 0.09
+              },
+              {
+                "time": "22:00",
+                "probability": 0.5113,
+                "quality_score": 0.58,
+                "cloud_top_asl": 3032,
+                "aod": 0.08
+              },
+              {
+                "time": "23:00",
+                "probability": 0.4978,
+                "quality_score": 0.0,
+                "cloud_top_asl": 3032,
+                "aod": 0.08
               }
             ]
           },
@@ -202,179 +202,179 @@
             "date": "2026-01-02",
             "dayOfWeek": "Friday",
             "summary": {
-              "avg_probability": 0.4125,
-              "avg_quality": 0.3568,
-              "avg_aod": 0.1279,
+              "avg_probability": 0.4324,
+              "avg_quality": 0.2818,
+              "avg_aod": 0.1092,
               "recommendationDescription": "Moderate opportunity! Worth considering. Some cloud formation possible."
             },
             "hourlyData": [
               {
                 "time": "00:00",
-                "probability": 0.4471,
-                "quality_score": 0.0,
-                "cloud_top_asl": 3036,
-                "aod": 0.08
+                "probability": 0.514,
+                "quality_score": 0.28,
+                "cloud_top_asl": 3034,
+                "aod": 0.09
               },
               {
                 "time": "01:00",
-                "probability": 0.5233,
-                "quality_score": 0.43,
-                "cloud_top_asl": 3037,
-                "aod": 0.08
-              },
-              {
-                "time": "02:00",
-                "probability": 0.5388,
+                "probability": 0.5173,
                 "quality_score": 0.28,
-                "cloud_top_asl": 3036,
-                "aod": 0.08
-              },
-              {
-                "time": "03:00",
-                "probability": 0.4963,
-                "quality_score": 0.0,
                 "cloud_top_asl": 3033,
                 "aod": 0.09
               },
               {
-                "time": "04:00",
-                "probability": 0.4442,
+                "time": "02:00",
+                "probability": 0.4788,
                 "quality_score": 0.0,
-                "cloud_top_asl": 3031,
-                "aod": 0.1
+                "cloud_top_asl": 3030,
+                "aod": 0.09
+              },
+              {
+                "time": "03:00",
+                "probability": 0.503,
+                "quality_score": 0.28,
+                "cloud_top_asl": 1954,
+                "aod": 0.09
+              },
+              {
+                "time": "04:00",
+                "probability": 0.4219,
+                "quality_score": 0.0,
+                "cloud_top_asl": 3025,
+                "aod": 0.09
               },
               {
                 "time": "05:00",
-                "probability": 0.4442,
+                "probability": 0.2457,
                 "quality_score": 0.0,
-                "cloud_top_asl": 1955,
-                "aod": 0.1
+                "cloud_top_asl": 2015,
+                "aod": 0.09
               },
               {
                 "time": "06:00",
-                "probability": 0.5253,
-                "quality_score": 0.2855,
-                "cloud_top_asl": 1952,
-                "aod": 0.11
+                "probability": 0.4105,
+                "quality_score": 0.0,
+                "cloud_top_asl": 1459,
+                "aod": 0.09
               },
               {
                 "time": "07:00",
-                "probability": 0.3227,
+                "probability": 0.343,
                 "quality_score": 0.0,
-                "cloud_top_asl": 1950,
-                "aod": 0.12
+                "cloud_top_asl": 1456,
+                "aod": 0.09
               },
               {
                 "time": "08:00",
-                "probability": 0.3092,
+                "probability": 0.3496,
                 "quality_score": 0.0,
-                "cloud_top_asl": 1949,
-                "aod": 0.13
+                "cloud_top_asl": 1458,
+                "aod": 0.1
               },
               {
                 "time": "09:00",
-                "probability": 0.0,
+                "probability": 0.4442,
                 "quality_score": 0.0,
-                "cloud_top_asl": 0,
-                "aod": 0.14
+                "cloud_top_asl": 1456,
+                "aod": 0.12
               },
               {
                 "time": "10:00",
-                "probability": 0.3834,
+                "probability": 0.4672,
                 "quality_score": 0.0,
-                "cloud_top_asl": 1458,
-                "aod": 0.14
+                "cloud_top_asl": 3017,
+                "aod": 0.12
               },
               {
                 "time": "11:00",
-                "probability": 0.3834,
+                "probability": 0.4382,
                 "quality_score": 0.0,
-                "cloud_top_asl": 1455,
-                "aod": 0.15
+                "cloud_top_asl": 1944,
+                "aod": 0.12
               },
               {
                 "time": "12:00",
-                "probability": 0.4422,
+                "probability": 0.4254,
                 "quality_score": 0.0,
-                "cloud_top_asl": 1941,
-                "aod": 0.15
+                "cloud_top_asl": 3008,
+                "aod": 0.13
               },
               {
                 "time": "13:00",
-                "probability": 0.24,
+                "probability": 0.468,
                 "quality_score": 0.0,
-                "cloud_top_asl": 2319,
-                "aod": 0.16
+                "cloud_top_asl": 3006,
+                "aod": 0.13
               },
               {
                 "time": "14:00",
-                "probability": 0.47,
+                "probability": 0.3579,
                 "quality_score": 0.0,
-                "cloud_top_asl": 3005,
-                "aod": 0.16
+                "cloud_top_asl": 1935,
+                "aod": 0.13
               },
               {
                 "time": "15:00",
-                "probability": 0.4855,
+                "probability": 0.3801,
                 "quality_score": 0.0,
                 "cloud_top_asl": 3001,
-                "aod": 0.17
+                "aod": 0.11
               },
               {
                 "time": "16:00",
-                "probability": 0.4788,
+                "probability": 0.4517,
                 "quality_score": 0.0,
-                "cloud_top_asl": 1435,
-                "aod": 0.19
+                "cloud_top_asl": 1436,
+                "aod": 0.11
               },
               {
                 "time": "17:00",
-                "probability": 0.4847,
+                "probability": 0.3092,
                 "quality_score": 0.0,
-                "cloud_top_asl": 2997,
-                "aod": 0.18
+                "cloud_top_asl": 3005,
+                "aod": 0.15
               },
               {
                 "time": "18:00",
-                "probability": 0.505,
-                "quality_score": 0.2855,
-                "cloud_top_asl": 2997,
-                "aod": 0.16
+                "probability": 0.5185,
+                "quality_score": 0.2911,
+                "cloud_top_asl": 2999,
+                "aod": 0.15
               },
               {
                 "time": "19:00",
-                "probability": 0.4962,
-                "quality_score": 0.0,
+                "probability": 0.5388,
+                "quality_score": 0.28,
                 "cloud_top_asl": 2995,
                 "aod": 0.14
               },
               {
                 "time": "20:00",
-                "probability": 0.5185,
-                "quality_score": 0.43,
-                "cloud_top_asl": 2991,
-                "aod": 0.13
+                "probability": 0.5118,
+                "quality_score": 0.28,
+                "cloud_top_asl": 2993,
+                "aod": 0.12
               },
               {
                 "time": "21:00",
-                "probability": 0.5185,
-                "quality_score": 0.43,
-                "cloud_top_asl": 2988,
+                "probability": 0.495,
+                "quality_score": 0.0,
+                "cloud_top_asl": 2993,
                 "aod": 0.1
               },
               {
                 "time": "22:00",
-                "probability": 0.4437,
+                "probability": 0.4564,
                 "quality_score": 0.0,
-                "cloud_top_asl": 2987,
+                "cloud_top_asl": 2996,
                 "aod": 0.1
               },
               {
                 "time": "23:00",
-                "probability": 0.0,
+                "probability": 0.3307,
                 "quality_score": 0.0,
-                "cloud_top_asl": 0,
-                "aod": 0.11
+                "cloud_top_asl": 942,
+                "aod": 0.07
               }
             ]
           }
@@ -390,179 +390,179 @@
             "date": "2026-01-01",
             "dayOfWeek": "Thursday",
             "summary": {
-              "avg_probability": 0.5041,
-              "avg_quality": 0.4697,
-              "avg_aod": 0.0529,
+              "avg_probability": 0.5106,
+              "avg_quality": 0.4777,
+              "avg_aod": 0.0388,
               "recommendationDescription": "Moderate opportunity! Worth considering. Some cloud formation possible."
             },
             "hourlyData": [
               {
                 "time": "00:00",
-                "probability": 0.5388,
-                "quality_score": 0.4378,
-                "cloud_top_asl": 3026,
-                "aod": 0.06
+                "probability": 0.4443,
+                "quality_score": 0.0,
+                "cloud_top_asl": 3025,
+                "aod": 0.05
               },
               {
                 "time": "01:00",
-                "probability": 0.5253,
-                "quality_score": 0.439,
-                "cloud_top_asl": 3017,
-                "aod": 0.06
+                "probability": 0.5388,
+                "quality_score": 0.44,
+                "cloud_top_asl": 3016,
+                "aod": 0.05
               },
               {
                 "time": "02:00",
-                "probability": 0.5388,
-                "quality_score": 0.4365,
-                "cloud_top_asl": 3015,
-                "aod": 0.07
+                "probability": 0.532,
+                "quality_score": 0.4362,
+                "cloud_top_asl": 3014,
+                "aod": 0.05
               },
               {
                 "time": "03:00",
-                "probability": 0.5321,
-                "quality_score": 0.4378,
-                "cloud_top_asl": 3009,
-                "aod": 0.09
+                "probability": 0.4173,
+                "quality_score": 0.0,
+                "cloud_top_asl": 3006,
+                "aod": 0.05
               },
               {
                 "time": "04:00",
-                "probability": 0.5321,
-                "quality_score": 0.43,
-                "cloud_top_asl": 3005,
-                "aod": 0.1
+                "probability": 0.5185,
+                "quality_score": 0.438,
+                "cloud_top_asl": 2999,
+                "aod": 0.05
               },
               {
                 "time": "05:00",
-                "probability": 0.4308,
-                "quality_score": 0.0,
-                "cloud_top_asl": 3001,
-                "aod": 0.09
+                "probability": 0.5185,
+                "quality_score": 0.4422,
+                "cloud_top_asl": 2995,
+                "aod": 0.04
               },
               {
                 "time": "06:00",
-                "probability": 0.4173,
-                "quality_score": 0.0,
-                "cloud_top_asl": 2999,
-                "aod": 0.09
+                "probability": 0.5185,
+                "quality_score": 0.43,
+                "cloud_top_asl": 2993,
+                "aod": 0.03
               },
               {
                 "time": "07:00",
-                "probability": 0.5321,
-                "quality_score": 0.535,
-                "cloud_top_asl": 2991,
-                "aod": 0.08
+                "probability": 0.5388,
+                "quality_score": 0.5405,
+                "cloud_top_asl": 2992,
+                "aod": 0.04
               },
               {
                 "time": "08:00",
-                "probability": 0.5388,
-                "quality_score": 0.554,
-                "cloud_top_asl": 2985,
-                "aod": 0.06
+                "probability": 0.532,
+                "quality_score": 0.5575,
+                "cloud_top_asl": 2992,
+                "aod": 0.04
               },
               {
                 "time": "09:00",
-                "probability": 0.5321,
-                "quality_score": 0.4355,
-                "cloud_top_asl": 2990,
+                "probability": 0.505,
+                "quality_score": 0.443,
+                "cloud_top_asl": 2991,
                 "aod": 0.05
               },
               {
                 "time": "10:00",
-                "probability": 0.5388,
-                "quality_score": 0.43,
-                "cloud_top_asl": 2993,
+                "probability": 0.5253,
+                "quality_score": 0.5985,
+                "cloud_top_asl": 2996,
                 "aod": 0.04
               },
               {
                 "time": "11:00",
-                "probability": 0.4308,
-                "quality_score": 0.0,
-                "cloud_top_asl": 2992,
+                "probability": 0.5252,
+                "quality_score": 0.4425,
+                "cloud_top_asl": 2996,
                 "aod": 0.04
               },
               {
                 "time": "12:00",
-                "probability": 0.5388,
-                "quality_score": 0.43,
-                "cloud_top_asl": 2990,
-                "aod": 0.03
+                "probability": 0.532,
+                "quality_score": 0.4382,
+                "cloud_top_asl": 2994,
+                "aod": 0.04
               },
               {
                 "time": "13:00",
-                "probability": 0.5388,
-                "quality_score": 0.43,
-                "cloud_top_asl": 2985,
-                "aod": 0.03
+                "probability": 0.505,
+                "quality_score": 0.4382,
+                "cloud_top_asl": 2993,
+                "aod": 0.04
               },
               {
                 "time": "14:00",
-                "probability": 0.4308,
-                "quality_score": 0.0,
-                "cloud_top_asl": 2983,
-                "aod": 0.03
+                "probability": 0.5388,
+                "quality_score": 0.43,
+                "cloud_top_asl": 2988,
+                "aod": 0.04
               },
               {
                 "time": "15:00",
-                "probability": 0.5098,
-                "quality_score": 0.4362,
-                "cloud_top_asl": 2982,
-                "aod": 0.03
+                "probability": 0.4173,
+                "quality_score": 0.0,
+                "cloud_top_asl": 2987,
+                "aod": 0.04
               },
               {
                 "time": "16:00",
-                "probability": 0.5078,
-                "quality_score": 0.55,
-                "cloud_top_asl": 2985,
+                "probability": 0.5348,
+                "quality_score": 0.562,
+                "cloud_top_asl": 2984,
                 "aod": 0.03
               },
               {
                 "time": "17:00",
-                "probability": 0.5233,
-                "quality_score": 0.5418,
-                "cloud_top_asl": 2988,
-                "aod": 0.03
+                "probability": 0.5165,
+                "quality_score": 0.535,
+                "cloud_top_asl": 2990,
+                "aod": 0.02
               },
               {
                 "time": "18:00",
-                "probability": 0.4153,
-                "quality_score": 0.0,
-                "cloud_top_asl": 2992,
+                "probability": 0.5328,
+                "quality_score": 0.4502,
+                "cloud_top_asl": 2990,
                 "aod": 0.03
               },
               {
                 "time": "19:00",
-                "probability": 0.4173,
-                "quality_score": 0.0,
-                "cloud_top_asl": 2994,
+                "probability": 0.5368,
+                "quality_score": 0.4546,
+                "cloud_top_asl": 2989,
                 "aod": 0.04
               },
               {
                 "time": "20:00",
-                "probability": 0.5388,
-                "quality_score": 0.4398,
-                "cloud_top_asl": 2994,
-                "aod": 0.05
+                "probability": 0.424,
+                "quality_score": 0.0,
+                "cloud_top_asl": 2989,
+                "aod": 0.04
               },
               {
                 "time": "21:00",
-                "probability": 0.5321,
-                "quality_score": 0.442,
-                "cloud_top_asl": 2997,
-                "aod": 0.05
+                "probability": 0.5388,
+                "quality_score": 0.4312,
+                "cloud_top_asl": 2991,
+                "aod": 0.03
               },
               {
                 "time": "22:00",
                 "probability": 0.5388,
-                "quality_score": 0.4475,
-                "cloud_top_asl": 3001,
-                "aod": 0.04
+                "quality_score": 0.4956,
+                "cloud_top_asl": 2995,
+                "aod": 0.02
               },
               {
                 "time": "23:00",
-                "probability": 0.5185,
-                "quality_score": 0.6015,
-                "cloud_top_asl": 3003,
-                "aod": 0.05
+                "probability": 0.5253,
+                "quality_score": 0.5511,
+                "cloud_top_asl": 2996,
+                "aod": 0.03
               }
             ]
           },
@@ -570,178 +570,178 @@
             "date": "2026-01-02",
             "dayOfWeek": "Friday",
             "summary": {
-              "avg_probability": 0.4095,
-              "avg_quality": 0.5188,
-              "avg_aod": 0.055,
+              "avg_probability": 0.4082,
+              "avg_quality": 0.5189,
+              "avg_aod": 0.0421,
               "recommendationDescription": "Moderate opportunity! Worth considering. Some cloud formation possible."
             },
             "hourlyData": [
               {
                 "time": "00:00",
-                "probability": 0.5321,
-                "quality_score": 0.5978,
-                "cloud_top_asl": 3003,
-                "aod": 0.08
+                "probability": 0.5388,
+                "quality_score": 0.6145,
+                "cloud_top_asl": 3000,
+                "aod": 0.04
               },
               {
                 "time": "01:00",
-                "probability": 0.5368,
-                "quality_score": 0.5878,
-                "cloud_top_asl": 3003,
-                "aod": 0.1
+                "probability": 0.5253,
+                "quality_score": 0.605,
+                "cloud_top_asl": 3000,
+                "aod": 0.05
               },
               {
                 "time": "02:00",
                 "probability": 0.5388,
-                "quality_score": 0.58,
-                "cloud_top_asl": 3002,
-                "aod": 0.09
+                "quality_score": 0.6035,
+                "cloud_top_asl": 2997,
+                "aod": 0.05
               },
               {
                 "time": "03:00",
-                "probability": 0.4113,
-                "quality_score": 0.0,
-                "cloud_top_asl": 2999,
-                "aod": 0.09
+                "probability": 0.532,
+                "quality_score": 0.5983,
+                "cloud_top_asl": 2993,
+                "aod": 0.04
               },
               {
                 "time": "04:00",
-                "probability": 0.5281,
-                "quality_score": 0.5913,
-                "cloud_top_asl": 2997,
-                "aod": 0.09
+                "probability": 0.5388,
+                "quality_score": 0.4692,
+                "cloud_top_asl": 2991,
+                "aod": 0.04
               },
               {
                 "time": "05:00",
-                "probability": 0.5368,
-                "quality_score": 0.4525,
-                "cloud_top_asl": 2995,
-                "aod": 0.08
+                "probability": 0.5185,
+                "quality_score": 0.4464,
+                "cloud_top_asl": 2989,
+                "aod": 0.04
               },
               {
                 "time": "06:00",
-                "probability": 0.5253,
-                "quality_score": 0.4515,
-                "cloud_top_asl": 2993,
-                "aod": 0.07
+                "probability": 0.505,
+                "quality_score": 0.449,
+                "cloud_top_asl": 2990,
+                "aod": 0.04
               },
               {
                 "time": "07:00",
-                "probability": 0.5118,
-                "quality_score": 0.4458,
-                "cloud_top_asl": 2992,
-                "aod": 0.06
+                "probability": 0.5185,
+                "quality_score": 0.4505,
+                "cloud_top_asl": 2989,
+                "aod": 0.05
               },
               {
                 "time": "08:00",
-                "probability": 0.5185,
-                "quality_score": 0.568,
-                "cloud_top_asl": 2990,
-                "aod": 0.07
+                "probability": 0.5388,
+                "quality_score": 0.5718,
+                "cloud_top_asl": 2989,
+                "aod": 0.05
               },
               {
                 "time": "09:00",
-                "probability": 0.5253,
-                "quality_score": 0.4532,
-                "cloud_top_asl": 2989,
-                "aod": 0.07
-              },
-              {
-                "time": "10:00",
-                "probability": 0.4509,
+                "probability": 0.4173,
                 "quality_score": 0.0,
                 "cloud_top_asl": 2988,
                 "aod": 0.06
               },
               {
+                "time": "10:00",
+                "probability": 0.5253,
+                "quality_score": 0.4498,
+                "cloud_top_asl": 2985,
+                "aod": 0.06
+              },
+              {
                 "time": "11:00",
-                "probability": 0.4557,
-                "quality_score": 0.0,
-                "cloud_top_asl": 2983,
-                "aod": 0.05
+                "probability": 0.5165,
+                "quality_score": 0.4498,
+                "cloud_top_asl": 2982,
+                "aod": 0.07
               },
               {
                 "time": "12:00",
-                "probability": 0.3543,
+                "probability": 0.0,
                 "quality_score": 0.0,
-                "cloud_top_asl": 2977,
-                "aod": 0.04
+                "cloud_top_asl": 0,
+                "aod": 0.07
               },
               {
                 "time": "13:00",
-                "probability": 0.3321,
+                "probability": 0.0,
                 "quality_score": 0.0,
-                "cloud_top_asl": 2967,
-                "aod": 0.04
+                "cloud_top_asl": 0,
+                "aod": 0.05
               },
               {
                 "time": "14:00",
-                "probability": 0.499,
+                "probability": 0.3329,
                 "quality_score": 0.0,
                 "cloud_top_asl": 2958,
                 "aod": 0.04
               },
               {
                 "time": "15:00",
-                "probability": 0.4044,
+                "probability": 0.3843,
                 "quality_score": 0.0,
-                "cloud_top_asl": 2948,
+                "cloud_top_asl": 2950,
                 "aod": 0.04
               },
               {
                 "time": "16:00",
-                "probability": 0.3207,
+                "probability": 0.0,
                 "quality_score": 0.0,
-                "cloud_top_asl": 2940,
+                "cloud_top_asl": 0,
                 "aod": 0.04
               },
               {
                 "time": "17:00",
-                "probability": 0.0,
+                "probability": 0.3361,
                 "quality_score": 0.0,
-                "cloud_top_asl": 0,
-                "aod": 0.06
+                "cloud_top_asl": 2941,
+                "aod": 0.03
               },
               {
                 "time": "18:00",
-                "probability": 0.0,
+                "probability": 0.363,
                 "quality_score": 0.0,
-                "cloud_top_asl": 0,
-                "aod": 0.05
+                "cloud_top_asl": 2936,
+                "aod": 0.04
               },
               {
                 "time": "19:00",
-                "probability": 0.4104,
+                "probability": 0.3766,
                 "quality_score": 0.0,
-                "cloud_top_asl": 2925,
+                "cloud_top_asl": 2929,
                 "aod": 0.03
               },
               {
                 "time": "20:00",
-                "probability": 0.4442,
+                "probability": 0.3429,
                 "quality_score": 0.0,
-                "cloud_top_asl": 2920,
+                "cloud_top_asl": 2923,
                 "aod": 0.02
               },
               {
                 "time": "21:00",
-                "probability": 0.5185,
-                "quality_score": 0.4605,
-                "cloud_top_asl": 2915,
+                "probability": 0.478,
+                "quality_score": 0.0,
+                "cloud_top_asl": 2913,
                 "aod": 0.02
               },
               {
                 "time": "22:00",
-                "probability": 0.4727,
+                "probability": 0.4775,
                 "quality_score": 0.0,
                 "cloud_top_asl": 2911,
-                "aod": 0.01
+                "aod": 0.02
               },
               {
                 "time": "23:00",
-                "probability": 0.0,
+                "probability": 0.4922,
                 "quality_score": 0.0,
-                "cloud_top_asl": 0,
+                "cloud_top_asl": 2908,
                 "aod": 0.02
               }
             ]
@@ -758,10 +758,10 @@
             "date": "2026-01-01",
             "dayOfWeek": "Thursday",
             "summary": {
-              "avg_probability": 0.382,
-              "avg_quality": 0.4731,
-              "avg_aod": 0.0658,
-              "recommendationDescription": "Moderate opportunity! Worth considering. Some cloud formation possible."
+              "avg_probability": 0.4274,
+              "avg_quality": 0.5187,
+              "avg_aod": 0.0604,
+              "recommendationDescription": "Good opportunity! Recommended to visit. Sea of clouds formation likely."
             },
             "hourlyData": [
               {
@@ -769,21 +769,21 @@
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.12
+                "aod": 0.09
               },
               {
                 "time": "01:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.09
+                "aod": 0.13
               },
               {
                 "time": "02:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.08
+                "aod": 0.11
               },
               {
                 "time": "03:00",
@@ -794,142 +794,142 @@
               },
               {
                 "time": "04:00",
-                "probability": 0.0,
+                "probability": 0.4858,
                 "quality_score": 0.0,
-                "cloud_top_asl": 0,
-                "aod": 0.11
-              },
-              {
-                "time": "05:00",
-                "probability": 0.4069,
-                "quality_score": 0.0,
-                "cloud_top_asl": 3108,
+                "cloud_top_asl": 3112,
                 "aod": 0.1
               },
               {
+                "time": "05:00",
+                "probability": 0.5706,
+                "quality_score": 0.43,
+                "cloud_top_asl": 3107,
+                "aod": 0.09
+              },
+              {
                 "time": "06:00",
-                "probability": 0.5528,
-                "quality_score": 0.4956,
-                "cloud_top_asl": 3110,
+                "probability": 0.5078,
+                "quality_score": 0.5125,
+                "cloud_top_asl": 3107,
                 "aod": 0.08
               },
               {
                 "time": "07:00",
-                "probability": 0.4613,
-                "quality_score": 0.0,
-                "cloud_top_asl": 3108,
-                "aod": 0.08
+                "probability": 0.5204,
+                "quality_score": 0.55,
+                "cloud_top_asl": 3106,
+                "aod": 0.07
               },
               {
                 "time": "08:00",
-                "probability": 0.4634,
-                "quality_score": 0.0,
-                "cloud_top_asl": 3109,
+                "probability": 0.6039,
+                "quality_score": 0.6944,
+                "cloud_top_asl": 3108,
                 "aod": 0.07
               },
               {
                 "time": "09:00",
-                "probability": 0.4484,
-                "quality_score": 0.0,
-                "cloud_top_asl": 3109,
-                "aod": 0.07
+                "probability": 0.6351,
+                "quality_score": 0.5556,
+                "cloud_top_asl": 3116,
+                "aod": 0.06
               },
               {
                 "time": "10:00",
-                "probability": 0.4526,
-                "quality_score": 0.0,
-                "cloud_top_asl": 3111,
-                "aod": 0.06
-              },
-              {
-                "time": "11:00",
-                "probability": 0.5817,
-                "quality_score": 0.43,
-                "cloud_top_asl": 3113,
-                "aod": 0.06
-              },
-              {
-                "time": "12:00",
-                "probability": 0.494,
-                "quality_score": 0.0,
-                "cloud_top_asl": 3113,
-                "aod": 0.06
-              },
-              {
-                "time": "13:00",
-                "probability": 0.5812,
-                "quality_score": 0.4731,
-                "cloud_top_asl": 3112,
-                "aod": 0.06
-              },
-              {
-                "time": "14:00",
-                "probability": 0.5431,
+                "probability": 0.615,
                 "quality_score": 0.58,
-                "cloud_top_asl": 3104,
-                "aod": 0.06
-              },
-              {
-                "time": "15:00",
-                "probability": 0.4544,
-                "quality_score": 0.0,
-                "cloud_top_asl": 3102,
+                "cloud_top_asl": 3118,
                 "aod": 0.05
               },
               {
-                "time": "16:00",
-                "probability": 0.4209,
-                "quality_score": 0.0,
+                "time": "11:00",
+                "probability": 0.5137,
+                "quality_score": 0.4319,
+                "cloud_top_asl": 3117,
+                "aod": 0.05
+              },
+              {
+                "time": "12:00",
+                "probability": 0.5534,
+                "quality_score": 0.5762,
+                "cloud_top_asl": 3112,
+                "aod": 0.04
+              },
+              {
+                "time": "13:00",
+                "probability": 0.5289,
+                "quality_score": 0.58,
+                "cloud_top_asl": 3104,
+                "aod": 0.04
+              },
+              {
+                "time": "14:00",
+                "probability": 0.5413,
+                "quality_score": 0.4431,
+                "cloud_top_asl": 3100,
+                "aod": 0.04
+              },
+              {
+                "time": "15:00",
+                "probability": 0.5241,
+                "quality_score": 0.4355,
                 "cloud_top_asl": 3101,
                 "aod": 0.05
               },
               {
-                "time": "17:00",
-                "probability": 0.4265,
-                "quality_score": 0.0,
-                "cloud_top_asl": 3103,
+                "time": "16:00",
+                "probability": 0.5095,
+                "quality_score": 0.4355,
+                "cloud_top_asl": 3095,
                 "aod": 0.04
+              },
+              {
+                "time": "17:00",
+                "probability": 0.4522,
+                "quality_score": 0.0,
+                "cloud_top_asl": 3095,
+                "aod": 0.03
               },
               {
                 "time": "18:00",
-                "probability": 0.4303,
+                "probability": 0.4762,
                 "quality_score": 0.0,
-                "cloud_top_asl": 3100,
-                "aod": 0.04
+                "cloud_top_asl": 3091,
+                "aod": 0.03
               },
               {
                 "time": "19:00",
-                "probability": 0.5556,
-                "quality_score": 0.43,
-                "cloud_top_asl": 3100,
-                "aod": 0.05
+                "probability": 0.4693,
+                "quality_score": 0.0,
+                "cloud_top_asl": 3093,
+                "aod": 0.04
               },
               {
                 "time": "20:00",
-                "probability": 0.4708,
+                "probability": 0.4889,
                 "quality_score": 0.0,
-                "cloud_top_asl": 3100,
-                "aod": 0.05
+                "cloud_top_asl": 3094,
+                "aod": 0.04
               },
               {
                 "time": "21:00",
-                "probability": 0.5323,
-                "quality_score": 0.43,
-                "cloud_top_asl": 3099,
+                "probability": 0.4349,
+                "quality_score": 0.0,
+                "cloud_top_asl": 3091,
                 "aod": 0.04
               },
               {
                 "time": "22:00",
-                "probability": 0.4267,
+                "probability": 0.4615,
                 "quality_score": 0.0,
-                "cloud_top_asl": 3099,
+                "cloud_top_asl": 3091,
                 "aod": 0.04
               },
               {
                 "time": "23:00",
-                "probability": 0.464,
+                "probability": 0.366,
                 "quality_score": 0.0,
-                "cloud_top_asl": 3097,
+                "cloud_top_asl": 3089,
                 "aod": 0.03
               }
             ]
@@ -938,94 +938,94 @@
             "date": "2026-01-02",
             "dayOfWeek": "Friday",
             "summary": {
-              "avg_probability": 0.2244,
-              "avg_quality": 0.5362,
-              "avg_aod": 0.0258,
-              "recommendationDescription": "Moderate opportunity! Worth considering. Some cloud formation possible."
+              "avg_probability": 0.1839,
+              "avg_quality": 0.0,
+              "avg_aod": 0.0242,
+              "recommendationDescription": "Fair opportunity! Conditions not ideal, but still possible."
             },
             "hourlyData": [
               {
                 "time": "00:00",
-                "probability": 0.501,
-                "quality_score": 0.5855,
-                "cloud_top_asl": 3096,
-                "aod": 0.02
-              },
-              {
-                "time": "01:00",
-                "probability": 0.5165,
-                "quality_score": 0.4975,
-                "cloud_top_asl": 3090,
-                "aod": 0.02
-              },
-              {
-                "time": "02:00",
-                "probability": 0.4267,
+                "probability": 0.3592,
                 "quality_score": 0.0,
-                "cloud_top_asl": 3087,
-                "aod": 0.02
-              },
-              {
-                "time": "03:00",
-                "probability": 0.5098,
-                "quality_score": 0.5256,
                 "cloud_top_asl": 3086,
                 "aod": 0.02
               },
               {
-                "time": "04:00",
-                "probability": 0.3949,
+                "time": "01:00",
+                "probability": 0.3342,
                 "quality_score": 0.0,
-                "cloud_top_asl": 3082,
+                "cloud_top_asl": 3085,
                 "aod": 0.02
               },
               {
-                "time": "05:00",
-                "probability": 0.4084,
+                "time": "02:00",
+                "probability": 0.3659,
                 "quality_score": 0.0,
                 "cloud_top_asl": 3081,
                 "aod": 0.02
               },
               {
-                "time": "06:00",
-                "probability": 0.3766,
+                "time": "03:00",
+                "probability": 0.3389,
                 "quality_score": 0.0,
-                "cloud_top_asl": 3084,
+                "cloud_top_asl": 3079,
                 "aod": 0.02
               },
               {
-                "time": "07:00",
-                "probability": 0.4152,
+                "time": "04:00",
+                "probability": 0.3543,
                 "quality_score": 0.0,
-                "cloud_top_asl": 3087,
+                "cloud_top_asl": 3078,
+                "aod": 0.02
+              },
+              {
+                "time": "05:00",
+                "probability": 0.4016,
+                "quality_score": 0.0,
+                "cloud_top_asl": 3079,
+                "aod": 0.02
+              },
+              {
+                "time": "06:00",
+                "probability": 0.4219,
+                "quality_score": 0.0,
+                "cloud_top_asl": 3081,
+                "aod": 0.01
+              },
+              {
+                "time": "07:00",
+                "probability": 0.4084,
+                "quality_score": 0.0,
+                "cloud_top_asl": 3085,
                 "aod": 0.02
               },
               {
                 "time": "08:00",
                 "probability": 0.3766,
                 "quality_score": 0.0,
-                "cloud_top_asl": 3088,
+                "cloud_top_asl": 3087,
                 "aod": 0.02
               },
               {
                 "time": "09:00",
-                "probability": 0.3543,
+                "probability": 0.3544,
                 "quality_score": 0.0,
-                "cloud_top_asl": 3089,
+                "cloud_top_asl": 3090,
                 "aod": 0.02
               },
               {
                 "time": "10:00",
-                "probability": 0.3274,
+                "probability": 0.3814,
                 "quality_score": 0.0,
                 "cloud_top_asl": 3095,
-                "aod": 0.03
+                "aod": 0.02
               },
               {
                 "time": "11:00",
-                "probability": 0.0,
+                "probability": 0.3161,
                 "quality_score": 0.0,
-                "cloud_top_asl": 0,
+                "cloud_top_asl": 3097,
                 "aod": 0.03
               },
               {
@@ -1075,14 +1075,14 @@
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.03
+                "aod": 0.02
               },
               {
                 "time": "19:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.03
+                "aod": 0.02
               },
               {
                 "time": "20:00",
@@ -1093,16 +1093,16 @@
               },
               {
                 "time": "21:00",
-                "probability": 0.3989,
+                "probability": 0.0,
                 "quality_score": 0.0,
-                "cloud_top_asl": 3108,
+                "cloud_top_asl": 0,
                 "aod": 0.03
               },
               {
                 "time": "22:00",
-                "probability": 0.3796,
+                "probability": 0.0,
                 "quality_score": 0.0,
-                "cloud_top_asl": 3113,
+                "cloud_top_asl": 0,
                 "aod": 0.03
               },
               {
@@ -1126,158 +1126,158 @@
             "date": "2026-01-01",
             "dayOfWeek": "Thursday",
             "summary": {
-              "avg_probability": 0.2965,
-              "avg_quality": 0.4445,
-              "avg_aod": 0.0513,
-              "recommendationDescription": "Moderate opportunity! Worth considering. Some cloud formation possible."
+              "avg_probability": 0.3761,
+              "avg_quality": 0.4555,
+              "avg_aod": 0.0438,
+              "recommendationDescription": "Good opportunity! Recommended to visit. Sea of clouds formation likely."
             },
             "hourlyData": [
               {
                 "time": "00:00",
-                "probability": 0.5378,
-                "quality_score": 0.4325,
-                "cloud_top_asl": 3060,
-                "aod": 0.06
+                "probability": 0.611,
+                "quality_score": 0.438,
+                "cloud_top_asl": 3061,
+                "aod": 0.04
               },
               {
                 "time": "01:00",
-                "probability": 0.5782,
-                "quality_score": 0.4395,
+                "probability": 0.5762,
+                "quality_score": 0.4335,
                 "cloud_top_asl": 3057,
-                "aod": 0.06
-              },
-              {
-                "time": "02:00",
-                "probability": 0.5733,
-                "quality_score": 0.43,
-                "cloud_top_asl": 3057,
-                "aod": 0.04
-              },
-              {
-                "time": "03:00",
-                "probability": 0.5045,
-                "quality_score": 0.43,
-                "cloud_top_asl": 3053,
-                "aod": 0.04
-              },
-              {
-                "time": "04:00",
-                "probability": 0.4967,
-                "quality_score": 0.0,
-                "cloud_top_asl": 3051,
                 "aod": 0.03
               },
               {
+                "time": "02:00",
+                "probability": 0.5934,
+                "quality_score": 0.4355,
+                "cloud_top_asl": 3057,
+                "aod": 0.03
+              },
+              {
+                "time": "03:00",
+                "probability": 0.5058,
+                "quality_score": 0.43,
+                "cloud_top_asl": 3053,
+                "aod": 0.03
+              },
+              {
+                "time": "04:00",
+                "probability": 0.5855,
+                "quality_score": 0.4429,
+                "cloud_top_asl": 3051,
+                "aod": 0.05
+              },
+              {
                 "time": "05:00",
-                "probability": 0.5193,
-                "quality_score": 0.4368,
-                "cloud_top_asl": 3049,
+                "probability": 0.4901,
+                "quality_score": 0.0,
+                "cloud_top_asl": 3047,
                 "aod": 0.05
               },
               {
                 "time": "06:00",
-                "probability": 0.5414,
+                "probability": 0.5921,
                 "quality_score": 0.43,
                 "cloud_top_asl": 3049,
-                "aod": 0.06
+                "aod": 0.04
               },
               {
                 "time": "07:00",
-                "probability": 0.5656,
-                "quality_score": 0.5418,
-                "cloud_top_asl": 3046,
-                "aod": 0.03
+                "probability": 0.5305,
+                "quality_score": 0.535,
+                "cloud_top_asl": 3048,
+                "aod": 0.04
               },
               {
                 "time": "08:00",
-                "probability": 0.4392,
-                "quality_score": 0.0,
-                "cloud_top_asl": 3041,
-                "aod": 0.03
+                "probability": 0.5863,
+                "quality_score": 0.55,
+                "cloud_top_asl": 3050,
+                "aod": 0.05
               },
               {
                 "time": "09:00",
-                "probability": 0.4709,
-                "quality_score": 0.0,
-                "cloud_top_asl": 3040,
+                "probability": 0.5328,
+                "quality_score": 0.43,
+                "cloud_top_asl": 3052,
                 "aod": 0.04
               },
               {
                 "time": "10:00",
-                "probability": 0.4554,
-                "quality_score": 0.0,
-                "cloud_top_asl": 3043,
-                "aod": 0.04
+                "probability": 0.5147,
+                "quality_score": 0.43,
+                "cloud_top_asl": 3054,
+                "aod": 0.03
               },
               {
                 "time": "11:00",
-                "probability": 0.5201,
-                "quality_score": 0.43,
-                "cloud_top_asl": 3042,
-                "aod": 0.05
+                "probability": 0.4919,
+                "quality_score": 0.0,
+                "cloud_top_asl": 3053,
+                "aod": 0.04
               },
               {
                 "time": "12:00",
-                "probability": 0.5148,
-                "quality_score": 0.43,
-                "cloud_top_asl": 3044,
-                "aod": 0.06
+                "probability": 0.0,
+                "quality_score": 0.0,
+                "cloud_top_asl": 0,
+                "aod": 0.05
               },
               {
                 "time": "13:00",
-                "probability": 0.3978,
+                "probability": 0.0,
                 "quality_score": 0.0,
-                "cloud_top_asl": 3043,
-                "aod": 0.07
+                "cloud_top_asl": 0,
+                "aod": 0.06
               },
               {
                 "time": "14:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.07
+                "aod": 0.06
               },
               {
                 "time": "15:00",
-                "probability": 0.0,
+                "probability": 0.2952,
                 "quality_score": 0.0,
-                "cloud_top_asl": 0,
+                "cloud_top_asl": 3041,
                 "aod": 0.06
               },
               {
                 "time": "16:00",
-                "probability": 0.0,
+                "probability": 0.3504,
                 "quality_score": 0.0,
-                "cloud_top_asl": 0,
-                "aod": 0.07
-              },
-              {
-                "time": "17:00",
-                "probability": 0.0,
-                "quality_score": 0.0,
-                "cloud_top_asl": 0,
-                "aod": 0.07
-              },
-              {
-                "time": "18:00",
-                "probability": 0.0,
-                "quality_score": 0.0,
-                "cloud_top_asl": 0,
-                "aod": 0.07
-              },
-              {
-                "time": "19:00",
-                "probability": 0.0,
-                "quality_score": 0.0,
-                "cloud_top_asl": 0,
+                "cloud_top_asl": 3040,
                 "aod": 0.06
               },
               {
-                "time": "20:00",
-                "probability": 0.0,
+                "time": "17:00",
+                "probability": 0.4312,
                 "quality_score": 0.0,
-                "cloud_top_asl": 0,
+                "cloud_top_asl": 3044,
+                "aod": 0.06
+              },
+              {
+                "time": "18:00",
+                "probability": 0.4526,
+                "quality_score": 0.0,
+                "cloud_top_asl": 3052,
                 "aod": 0.05
+              },
+              {
+                "time": "19:00",
+                "probability": 0.4626,
+                "quality_score": 0.0,
+                "cloud_top_asl": 3051,
+                "aod": 0.04
+              },
+              {
+                "time": "20:00",
+                "probability": 0.4249,
+                "quality_score": 0.0,
+                "cloud_top_asl": 3049,
+                "aod": 0.04
               },
               {
                 "time": "21:00",
@@ -1291,14 +1291,14 @@
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.04
+                "aod": 0.03
               },
               {
                 "time": "23:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.04
+                "aod": 0.03
               }
             ]
           },
@@ -1306,9 +1306,9 @@
             "date": "2026-01-02",
             "dayOfWeek": "Friday",
             "summary": {
-              "avg_probability": 0.1047,
-              "avg_quality": 0.4348,
-              "avg_aod": 0.0583,
+              "avg_probability": 0.1028,
+              "avg_quality": 0.4365,
+              "avg_aod": 0.0483,
               "recommendationDescription": "Moderate opportunity! Worth considering. Some cloud formation possible."
             },
             "hourlyData": [
@@ -1317,7 +1317,7 @@
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.04
+                "aod": 0.03
               },
               {
                 "time": "01:00",
@@ -1352,35 +1352,35 @@
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.04
+                "aod": 0.03
               },
               {
                 "time": "06:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.04
+                "aod": 0.03
               },
               {
                 "time": "07:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.04
+                "aod": 0.03
               },
               {
                 "time": "08:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.04
+                "aod": 0.03
               },
               {
                 "time": "09:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.04
+                "aod": 0.03
               },
               {
                 "time": "10:00",
@@ -1408,77 +1408,77 @@
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.05
+                "aod": 0.04
               },
               {
                 "time": "14:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.05
+                "aod": 0.04
               },
               {
                 "time": "15:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.07
+                "aod": 0.05
               },
               {
                 "time": "16:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.08
+                "aod": 0.06
               },
               {
                 "time": "17:00",
-                "probability": 0.0,
+                "probability": 0.363,
                 "quality_score": 0.0,
-                "cloud_top_asl": 0,
-                "aod": 0.09
+                "cloud_top_asl": 3055,
+                "aod": 0.06
               },
               {
                 "time": "18:00",
-                "probability": 0.3944,
-                "quality_score": 0.0,
-                "cloud_top_asl": 3055,
-                "aod": 0.09
-              },
-              {
-                "time": "19:00",
-                "probability": 0.5379,
-                "quality_score": 0.437,
-                "cloud_top_asl": 3054,
-                "aod": 0.08
-              },
-              {
-                "time": "20:00",
-                "probability": 0.5279,
-                "quality_score": 0.4355,
-                "cloud_top_asl": 3052,
-                "aod": 0.08
-              },
-              {
-                "time": "21:00",
-                "probability": 0.5139,
-                "quality_score": 0.4355,
-                "cloud_top_asl": 3050,
-                "aod": 0.09
-              },
-              {
-                "time": "22:00",
-                "probability": 0.5395,
-                "quality_score": 0.431,
-                "cloud_top_asl": 3050,
-                "aod": 0.1
-              },
-              {
-                "time": "23:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.1
+                "aod": 0.07
+              },
+              {
+                "time": "19:00",
+                "probability": 0.375,
+                "quality_score": 0.0,
+                "cloud_top_asl": 3055,
+                "aod": 0.07
+              },
+              {
+                "time": "20:00",
+                "probability": 0.5206,
+                "quality_score": 0.4365,
+                "cloud_top_asl": 3053,
+                "aod": 0.07
+              },
+              {
+                "time": "21:00",
+                "probability": 0.4214,
+                "quality_score": 0.0,
+                "cloud_top_asl": 3054,
+                "aod": 0.07
+              },
+              {
+                "time": "22:00",
+                "probability": 0.3971,
+                "quality_score": 0.0,
+                "cloud_top_asl": 3056,
+                "aod": 0.08
+              },
+              {
+                "time": "23:00",
+                "probability": 0.3902,
+                "quality_score": 0.0,
+                "cloud_top_asl": 3053,
+                "aod": 0.09
               }
             ]
           }
@@ -1494,9 +1494,9 @@
             "date": "2026-01-01",
             "dayOfWeek": "Thursday",
             "summary": {
-              "avg_probability": 0.5413,
-              "avg_quality": 0.4672,
-              "avg_aod": 0.0596,
+              "avg_probability": 0.5741,
+              "avg_quality": 0.4768,
+              "avg_aod": 0.0454,
               "recommendationDescription": "Good opportunity! Recommended to visit. Sea of clouds formation likely."
             },
             "hourlyData": [
@@ -1505,167 +1505,167 @@
                 "probability": 0.3965,
                 "quality_score": 0.0,
                 "cloud_top_asl": 3121,
-                "aod": 0.07
+                "aod": 0.04
               },
               {
                 "time": "01:00",
-                "probability": 0.5496,
-                "quality_score": 0.43,
-                "cloud_top_asl": 3105,
-                "aod": 0.06
+                "probability": 0.6021,
+                "quality_score": 0.4358,
+                "cloud_top_asl": 3109,
+                "aod": 0.04
               },
               {
                 "time": "02:00",
-                "probability": 0.6231,
+                "probability": 0.6132,
                 "quality_score": 0.43,
                 "cloud_top_asl": 3107,
-                "aod": 0.05
+                "aod": 0.04
               },
               {
                 "time": "03:00",
-                "probability": 0.5027,
-                "quality_score": 0.4328,
-                "cloud_top_asl": 3106,
+                "probability": 0.6036,
+                "quality_score": 0.43,
+                "cloud_top_asl": 3108,
                 "aod": 0.05
               },
               {
                 "time": "04:00",
-                "probability": 0.4408,
-                "quality_score": 0.0,
-                "cloud_top_asl": 3098,
-                "aod": 0.06
-              },
-              {
-                "time": "05:00",
-                "probability": 0.5564,
-                "quality_score": 0.43,
-                "cloud_top_asl": 3098,
-                "aod": 0.07
-              },
-              {
-                "time": "06:00",
-                "probability": 0.5214,
-                "quality_score": 0.4408,
-                "cloud_top_asl": 3098,
-                "aod": 0.07
-              },
-              {
-                "time": "07:00",
-                "probability": 0.5367,
-                "quality_score": 0.436,
-                "cloud_top_asl": 3097,
-                "aod": 0.06
-              },
-              {
-                "time": "08:00",
-                "probability": 0.5561,
-                "quality_score": 0.6268,
-                "cloud_top_asl": 3098,
-                "aod": 0.06
-              },
-              {
-                "time": "09:00",
-                "probability": 0.6351,
-                "quality_score": 0.439,
-                "cloud_top_asl": 3097,
-                "aod": 0.06
-              },
-              {
-                "time": "10:00",
-                "probability": 0.5143,
-                "quality_score": 0.439,
-                "cloud_top_asl": 3098,
-                "aod": 0.07
-              },
-              {
-                "time": "11:00",
-                "probability": 0.4941,
-                "quality_score": 0.0,
+                "probability": 0.638,
+                "quality_score": 0.4485,
                 "cloud_top_asl": 3101,
-                "aod": 0.07
-              },
-              {
-                "time": "12:00",
-                "probability": 0.5211,
-                "quality_score": 0.43,
-                "cloud_top_asl": 3100,
-                "aod": 0.07
-              },
-              {
-                "time": "13:00",
-                "probability": 0.5074,
-                "quality_score": 0.43,
-                "cloud_top_asl": 3098,
-                "aod": 0.07
-              },
-              {
-                "time": "14:00",
-                "probability": 0.6012,
-                "quality_score": 0.43,
-                "cloud_top_asl": 3092,
-                "aod": 0.07
-              },
-              {
-                "time": "15:00",
-                "probability": 0.5287,
-                "quality_score": 0.4382,
-                "cloud_top_asl": 3090,
-                "aod": 0.08
-              },
-              {
-                "time": "16:00",
-                "probability": 0.5406,
-                "quality_score": 0.4355,
-                "cloud_top_asl": 3090,
-                "aod": 0.07
-              },
-              {
-                "time": "17:00",
-                "probability": 0.5369,
-                "quality_score": 0.5555,
-                "cloud_top_asl": 3093,
-                "aod": 0.07
-              },
-              {
-                "time": "18:00",
-                "probability": 0.5084,
-                "quality_score": 0.6905,
-                "cloud_top_asl": 3090,
-                "aod": 0.07
-              },
-              {
-                "time": "19:00",
-                "probability": 0.5257,
-                "quality_score": 0.4362,
-                "cloud_top_asl": 3088,
                 "aod": 0.05
               },
               {
-                "time": "20:00",
-                "probability": 0.5998,
-                "quality_score": 0.4393,
-                "cloud_top_asl": 3088,
+                "time": "05:00",
+                "probability": 0.6126,
+                "quality_score": 0.43,
+                "cloud_top_asl": 3102,
+                "aod": 0.06
+              },
+              {
+                "time": "06:00",
+                "probability": 0.6109,
+                "quality_score": 0.4348,
+                "cloud_top_asl": 3097,
+                "aod": 0.06
+              },
+              {
+                "time": "07:00",
+                "probability": 0.5394,
+                "quality_score": 0.5918,
+                "cloud_top_asl": 3098,
+                "aod": 0.05
+              },
+              {
+                "time": "08:00",
+                "probability": 0.6076,
+                "quality_score": 0.7093,
+                "cloud_top_asl": 3099,
+                "aod": 0.05
+              },
+              {
+                "time": "09:00",
+                "probability": 0.6348,
+                "quality_score": 0.5923,
+                "cloud_top_asl": 3100,
+                "aod": 0.05
+              },
+              {
+                "time": "10:00",
+                "probability": 0.6286,
+                "quality_score": 0.4996,
+                "cloud_top_asl": 3105,
+                "aod": 0.05
+              },
+              {
+                "time": "11:00",
+                "probability": 0.6127,
+                "quality_score": 0.4451,
+                "cloud_top_asl": 3101,
+                "aod": 0.06
+              },
+              {
+                "time": "12:00",
+                "probability": 0.6261,
+                "quality_score": 0.4415,
+                "cloud_top_asl": 3102,
+                "aod": 0.06
+              },
+              {
+                "time": "13:00",
+                "probability": 0.6228,
+                "quality_score": 0.43,
+                "cloud_top_asl": 3087,
+                "aod": 0.06
+              },
+              {
+                "time": "14:00",
+                "probability": 0.576,
+                "quality_score": 0.4305,
+                "cloud_top_asl": 3092,
+                "aod": 0.06
+              },
+              {
+                "time": "15:00",
+                "probability": 0.5204,
+                "quality_score": 0.43,
+                "cloud_top_asl": 3089,
+                "aod": 0.05
+              },
+              {
+                "time": "16:00",
+                "probability": 0.5689,
+                "quality_score": 0.4408,
+                "cloud_top_asl": 3085,
                 "aod": 0.04
               },
               {
+                "time": "17:00",
+                "probability": 0.5051,
+                "quality_score": 0.55,
+                "cloud_top_asl": 3083,
+                "aod": 0.04
+              },
+              {
+                "time": "18:00",
+                "probability": 0.5048,
+                "quality_score": 0.535,
+                "cloud_top_asl": 3080,
+                "aod": 0.04
+              },
+              {
+                "time": "19:00",
+                "probability": 0.5259,
+                "quality_score": 0.4355,
+                "cloud_top_asl": 3081,
+                "aod": 0.03
+              },
+              {
+                "time": "20:00",
+                "probability": 0.5137,
+                "quality_score": 0.4355,
+                "cloud_top_asl": 3080,
+                "aod": 0.03
+              },
+              {
                 "time": "21:00",
-                "probability": 0.6378,
-                "quality_score": 0.43,
-                "cloud_top_asl": 3086,
+                "probability": 0.5986,
+                "quality_score": 0.4842,
+                "cloud_top_asl": 3077,
                 "aod": 0.03
               },
               {
                 "time": "22:00",
-                "probability": 0.5984,
-                "quality_score": 0.533,
-                "cloud_top_asl": 3085,
-                "aod": 0.03
+                "probability": 0.6293,
+                "quality_score": 0.43,
+                "cloud_top_asl": 3077,
+                "aod": 0.02
               },
               {
                 "time": "23:00",
-                "probability": 0.5583,
-                "quality_score": 0.458,
-                "cloud_top_asl": 3085,
+                "probability": 0.4859,
+                "quality_score": 0.0,
+                "cloud_top_asl": 3075,
                 "aod": 0.03
               }
             ]
@@ -1674,165 +1674,165 @@
             "date": "2026-01-02",
             "dayOfWeek": "Friday",
             "summary": {
-              "avg_probability": 0.4104,
-              "avg_quality": 0.519,
-              "avg_aod": 0.0417,
+              "avg_probability": 0.4127,
+              "avg_quality": 0.5788,
+              "avg_aod": 0.0325,
               "recommendationDescription": "Moderate opportunity! Worth considering. Some cloud formation possible."
             },
             "hourlyData": [
               {
                 "time": "00:00",
-                "probability": 0.5298,
-                "quality_score": 0.43,
-                "cloud_top_asl": 3082,
-                "aod": 0.04
+                "probability": 0.5451,
+                "quality_score": 0.58,
+                "cloud_top_asl": 3072,
+                "aod": 0.03
               },
               {
                 "time": "01:00",
-                "probability": 0.5167,
-                "quality_score": 0.5612,
-                "cloud_top_asl": 3076,
+                "probability": 0.5261,
+                "quality_score": 0.58,
+                "cloud_top_asl": 3070,
                 "aod": 0.04
               },
               {
                 "time": "02:00",
-                "probability": 0.5181,
-                "quality_score": 0.58,
-                "cloud_top_asl": 3074,
-                "aod": 0.05
+                "probability": 0.5288,
+                "quality_score": 0.5144,
+                "cloud_top_asl": 3068,
+                "aod": 0.04
               },
               {
                 "time": "03:00",
-                "probability": 0.4391,
-                "quality_score": 0.0,
-                "cloud_top_asl": 3074,
-                "aod": 0.05
+                "probability": 0.5248,
+                "quality_score": 0.5855,
+                "cloud_top_asl": 3067,
+                "aod": 0.04
               },
               {
                 "time": "04:00",
-                "probability": 0.4065,
-                "quality_score": 0.0,
-                "cloud_top_asl": 3072,
-                "aod": 0.05
+                "probability": 0.5242,
+                "quality_score": 0.58,
+                "cloud_top_asl": 3068,
+                "aod": 0.04
               },
               {
                 "time": "05:00",
-                "probability": 0.5256,
-                "quality_score": 0.5878,
-                "cloud_top_asl": 3072,
-                "aod": 0.05
+                "probability": 0.5337,
+                "quality_score": 0.58,
+                "cloud_top_asl": 3069,
+                "aod": 0.03
               },
               {
                 "time": "06:00",
-                "probability": 0.5342,
+                "probability": 0.5377,
                 "quality_score": 0.5855,
-                "cloud_top_asl": 3076,
-                "aod": 0.04
+                "cloud_top_asl": 3073,
+                "aod": 0.03
               },
               {
                 "time": "07:00",
-                "probability": 0.4153,
-                "quality_score": 0.0,
-                "cloud_top_asl": 3080,
-                "aod": 0.04
+                "probability": 0.5314,
+                "quality_score": 0.5855,
+                "cloud_top_asl": 3079,
+                "aod": 0.03
               },
               {
                 "time": "08:00",
-                "probability": 0.4723,
-                "quality_score": 0.0,
+                "probability": 0.55,
+                "quality_score": 0.7055,
                 "cloud_top_asl": 3081,
-                "aod": 0.04
+                "aod": 0.03
               },
               {
                 "time": "09:00",
-                "probability": 0.5629,
-                "quality_score": 0.5855,
-                "cloud_top_asl": 3083,
-                "aod": 0.04
+                "probability": 0.5651,
+                "quality_score": 0.586,
+                "cloud_top_asl": 3084,
+                "aod": 0.03
               },
               {
                 "time": "10:00",
-                "probability": 0.5391,
-                "quality_score": 0.58,
-                "cloud_top_asl": 3090,
-                "aod": 0.04
+                "probability": 0.5666,
+                "quality_score": 0.556,
+                "cloud_top_asl": 3088,
+                "aod": 0.03
               },
               {
                 "time": "11:00",
-                "probability": 0.4564,
+                "probability": 0.4692,
                 "quality_score": 0.0,
-                "cloud_top_asl": 3094,
-                "aod": 0.04
+                "cloud_top_asl": 3091,
+                "aod": 0.03
               },
               {
                 "time": "12:00",
-                "probability": 0.463,
+                "probability": 0.462,
                 "quality_score": 0.0,
-                "cloud_top_asl": 3094,
-                "aod": 0.04
+                "cloud_top_asl": 3091,
+                "aod": 0.03
               },
               {
                 "time": "13:00",
-                "probability": 0.4353,
-                "quality_score": 0.0,
-                "cloud_top_asl": 3091,
-                "aod": 0.04
+                "probability": 0.5145,
+                "quality_score": 0.5928,
+                "cloud_top_asl": 3087,
+                "aod": 0.03
               },
               {
                 "time": "14:00",
-                "probability": 0.5777,
-                "quality_score": 0.5965,
-                "cloud_top_asl": 3094,
-                "aod": 0.04
+                "probability": 0.5004,
+                "quality_score": 0.4745,
+                "cloud_top_asl": 3089,
+                "aod": 0.03
               },
               {
                 "time": "15:00",
-                "probability": 0.524,
-                "quality_score": 0.4612,
-                "cloud_top_asl": 3095,
-                "aod": 0.04
+                "probability": 0.4952,
+                "quality_score": 0.0,
+                "cloud_top_asl": 3090,
+                "aod": 0.03
               },
               {
                 "time": "16:00",
-                "probability": 0.5285,
-                "quality_score": 0.4475,
-                "cloud_top_asl": 3093,
-                "aod": 0.04
+                "probability": 0.5549,
+                "quality_score": 0.5975,
+                "cloud_top_asl": 3089,
+                "aod": 0.03
               },
               {
                 "time": "17:00",
-                "probability": 0.5564,
-                "quality_score": 0.413,
-                "cloud_top_asl": 3092,
-                "aod": 0.04
+                "probability": 0.4962,
+                "quality_score": 0.0,
+                "cloud_top_asl": 3089,
+                "aod": 0.03
               },
               {
                 "time": "18:00",
-                "probability": 0.5032,
-                "quality_score": 0.4002,
-                "cloud_top_asl": 3096,
-                "aod": 0.04
+                "probability": 0.4798,
+                "quality_score": 0.0,
+                "cloud_top_asl": 3095,
+                "aod": 0.03
               },
               {
                 "time": "19:00",
-                "probability": 0.3457,
+                "probability": 0.0,
                 "quality_score": 0.0,
-                "cloud_top_asl": 2024,
-                "aod": 0.04
+                "cloud_top_asl": 0,
+                "aod": 0.03
               },
               {
                 "time": "20:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.04
+                "aod": 0.03
               },
               {
                 "time": "21:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.04
+                "aod": 0.03
               },
               {
                 "time": "22:00",
@@ -1864,7 +1864,7 @@
             "summary": {
               "avg_probability": 0.0,
               "avg_quality": 0.0,
-              "avg_aod": 0.0546,
+              "avg_aod": 0.0504,
               "recommendationDescription": "Low opportunity! Not recommended to visit."
             },
             "hourlyData": [
@@ -1929,7 +1929,7 @@
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": null,
-                "aod": 0.05
+                "aod": 0.06
               },
               {
                 "time": "09:00",
@@ -1978,63 +1978,63 @@
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": null,
-                "aod": 0.06
+                "aod": 0.05
               },
               {
                 "time": "16:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": null,
-                "aod": 0.06
+                "aod": 0.05
               },
               {
                 "time": "17:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": null,
-                "aod": 0.06
+                "aod": 0.05
               },
               {
                 "time": "18:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": null,
-                "aod": 0.06
+                "aod": 0.05
               },
               {
                 "time": "19:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": null,
-                "aod": 0.06
+                "aod": 0.05
               },
               {
                 "time": "20:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": null,
-                "aod": 0.07
+                "aod": 0.06
               },
               {
                 "time": "21:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": null,
-                "aod": 0.07
+                "aod": 0.06
               },
               {
                 "time": "22:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": null,
-                "aod": 0.07
+                "aod": 0.05
               },
               {
                 "time": "23:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": null,
-                "aod": 0.07
+                "aod": 0.05
               }
             ]
           },
@@ -2044,7 +2044,7 @@
             "summary": {
               "avg_probability": 0.0,
               "avg_quality": 0.0,
-              "avg_aod": 0.0908,
+              "avg_aod": 0.0783,
               "recommendationDescription": "Low opportunity! Not recommended to visit."
             },
             "hourlyData": [
@@ -2053,49 +2053,49 @@
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": null,
-                "aod": 0.07
+                "aod": 0.05
               },
               {
                 "time": "01:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": null,
-                "aod": 0.07
+                "aod": 0.05
               },
               {
                 "time": "02:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": null,
-                "aod": 0.07
+                "aod": 0.05
               },
               {
                 "time": "03:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": null,
-                "aod": 0.07
+                "aod": 0.05
               },
               {
                 "time": "04:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": null,
-                "aod": 0.07
+                "aod": 0.05
               },
               {
                 "time": "05:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": null,
-                "aod": 0.07
+                "aod": 0.06
               },
               {
                 "time": "06:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": null,
-                "aod": 0.07
+                "aod": 0.06
               },
               {
                 "time": "07:00",
@@ -2116,105 +2116,105 @@
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": null,
-                "aod": 0.08
+                "aod": 0.07
               },
               {
                 "time": "10:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": null,
-                "aod": 0.08
+                "aod": 0.07
               },
               {
                 "time": "11:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": null,
-                "aod": 0.08
+                "aod": 0.07
               },
               {
                 "time": "12:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": null,
-                "aod": 0.08
+                "aod": 0.07
               },
               {
                 "time": "13:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": null,
-                "aod": 0.08
+                "aod": 0.07
               },
               {
                 "time": "14:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": null,
-                "aod": 0.08
+                "aod": 0.07
               },
               {
                 "time": "15:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": null,
-                "aod": 0.1
+                "aod": 0.08
               },
               {
                 "time": "16:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": null,
-                "aod": 0.11
+                "aod": 0.09
               },
               {
                 "time": "17:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": null,
-                "aod": 0.12
+                "aod": 0.1
               },
               {
                 "time": "18:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": null,
-                "aod": 0.12
+                "aod": 0.1
               },
               {
                 "time": "19:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": null,
-                "aod": 0.11
+                "aod": 0.1
               },
               {
                 "time": "20:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": null,
-                "aod": 0.11
+                "aod": 0.1
               },
               {
                 "time": "21:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": null,
-                "aod": 0.14
+                "aod": 0.12
               },
               {
                 "time": "22:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": null,
-                "aod": 0.13
+                "aod": 0.12
               },
               {
                 "time": "23:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": null,
-                "aod": 0.13
+                "aod": 0.14
               }
             ]
           }
@@ -2230,8 +2230,8 @@
             "date": "2026-01-01",
             "dayOfWeek": "Thursday",
             "summary": {
-              "avg_probability": 0.3363,
-              "avg_quality": 0.4473,
+              "avg_probability": 0.352,
+              "avg_quality": 0.4516,
               "avg_aod": 0.0754,
               "recommendationDescription": "Moderate opportunity! Worth considering. Some cloud formation possible."
             },
@@ -2241,21 +2241,21 @@
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.06
+                "aod": 0.1
               },
               {
                 "time": "01:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.06
+                "aod": 0.1
               },
               {
                 "time": "02:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.06
+                "aod": 0.08
               },
               {
                 "time": "03:00",
@@ -2269,7 +2269,7 @@
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.06
+                "aod": 0.07
               },
               {
                 "time": "05:00",
@@ -2283,7 +2283,7 @@
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.06
+                "aod": 0.05
               },
               {
                 "time": "07:00",
@@ -2294,114 +2294,114 @@
               },
               {
                 "time": "08:00",
-                "probability": 0.3106,
-                "quality_score": 0.0,
-                "cloud_top_asl": 2985,
+                "probability": 0.5308,
+                "quality_score": 0.55,
+                "cloud_top_asl": 2986,
                 "aod": 0.06
               },
               {
                 "time": "09:00",
-                "probability": 0.3725,
-                "quality_score": 0.0,
-                "cloud_top_asl": 2987,
+                "probability": 0.5092,
+                "quality_score": 0.43,
+                "cloud_top_asl": 2982,
                 "aod": 0.06
               },
               {
                 "time": "10:00",
-                "probability": 0.4793,
-                "quality_score": 0.0,
-                "cloud_top_asl": 2986,
-                "aod": 0.06
+                "probability": 0.5348,
+                "quality_score": 0.43,
+                "cloud_top_asl": 2982,
+                "aod": 0.05
               },
               {
                 "time": "11:00",
-                "probability": 0.5044,
+                "probability": 0.536,
                 "quality_score": 0.43,
-                "cloud_top_asl": 2986,
-                "aod": 0.07
+                "cloud_top_asl": 2981,
+                "aod": 0.05
               },
               {
                 "time": "12:00",
-                "probability": 0.5451,
+                "probability": 0.5363,
                 "quality_score": 0.43,
-                "cloud_top_asl": 2982,
-                "aod": 0.07
+                "cloud_top_asl": 2984,
+                "aod": 0.06
               },
               {
                 "time": "13:00",
-                "probability": 0.5115,
+                "probability": 0.5449,
                 "quality_score": 0.43,
                 "cloud_top_asl": 2976,
-                "aod": 0.08
+                "aod": 0.06
               },
               {
                 "time": "14:00",
-                "probability": 0.545,
+                "probability": 0.5454,
                 "quality_score": 0.43,
-                "cloud_top_asl": 2973,
-                "aod": 0.09
+                "cloud_top_asl": 2974,
+                "aod": 0.07
               },
               {
                 "time": "15:00",
-                "probability": 0.545,
+                "probability": 0.5335,
                 "quality_score": 0.43,
                 "cloud_top_asl": 2972,
-                "aod": 0.09
+                "aod": 0.08
               },
               {
                 "time": "16:00",
-                "probability": 0.545,
+                "probability": 0.5146,
                 "quality_score": 0.55,
-                "cloud_top_asl": 2974,
-                "aod": 0.09
+                "cloud_top_asl": 2971,
+                "aod": 0.08
               },
               {
                 "time": "17:00",
-                "probability": 0.5399,
+                "probability": 0.5348,
                 "quality_score": 0.535,
                 "cloud_top_asl": 2976,
                 "aod": 0.09
               },
               {
                 "time": "18:00",
-                "probability": 0.5399,
+                "probability": 0.5351,
                 "quality_score": 0.43,
                 "cloud_top_asl": 2975,
                 "aod": 0.09
               },
               {
                 "time": "19:00",
-                "probability": 0.5399,
+                "probability": 0.5195,
                 "quality_score": 0.43,
-                "cloud_top_asl": 2977,
-                "aod": 0.09
+                "cloud_top_asl": 2973,
+                "aod": 0.1
               },
               {
                 "time": "20:00",
-                "probability": 0.5348,
+                "probability": 0.5399,
+                "quality_score": 0.43,
+                "cloud_top_asl": 2973,
+                "aod": 0.1
+              },
+              {
+                "time": "21:00",
+                "probability": 0.5092,
                 "quality_score": 0.43,
                 "cloud_top_asl": 2976,
                 "aod": 0.1
               },
               {
-                "time": "21:00",
-                "probability": 0.5144,
+                "time": "22:00",
+                "probability": 0.5143,
                 "quality_score": 0.43,
                 "cloud_top_asl": 2977,
-                "aod": 0.1
-              },
-              {
-                "time": "22:00",
-                "probability": 0.5348,
-                "quality_score": 0.43,
-                "cloud_top_asl": 2978,
-                "aod": 0.1
+                "aod": 0.09
               },
               {
                 "time": "23:00",
                 "probability": 0.5092,
                 "quality_score": 0.43,
-                "cloud_top_asl": 2978,
+                "cloud_top_asl": 2980,
                 "aod": 0.09
               }
             ]
@@ -2410,179 +2410,179 @@
             "date": "2026-01-02",
             "dayOfWeek": "Friday",
             "summary": {
-              "avg_probability": 0.4678,
-              "avg_quality": 0.4661,
-              "avg_aod": 0.0654,
+              "avg_probability": 0.4784,
+              "avg_quality": 0.4818,
+              "avg_aod": 0.065,
               "recommendationDescription": "Good opportunity! Recommended to visit. Sea of clouds formation likely."
             },
             "hourlyData": [
               {
                 "time": "00:00",
-                "probability": 0.4939,
-                "quality_score": 0.0,
-                "cloud_top_asl": 2977,
-                "aod": 0.08
+                "probability": 0.5092,
+                "quality_score": 0.43,
+                "cloud_top_asl": 2979,
+                "aod": 0.09
               },
               {
                 "time": "01:00",
-                "probability": 0.5398,
+                "probability": 0.5194,
                 "quality_score": 0.43,
-                "cloud_top_asl": 2978,
-                "aod": 0.07
+                "cloud_top_asl": 2979,
+                "aod": 0.09
               },
               {
                 "time": "02:00",
-                "probability": 0.5092,
-                "quality_score": 0.43,
-                "cloud_top_asl": 2980,
-                "aod": 0.06
+                "probability": 0.499,
+                "quality_score": 0.0,
+                "cloud_top_asl": 2978,
+                "aod": 0.08
               },
               {
                 "time": "03:00",
-                "probability": 0.5143,
+                "probability": 0.5092,
                 "quality_score": 0.43,
-                "cloud_top_asl": 2981,
-                "aod": 0.06
+                "cloud_top_asl": 2977,
+                "aod": 0.07
               },
               {
                 "time": "04:00",
-                "probability": 0.499,
-                "quality_score": 0.0,
-                "cloud_top_asl": 2982,
-                "aod": 0.05
+                "probability": 0.5041,
+                "quality_score": 0.43,
+                "cloud_top_asl": 2978,
+                "aod": 0.06
               },
               {
                 "time": "05:00",
-                "probability": 0.5245,
-                "quality_score": 0.43,
-                "cloud_top_asl": 2984,
+                "probability": 0.4939,
+                "quality_score": 0.0,
+                "cloud_top_asl": 2979,
                 "aod": 0.04
               },
               {
                 "time": "06:00",
-                "probability": 0.4888,
+                "probability": 0.4939,
                 "quality_score": 0.0,
-                "cloud_top_asl": 2987,
+                "cloud_top_asl": 2984,
                 "aod": 0.04
               },
               {
                 "time": "07:00",
-                "probability": 0.5194,
-                "quality_score": 0.6062,
-                "cloud_top_asl": 2989,
-                "aod": 0.05
+                "probability": 0.5143,
+                "quality_score": 0.535,
+                "cloud_top_asl": 2987,
+                "aod": 0.04
               },
               {
                 "time": "08:00",
-                "probability": 0.499,
-                "quality_score": 0.0,
-                "cloud_top_asl": 2989,
-                "aod": 0.05
+                "probability": 0.5245,
+                "quality_score": 0.55,
+                "cloud_top_asl": 2987,
+                "aod": 0.04
               },
               {
                 "time": "09:00",
                 "probability": 0.5041,
-                "quality_score": 0.58,
-                "cloud_top_asl": 2993,
-                "aod": 0.06
+                "quality_score": 0.5481,
+                "cloud_top_asl": 2989,
+                "aod": 0.05
               },
               {
                 "time": "10:00",
-                "probability": 0.5092,
-                "quality_score": 0.43,
-                "cloud_top_asl": 2996,
-                "aod": 0.06
+                "probability": 0.5041,
+                "quality_score": 0.58,
+                "cloud_top_asl": 2991,
+                "aod": 0.05
               },
               {
                 "time": "11:00",
-                "probability": 0.499,
-                "quality_score": 0.0,
-                "cloud_top_asl": 2996,
-                "aod": 0.06
+                "probability": 0.5041,
+                "quality_score": 0.55,
+                "cloud_top_asl": 2990,
+                "aod": 0.05
               },
               {
                 "time": "12:00",
-                "probability": 0.5195,
+                "probability": 0.5144,
                 "quality_score": 0.43,
-                "cloud_top_asl": 2993,
-                "aod": 0.07
+                "cloud_top_asl": 2988,
+                "aod": 0.05
               },
               {
                 "time": "13:00",
-                "probability": 0.5352,
+                "probability": 0.5041,
                 "quality_score": 0.43,
-                "cloud_top_asl": 2994,
-                "aod": 0.07
+                "cloud_top_asl": 2988,
+                "aod": 0.05
               },
               {
                 "time": "14:00",
-                "probability": 0.6194,
+                "probability": 0.5371,
                 "quality_score": 0.43,
-                "cloud_top_asl": 2993,
-                "aod": 0.08
+                "cloud_top_asl": 2987,
+                "aod": 0.06
               },
               {
                 "time": "15:00",
-                "probability": 0.5695,
+                "probability": 0.5881,
                 "quality_score": 0.43,
-                "cloud_top_asl": 2988,
-                "aod": 0.08
+                "cloud_top_asl": 2986,
+                "aod": 0.07
               },
               {
                 "time": "16:00",
-                "probability": 0.3476,
-                "quality_score": 0.0,
-                "cloud_top_asl": 2982,
+                "probability": 0.6121,
+                "quality_score": 0.55,
+                "cloud_top_asl": 2983,
                 "aod": 0.08
               },
               {
                 "time": "17:00",
-                "probability": 0.3613,
+                "probability": 0.4179,
                 "quality_score": 0.0,
-                "cloud_top_asl": 2977,
-                "aod": 0.07
+                "cloud_top_asl": 2980,
+                "aod": 0.09
               },
               {
                 "time": "18:00",
-                "probability": 0.3868,
+                "probability": 0.3766,
                 "quality_score": 0.0,
-                "cloud_top_asl": 2971,
-                "aod": 0.07
+                "cloud_top_asl": 2978,
+                "aod": 0.1
               },
               {
                 "time": "19:00",
                 "probability": 0.4021,
                 "quality_score": 0.0,
-                "cloud_top_asl": 2965,
-                "aod": 0.08
+                "cloud_top_asl": 2970,
+                "aod": 0.1
               },
               {
                 "time": "20:00",
-                "probability": 0.3664,
+                "probability": 0.1879,
                 "quality_score": 0.0,
-                "cloud_top_asl": 2961,
+                "cloud_top_asl": 1971,
                 "aod": 0.08
               },
               {
                 "time": "21:00",
-                "probability": 0.3608,
-                "quality_score": 0.0,
-                "cloud_top_asl": 1888,
-                "aod": 0.07
+                "probability": 0.6081,
+                "quality_score": 0.4158,
+                "cloud_top_asl": 1459,
+                "aod": 0.06
               },
               {
                 "time": "22:00",
-                "probability": 0.659,
-                "quality_score": 0.5373,
-                "cloud_top_asl": 1390,
-                "aod": 0.07
+                "probability": 0.6534,
+                "quality_score": 0.5407,
+                "cloud_top_asl": 1395,
+                "aod": 0.06
               },
               {
                 "time": "23:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.07
+                "aod": 0.06
               }
             ]
           }
@@ -2598,10 +2598,10 @@
             "date": "2026-01-01",
             "dayOfWeek": "Thursday",
             "summary": {
-              "avg_probability": 0.2153,
-              "avg_quality": 0.4753,
-              "avg_aod": 0.0396,
-              "recommendationDescription": "Moderate opportunity! Worth considering. Some cloud formation possible."
+              "avg_probability": 0.355,
+              "avg_quality": 0.4503,
+              "avg_aod": 0.0383,
+              "recommendationDescription": "Good opportunity! Recommended to visit. Sea of clouds formation likely."
             },
             "hourlyData": [
               {
@@ -2609,49 +2609,49 @@
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.03
+                "aod": 0.05
               },
               {
                 "time": "01:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.04
+                "aod": 0.05
               },
               {
                 "time": "02:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.04
+                "aod": 0.05
               },
               {
                 "time": "03:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.04
+                "aod": 0.05
               },
               {
                 "time": "04:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.03
+                "aod": 0.05
               },
               {
                 "time": "05:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.03
+                "aod": 0.04
               },
               {
                 "time": "06:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.03
+                "aod": 0.04
               },
               {
                 "time": "07:00",
@@ -2669,107 +2669,107 @@
               },
               {
                 "time": "09:00",
-                "probability": 0.0,
-                "quality_score": 0.0,
-                "cloud_top_asl": 0,
+                "probability": 0.5364,
+                "quality_score": 0.43,
+                "cloud_top_asl": 2972,
                 "aod": 0.03
               },
               {
                 "time": "10:00",
-                "probability": 0.0,
+                "probability": 0.4081,
                 "quality_score": 0.0,
-                "cloud_top_asl": 0,
+                "cloud_top_asl": 2971,
                 "aod": 0.03
               },
               {
                 "time": "11:00",
-                "probability": 0.0,
-                "quality_score": 0.0,
-                "cloud_top_asl": 0,
-                "aod": 0.03
+                "probability": 0.5162,
+                "quality_score": 0.4355,
+                "cloud_top_asl": 2968,
+                "aod": 0.02
               },
               {
                 "time": "12:00",
-                "probability": 0.0,
-                "quality_score": 0.0,
-                "cloud_top_asl": 0,
+                "probability": 0.5959,
+                "quality_score": 0.43,
+                "cloud_top_asl": 2964,
                 "aod": 0.03
               },
               {
                 "time": "13:00",
-                "probability": 0.0,
-                "quality_score": 0.0,
-                "cloud_top_asl": 0,
-                "aod": 0.04
+                "probability": 0.6421,
+                "quality_score": 0.43,
+                "cloud_top_asl": 2964,
+                "aod": 0.03
               },
               {
                 "time": "14:00",
-                "probability": 0.455,
-                "quality_score": 0.0,
+                "probability": 0.5422,
+                "quality_score": 0.4355,
                 "cloud_top_asl": 2959,
-                "aod": 0.04
+                "aod": 0.03
               },
               {
                 "time": "15:00",
-                "probability": 0.5876,
-                "quality_score": 0.4358,
-                "cloud_top_asl": 2957,
-                "aod": 0.06
+                "probability": 0.5308,
+                "quality_score": 0.4355,
+                "cloud_top_asl": 2955,
+                "aod": 0.04
               },
               {
                 "time": "16:00",
-                "probability": 0.5759,
-                "quality_score": 0.5562,
-                "cloud_top_asl": 2957,
-                "aod": 0.06
+                "probability": 0.6295,
+                "quality_score": 0.5555,
+                "cloud_top_asl": 2955,
+                "aod": 0.04
               },
               {
                 "time": "17:00",
-                "probability": 0.548,
-                "quality_score": 0.5428,
-                "cloud_top_asl": 2957,
-                "aod": 0.06
+                "probability": 0.6289,
+                "quality_score": 0.5412,
+                "cloud_top_asl": 2956,
+                "aod": 0.04
               },
               {
                 "time": "18:00",
-                "probability": 0.5208,
-                "quality_score": 0.4375,
-                "cloud_top_asl": 2955,
-                "aod": 0.05
+                "probability": 0.5914,
+                "quality_score": 0.43,
+                "cloud_top_asl": 2954,
+                "aod": 0.04
               },
               {
                 "time": "19:00",
-                "probability": 0.5048,
-                "quality_score": 0.4375,
-                "cloud_top_asl": 2956,
-                "aod": 0.05
+                "probability": 0.5946,
+                "quality_score": 0.4355,
+                "cloud_top_asl": 2953,
+                "aod": 0.04
               },
               {
                 "time": "20:00",
-                "probability": 0.484,
-                "quality_score": 0.0,
-                "cloud_top_asl": 2954,
-                "aod": 0.05
+                "probability": 0.6111,
+                "quality_score": 0.441,
+                "cloud_top_asl": 2952,
+                "aod": 0.04
               },
               {
                 "time": "21:00",
-                "probability": 0.4816,
-                "quality_score": 0.0,
+                "probability": 0.5761,
+                "quality_score": 0.4342,
                 "cloud_top_asl": 2955,
                 "aod": 0.04
               },
               {
                 "time": "22:00",
-                "probability": 0.4969,
-                "quality_score": 0.0,
+                "probability": 0.5691,
+                "quality_score": 0.436,
                 "cloud_top_asl": 2956,
                 "aod": 0.04
               },
               {
                 "time": "23:00",
-                "probability": 0.512,
-                "quality_score": 0.4422,
-                "cloud_top_asl": 2957,
+                "probability": 0.5484,
+                "quality_score": 0.4342,
+                "cloud_top_asl": 2958,
                 "aod": 0.04
               }
             ]
@@ -2778,179 +2778,179 @@
             "date": "2026-01-02",
             "dayOfWeek": "Friday",
             "summary": {
-              "avg_probability": 0.4571,
-              "avg_quality": 0.4862,
-              "avg_aod": 0.0529,
+              "avg_probability": 0.4777,
+              "avg_quality": 0.4325,
+              "avg_aod": 0.0454,
               "recommendationDescription": "Good opportunity! Recommended to visit. Sea of clouds formation likely."
             },
             "hourlyData": [
               {
                 "time": "00:00",
-                "probability": 0.4535,
-                "quality_score": 0.0,
-                "cloud_top_asl": 2956,
+                "probability": 0.5057,
+                "quality_score": 0.437,
+                "cloud_top_asl": 2958,
                 "aod": 0.04
               },
               {
                 "time": "01:00",
-                "probability": 0.4888,
+                "probability": 0.4804,
                 "quality_score": 0.0,
-                "cloud_top_asl": 2955,
-                "aod": 0.04
+                "cloud_top_asl": 2957,
+                "aod": 0.03
               },
               {
                 "time": "02:00",
                 "probability": 0.4939,
                 "quality_score": 0.0,
                 "cloud_top_asl": 2956,
-                "aod": 0.04
+                "aod": 0.02
               },
               {
                 "time": "03:00",
-                "probability": 0.4786,
-                "quality_score": 0.0,
-                "cloud_top_asl": 2955,
-                "aod": 0.04
-              },
-              {
-                "time": "04:00",
-                "probability": 0.4531,
-                "quality_score": 0.0,
-                "cloud_top_asl": 2954,
-                "aod": 0.03
-              },
-              {
-                "time": "05:00",
-                "probability": 0.4633,
+                "probability": 0.4684,
                 "quality_score": 0.0,
                 "cloud_top_asl": 2953,
                 "aod": 0.03
               },
               {
+                "time": "04:00",
+                "probability": 0.4429,
+                "quality_score": 0.0,
+                "cloud_top_asl": 2953,
+                "aod": 0.03
+              },
+              {
+                "time": "05:00",
+                "probability": 0.448,
+                "quality_score": 0.0,
+                "cloud_top_asl": 2952,
+                "aod": 0.03
+              },
+              {
                 "time": "06:00",
-                "probability": 0.4226,
+                "probability": 0.4123,
                 "quality_score": 0.0,
                 "cloud_top_asl": 2957,
-                "aod": 0.04
+                "aod": 0.03
               },
               {
                 "time": "07:00",
-                "probability": 0.4837,
+                "probability": 0.4174,
                 "quality_score": 0.0,
-                "cloud_top_asl": 2961,
-                "aod": 0.05
+                "cloud_top_asl": 2962,
+                "aod": 0.02
               },
               {
                 "time": "08:00",
-                "probability": 0.4684,
+                "probability": 0.4429,
                 "quality_score": 0.0,
-                "cloud_top_asl": 2963,
-                "aod": 0.07
+                "cloud_top_asl": 2962,
+                "aod": 0.02
               },
               {
                 "time": "09:00",
-                "probability": 0.4378,
+                "probability": 0.4429,
                 "quality_score": 0.0,
-                "cloud_top_asl": 2968,
-                "aod": 0.06
+                "cloud_top_asl": 2965,
+                "aod": 0.03
               },
               {
                 "time": "10:00",
-                "probability": 0.4429,
+                "probability": 0.4378,
                 "quality_score": 0.0,
-                "cloud_top_asl": 2971,
-                "aod": 0.05
+                "cloud_top_asl": 2967,
+                "aod": 0.04
               },
               {
                 "time": "11:00",
                 "probability": 0.4225,
                 "quality_score": 0.0,
-                "cloud_top_asl": 2974,
-                "aod": 0.05
+                "cloud_top_asl": 2969,
+                "aod": 0.04
               },
               {
                 "time": "12:00",
-                "probability": 0.4429,
+                "probability": 0.4684,
                 "quality_score": 0.0,
-                "cloud_top_asl": 2973,
-                "aod": 0.06
-              },
-              {
-                "time": "13:00",
-                "probability": 0.4123,
-                "quality_score": 0.0,
-                "cloud_top_asl": 2975,
-                "aod": 0.05
-              },
-              {
-                "time": "14:00",
-                "probability": 0.4276,
-                "quality_score": 0.0,
-                "cloud_top_asl": 2975,
-                "aod": 0.05
-              },
-              {
-                "time": "15:00",
-                "probability": 0.4123,
-                "quality_score": 0.0,
-                "cloud_top_asl": 2974,
-                "aod": 0.06
-              },
-              {
-                "time": "16:00",
-                "probability": 0.5416,
-                "quality_score": 0.55,
-                "cloud_top_asl": 2972,
-                "aod": 0.06
-              },
-              {
-                "time": "17:00",
-                "probability": 0.6061,
-                "quality_score": 0.535,
                 "cloud_top_asl": 2969,
                 "aod": 0.06
               },
               {
-                "time": "18:00",
-                "probability": 0.6342,
-                "quality_score": 0.43,
+                "time": "13:00",
+                "probability": 0.4684,
+                "quality_score": 0.0,
+                "cloud_top_asl": 2969,
+                "aod": 0.06
+              },
+              {
+                "time": "14:00",
+                "probability": 0.4429,
+                "quality_score": 0.0,
+                "cloud_top_asl": 2969,
+                "aod": 0.06
+              },
+              {
+                "time": "15:00",
+                "probability": 0.4072,
+                "quality_score": 0.0,
+                "cloud_top_asl": 2968,
+                "aod": 0.07
+              },
+              {
+                "time": "16:00",
+                "probability": 0.4123,
+                "quality_score": 0.0,
+                "cloud_top_asl": 2968,
+                "aod": 0.06
+              },
+              {
+                "time": "17:00",
+                "probability": 0.4899,
+                "quality_score": 0.0,
                 "cloud_top_asl": 2967,
-                "aod": 0.08
+                "aod": 0.06
+              },
+              {
+                "time": "18:00",
+                "probability": 0.4742,
+                "quality_score": 0.0,
+                "cloud_top_asl": 2967,
+                "aod": 0.06
               },
               {
                 "time": "19:00",
-                "probability": 0.6347,
-                "quality_score": 0.43,
+                "probability": 0.578,
+                "quality_score": 0.4355,
                 "cloud_top_asl": 2964,
-                "aod": 0.08
+                "aod": 0.07
               },
               {
                 "time": "20:00",
-                "probability": 0.4965,
-                "quality_score": 0.0,
-                "cloud_top_asl": 2958,
-                "aod": 0.06
+                "probability": 0.6098,
+                "quality_score": 0.43,
+                "cloud_top_asl": 2959,
+                "aod": 0.07
               },
               {
                 "time": "21:00",
-                "probability": 0.4313,
-                "quality_score": 0.0,
-                "cloud_top_asl": 2952,
-                "aod": 0.06
+                "probability": 0.637,
+                "quality_score": 0.43,
+                "cloud_top_asl": 2956,
+                "aod": 0.07
               },
               {
                 "time": "22:00",
-                "probability": 0.4225,
-                "quality_score": 0.0,
-                "cloud_top_asl": 2946,
+                "probability": 0.5843,
+                "quality_score": 0.43,
+                "cloud_top_asl": 2951,
                 "aod": 0.05
               },
               {
                 "time": "23:00",
-                "probability": 0.0,
+                "probability": 0.4763,
                 "quality_score": 0.0,
-                "cloud_top_asl": 0,
-                "aod": 0.06
+                "cloud_top_asl": 2943,
+                "aod": 0.04
               }
             ]
           }
@@ -2966,9 +2966,9 @@
             "date": "2026-01-01",
             "dayOfWeek": "Thursday",
             "summary": {
-              "avg_probability": 0.5176,
-              "avg_quality": 0.5094,
-              "avg_aod": 0.0554,
+              "avg_probability": 0.4987,
+              "avg_quality": 0.4736,
+              "avg_aod": 0.0529,
               "recommendationDescription": "Moderate opportunity! Worth considering. Some cloud formation possible."
             },
             "hourlyData": [
@@ -2977,167 +2977,167 @@
                 "probability": 0.4808,
                 "quality_score": 0.0,
                 "cloud_top_asl": 2912,
-                "aod": 0.11
+                "aod": 0.14
               },
               {
                 "time": "01:00",
                 "probability": 0.5368,
                 "quality_score": 0.4338,
                 "cloud_top_asl": 2909,
-                "aod": 0.1
+                "aod": 0.12
               },
               {
                 "time": "02:00",
                 "probability": 0.503,
                 "quality_score": 0.4338,
                 "cloud_top_asl": 2909,
-                "aod": 0.09
-              },
-              {
-                "time": "03:00",
-                "probability": 0.5387,
-                "quality_score": 0.43,
-                "cloud_top_asl": 2905,
                 "aod": 0.08
               },
               {
+                "time": "03:00",
+                "probability": 0.5368,
+                "quality_score": 0.4694,
+                "cloud_top_asl": 2907,
+                "aod": 0.06
+              },
+              {
                 "time": "04:00",
-                "probability": 0.5388,
-                "quality_score": 0.43,
-                "cloud_top_asl": 2909,
-                "aod": 0.07
-              },
-              {
-                "time": "05:00",
-                "probability": 0.5388,
-                "quality_score": 0.43,
-                "cloud_top_asl": 2910,
-                "aod": 0.07
-              },
-              {
-                "time": "06:00",
-                "probability": 0.5118,
-                "quality_score": 0.43,
-                "cloud_top_asl": 2909,
+                "probability": 0.5347,
+                "quality_score": 0.58,
+                "cloud_top_asl": 2902,
                 "aod": 0.05
               },
               {
+                "time": "05:00",
+                "probability": 0.526,
+                "quality_score": 0.4355,
+                "cloud_top_asl": 2901,
+                "aod": 0.04
+              },
+              {
+                "time": "06:00",
+                "probability": 0.5307,
+                "quality_score": 0.4362,
+                "cloud_top_asl": 2907,
+                "aod": 0.03
+              },
+              {
                 "time": "07:00",
-                "probability": 0.5185,
-                "quality_score": 0.535,
-                "cloud_top_asl": 2912,
+                "probability": 0.497,
+                "quality_score": 0.0,
+                "cloud_top_asl": 2911,
                 "aod": 0.03
               },
               {
                 "time": "08:00",
-                "probability": 0.5117,
-                "quality_score": 0.55,
-                "cloud_top_asl": 2911,
+                "probability": 0.5105,
+                "quality_score": 0.558,
+                "cloud_top_asl": 1877,
                 "aod": 0.02
               },
               {
                 "time": "09:00",
-                "probability": 0.4645,
-                "quality_score": 0.0,
-                "cloud_top_asl": 2918,
-                "aod": 0.02
+                "probability": 0.5145,
+                "quality_score": 0.43,
+                "cloud_top_asl": 1882,
+                "aod": 0.03
               },
               {
                 "time": "10:00",
-                "probability": 0.5253,
+                "probability": 0.5165,
                 "quality_score": 0.43,
-                "cloud_top_asl": 1882,
-                "aod": 0.02
+                "cloud_top_asl": 1887,
+                "aod": 0.03
               },
               {
                 "time": "11:00",
-                "probability": 0.5118,
-                "quality_score": 0.43,
-                "cloud_top_asl": 1883,
+                "probability": 0.4151,
+                "quality_score": 0.0,
+                "cloud_top_asl": 1886,
                 "aod": 0.02
               },
               {
                 "time": "12:00",
-                "probability": 0.5185,
+                "probability": 0.503,
                 "quality_score": 0.43,
-                "cloud_top_asl": 1884,
-                "aod": 0.03
+                "cloud_top_asl": 1416,
+                "aod": 0.02
               },
               {
                 "time": "13:00",
-                "probability": 0.5185,
-                "quality_score": 0.5855,
-                "cloud_top_asl": 1882,
-                "aod": 0.03
+                "probability": 0.478,
+                "quality_score": 0.0,
+                "cloud_top_asl": 1412,
+                "aod": 0.02
               },
               {
                 "time": "14:00",
-                "probability": 0.5118,
-                "quality_score": 0.5855,
-                "cloud_top_asl": 1882,
+                "probability": 0.4963,
+                "quality_score": 0.0,
+                "cloud_top_asl": 1414,
                 "aod": 0.03
               },
               {
                 "time": "15:00",
-                "probability": 0.5253,
-                "quality_score": 0.5855,
-                "cloud_top_asl": 1881,
+                "probability": 0.5368,
+                "quality_score": 0.5923,
+                "cloud_top_asl": 1404,
                 "aod": 0.03
               },
               {
                 "time": "16:00",
-                "probability": 0.505,
-                "quality_score": 0.5855,
-                "cloud_top_asl": 1884,
+                "probability": 0.4983,
+                "quality_score": 0.0,
+                "cloud_top_asl": 1406,
                 "aod": 0.04
               },
               {
                 "time": "17:00",
-                "probability": 0.4983,
-                "quality_score": 0.0,
-                "cloud_top_asl": 1884,
+                "probability": 0.5321,
+                "quality_score": 0.7108,
+                "cloud_top_asl": 1402,
                 "aod": 0.04
               },
               {
                 "time": "18:00",
-                "probability": 0.5388,
-                "quality_score": 0.58,
-                "cloud_top_asl": 1885,
-                "aod": 0.04
+                "probability": 0.5321,
+                "quality_score": 0.4385,
+                "cloud_top_asl": 1411,
+                "aod": 0.03
               },
               {
                 "time": "19:00",
-                "probability": 0.5388,
-                "quality_score": 0.58,
-                "cloud_top_asl": 1888,
-                "aod": 0.05
+                "probability": 0.5118,
+                "quality_score": 0.4375,
+                "cloud_top_asl": 1415,
+                "aod": 0.04
               },
               {
                 "time": "20:00",
-                "probability": 0.532,
-                "quality_score": 0.5855,
-                "cloud_top_asl": 1891,
+                "probability": 0.3835,
+                "quality_score": 0.0,
+                "cloud_top_asl": 1415,
                 "aod": 0.06
               },
               {
                 "time": "21:00",
-                "probability": 0.5321,
-                "quality_score": 0.5519,
-                "cloud_top_asl": 1890,
-                "aod": 0.08
+                "probability": 0.4442,
+                "quality_score": 0.0,
+                "cloud_top_asl": 1896,
+                "aod": 0.09
               },
               {
                 "time": "22:00",
-                "probability": 0.4983,
-                "quality_score": 0.0,
-                "cloud_top_asl": 1891,
+                "probability": 0.5118,
+                "quality_score": 0.2878,
+                "cloud_top_asl": 1413,
                 "aod": 0.1
               },
               {
                 "time": "23:00",
-                "probability": 0.5253,
-                "quality_score": 0.5855,
-                "cloud_top_asl": 1893,
+                "probability": 0.4375,
+                "quality_score": 0.0,
+                "cloud_top_asl": 1411,
                 "aod": 0.12
               }
             ]
@@ -3146,179 +3146,179 @@
             "date": "2026-01-02",
             "dayOfWeek": "Friday",
             "summary": {
-              "avg_probability": 0.5006,
-              "avg_quality": 0.3927,
-              "avg_aod": 0.1154,
+              "avg_probability": 0.4579,
+              "avg_quality": 0.444,
+              "avg_aod": 0.1013,
               "recommendationDescription": "Moderate opportunity! Worth considering. Some cloud formation possible."
             },
             "hourlyData": [
               {
                 "time": "00:00",
-                "probability": 0.5185,
-                "quality_score": 0.4355,
-                "cloud_top_asl": 1890,
-                "aod": 0.13
-              },
-              {
-                "time": "01:00",
-                "probability": 0.532,
-                "quality_score": 0.4355,
-                "cloud_top_asl": 1885,
+                "probability": 0.3092,
+                "quality_score": 0.0,
+                "cloud_top_asl": 1404,
                 "aod": 0.14
               },
               {
-                "time": "02:00",
-                "probability": 0.5185,
-                "quality_score": 0.4355,
-                "cloud_top_asl": 1882,
+                "time": "01:00",
+                "probability": 0.0,
+                "quality_score": 0.0,
+                "cloud_top_asl": 0,
                 "aod": 0.15
               },
               {
-                "time": "03:00",
-                "probability": 0.4712,
+                "time": "02:00",
+                "probability": 0.3902,
                 "quality_score": 0.0,
-                "cloud_top_asl": 2932,
-                "aod": 0.16
+                "cloud_top_asl": 1883,
+                "aod": 0.14
+              },
+              {
+                "time": "03:00",
+                "probability": 0.4915,
+                "quality_score": 0.0,
+                "cloud_top_asl": 1881,
+                "aod": 0.15
               },
               {
                 "time": "04:00",
-                "probability": 0.4983,
-                "quality_score": 0.0,
-                "cloud_top_asl": 2931,
+                "probability": 0.5185,
+                "quality_score": 0.5855,
+                "cloud_top_asl": 1879,
                 "aod": 0.17
               },
               {
                 "time": "05:00",
-                "probability": 0.4644,
-                "quality_score": 0.0,
-                "cloud_top_asl": 2930,
+                "probability": 0.5185,
+                "quality_score": 0.58,
+                "cloud_top_asl": 1879,
                 "aod": 0.17
               },
               {
                 "time": "06:00",
-                "probability": 0.5253,
-                "quality_score": 0.43,
-                "cloud_top_asl": 1877,
-                "aod": 0.18
+                "probability": 0.505,
+                "quality_score": 0.58,
+                "cloud_top_asl": 1878,
+                "aod": 0.15
               },
               {
                 "time": "07:00",
-                "probability": 0.5118,
-                "quality_score": 0.535,
+                "probability": 0.4442,
+                "quality_score": 0.0,
                 "cloud_top_asl": 1881,
-                "aod": 0.19
+                "aod": 0.12
               },
               {
                 "time": "08:00",
-                "probability": 0.5118,
-                "quality_score": 0.445,
-                "cloud_top_asl": 1882,
-                "aod": 0.2
-              },
-              {
-                "time": "09:00",
-                "probability": 0.5388,
-                "quality_score": 0.28,
+                "probability": 0.4645,
+                "quality_score": 0.0,
                 "cloud_top_asl": 1885,
-                "aod": 0.17
-              },
-              {
-                "time": "10:00",
-                "probability": 0.505,
-                "quality_score": 0.28,
-                "cloud_top_asl": 1410,
-                "aod": 0.14
-              },
-              {
-                "time": "11:00",
-                "probability": 0.5253,
-                "quality_score": 0.28,
-                "cloud_top_asl": 1413,
                 "aod": 0.11
               },
               {
-                "time": "12:00",
-                "probability": 0.5368,
-                "quality_score": 0.28,
-                "cloud_top_asl": 1408,
+                "time": "09:00",
+                "probability": 0.4442,
+                "quality_score": 0.0,
+                "cloud_top_asl": 1886,
                 "aod": 0.09
               },
               {
-                "time": "13:00",
-                "probability": 0.422,
-                "quality_score": 0.0,
-                "cloud_top_asl": 1407,
+                "time": "10:00",
+                "probability": 0.532,
+                "quality_score": 0.3288,
+                "cloud_top_asl": 1405,
                 "aod": 0.08
+              },
+              {
+                "time": "11:00",
+                "probability": 0.5321,
+                "quality_score": 0.28,
+                "cloud_top_asl": 1410,
+                "aod": 0.07
+              },
+              {
+                "time": "12:00",
+                "probability": 0.5118,
+                "quality_score": 0.2875,
+                "cloud_top_asl": 1405,
+                "aod": 0.07
+              },
+              {
+                "time": "13:00",
+                "probability": 0.5321,
+                "quality_score": 0.5744,
+                "cloud_top_asl": 1403,
+                "aod": 0.07
               },
               {
                 "time": "14:00",
                 "probability": 0.5368,
-                "quality_score": 0.4674,
-                "cloud_top_asl": 1409,
+                "quality_score": 0.4863,
+                "cloud_top_asl": 1405,
                 "aod": 0.07
               },
               {
                 "time": "15:00",
-                "probability": 0.5368,
-                "quality_score": 0.4711,
-                "cloud_top_asl": 1413,
+                "probability": 0.5185,
+                "quality_score": 0.5011,
+                "cloud_top_asl": 1411,
                 "aod": 0.08
               },
               {
                 "time": "16:00",
                 "probability": 0.4173,
                 "quality_score": 0.0,
-                "cloud_top_asl": 1416,
+                "cloud_top_asl": 1411,
                 "aod": 0.08
               },
               {
                 "time": "17:00",
                 "probability": 0.5388,
-                "quality_score": 0.5555,
-                "cloud_top_asl": 1418,
-                "aod": 0.07
+                "quality_score": 0.4,
+                "cloud_top_asl": 1409,
+                "aod": 0.08
               },
               {
                 "time": "18:00",
                 "probability": 0.4511,
                 "quality_score": 0.0,
-                "cloud_top_asl": 1421,
+                "cloud_top_asl": 1416,
                 "aod": 0.07
               },
               {
                 "time": "19:00",
-                "probability": 0.5186,
-                "quality_score": 0.28,
-                "cloud_top_asl": 1426,
+                "probability": 0.4442,
+                "quality_score": 0.0,
+                "cloud_top_asl": 1420,
                 "aod": 0.07
               },
               {
                 "time": "20:00",
-                "probability": 0.4848,
+                "probability": 0.4589,
                 "quality_score": 0.0,
-                "cloud_top_asl": 1426,
-                "aod": 0.06
+                "cloud_top_asl": 966,
+                "aod": 0.07
               },
               {
                 "time": "21:00",
-                "probability": 0.4452,
-                "quality_score": 0.0,
-                "cloud_top_asl": 967,
-                "aod": 0.06
+                "probability": 0.5129,
+                "quality_score": 0.28,
+                "cloud_top_asl": 964,
+                "aod": 0.07
               },
               {
                 "time": "22:00",
-                "probability": 0.5061,
-                "quality_score": 0.28,
-                "cloud_top_asl": 969,
-                "aod": 0.06
+                "probability": 0.4994,
+                "quality_score": 0.0,
+                "cloud_top_asl": 964,
+                "aod": 0.08
               },
               {
                 "time": "23:00",
-                "probability": 0.4993,
+                "probability": 0.4183,
                 "quality_score": 0.0,
-                "cloud_top_asl": 970,
-                "aod": 0.07
+                "cloud_top_asl": 965,
+                "aod": 0.08
               }
             ]
           }
@@ -3334,9 +3334,9 @@
             "date": "2026-01-01",
             "dayOfWeek": "Thursday",
             "summary": {
-              "avg_probability": 0.0314,
+              "avg_probability": 0.0302,
               "avg_quality": 0.0,
-              "avg_aod": 0.025,
+              "avg_aod": 0.0271,
               "recommendationDescription": "Fair opportunity! Conditions not ideal, but still possible."
             },
             "hourlyData": [
@@ -3345,21 +3345,21 @@
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.03
+                "aod": 0.07
               },
               {
                 "time": "01:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.03
+                "aod": 0.05
               },
               {
                 "time": "02:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.02
+                "aod": 0.03
               },
               {
                 "time": "03:00",
@@ -3370,9 +3370,9 @@
               },
               {
                 "time": "04:00",
-                "probability": 0.3361,
+                "probability": 0.0,
                 "quality_score": 0.0,
-                "cloud_top_asl": 1827,
+                "cloud_top_asl": 0,
                 "aod": 0.02
               },
               {
@@ -3380,20 +3380,20 @@
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.02
+                "aod": 0.01
               },
               {
                 "time": "06:00",
-                "probability": 0.4171,
+                "probability": 0.3744,
                 "quality_score": 0.0,
-                "cloud_top_asl": 1828,
-                "aod": 0.02
+                "cloud_top_asl": 1351,
+                "aod": 0.01
               },
               {
                 "time": "07:00",
-                "probability": 0.0,
+                "probability": 0.3496,
                 "quality_score": 0.0,
-                "cloud_top_asl": 0,
+                "cloud_top_asl": 1825,
                 "aod": 0.02
               },
               {
@@ -3436,7 +3436,7 @@
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.03
+                "aod": 0.02
               },
               {
                 "time": "14:00",
@@ -3471,21 +3471,21 @@
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.02
+                "aod": 0.03
               },
               {
                 "time": "19:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.02
+                "aod": 0.03
               },
               {
                 "time": "20:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.02
+                "aod": 0.03
               },
               {
                 "time": "21:00",
@@ -3499,14 +3499,14 @@
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.04
+                "aod": 0.03
               },
               {
                 "time": "23:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.04
+                "aod": 0.03
               }
             ]
           },
@@ -3514,9 +3514,9 @@
             "date": "2026-01-02",
             "dayOfWeek": "Friday",
             "summary": {
-              "avg_probability": 0.1837,
-              "avg_quality": 0.559,
-              "avg_aod": 0.0458,
+              "avg_probability": 0.1596,
+              "avg_quality": 0.5269,
+              "avg_aod": 0.0475,
               "recommendationDescription": "Moderate opportunity! Worth considering. Some cloud formation possible."
             },
             "hourlyData": [
@@ -3525,69 +3525,69 @@
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.03
+                "aod": 0.04
               },
               {
                 "time": "01:00",
-                "probability": 0.4037,
+                "probability": 0.0,
                 "quality_score": 0.0,
-                "cloud_top_asl": 2891,
-                "aod": 0.03
+                "cloud_top_asl": 0,
+                "aod": 0.04
               },
               {
                 "time": "02:00",
-                "probability": 0.5388,
-                "quality_score": 0.5826,
-                "cloud_top_asl": 2888,
-                "aod": 0.03
+                "probability": 0.3564,
+                "quality_score": 0.0,
+                "cloud_top_asl": 2891,
+                "aod": 0.04
               },
               {
                 "time": "03:00",
                 "probability": 0.5387,
-                "quality_score": 0.593,
-                "cloud_top_asl": 2886,
-                "aod": 0.03
+                "quality_score": 0.604,
+                "cloud_top_asl": 2888,
+                "aod": 0.05
               },
               {
                 "time": "04:00",
                 "probability": 0.5387,
-                "quality_score": 0.591,
-                "cloud_top_asl": 2883,
-                "aod": 0.04
+                "quality_score": 0.592,
+                "cloud_top_asl": 2886,
+                "aod": 0.05
               },
               {
                 "time": "05:00",
-                "probability": 0.5388,
-                "quality_score": 0.5908,
-                "cloud_top_asl": 2881,
-                "aod": 0.04
+                "probability": 0.5387,
+                "quality_score": 0.4388,
+                "cloud_top_asl": 2889,
+                "aod": 0.05
               },
               {
                 "time": "06:00",
                 "probability": 0.5387,
-                "quality_score": 0.4435,
-                "cloud_top_asl": 2884,
-                "aod": 0.04
-              },
-              {
-                "time": "07:00",
-                "probability": 0.5388,
-                "quality_score": 0.5528,
-                "cloud_top_asl": 2890,
+                "quality_score": 0.4374,
+                "cloud_top_asl": 2889,
                 "aod": 0.05
               },
               {
-                "time": "08:00",
-                "probability": 0.4172,
+                "time": "07:00",
+                "probability": 0.4915,
                 "quality_score": 0.0,
                 "cloud_top_asl": 2893,
                 "aod": 0.05
               },
               {
+                "time": "08:00",
+                "probability": 0.5118,
+                "quality_score": 0.5625,
+                "cloud_top_asl": 1852,
+                "aod": 0.05
+              },
+              {
                 "time": "09:00",
-                "probability": 0.3564,
+                "probability": 0.3159,
                 "quality_score": 0.0,
-                "cloud_top_asl": 1854,
+                "cloud_top_asl": 1851,
                 "aod": 0.05
               },
               {
@@ -3602,14 +3602,14 @@
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.08
+                "aod": 0.05
               },
               {
                 "time": "12:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.08
+                "aod": 0.07
               },
               {
                 "time": "13:00",
@@ -3630,7 +3630,7 @@
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.05
+                "aod": 0.04
               },
               {
                 "time": "16:00",
@@ -3644,7 +3644,7 @@
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.05
+                "aod": 0.04
               },
               {
                 "time": "18:00",
@@ -3672,14 +3672,14 @@
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.04
+                "aod": 0.05
               },
               {
                 "time": "22:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.04
+                "aod": 0.05
               },
               {
                 "time": "23:00",
@@ -3702,9 +3702,9 @@
             "date": "2026-01-01",
             "dayOfWeek": "Thursday",
             "summary": {
-              "avg_probability": 0.1526,
-              "avg_quality": 0.43,
-              "avg_aod": 0.0354,
+              "avg_probability": 0.2336,
+              "avg_quality": 0.4304,
+              "avg_aod": 0.0496,
               "recommendationDescription": "Good opportunity! Recommended to visit. Sea of clouds formation likely."
             },
             "hourlyData": [
@@ -3741,139 +3741,139 @@
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.03
+                "aod": 0.04
               },
               {
                 "time": "05:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.03
+                "aod": 0.04
               },
               {
                 "time": "06:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.03
+                "aod": 0.05
               },
               {
                 "time": "07:00",
-                "probability": 0.0,
+                "probability": 0.3674,
                 "quality_score": 0.0,
-                "cloud_top_asl": 0,
-                "aod": 0.04
+                "cloud_top_asl": 3052,
+                "aod": 0.05
               },
               {
                 "time": "08:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.04
+                "aod": 0.06
               },
               {
                 "time": "09:00",
-                "probability": 0.0,
+                "probability": 0.4001,
                 "quality_score": 0.0,
-                "cloud_top_asl": 0,
-                "aod": 0.04
+                "cloud_top_asl": 3051,
+                "aod": 0.06
               },
               {
                 "time": "10:00",
-                "probability": 0.0,
+                "probability": 0.3948,
                 "quality_score": 0.0,
-                "cloud_top_asl": 0,
-                "aod": 0.04
+                "cloud_top_asl": 3053,
+                "aod": 0.06
               },
               {
                 "time": "11:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.04
+                "aod": 0.06
               },
               {
                 "time": "12:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.04
+                "aod": 0.06
               },
               {
                 "time": "13:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.04
+                "aod": 0.07
               },
               {
                 "time": "14:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.04
+                "aod": 0.07
               },
               {
                 "time": "15:00",
-                "probability": 0.0,
+                "probability": 0.3886,
                 "quality_score": 0.0,
-                "cloud_top_asl": 0,
-                "aod": 0.04
+                "cloud_top_asl": 3022,
+                "aod": 0.08
               },
               {
                 "time": "16:00",
-                "probability": 0.0,
+                "probability": 0.3952,
                 "quality_score": 0.0,
-                "cloud_top_asl": 0,
-                "aod": 0.05
+                "cloud_top_asl": 3019,
+                "aod": 0.07
               },
               {
                 "time": "17:00",
-                "probability": 0.4108,
+                "probability": 0.3966,
                 "quality_score": 0.0,
-                "cloud_top_asl": 3022,
-                "aod": 0.04
+                "cloud_top_asl": 3009,
+                "aod": 0.06
               },
               {
                 "time": "18:00",
-                "probability": 0.4992,
-                "quality_score": 0.0,
-                "cloud_top_asl": 3018,
-                "aod": 0.04
+                "probability": 0.5157,
+                "quality_score": 0.43,
+                "cloud_top_asl": 3011,
+                "aod": 0.05
               },
               {
                 "time": "19:00",
-                "probability": 0.556,
+                "probability": 0.5155,
                 "quality_score": 0.43,
                 "cloud_top_asl": 3011,
-                "aod": 0.03
+                "aod": 0.04
               },
               {
                 "time": "20:00",
-                "probability": 0.4702,
-                "quality_score": 0.0,
-                "cloud_top_asl": 3008,
-                "aod": 0.03
+                "probability": 0.5253,
+                "quality_score": 0.43,
+                "cloud_top_asl": 3005,
+                "aod": 0.04
               },
               {
                 "time": "21:00",
-                "probability": 0.486,
-                "quality_score": 0.0,
-                "cloud_top_asl": 3004,
-                "aod": 0.03
+                "probability": 0.5263,
+                "quality_score": 0.43,
+                "cloud_top_asl": 3000,
+                "aod": 0.04
               },
               {
                 "time": "22:00",
-                "probability": 0.602,
+                "probability": 0.552,
                 "quality_score": 0.43,
-                "cloud_top_asl": 3001,
-                "aod": 0.03
+                "cloud_top_asl": 2998,
+                "aod": 0.04
               },
               {
                 "time": "23:00",
-                "probability": 0.6391,
-                "quality_score": 0.43,
-                "cloud_top_asl": 3001,
+                "probability": 0.6283,
+                "quality_score": 0.4322,
+                "cloud_top_asl": 2994,
                 "aod": 0.03
               }
             ]
@@ -3882,179 +3882,179 @@
             "date": "2026-01-02",
             "dayOfWeek": "Friday",
             "summary": {
-              "avg_probability": 0.5554,
-              "avg_quality": 0.446,
-              "avg_aod": 0.015,
+              "avg_probability": 0.548,
+              "avg_quality": 0.4554,
+              "avg_aod": 0.0158,
               "recommendationDescription": "Good opportunity! Recommended to visit. Sea of clouds formation likely."
             },
             "hourlyData": [
               {
                 "time": "00:00",
-                "probability": 0.6186,
-                "quality_score": 0.43,
-                "cloud_top_asl": 2999,
+                "probability": 0.6067,
+                "quality_score": 0.4355,
+                "cloud_top_asl": 2994,
                 "aod": 0.02
               },
               {
                 "time": "01:00",
-                "probability": 0.6442,
-                "quality_score": 0.43,
-                "cloud_top_asl": 2997,
+                "probability": 0.5191,
+                "quality_score": 0.4335,
+                "cloud_top_asl": 2993,
                 "aod": 0.02
               },
               {
                 "time": "02:00",
-                "probability": 0.6328,
-                "quality_score": 0.4315,
-                "cloud_top_asl": 2995,
+                "probability": 0.527,
+                "quality_score": 0.4345,
+                "cloud_top_asl": 2992,
                 "aod": 0.02
               },
               {
                 "time": "03:00",
-                "probability": 0.6425,
-                "quality_score": 0.43,
-                "cloud_top_asl": 2995,
+                "probability": 0.5199,
+                "quality_score": 0.4355,
+                "cloud_top_asl": 2990,
                 "aod": 0.02
               },
               {
                 "time": "04:00",
-                "probability": 0.6375,
-                "quality_score": 0.431,
-                "cloud_top_asl": 2993,
-                "aod": 0.01
+                "probability": 0.6393,
+                "quality_score": 0.4355,
+                "cloud_top_asl": 2990,
+                "aod": 0.02
               },
               {
                 "time": "05:00",
-                "probability": 0.5351,
-                "quality_score": 0.4355,
-                "cloud_top_asl": 2994,
-                "aod": 0.01
+                "probability": 0.6402,
+                "quality_score": 0.4342,
+                "cloud_top_asl": 2991,
+                "aod": 0.02
               },
               {
                 "time": "06:00",
-                "probability": 0.5355,
-                "quality_score": 0.43,
-                "cloud_top_asl": 2998,
+                "probability": 0.5289,
+                "quality_score": 0.4309,
+                "cloud_top_asl": 2996,
                 "aod": 0.01
               },
               {
                 "time": "07:00",
-                "probability": 0.531,
+                "probability": 0.5316,
                 "quality_score": 0.43,
-                "cloud_top_asl": 3004,
+                "cloud_top_asl": 3001,
                 "aod": 0.01
               },
               {
                 "time": "08:00",
-                "probability": 0.5318,
+                "probability": 0.6285,
                 "quality_score": 0.535,
-                "cloud_top_asl": 3009,
+                "cloud_top_asl": 3007,
                 "aod": 0.01
               },
               {
                 "time": "09:00",
-                "probability": 0.6287,
-                "quality_score": 0.4362,
-                "cloud_top_asl": 3014,
+                "probability": 0.6324,
+                "quality_score": 0.4355,
+                "cloud_top_asl": 3013,
                 "aod": 0.01
               },
               {
                 "time": "10:00",
-                "probability": 0.6194,
-                "quality_score": 0.4375,
-                "cloud_top_asl": 3021,
-                "aod": 0.01
+                "probability": 0.6285,
+                "quality_score": 0.4378,
+                "cloud_top_asl": 3018,
+                "aod": 0.02
               },
               {
                 "time": "11:00",
-                "probability": 0.5189,
-                "quality_score": 0.441,
-                "cloud_top_asl": 3027,
-                "aod": 0.01
+                "probability": 0.4993,
+                "quality_score": 0.0,
+                "cloud_top_asl": 3022,
+                "aod": 0.02
               },
               {
                 "time": "12:00",
-                "probability": 0.4807,
-                "quality_score": 0.0,
-                "cloud_top_asl": 3029,
+                "probability": 0.5035,
+                "quality_score": 0.454,
+                "cloud_top_asl": 3023,
                 "aod": 0.02
               },
               {
                 "time": "13:00",
-                "probability": 0.4668,
+                "probability": 0.4582,
                 "quality_score": 0.0,
-                "cloud_top_asl": 3033,
+                "cloud_top_asl": 3027,
                 "aod": 0.01
               },
               {
                 "time": "14:00",
-                "probability": 0.4884,
+                "probability": 0.4656,
                 "quality_score": 0.0,
-                "cloud_top_asl": 3037,
+                "cloud_top_asl": 3032,
                 "aod": 0.01
               },
               {
                 "time": "15:00",
-                "probability": 0.4668,
+                "probability": 0.4702,
                 "quality_score": 0.0,
-                "cloud_top_asl": 3040,
-                "aod": 0.01
+                "cloud_top_asl": 3036,
+                "aod": 0.02
               },
               {
                 "time": "16:00",
-                "probability": 0.4963,
+                "probability": 0.4734,
                 "quality_score": 0.0,
-                "cloud_top_asl": 3040,
-                "aod": 0.01
+                "cloud_top_asl": 3038,
+                "aod": 0.02
               },
               {
                 "time": "17:00",
-                "probability": 0.5315,
-                "quality_score": 0.5452,
-                "cloud_top_asl": 3042,
+                "probability": 0.5016,
+                "quality_score": 0.6201,
+                "cloud_top_asl": 3039,
                 "aod": 0.01
               },
               {
                 "time": "18:00",
-                "probability": 0.5525,
-                "quality_score": 0.4385,
-                "cloud_top_asl": 3046,
+                "probability": 0.5291,
+                "quality_score": 0.4395,
+                "cloud_top_asl": 3044,
                 "aod": 0.01
               },
               {
                 "time": "19:00",
-                "probability": 0.5651,
-                "quality_score": 0.4398,
-                "cloud_top_asl": 3050,
+                "probability": 0.5489,
+                "quality_score": 0.445,
+                "cloud_top_asl": 3047,
                 "aod": 0.02
               },
               {
                 "time": "20:00",
-                "probability": 0.4987,
-                "quality_score": 0.0,
-                "cloud_top_asl": 3052,
-                "aod": 0.02
+                "probability": 0.578,
+                "quality_score": 0.4372,
+                "cloud_top_asl": 3046,
+                "aod": 0.01
               },
               {
                 "time": "21:00",
-                "probability": 0.6007,
-                "quality_score": 0.4355,
-                "cloud_top_asl": 3052,
-                "aod": 0.02
+                "probability": 0.5487,
+                "quality_score": 0.4475,
+                "cloud_top_asl": 3045,
+                "aod": 0.01
               },
               {
                 "time": "22:00",
-                "probability": 0.5877,
-                "quality_score": 0.4355,
-                "cloud_top_asl": 3054,
-                "aod": 0.03
+                "probability": 0.5831,
+                "quality_score": 0.4958,
+                "cloud_top_asl": 3048,
+                "aod": 0.02
               },
               {
                 "time": "23:00",
-                "probability": 0.5174,
-                "quality_score": 0.4362,
-                "cloud_top_asl": 3057,
-                "aod": 0.03
+                "probability": 0.5912,
+                "quality_score": 0.436,
+                "cloud_top_asl": 3053,
+                "aod": 0.02
               }
             ]
           }
@@ -4070,9 +4070,9 @@
             "date": "2026-01-01",
             "dayOfWeek": "Thursday",
             "summary": {
-              "avg_probability": 0.359,
-              "avg_quality": 0.6224,
-              "avg_aod": 0.0296,
+              "avg_probability": 0.4444,
+              "avg_quality": 0.6416,
+              "avg_aod": 0.0308,
               "recommendationDescription": "Excellent opportunity! Spectacular sea of clouds expected."
             },
             "hourlyData": [
@@ -4081,7 +4081,7 @@
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.02
+                "aod": 0.03
               },
               {
                 "time": "01:00",
@@ -4116,14 +4116,14 @@
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.03
+                "aod": 0.04
               },
               {
                 "time": "06:00",
                 "probability": 0.0,
                 "quality_score": 0.0,
                 "cloud_top_asl": 0,
-                "aod": 0.03
+                "aod": 0.04
               },
               {
                 "time": "07:00",
@@ -4148,101 +4148,101 @@
               },
               {
                 "time": "10:00",
-                "probability": 0.0,
-                "quality_score": 0.0,
-                "cloud_top_asl": 0,
+                "probability": 0.6412,
+                "quality_score": 0.7108,
+                "cloud_top_asl": 3098,
                 "aod": 0.03
               },
               {
                 "time": "11:00",
-                "probability": 0.0,
-                "quality_score": 0.0,
-                "cloud_top_asl": 0,
+                "probability": 0.6876,
+                "quality_score": 0.6941,
+                "cloud_top_asl": 3086,
                 "aod": 0.03
               },
               {
                 "time": "12:00",
-                "probability": 0.0,
-                "quality_score": 0.0,
-                "cloud_top_asl": 0,
-                "aod": 0.03
-              },
-              {
-                "time": "13:00",
-                "probability": 0.6945,
-                "quality_score": 0.6424,
+                "probability": 0.731,
+                "quality_score": 0.687,
                 "cloud_top_asl": 3089,
                 "aod": 0.03
               },
               {
-                "time": "14:00",
-                "probability": 0.726,
-                "quality_score": 0.6145,
-                "cloud_top_asl": 3084,
+                "time": "13:00",
+                "probability": 0.7282,
+                "quality_score": 0.6487,
+                "cloud_top_asl": 3082,
                 "aod": 0.03
               },
               {
+                "time": "14:00",
+                "probability": 0.7278,
+                "quality_score": 0.629,
+                "cloud_top_asl": 3074,
+                "aod": 0.04
+              },
+              {
                 "time": "15:00",
-                "probability": 0.7301,
-                "quality_score": 0.6138,
-                "cloud_top_asl": 3078,
+                "probability": 0.7589,
+                "quality_score": 0.6156,
+                "cloud_top_asl": 3073,
                 "aod": 0.05
               },
               {
                 "time": "16:00",
-                "probability": 0.7611,
-                "quality_score": 0.6162,
-                "cloud_top_asl": 3077,
-                "aod": 0.05
-              },
-              {
-                "time": "17:00",
-                "probability": 0.7627,
-                "quality_score": 0.7231,
-                "cloud_top_asl": 3077,
+                "probability": 0.7805,
+                "quality_score": 0.6155,
+                "cloud_top_asl": 3071,
                 "aod": 0.04
               },
               {
+                "time": "17:00",
+                "probability": 0.7957,
+                "quality_score": 0.7198,
+                "cloud_top_asl": 3068,
+                "aod": 0.03
+              },
+              {
                 "time": "18:00",
-                "probability": 0.7582,
-                "quality_score": 0.6159,
-                "cloud_top_asl": 3078,
+                "probability": 0.7845,
+                "quality_score": 0.6161,
+                "cloud_top_asl": 3072,
                 "aod": 0.03
               },
               {
                 "time": "19:00",
-                "probability": 0.8087,
-                "quality_score": 0.6103,
-                "cloud_top_asl": 3073,
-                "aod": 0.02
-              },
-              {
-                "time": "20:00",
-                "probability": 0.853,
-                "quality_score": 0.5987,
+                "probability": 0.8029,
+                "quality_score": 0.6138,
                 "cloud_top_asl": 3071,
                 "aod": 0.02
               },
               {
+                "time": "20:00",
+                "probability": 0.8536,
+                "quality_score": 0.6108,
+                "cloud_top_asl": 3066,
+                "aod": 0.02
+              },
+              {
                 "time": "21:00",
-                "probability": 0.8542,
-                "quality_score": 0.6021,
-                "cloud_top_asl": 3068,
+                "probability": 0.7796,
+                "quality_score": 0.6087,
+                "cloud_top_asl": 3065,
                 "aod": 0.02
               },
               {
                 "time": "22:00",
-                "probability": 0.8332,
-                "quality_score": 0.6012,
-                "cloud_top_asl": 3066,
+                "probability": 0.8139,
+                "quality_score": 0.6059,
+                "cloud_top_asl": 3061,
                 "aod": 0.02
               },
               {
                 "time": "23:00",
-                "probability": 0.8346,
-                "quality_score": 0.6084,
-                "cloud_top_asl": 3066,
-                "aod": 0.02
+                "probability": 0.78,
+                "quality_score": 0.6063,
+                "cloud_top_asl": 3057,
+                "aod": 0.03
               }
             ]
           },
@@ -4250,178 +4250,178 @@
             "date": "2026-01-02",
             "dayOfWeek": "Friday",
             "summary": {
-              "avg_probability": 0.8085,
-              "avg_quality": 0.622,
-              "avg_aod": 0.02,
+              "avg_probability": 0.755,
+              "avg_quality": 0.6331,
+              "avg_aod": 0.0196,
               "recommendationDescription": "Excellent opportunity! Spectacular sea of clouds expected."
             },
             "hourlyData": [
               {
                 "time": "00:00",
-                "probability": 0.8238,
-                "quality_score": 0.6049,
-                "cloud_top_asl": 3062,
-                "aod": 0.02
+                "probability": 0.7834,
+                "quality_score": 0.6076,
+                "cloud_top_asl": 3055,
+                "aod": 0.03
               },
               {
                 "time": "01:00",
-                "probability": 0.8557,
-                "quality_score": 0.5886,
-                "cloud_top_asl": 3056,
-                "aod": 0.02
-              },
-              {
-                "time": "02:00",
-                "probability": 0.8393,
-                "quality_score": 0.5885,
-                "cloud_top_asl": 3049,
-                "aod": 0.02
-              },
-              {
-                "time": "03:00",
-                "probability": 0.8216,
-                "quality_score": 0.5824,
-                "cloud_top_asl": 3047,
-                "aod": 0.02
-              },
-              {
-                "time": "04:00",
-                "probability": 0.8537,
-                "quality_score": 0.5868,
-                "cloud_top_asl": 3045,
-                "aod": 0.02
-              },
-              {
-                "time": "05:00",
-                "probability": 0.8435,
-                "quality_score": 0.5812,
-                "cloud_top_asl": 3045,
-                "aod": 0.02
-              },
-              {
-                "time": "06:00",
-                "probability": 0.829,
-                "quality_score": 0.5875,
-                "cloud_top_asl": 3046,
-                "aod": 0.02
-              },
-              {
-                "time": "07:00",
-                "probability": 0.8339,
-                "quality_score": 0.687,
-                "cloud_top_asl": 3046,
-                "aod": 0.03
-              },
-              {
-                "time": "08:00",
-                "probability": 0.9131,
-                "quality_score": 0.7019,
-                "cloud_top_asl": 3046,
-                "aod": 0.03
-              },
-              {
-                "time": "09:00",
-                "probability": 0.8174,
-                "quality_score": 0.5849,
+                "probability": 0.7404,
+                "quality_score": 0.6066,
                 "cloud_top_asl": 3050,
                 "aod": 0.03
               },
               {
+                "time": "02:00",
+                "probability": 0.785,
+                "quality_score": 0.6033,
+                "cloud_top_asl": 3045,
+                "aod": 0.03
+              },
+              {
+                "time": "03:00",
+                "probability": 0.8011,
+                "quality_score": 0.5898,
+                "cloud_top_asl": 3039,
+                "aod": 0.02
+              },
+              {
+                "time": "04:00",
+                "probability": 0.7886,
+                "quality_score": 0.5749,
+                "cloud_top_asl": 3035,
+                "aod": 0.02
+              },
+              {
+                "time": "05:00",
+                "probability": 0.848,
+                "quality_score": 0.5758,
+                "cloud_top_asl": 3036,
+                "aod": 0.02
+              },
+              {
+                "time": "06:00",
+                "probability": 0.7727,
+                "quality_score": 0.5747,
+                "cloud_top_asl": 3035,
+                "aod": 0.02
+              },
+              {
+                "time": "07:00",
+                "probability": 0.8366,
+                "quality_score": 0.6907,
+                "cloud_top_asl": 3041,
+                "aod": 0.02
+              },
+              {
+                "time": "08:00",
+                "probability": 0.8791,
+                "quality_score": 0.6993,
+                "cloud_top_asl": 3042,
+                "aod": 0.02
+              },
+              {
+                "time": "09:00",
+                "probability": 0.871,
+                "quality_score": 0.5802,
+                "cloud_top_asl": 3043,
+                "aod": 0.03
+              },
+              {
                 "time": "10:00",
-                "probability": 0.7787,
-                "quality_score": 0.587,
-                "cloud_top_asl": 3053,
+                "probability": 0.8086,
+                "quality_score": 0.5819,
+                "cloud_top_asl": 3046,
                 "aod": 0.03
               },
               {
                 "time": "11:00",
-                "probability": 0.7987,
-                "quality_score": 0.5868,
-                "cloud_top_asl": 3053,
-                "aod": 0.02
+                "probability": 0.8121,
+                "quality_score": 0.5826,
+                "cloud_top_asl": 3047,
+                "aod": 0.03
               },
               {
                 "time": "12:00",
-                "probability": 0.7915,
-                "quality_score": 0.5858,
-                "cloud_top_asl": 3052,
-                "aod": 0.02
+                "probability": 0.7681,
+                "quality_score": 0.5829,
+                "cloud_top_asl": 3047,
+                "aod": 0.03
               },
               {
                 "time": "13:00",
-                "probability": 0.7905,
-                "quality_score": 0.587,
+                "probability": 0.8105,
+                "quality_score": 0.5868,
                 "cloud_top_asl": 3053,
                 "aod": 0.02
               },
               {
                 "time": "14:00",
-                "probability": 0.8106,
-                "quality_score": 0.5898,
+                "probability": 0.812,
+                "quality_score": 0.5899,
                 "cloud_top_asl": 3058,
-                "aod": 0.03
+                "aod": 0.02
               },
               {
                 "time": "15:00",
-                "probability": 0.8145,
-                "quality_score": 0.5932,
+                "probability": 0.7994,
+                "quality_score": 0.5931,
                 "cloud_top_asl": 3063,
-                "aod": 0.03
+                "aod": 0.02
               },
               {
                 "time": "16:00",
-                "probability": 0.7703,
-                "quality_score": 0.5966,
-                "cloud_top_asl": 3068,
-                "aod": 0.02
+                "probability": 0.8051,
+                "quality_score": 0.5963,
+                "cloud_top_asl": 3067,
+                "aod": 0.01
               },
               {
                 "time": "17:00",
-                "probability": 0.8466,
-                "quality_score": 0.7045,
-                "cloud_top_asl": 3072,
-                "aod": 0.02
+                "probability": 0.8562,
+                "quality_score": 0.7107,
+                "cloud_top_asl": 3073,
+                "aod": 0.01
               },
               {
                 "time": "18:00",
-                "probability": 0.8214,
-                "quality_score": 0.6065,
+                "probability": 0.8056,
+                "quality_score": 0.6122,
                 "cloud_top_asl": 3083,
                 "aod": 0.01
               },
               {
                 "time": "19:00",
-                "probability": 0.8278,
-                "quality_score": 0.6107,
-                "cloud_top_asl": 3089,
+                "probability": 0.7603,
+                "quality_score": 0.7071,
+                "cloud_top_asl": 3088,
                 "aod": 0.01
               },
               {
                 "time": "20:00",
-                "probability": 0.8204,
-                "quality_score": 0.6127,
-                "cloud_top_asl": 3092,
+                "probability": 0.6934,
+                "quality_score": 0.7561,
+                "cloud_top_asl": 3088,
                 "aod": 0.01
               },
               {
                 "time": "21:00",
-                "probability": 0.7678,
-                "quality_score": 0.6488,
-                "cloud_top_asl": 3093,
+                "probability": 0.6537,
+                "quality_score": 0.7768,
+                "cloud_top_asl": 3088,
                 "aod": 0.01
               },
               {
                 "time": "22:00",
-                "probability": 0.6994,
-                "quality_score": 0.7474,
-                "cloud_top_asl": 3095,
+                "probability": 0.6291,
+                "quality_score": 0.7831,
+                "cloud_top_asl": 3093,
                 "aod": 0.01
               },
               {
                 "time": "23:00",
-                "probability": 0.6353,
-                "quality_score": 0.7773,
-                "cloud_top_asl": 3088,
+                "probability": 0.0,
+                "quality_score": 0.0,
+                "cloud_top_asl": 0,
                 "aod": 0.01
               }
             ]
@@ -4438,179 +4438,179 @@
             "date": "2026-01-01",
             "dayOfWeek": "Thursday",
             "summary": {
-              "avg_probability": 0.5853,
-              "avg_quality": 0.4676,
-              "avg_aod": 0.0396,
+              "avg_probability": 0.5782,
+              "avg_quality": 0.4456,
+              "avg_aod": 0.0329,
               "recommendationDescription": "Good opportunity! Recommended to visit. Sea of clouds formation likely."
             },
             "hourlyData": [
               {
                 "time": "00:00",
-                "probability": 0.6071,
+                "probability": 0.6201,
                 "quality_score": 0.43,
-                "cloud_top_asl": 4262,
-                "aod": 0.04
+                "cloud_top_asl": 4263,
+                "aod": 0.05
               },
               {
                 "time": "01:00",
-                "probability": 0.589,
-                "quality_score": 0.43,
-                "cloud_top_asl": 4252,
-                "aod": 0.03
+                "probability": 0.6323,
+                "quality_score": 0.4355,
+                "cloud_top_asl": 4249,
+                "aod": 0.04
               },
               {
                 "time": "02:00",
-                "probability": 0.6008,
-                "quality_score": 0.43,
-                "cloud_top_asl": 4248,
-                "aod": 0.03
+                "probability": 0.6255,
+                "quality_score": 0.4355,
+                "cloud_top_asl": 4244,
+                "aod": 0.04
               },
               {
                 "time": "03:00",
-                "probability": 0.626,
+                "probability": 0.5225,
                 "quality_score": 0.43,
                 "cloud_top_asl": 4236,
                 "aod": 0.03
               },
               {
                 "time": "04:00",
-                "probability": 0.6205,
+                "probability": 0.6196,
                 "quality_score": 0.43,
-                "cloud_top_asl": 4232,
-                "aod": 0.04
+                "cloud_top_asl": 4230,
+                "aod": 0.03
               },
               {
                 "time": "05:00",
-                "probability": 0.636,
+                "probability": 0.6427,
                 "quality_score": 0.43,
-                "cloud_top_asl": 4229,
-                "aod": 0.04
+                "cloud_top_asl": 4224,
+                "aod": 0.03
               },
               {
                 "time": "06:00",
-                "probability": 0.5278,
+                "probability": 0.6427,
                 "quality_score": 0.43,
-                "cloud_top_asl": 4225,
-                "aod": 0.04
+                "cloud_top_asl": 4220,
+                "aod": 0.03
               },
               {
                 "time": "07:00",
-                "probability": 0.6425,
+                "probability": 0.639,
                 "quality_score": 0.535,
-                "cloud_top_asl": 4217,
-                "aod": 0.04
+                "cloud_top_asl": 4218,
+                "aod": 0.03
               },
               {
                 "time": "08:00",
-                "probability": 0.6363,
+                "probability": 0.64,
                 "quality_score": 0.55,
-                "cloud_top_asl": 4211,
-                "aod": 0.05
+                "cloud_top_asl": 4220,
+                "aod": 0.03
               },
               {
                 "time": "09:00",
-                "probability": 0.5036,
+                "probability": 0.6279,
                 "quality_score": 0.43,
-                "cloud_top_asl": 4214,
-                "aod": 0.06
+                "cloud_top_asl": 4217,
+                "aod": 0.03
               },
               {
                 "time": "10:00",
-                "probability": 0.6053,
+                "probability": 0.6151,
                 "quality_score": 0.43,
-                "cloud_top_asl": 4215,
-                "aod": 0.06
+                "cloud_top_asl": 4216,
+                "aod": 0.03
               },
               {
                 "time": "11:00",
-                "probability": 0.6016,
+                "probability": 0.5861,
                 "quality_score": 0.43,
-                "cloud_top_asl": 4214,
-                "aod": 0.05
+                "cloud_top_asl": 4218,
+                "aod": 0.02
               },
               {
                 "time": "12:00",
-                "probability": 0.5741,
+                "probability": 0.6083,
                 "quality_score": 0.43,
-                "cloud_top_asl": 4211,
-                "aod": 0.05
+                "cloud_top_asl": 4212,
+                "aod": 0.02
               },
               {
                 "time": "13:00",
-                "probability": 0.5945,
+                "probability": 0.6011,
                 "quality_score": 0.43,
-                "cloud_top_asl": 4205,
-                "aod": 0.04
+                "cloud_top_asl": 4209,
+                "aod": 0.02
               },
               {
                 "time": "14:00",
-                "probability": 0.584,
+                "probability": 0.599,
                 "quality_score": 0.43,
-                "cloud_top_asl": 4202,
-                "aod": 0.04
+                "cloud_top_asl": 4204,
+                "aod": 0.03
               },
               {
                 "time": "15:00",
-                "probability": 0.6183,
-                "quality_score": 0.43,
-                "cloud_top_asl": 4202,
-                "aod": 0.04
+                "probability": 0.4772,
+                "quality_score": 0.0,
+                "cloud_top_asl": 4203,
+                "aod": 0.03
               },
               {
                 "time": "16:00",
-                "probability": 0.6149,
+                "probability": 0.5589,
                 "quality_score": 0.55,
-                "cloud_top_asl": 4205,
+                "cloud_top_asl": 4200,
                 "aod": 0.03
               },
               {
                 "time": "17:00",
-                "probability": 0.6253,
+                "probability": 0.5617,
                 "quality_score": 0.535,
                 "cloud_top_asl": 4205,
-                "aod": 0.03
+                "aod": 0.04
               },
               {
                 "time": "18:00",
-                "probability": 0.5889,
+                "probability": 0.5413,
                 "quality_score": 0.43,
                 "cloud_top_asl": 4204,
-                "aod": 0.04
+                "aod": 0.05
               },
               {
                 "time": "19:00",
-                "probability": 0.5488,
-                "quality_score": 0.4319,
+                "probability": 0.5694,
+                "quality_score": 0.43,
                 "cloud_top_asl": 4204,
-                "aod": 0.04
+                "aod": 0.05
               },
               {
                 "time": "20:00",
-                "probability": 0.5452,
-                "quality_score": 0.58,
-                "cloud_top_asl": 4202,
-                "aod": 0.04
+                "probability": 0.5626,
+                "quality_score": 0.28,
+                "cloud_top_asl": 4200,
+                "aod": 0.03
               },
               {
                 "time": "21:00",
-                "probability": 0.5248,
-                "quality_score": 0.58,
-                "cloud_top_asl": 4202,
+                "probability": 0.4431,
+                "quality_score": 0.0,
+                "cloud_top_asl": 4204,
                 "aod": 0.03
               },
               {
                 "time": "22:00",
-                "probability": 0.5305,
-                "quality_score": 0.58,
-                "cloud_top_asl": 4204,
+                "probability": 0.4447,
+                "quality_score": 0.0,
+                "cloud_top_asl": 4205,
                 "aod": 0.03
               },
               {
                 "time": "23:00",
-                "probability": 0.5015,
-                "quality_score": 0.43,
-                "cloud_top_asl": 4206,
-                "aod": 0.03
+                "probability": 0.4968,
+                "quality_score": 0.0,
+                "cloud_top_asl": 2998,
+                "aod": 0.04
               }
             ]
           },
@@ -4618,179 +4618,179 @@
             "date": "2026-01-02",
             "dayOfWeek": "Friday",
             "summary": {
-              "avg_probability": 0.429,
-              "avg_quality": 0.3693,
-              "avg_aod": 0.0454,
-              "recommendationDescription": "Moderate opportunity! Worth considering. Some cloud formation possible."
+              "avg_probability": 0.4594,
+              "avg_quality": 0.4024,
+              "avg_aod": 0.0479,
+              "recommendationDescription": "Good opportunity! Recommended to visit. Sea of clouds formation likely."
             },
             "hourlyData": [
               {
                 "time": "00:00",
-                "probability": 0.5335,
-                "quality_score": 0.43,
-                "cloud_top_asl": 4208,
-                "aod": 0.03
+                "probability": 0.3676,
+                "quality_score": 0.0,
+                "cloud_top_asl": 2999,
+                "aod": 0.04
               },
               {
                 "time": "01:00",
-                "probability": 0.5491,
-                "quality_score": 0.43,
-                "cloud_top_asl": 4210,
+                "probability": 0.4748,
+                "quality_score": 0.0,
+                "cloud_top_asl": 4203,
                 "aod": 0.03
               },
               {
                 "time": "02:00",
-                "probability": 0.5401,
-                "quality_score": 0.43,
-                "cloud_top_asl": 4210,
+                "probability": 0.5604,
+                "quality_score": 0.28,
+                "cloud_top_asl": 4204,
                 "aod": 0.03
               },
               {
                 "time": "03:00",
-                "probability": 0.5137,
-                "quality_score": 0.43,
-                "cloud_top_asl": 4208,
-                "aod": 0.03
+                "probability": 0.5518,
+                "quality_score": 0.28,
+                "cloud_top_asl": 4203,
+                "aod": 0.02
               },
               {
                 "time": "04:00",
-                "probability": 0.5592,
-                "quality_score": 0.28,
-                "cloud_top_asl": 4208,
-                "aod": 0.03
+                "probability": 0.5436,
+                "quality_score": 0.43,
+                "cloud_top_asl": 4203,
+                "aod": 0.02
               },
               {
                 "time": "05:00",
-                "probability": 0.5727,
-                "quality_score": 0.2819,
-                "cloud_top_asl": 4210,
-                "aod": 0.03
+                "probability": 0.5574,
+                "quality_score": 0.5706,
+                "cloud_top_asl": 4204,
+                "aod": 0.02
               },
               {
                 "time": "06:00",
-                "probability": 0.5804,
-                "quality_score": 0.2875,
-                "cloud_top_asl": 4213,
-                "aod": 0.03
+                "probability": 0.5942,
+                "quality_score": 0.43,
+                "cloud_top_asl": 4207,
+                "aod": 0.02
               },
               {
                 "time": "07:00",
-                "probability": 0.5536,
-                "quality_score": 0.385,
-                "cloud_top_asl": 3008,
+                "probability": 0.6008,
+                "quality_score": 0.4262,
+                "cloud_top_asl": 4209,
                 "aod": 0.03
               },
               {
                 "time": "08:00",
-                "probability": 0.468,
-                "quality_score": 0.0,
-                "cloud_top_asl": 3008,
+                "probability": 0.5298,
+                "quality_score": 0.4,
+                "cloud_top_asl": 4209,
                 "aod": 0.04
               },
               {
                 "time": "09:00",
-                "probability": 0.4473,
+                "probability": 0.494,
                 "quality_score": 0.0,
-                "cloud_top_asl": 3010,
-                "aod": 0.05
+                "cloud_top_asl": 3006,
+                "aod": 0.04
               },
               {
                 "time": "10:00",
-                "probability": 0.4237,
+                "probability": 0.4578,
                 "quality_score": 0.0,
-                "cloud_top_asl": 3010,
-                "aod": 0.06
+                "cloud_top_asl": 3007,
+                "aod": 0.05
               },
               {
                 "time": "11:00",
-                "probability": 0.4081,
+                "probability": 0.4428,
                 "quality_score": 0.0,
-                "cloud_top_asl": 3007,
+                "cloud_top_asl": 3004,
                 "aod": 0.06
               },
               {
                 "time": "12:00",
-                "probability": 0.3766,
+                "probability": 0.4374,
                 "quality_score": 0.0,
-                "cloud_top_asl": 3002,
-                "aod": 0.06
+                "cloud_top_asl": 3000,
+                "aod": 0.07
               },
               {
                 "time": "13:00",
-                "probability": 0.3664,
+                "probability": 0.4378,
                 "quality_score": 0.0,
-                "cloud_top_asl": 2999,
-                "aod": 0.05
+                "cloud_top_asl": 2996,
+                "aod": 0.07
               },
               {
                 "time": "14:00",
-                "probability": 0.3664,
+                "probability": 0.4327,
                 "quality_score": 0.0,
-                "cloud_top_asl": 2994,
-                "aod": 0.05
+                "cloud_top_asl": 2991,
+                "aod": 0.07
               },
               {
                 "time": "15:00",
-                "probability": 0.3766,
+                "probability": 0.4378,
                 "quality_score": 0.0,
-                "cloud_top_asl": 2986,
-                "aod": 0.05
+                "cloud_top_asl": 2985,
+                "aod": 0.06
               },
               {
                 "time": "16:00",
-                "probability": 0.3664,
+                "probability": 0.4225,
                 "quality_score": 0.0,
-                "cloud_top_asl": 2977,
-                "aod": 0.05
+                "cloud_top_asl": 2979,
+                "aod": 0.06
               },
               {
                 "time": "17:00",
-                "probability": 0.3715,
+                "probability": 0.397,
                 "quality_score": 0.0,
-                "cloud_top_asl": 2972,
-                "aod": 0.05
+                "cloud_top_asl": 2974,
+                "aod": 0.06
               },
               {
                 "time": "18:00",
-                "probability": 0.3766,
+                "probability": 0.3868,
+                "quality_score": 0.0,
+                "cloud_top_asl": 2971,
+                "aod": 0.06
+              },
+              {
+                "time": "19:00",
+                "probability": 0.3613,
                 "quality_score": 0.0,
                 "cloud_top_asl": 2966,
                 "aod": 0.06
               },
               {
-                "time": "19:00",
-                "probability": 0.3664,
+                "time": "20:00",
+                "probability": 0.3766,
                 "quality_score": 0.0,
-                "cloud_top_asl": 2960,
+                "cloud_top_asl": 2962,
                 "aod": 0.06
               },
               {
-                "time": "20:00",
-                "probability": 0.3817,
+                "time": "21:00",
+                "probability": 0.3613,
                 "quality_score": 0.0,
                 "cloud_top_asl": 2956,
                 "aod": 0.06
               },
               {
-                "time": "21:00",
-                "probability": 0.4225,
-                "quality_score": 0.0,
-                "cloud_top_asl": 2952,
-                "aod": 0.05
-              },
-              {
                 "time": "22:00",
                 "probability": 0.3766,
                 "quality_score": 0.0,
-                "cloud_top_asl": 2948,
+                "cloud_top_asl": 2952,
                 "aod": 0.06
               },
               {
                 "time": "23:00",
-                "probability": 0.0,
+                "probability": 0.4225,
                 "quality_score": 0.0,
-                "cloud_top_asl": 0,
-                "aod": 0.04
+                "cloud_top_asl": 4151,
+                "aod": 0.06
               }
             ]
           }
