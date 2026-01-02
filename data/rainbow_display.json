@@ -1,7 +1,7 @@
 {
     "Zion National Park": {
         "locationName": "Zion National Park",
-        "bestTimeSlot": "12:00",
+        "bestTimeSlot": "13:00",
         "bestRecommendLevel": 1,
         "bestRecommendPercentage": 33,
         "allTimeSlots": [
@@ -37,8 +37,8 @@
             },
             {
                 "time": "12:00",
-                "level": 1,
-                "percentage": 33
+                "level": 0,
+                "percentage": 0
             },
             {
                 "time": "13:00",
@@ -87,8 +87,8 @@
     "Death Valley": {
         "locationName": "Death Valley",
         "bestTimeSlot": "09:00",
-        "bestRecommendLevel": 2,
-        "bestRecommendPercentage": 66,
+        "bestRecommendLevel": 1,
+        "bestRecommendPercentage": 33,
         "allTimeSlots": [
             {
                 "time": "06:00",
@@ -102,18 +102,18 @@
             },
             {
                 "time": "08:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "09:00",
                 "level": 1,
                 "percentage": 33
             },
             {
-                "time": "09:00",
-                "level": 2,
-                "percentage": 66
-            },
-            {
                 "time": "10:00",
-                "level": 2,
-                "percentage": 66
+                "level": 1,
+                "percentage": 33
             },
             {
                 "time": "11:00",
@@ -166,11 +166,11 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.107,
+        "airQualityValue": 0.092,
         "airQuality": "Good"
     },
-    "San Francisco": {
-        "locationName": "San Francisco",
+    "Los Angeles": {
+        "locationName": "Los Angeles",
         "bestTimeSlot": "11:00",
         "bestRecommendLevel": 1,
         "bestRecommendPercentage": 33,
@@ -251,7 +251,7 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.11,
+        "airQualityValue": 0.07,
         "airQuality": "Good"
     },
     "Yosemite National Park": {
@@ -341,7 +341,7 @@
     },
     "Mt. Hood": {
         "locationName": "Mt. Hood",
-        "bestTimeSlot": "13:00",
+        "bestTimeSlot": "14:00",
         "bestRecommendLevel": 1,
         "bestRecommendPercentage": 33,
         "allTimeSlots": [
@@ -382,8 +382,8 @@
             },
             {
                 "time": "13:00",
-                "level": 1,
-                "percentage": 33
+                "level": 0,
+                "percentage": 0
             },
             {
                 "time": "14:00",
@@ -421,7 +421,7 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.059,
+        "airQualityValue": 0.08,
         "airQuality": "Good"
     }
 }
