@@ -81,12 +81,12 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.043,
+        "airQualityValue": 0.047,
         "airQuality": "Good"
     },
     "Darien": {
         "locationName": "Darien",
-        "bestTimeSlot": "10:00",
+        "bestTimeSlot": "09:00",
         "bestRecommendLevel": 2,
         "bestRecommendPercentage": 66,
         "allTimeSlots": [
@@ -107,8 +107,8 @@
             },
             {
                 "time": "09:00",
-                "level": 1,
-                "percentage": 33
+                "level": 2,
+                "percentage": 66
             },
             {
                 "time": "10:00",
@@ -166,97 +166,12 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.048,
+        "airQualityValue": 0.047,
         "airQuality": "Good"
     },
     "Zion National Park": {
         "locationName": "Zion National Park",
         "bestTimeSlot": "12:00",
-        "bestRecommendLevel": 2,
-        "bestRecommendPercentage": 66,
-        "allTimeSlots": [
-            {
-                "time": "06:00",
-                "level": 0,
-                "percentage": 0
-            },
-            {
-                "time": "07:00",
-                "level": 0,
-                "percentage": 0
-            },
-            {
-                "time": "08:00",
-                "level": 0,
-                "percentage": 0
-            },
-            {
-                "time": "09:00",
-                "level": 0,
-                "percentage": 0
-            },
-            {
-                "time": "10:00",
-                "level": 0,
-                "percentage": 0
-            },
-            {
-                "time": "11:00",
-                "level": 0,
-                "percentage": 0
-            },
-            {
-                "time": "12:00",
-                "level": 2,
-                "percentage": 66
-            },
-            {
-                "time": "13:00",
-                "level": 2,
-                "percentage": 66
-            },
-            {
-                "time": "14:00",
-                "level": 2,
-                "percentage": 66
-            },
-            {
-                "time": "15:00",
-                "level": 1,
-                "percentage": 33
-            },
-            {
-                "time": "16:00",
-                "level": 0,
-                "percentage": 0
-            },
-            {
-                "time": "17:00",
-                "level": 0,
-                "percentage": 0
-            },
-            {
-                "time": "18:00",
-                "level": 0,
-                "percentage": 0
-            },
-            {
-                "time": "19:00",
-                "level": 0,
-                "percentage": 0
-            },
-            {
-                "time": "20:00",
-                "level": 0,
-                "percentage": 0
-            }
-        ],
-        "airQualityValue": 0.067,
-        "airQuality": "Good"
-    },
-    "Lake Tahoe": {
-        "locationName": "Lake Tahoe",
-        "bestTimeSlot": "11:00",
         "bestRecommendLevel": 1,
         "bestRecommendPercentage": 33,
         "allTimeSlots": [
@@ -287,8 +202,8 @@
             },
             {
                 "time": "11:00",
-                "level": 1,
-                "percentage": 33
+                "level": 0,
+                "percentage": 0
             },
             {
                 "time": "12:00",
@@ -302,8 +217,8 @@
             },
             {
                 "time": "14:00",
-                "level": 0,
-                "percentage": 0
+                "level": 1,
+                "percentage": 33
             },
             {
                 "time": "15:00",
@@ -336,12 +251,12 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.079,
+        "airQualityValue": 0.073,
         "airQuality": "Good"
     },
     "Mt. Whitney": {
         "locationName": "Mt. Whitney",
-        "bestTimeSlot": "11:00",
+        "bestTimeSlot": "09:00",
         "bestRecommendLevel": 1,
         "bestRecommendPercentage": 33,
         "allTimeSlots": [
@@ -362,13 +277,13 @@
             },
             {
                 "time": "09:00",
-                "level": 0,
-                "percentage": 0
+                "level": 1,
+                "percentage": 33
             },
             {
                 "time": "10:00",
-                "level": 0,
-                "percentage": 0
+                "level": 1,
+                "percentage": 33
             },
             {
                 "time": "11:00",
@@ -387,13 +302,13 @@
             },
             {
                 "time": "14:00",
-                "level": 1,
-                "percentage": 33
+                "level": 0,
+                "percentage": 0
             },
             {
                 "time": "15:00",
-                "level": 1,
-                "percentage": 33
+                "level": 0,
+                "percentage": 0
             },
             {
                 "time": "16:00",
@@ -421,7 +336,7 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.101,
+        "airQualityValue": 0.137,
         "airQuality": "Good"
     },
     "Death Valley": {
@@ -506,14 +421,14 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.07,
+        "airQualityValue": 0.096,
         "airQuality": "Good"
     },
     "San Francisco": {
         "locationName": "San Francisco",
-        "bestTimeSlot": "15:00",
-        "bestRecommendLevel": 2,
-        "bestRecommendPercentage": 66,
+        "bestTimeSlot": "14:00",
+        "bestRecommendLevel": 1,
+        "bestRecommendPercentage": 33,
         "allTimeSlots": [
             {
                 "time": "06:00",
@@ -552,8 +467,8 @@
             },
             {
                 "time": "13:00",
-                "level": 1,
-                "percentage": 33
+                "level": 0,
+                "percentage": 0
             },
             {
                 "time": "14:00",
@@ -562,8 +477,93 @@
             },
             {
                 "time": "15:00",
+                "level": 1,
+                "percentage": 33
+            },
+            {
+                "time": "16:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "17:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "18:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "19:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "20:00",
+                "level": 0,
+                "percentage": 0
+            }
+        ],
+        "airQualityValue": 0.077,
+        "airQuality": "Good"
+    },
+    "Seattle": {
+        "locationName": "Seattle",
+        "bestTimeSlot": "11:00",
+        "bestRecommendLevel": 2,
+        "bestRecommendPercentage": 66,
+        "allTimeSlots": [
+            {
+                "time": "06:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "07:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "08:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "09:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "10:00",
+                "level": 1,
+                "percentage": 33
+            },
+            {
+                "time": "11:00",
                 "level": 2,
                 "percentage": 66
+            },
+            {
+                "time": "12:00",
+                "level": 2,
+                "percentage": 66
+            },
+            {
+                "time": "13:00",
+                "level": 2,
+                "percentage": 66
+            },
+            {
+                "time": "14:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "15:00",
+                "level": 0,
+                "percentage": 0
             },
             {
                 "time": "16:00",
@@ -594,8 +594,8 @@
         "airQualityValue": 0.067,
         "airQuality": "Good"
     },
-    "Seattle": {
-        "locationName": "Seattle",
+    "Mt. Rainier": {
+        "locationName": "Mt. Rainier",
         "bestTimeSlot": "12:00",
         "bestRecommendLevel": 2,
         "bestRecommendPercentage": 66,
@@ -676,7 +676,7 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.05,
+        "airQualityValue": 0.053,
         "airQuality": "Good"
     },
     "Mt. Hood": {
@@ -761,97 +761,12 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.071,
+        "airQualityValue": 0.077,
         "airQuality": "Good"
     },
     "Yellowstone National Park": {
         "locationName": "Yellowstone National Park",
-        "bestTimeSlot": "12:00",
-        "bestRecommendLevel": 2,
-        "bestRecommendPercentage": 66,
-        "allTimeSlots": [
-            {
-                "time": "06:00",
-                "level": 0,
-                "percentage": 0
-            },
-            {
-                "time": "07:00",
-                "level": 0,
-                "percentage": 0
-            },
-            {
-                "time": "08:00",
-                "level": 0,
-                "percentage": 0
-            },
-            {
-                "time": "09:00",
-                "level": 1,
-                "percentage": 33
-            },
-            {
-                "time": "10:00",
-                "level": 1,
-                "percentage": 33
-            },
-            {
-                "time": "11:00",
-                "level": 1,
-                "percentage": 33
-            },
-            {
-                "time": "12:00",
-                "level": 2,
-                "percentage": 66
-            },
-            {
-                "time": "13:00",
-                "level": 1,
-                "percentage": 33
-            },
-            {
-                "time": "14:00",
-                "level": 0,
-                "percentage": 0
-            },
-            {
-                "time": "15:00",
-                "level": 0,
-                "percentage": 0
-            },
-            {
-                "time": "16:00",
-                "level": 0,
-                "percentage": 0
-            },
-            {
-                "time": "17:00",
-                "level": 0,
-                "percentage": 0
-            },
-            {
-                "time": "18:00",
-                "level": 0,
-                "percentage": 0
-            },
-            {
-                "time": "19:00",
-                "level": 0,
-                "percentage": 0
-            },
-            {
-                "time": "20:00",
-                "level": 0,
-                "percentage": 0
-            }
-        ],
-        "airQualityValue": 0.043,
-        "airQuality": "Good"
-    },
-    "Grand Teton National Park": {
-        "locationName": "Grand Teton National Park",
-        "bestTimeSlot": "12:00",
+        "bestTimeSlot": "09:00",
         "bestRecommendLevel": 1,
         "bestRecommendPercentage": 33,
         "allTimeSlots": [
@@ -872,18 +787,18 @@
             },
             {
                 "time": "09:00",
-                "level": 0,
-                "percentage": 0
+                "level": 1,
+                "percentage": 33
             },
             {
                 "time": "10:00",
-                "level": 0,
-                "percentage": 0
+                "level": 1,
+                "percentage": 33
             },
             {
                 "time": "11:00",
-                "level": 0,
-                "percentage": 0
+                "level": 1,
+                "percentage": 33
             },
             {
                 "time": "12:00",
@@ -892,8 +807,8 @@
             },
             {
                 "time": "13:00",
-                "level": 1,
-                "percentage": 33
+                "level": 0,
+                "percentage": 0
             },
             {
                 "time": "14:00",
@@ -931,7 +846,92 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.038,
+        "airQualityValue": 0.063,
+        "airQuality": "Good"
+    },
+    "Grand Teton National Park": {
+        "locationName": "Grand Teton National Park",
+        "bestTimeSlot": "09:00",
+        "bestRecommendLevel": 1,
+        "bestRecommendPercentage": 33,
+        "allTimeSlots": [
+            {
+                "time": "06:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "07:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "08:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "09:00",
+                "level": 1,
+                "percentage": 33
+            },
+            {
+                "time": "10:00",
+                "level": 1,
+                "percentage": 33
+            },
+            {
+                "time": "11:00",
+                "level": 1,
+                "percentage": 33
+            },
+            {
+                "time": "12:00",
+                "level": 1,
+                "percentage": 33
+            },
+            {
+                "time": "13:00",
+                "level": 1,
+                "percentage": 33
+            },
+            {
+                "time": "14:00",
+                "level": 1,
+                "percentage": 33
+            },
+            {
+                "time": "15:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "16:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "17:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "18:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "19:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "20:00",
+                "level": 0,
+                "percentage": 0
+            }
+        ],
+        "airQualityValue": 0.067,
         "airQuality": "Good"
     }
 }
