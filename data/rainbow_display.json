@@ -81,7 +81,7 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.31,
+        "airQualityValue": 0.333,
         "airQuality": "Moderate"
     },
     "New York": {
@@ -166,7 +166,7 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.253,
+        "airQualityValue": 0.25,
         "airQuality": "Moderate"
     },
     "Darien": {
@@ -222,8 +222,8 @@
             },
             {
                 "time": "15:00",
-                "level": 1,
-                "percentage": 33
+                "level": 0,
+                "percentage": 0
             },
             {
                 "time": "16:00",
@@ -251,14 +251,14 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.214,
+        "airQualityValue": 0.229,
         "airQuality": "Moderate"
     },
-    "San Francisco": {
-        "locationName": "San Francisco",
-        "bestTimeSlot": "09:00",
-        "bestRecommendLevel": 1,
-        "bestRecommendPercentage": 33,
+    "Madison": {
+        "locationName": "Madison",
+        "bestTimeSlot": "10:00",
+        "bestRecommendLevel": 2,
+        "bestRecommendPercentage": 66,
         "allTimeSlots": [
             {
                 "time": "06:00",
@@ -282,23 +282,23 @@
             },
             {
                 "time": "10:00",
-                "level": 0,
-                "percentage": 0
+                "level": 2,
+                "percentage": 66
             },
             {
                 "time": "11:00",
-                "level": 1,
-                "percentage": 33
+                "level": 2,
+                "percentage": 66
             },
             {
                 "time": "12:00",
-                "level": 0,
-                "percentage": 0
+                "level": 2,
+                "percentage": 66
             },
             {
                 "time": "13:00",
-                "level": 0,
-                "percentage": 0
+                "level": 2,
+                "percentage": 66
             },
             {
                 "time": "14:00",
@@ -307,8 +307,8 @@
             },
             {
                 "time": "15:00",
-                "level": 1,
-                "percentage": 33
+                "level": 0,
+                "percentage": 0
             },
             {
                 "time": "16:00",
@@ -336,7 +336,7 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.03,
+        "airQualityValue": 0.199,
         "airQuality": "Good"
     }
 }
