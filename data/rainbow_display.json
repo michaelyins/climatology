@@ -1,7 +1,7 @@
 {
     "Lake Tahoe": {
         "locationName": "Lake Tahoe",
-        "bestTimeSlot": "11:00",
+        "bestTimeSlot": "14:00",
         "bestRecommendLevel": 1,
         "bestRecommendPercentage": 33,
         "allTimeSlots": [
@@ -32,18 +32,18 @@
             },
             {
                 "time": "11:00",
-                "level": 1,
-                "percentage": 33
+                "level": 0,
+                "percentage": 0
             },
             {
                 "time": "12:00",
-                "level": 1,
-                "percentage": 33
+                "level": 0,
+                "percentage": 0
             },
             {
                 "time": "13:00",
-                "level": 1,
-                "percentage": 33
+                "level": 0,
+                "percentage": 0
             },
             {
                 "time": "14:00",
@@ -81,7 +81,7 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.04,
+        "airQualityValue": 0.023,
         "airQuality": "Good"
     },
     "Glacier National Park": {
@@ -166,7 +166,7 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.03,
+        "airQualityValue": 0.02,
         "airQuality": "Good"
     }
 }
