@@ -1,9 +1,9 @@
 {
-    "Madison": {
-        "locationName": "Madison",
-        "bestTimeSlot": "09:00",
-        "bestRecommendLevel": 1,
-        "bestRecommendPercentage": 33,
+    "Chicago": {
+        "locationName": "Chicago",
+        "bestTimeSlot": "11:00",
+        "bestRecommendLevel": 2,
+        "bestRecommendPercentage": 66,
         "allTimeSlots": [
             {
                 "time": "06:00",
@@ -22,23 +22,23 @@
             },
             {
                 "time": "09:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "10:00",
                 "level": 1,
                 "percentage": 33
             },
             {
-                "time": "10:00",
-                "level": 0,
-                "percentage": 0
-            },
-            {
                 "time": "11:00",
-                "level": 0,
-                "percentage": 0
+                "level": 2,
+                "percentage": 66
             },
             {
                 "time": "12:00",
-                "level": 0,
-                "percentage": 0
+                "level": 2,
+                "percentage": 66
             },
             {
                 "time": "13:00",
@@ -81,7 +81,7 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.05,
+        "airQualityValue": 0.083,
         "airQuality": "Good"
     }
 }
