@@ -1,9 +1,9 @@
 {
     "Yellowstone National Park": {
         "locationName": "Yellowstone National Park",
-        "bestTimeSlot": "11:00",
-        "bestRecommendLevel": 1,
-        "bestRecommendPercentage": 33,
+        "bestTimeSlot": "15:00",
+        "bestRecommendLevel": 2,
+        "bestRecommendPercentage": 66,
         "allTimeSlots": [
             {
                 "time": "06:00",
@@ -52,8 +52,8 @@
             },
             {
                 "time": "15:00",
-                "level": 0,
-                "percentage": 0
+                "level": 2,
+                "percentage": 66
             },
             {
                 "time": "16:00",
@@ -81,7 +81,7 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.11,
+        "airQualityValue": 0.053,
         "airQuality": "Good"
     }
 }
