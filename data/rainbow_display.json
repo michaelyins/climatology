@@ -1,92 +1,7 @@
 {
-    "Cleveland": {
-        "locationName": "Cleveland",
-        "bestTimeSlot": "10:00",
-        "bestRecommendLevel": 1,
-        "bestRecommendPercentage": 33,
-        "allTimeSlots": [
-            {
-                "time": "06:00",
-                "level": 0,
-                "percentage": 0
-            },
-            {
-                "time": "07:00",
-                "level": 0,
-                "percentage": 0
-            },
-            {
-                "time": "08:00",
-                "level": 0,
-                "percentage": 0
-            },
-            {
-                "time": "09:00",
-                "level": 0,
-                "percentage": 0
-            },
-            {
-                "time": "10:00",
-                "level": 1,
-                "percentage": 33
-            },
-            {
-                "time": "11:00",
-                "level": 1,
-                "percentage": 33
-            },
-            {
-                "time": "12:00",
-                "level": 1,
-                "percentage": 33
-            },
-            {
-                "time": "13:00",
-                "level": 1,
-                "percentage": 33
-            },
-            {
-                "time": "14:00",
-                "level": 1,
-                "percentage": 33
-            },
-            {
-                "time": "15:00",
-                "level": 0,
-                "percentage": 0
-            },
-            {
-                "time": "16:00",
-                "level": 0,
-                "percentage": 0
-            },
-            {
-                "time": "17:00",
-                "level": 0,
-                "percentage": 0
-            },
-            {
-                "time": "18:00",
-                "level": 0,
-                "percentage": 0
-            },
-            {
-                "time": "19:00",
-                "level": 0,
-                "percentage": 0
-            },
-            {
-                "time": "20:00",
-                "level": 0,
-                "percentage": 0
-            }
-        ],
-        "airQualityValue": 0.111,
-        "airQuality": "Good"
-    },
-    "Zion National Park": {
-        "locationName": "Zion National Park",
-        "bestTimeSlot": "11:00",
+    "Chicago": {
+        "locationName": "Chicago",
+        "bestTimeSlot": "13:00",
         "bestRecommendLevel": 1,
         "bestRecommendPercentage": 33,
         "allTimeSlots": [
@@ -117,8 +32,8 @@
             },
             {
                 "time": "11:00",
-                "level": 1,
-                "percentage": 33
+                "level": 0,
+                "percentage": 0
             },
             {
                 "time": "12:00",
@@ -127,8 +42,8 @@
             },
             {
                 "time": "13:00",
-                "level": 0,
-                "percentage": 0
+                "level": 1,
+                "percentage": 33
             },
             {
                 "time": "14:00",
@@ -166,12 +81,12 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.077,
+        "airQualityValue": 0.181,
         "airQuality": "Good"
     },
     "Monument Valley": {
         "locationName": "Monument Valley",
-        "bestTimeSlot": "12:00",
+        "bestTimeSlot": "10:00",
         "bestRecommendLevel": 2,
         "bestRecommendPercentage": 66,
         "allTimeSlots": [
@@ -192,18 +107,18 @@
             },
             {
                 "time": "09:00",
-                "level": 0,
-                "percentage": 0
+                "level": 1,
+                "percentage": 33
             },
             {
                 "time": "10:00",
-                "level": 0,
-                "percentage": 0
+                "level": 2,
+                "percentage": 66
             },
             {
                 "time": "11:00",
-                "level": 0,
-                "percentage": 0
+                "level": 2,
+                "percentage": 66
             },
             {
                 "time": "12:00",
@@ -222,13 +137,13 @@
             },
             {
                 "time": "15:00",
-                "level": 2,
-                "percentage": 66
+                "level": 1,
+                "percentage": 33
             },
             {
                 "time": "16:00",
-                "level": 2,
-                "percentage": 66
+                "level": 1,
+                "percentage": 33
             },
             {
                 "time": "17:00",
@@ -251,7 +166,7 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.282,
+        "airQualityValue": 0.381,
         "airQuality": "Moderate"
     },
     "Mt. Whitney": {
@@ -336,12 +251,12 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.074,
+        "airQualityValue": 0.092,
         "airQuality": "Good"
     },
     "Los Angeles": {
         "locationName": "Los Angeles",
-        "bestTimeSlot": "11:00",
+        "bestTimeSlot": "08:00",
         "bestRecommendLevel": 2,
         "bestRecommendPercentage": 66,
         "allTimeSlots": [
@@ -357,18 +272,18 @@
             },
             {
                 "time": "08:00",
-                "level": 0,
-                "percentage": 0
+                "level": 2,
+                "percentage": 66
             },
             {
                 "time": "09:00",
-                "level": 0,
-                "percentage": 0
+                "level": 2,
+                "percentage": 66
             },
             {
                 "time": "10:00",
-                "level": 1,
-                "percentage": 33
+                "level": 2,
+                "percentage": 66
             },
             {
                 "time": "11:00",
@@ -421,8 +336,93 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.25,
+        "airQualityValue": 0.297,
         "airQuality": "Moderate"
+    },
+    "Yellowstone National Park": {
+        "locationName": "Yellowstone National Park",
+        "bestTimeSlot": "11:00",
+        "bestRecommendLevel": 2,
+        "bestRecommendPercentage": 66,
+        "allTimeSlots": [
+            {
+                "time": "06:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "07:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "08:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "09:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "10:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "11:00",
+                "level": 2,
+                "percentage": 66
+            },
+            {
+                "time": "12:00",
+                "level": 2,
+                "percentage": 66
+            },
+            {
+                "time": "13:00",
+                "level": 2,
+                "percentage": 66
+            },
+            {
+                "time": "14:00",
+                "level": 2,
+                "percentage": 66
+            },
+            {
+                "time": "15:00",
+                "level": 1,
+                "percentage": 33
+            },
+            {
+                "time": "16:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "17:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "18:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "19:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "20:00",
+                "level": 0,
+                "percentage": 0
+            }
+        ],
+        "airQualityValue": 0.04,
+        "airQuality": "Good"
     },
     "Glacier National Park": {
         "locationName": "Glacier National Park",
@@ -452,8 +452,8 @@
             },
             {
                 "time": "10:00",
-                "level": 1,
-                "percentage": 33
+                "level": 0,
+                "percentage": 0
             },
             {
                 "time": "11:00",
@@ -506,7 +506,7 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.06,
+        "airQualityValue": 0.09,
         "airQuality": "Good"
     }
 }
