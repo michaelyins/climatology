@@ -1,7 +1,7 @@
 {
     "Cleveland": {
         "locationName": "Cleveland",
-        "bestTimeSlot": "14:00",
+        "bestTimeSlot": "12:00",
         "bestRecommendLevel": 2,
         "bestRecommendPercentage": 66,
         "allTimeSlots": [
@@ -27,28 +27,28 @@
             },
             {
                 "time": "10:00",
-                "level": 0,
-                "percentage": 0
+                "level": 1,
+                "percentage": 33
             },
             {
                 "time": "11:00",
-                "level": 0,
-                "percentage": 0
+                "level": 1,
+                "percentage": 33
             },
             {
                 "time": "12:00",
-                "level": 0,
-                "percentage": 0
+                "level": 2,
+                "percentage": 66
             },
             {
                 "time": "13:00",
-                "level": 0,
-                "percentage": 0
+                "level": 1,
+                "percentage": 33
             },
             {
                 "time": "14:00",
-                "level": 2,
-                "percentage": 66
+                "level": 1,
+                "percentage": 33
             },
             {
                 "time": "15:00",
@@ -81,7 +81,7 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.046,
+        "airQualityValue": 0.06,
         "airQuality": "Good"
     }
 }
