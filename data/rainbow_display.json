@@ -1,7 +1,7 @@
 {
     "Chicago": {
         "locationName": "Chicago",
-        "bestTimeSlot": "10:00",
+        "bestTimeSlot": "11:00",
         "bestRecommendLevel": 2,
         "bestRecommendPercentage": 66,
         "allTimeSlots": [
@@ -27,8 +27,8 @@
             },
             {
                 "time": "10:00",
-                "level": 2,
-                "percentage": 66
+                "level": 1,
+                "percentage": 33
             },
             {
                 "time": "11:00",
@@ -81,7 +81,7 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.08,
+        "airQualityValue": 0.137,
         "airQuality": "Good"
     }
 }
