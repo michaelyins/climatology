@@ -81,14 +81,14 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.164,
+        "airQualityValue": 0.19,
         "airQuality": "Good"
     },
     "Madison": {
         "locationName": "Madison",
         "bestTimeSlot": "12:00",
-        "bestRecommendLevel": 2,
-        "bestRecommendPercentage": 66,
+        "bestRecommendLevel": 1,
+        "bestRecommendPercentage": 33,
         "allTimeSlots": [
             {
                 "time": "06:00",
@@ -117,13 +117,13 @@
             },
             {
                 "time": "11:00",
-                "level": 1,
-                "percentage": 33
+                "level": 0,
+                "percentage": 0
             },
             {
                 "time": "12:00",
-                "level": 2,
-                "percentage": 66
+                "level": 1,
+                "percentage": 33
             },
             {
                 "time": "13:00",
@@ -166,7 +166,7 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.212,
+        "airQualityValue": 0.287,
         "airQuality": "Moderate"
     }
 }
