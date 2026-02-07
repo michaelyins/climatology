@@ -1,9 +1,9 @@
 {
-    "Boston": {
-        "locationName": "Boston",
-        "bestTimeSlot": "14:00",
-        "bestRecommendLevel": 1,
-        "bestRecommendPercentage": 33,
+    "New York": {
+        "locationName": "New York",
+        "bestTimeSlot": "09:00",
+        "bestRecommendLevel": 2,
+        "bestRecommendPercentage": 66,
         "allTimeSlots": [
             {
                 "time": "06:00",
@@ -17,18 +17,18 @@
             },
             {
                 "time": "08:00",
-                "level": 0,
-                "percentage": 0
+                "level": 1,
+                "percentage": 33
             },
             {
                 "time": "09:00",
-                "level": 0,
-                "percentage": 0
+                "level": 2,
+                "percentage": 66
             },
             {
                 "time": "10:00",
-                "level": 0,
-                "percentage": 0
+                "level": 2,
+                "percentage": 66
             },
             {
                 "time": "11:00",
@@ -47,13 +47,13 @@
             },
             {
                 "time": "14:00",
-                "level": 1,
-                "percentage": 33
+                "level": 0,
+                "percentage": 0
             },
             {
                 "time": "15:00",
-                "level": 1,
-                "percentage": 33
+                "level": 0,
+                "percentage": 0
             },
             {
                 "time": "16:00",
@@ -81,7 +81,7 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.107,
+        "airQualityValue": 0.05,
         "airQuality": "Good"
     },
     "Darien": {
@@ -142,8 +142,8 @@
             },
             {
                 "time": "16:00",
-                "level": 0,
-                "percentage": 0
+                "level": 1,
+                "percentage": 33
             },
             {
                 "time": "17:00",
@@ -166,7 +166,7 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.051,
+        "airQualityValue": 0.057,
         "airQuality": "Good"
     },
     "Zion National Park": {
@@ -251,7 +251,7 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.05,
+        "airQualityValue": 0.026,
         "airQuality": "Good"
     },
     "Lake Tahoe": {
@@ -336,8 +336,8 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.178,
-        "airQuality": "Good"
+        "airQualityValue": 0.281,
+        "airQuality": "Moderate"
     },
     "Mt. Whitney": {
         "locationName": "Mt. Whitney",
@@ -421,7 +421,7 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.13,
+        "airQualityValue": 0.193,
         "airQuality": "Good"
     },
     "Los Angeles": {
@@ -506,7 +506,7 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.237,
-        "airQuality": "Moderate"
+        "airQualityValue": 0.187,
+        "airQuality": "Good"
     }
 }
