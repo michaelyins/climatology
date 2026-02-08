@@ -81,12 +81,12 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.04,
+        "airQualityValue": 0.044,
         "airQuality": "Good"
     },
     "Glacier National Park": {
         "locationName": "Glacier National Park",
-        "bestTimeSlot": "09:00",
+        "bestTimeSlot": "11:00",
         "bestRecommendLevel": 1,
         "bestRecommendPercentage": 33,
         "allTimeSlots": [
@@ -107,13 +107,13 @@
             },
             {
                 "time": "09:00",
-                "level": 1,
-                "percentage": 33
+                "level": 0,
+                "percentage": 0
             },
             {
                 "time": "10:00",
-                "level": 1,
-                "percentage": 33
+                "level": 0,
+                "percentage": 0
             },
             {
                 "time": "11:00",
@@ -166,7 +166,7 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.037,
+        "airQualityValue": 0.05,
         "airQuality": "Good"
     }
 }
