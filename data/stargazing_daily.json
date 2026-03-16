@@ -1,279 +1,87 @@
 {
   "Cherry Springs State Park": {
     "locationName": "Cherry Springs State Park",
-    "date": "2026-03-16",
+    "date": "2026-03-17",
     "bortleClass": 2,
     "coordinates": {
       "latitude": 41.6655,
       "longitude": -77.8272
     },
     "astronomicalInfo": {
-      "sunset": "19:17",
-      "sunrise": "07:21",
-      "darkStart": "20:51",
-      "darkEnd": "05:46",
-      "optimalTimeRange": "20:51 - 05:46",
-      "milkyWayRise": "03:17",
-      "milkyWaySet": "11:27",
+      "sunset": "19:18",
+      "sunrise": "07:19",
+      "darkStart": "20:53",
+      "darkEnd": "05:45",
+      "optimalTimeRange": "20:53 - 05:45",
+      "milkyWayRise": "03:13",
+      "milkyWaySet": "11:23",
       "moonPhase": "Waning Crescent",
-      "moonIllumination": 4.4,
-      "moonrise": "06:40",
-      "moonset": "16:49"
+      "moonIllumination": 1.1,
+      "moonrise": "07:02",
+      "moonset": "17:59"
     },
     "weatherConditions": {
       "cloudCover": {
         "rating": "Poor",
-        "averagePercentage": 93.9000015258789,
-        "clearestHour": "03:00"
+        "averagePercentage": 56.79999923706055,
+        "clearestHour": "02:00"
       },
       "transparency": {
-        "rating": "Fair",
-        "visibilityKm": 8.100000381469727,
-        "waterVapour": 16.299999237060547
+        "rating": "Good",
+        "visibilityKm": 13.399999618530273,
+        "waterVapour": 2.5999999046325684
       },
       "seeing": {
-        "rating": "Good",
-        "maxCape": 120.0
+        "rating": "Excellent",
+        "maxCape": 90.0
       },
       "dewRisk": {
         "rating": "High Risk",
-        "minTemperatureSpread": 0.9,
-        "riskHour": "23:00"
+        "minTemperatureSpread": 1.8,
+        "riskHour": "21:00"
       }
     },
     "overallRating": {
-      "percentage": 27,
-      "description": "Poor",
-      "recommendation": "Based on current conditions, this location has poor stargazing conditions for 2026-03-16."
+      "percentage": 45,
+      "description": "Fair",
+      "recommendation": "Based on current conditions, this location has fair stargazing conditions for 2026-03-17."
     }
   },
   "Acadia National Park": {
     "locationName": "Acadia National Park",
-    "date": "2026-03-16",
+    "date": "2026-03-17",
     "bortleClass": 2,
     "coordinates": {
       "latitude": 44.3389,
       "longitude": -68.2734
     },
     "astronomicalInfo": {
-      "sunset": "18:39",
-      "sunrise": "06:43",
-      "darkStart": "20:17",
-      "darkEnd": "05:04",
-      "optimalTimeRange": "20:17 - 05:04",
-      "milkyWayRise": "02:51",
-      "milkyWaySet": "10:36",
-      "moonPhase": "Waning Crescent",
-      "moonIllumination": 4.3,
-      "moonrise": "06:04",
-      "moonset": "16:03"
-    },
-    "weatherConditions": {
-      "cloudCover": {
-        "rating": "Poor",
-        "averagePercentage": 100.0,
-        "clearestHour": "20:00"
-      },
-      "transparency": {
-        "rating": "Fair",
-        "visibilityKm": 0.0,
-        "waterVapour": 32.400001525878906
-      },
-      "seeing": {
-        "rating": "Excellent",
-        "maxCape": 0.0
-      },
-      "dewRisk": {
-        "rating": "High Risk",
-        "minTemperatureSpread": 0.0,
-        "riskHour": "20:00"
-      }
-    },
-    "overallRating": {
-      "percentage": 36,
-      "description": "Poor",
-      "recommendation": "Based on current conditions, this location has poor stargazing conditions for 2026-03-16."
-    }
-  },
-  "Katahdin Woods and Waters": {
-    "locationName": "Katahdin Woods and Waters",
-    "date": "2026-03-16",
-    "bortleClass": 2,
-    "coordinates": {
-      "latitude": 46.02,
-      "longitude": -68.73
-    },
-    "astronomicalInfo": {
       "sunset": "18:40",
-      "sunrise": "06:45",
-      "darkStart": "20:22",
-      "darkEnd": "05:03",
-      "optimalTimeRange": "20:22 - 05:03",
-      "milkyWayRise": "03:02",
-      "milkyWaySet": "10:29",
+      "sunrise": "06:41",
+      "darkStart": "20:19",
+      "darkEnd": "05:02",
+      "optimalTimeRange": "20:19 - 05:02",
+      "milkyWayRise": "02:47",
+      "milkyWaySet": "10:32",
       "moonPhase": "Waning Crescent",
-      "moonIllumination": 4.3,
-      "moonrise": "06:09",
-      "moonset": "16:02"
+      "moonIllumination": 1.0,
+      "moonrise": "06:24",
+      "moonset": "17:17"
     },
     "weatherConditions": {
       "cloudCover": {
         "rating": "Poor",
-        "averagePercentage": 100.0,
-        "clearestHour": "20:00"
-      },
-      "transparency": {
-        "rating": "Fair",
-        "visibilityKm": 4.199999809265137,
-        "waterVapour": 27.799999237060547
-      },
-      "seeing": {
-        "rating": "Excellent",
-        "maxCape": 0.0
-      },
-      "dewRisk": {
-        "rating": "High Risk",
-        "minTemperatureSpread": 1.3,
-        "riskHour": "22:00"
-      }
-    },
-    "overallRating": {
-      "percentage": 36,
-      "description": "Poor",
-      "recommendation": "Based on current conditions, this location has poor stargazing conditions for 2026-03-16."
-    }
-  },
-  "Death Valley National Park": {
-    "locationName": "Death Valley National Park",
-    "date": "2026-03-16",
-    "bortleClass": 1,
-    "coordinates": {
-      "latitude": 36.5054,
-      "longitude": -117.0794
-    },
-    "astronomicalInfo": {
-      "sunset": "18:55",
-      "sunrise": "06:57",
-      "darkStart": "20:22",
-      "darkEnd": "05:30",
-      "optimalTimeRange": "20:22 - 05:30",
-      "milkyWayRise": "02:32",
-      "milkyWaySet": "11:24",
-      "moonPhase": "Waning Crescent",
-      "moonIllumination": 3.8,
-      "moonrise": "06:13",
-      "moonset": "16:41"
-    },
-    "weatherConditions": {
-      "cloudCover": {
-        "rating": "Excellent",
-        "averagePercentage": 13.899999618530273,
-        "clearestHour": "20:00"
-      },
-      "transparency": {
-        "rating": "Good",
-        "visibilityKm": 90.0,
-        "waterVapour": 10.300000190734863
-      },
-      "seeing": {
-        "rating": "Excellent",
-        "maxCape": 0.0
-      },
-      "dewRisk": {
-        "rating": "Low Risk",
-        "minTemperatureSpread": 29.0,
-        "riskHour": null
-      }
-    },
-    "overallRating": {
-      "percentage": 90,
-      "description": "Excellent",
-      "recommendation": "Based on current conditions, this location has excellent stargazing conditions for 2026-03-16."
-    }
-  },
-  "Joshua Tree National Park": {
-    "locationName": "Joshua Tree National Park",
-    "date": "2026-03-16",
-    "bortleClass": 2,
-    "coordinates": {
-      "latitude": 33.8734,
-      "longitude": -115.901
-    },
-    "astronomicalInfo": {
-      "sunset": "18:50",
-      "sunrise": "06:52",
-      "darkStart": "20:15",
-      "darkEnd": "05:28",
-      "optimalTimeRange": "20:15 - 05:28",
-      "milkyWayRise": "02:18",
-      "milkyWaySet": "11:29",
-      "moonPhase": "Waning Crescent",
-      "moonIllumination": 3.8,
-      "moonrise": "06:06",
-      "moonset": "16:40"
-    },
-    "weatherConditions": {
-      "cloudCover": {
-        "rating": "Good",
-        "averagePercentage": 29.100000381469727,
-        "clearestHour": "20:00"
-      },
-      "transparency": {
-        "rating": "Good",
-        "visibilityKm": 90.0,
-        "waterVapour": 11.399999618530273
-      },
-      "seeing": {
-        "rating": "Excellent",
-        "maxCape": 0.0
-      },
-      "dewRisk": {
-        "rating": "Low Risk",
-        "minTemperatureSpread": 28.6,
-        "riskHour": null
-      }
-    },
-    "overallRating": {
-      "percentage": 81,
-      "description": "Very Good",
-      "recommendation": "Based on current conditions, this location has very good stargazing conditions for 2026-03-16."
-    }
-  },
-  "Lassen Volcanic National Park": {
-    "locationName": "Lassen Volcanic National Park",
-    "date": "2026-03-16",
-    "bortleClass": 2,
-    "coordinates": {
-      "latitude": 40.4977,
-      "longitude": -121.4207
-    },
-    "astronomicalInfo": {
-      "sunset": "19:12",
-      "sunrise": "07:15",
-      "darkStart": "20:44",
-      "darkEnd": "05:42",
-      "optimalTimeRange": "20:44 - 05:42",
-      "milkyWayRise": "03:06",
-      "milkyWaySet": "11:26",
-      "moonPhase": "Waning Crescent",
-      "moonIllumination": 3.8,
-      "moonrise": "06:35",
-      "moonset": "16:53"
-    },
-    "weatherConditions": {
-      "cloudCover": {
-        "rating": "Excellent",
-        "averagePercentage": 5.400000095367432,
+        "averagePercentage": 69.4000015258789,
         "clearestHour": "22:00"
       },
       "transparency": {
         "rating": "Excellent",
-        "visibilityKm": 32.599998474121094,
-        "waterVapour": 5.5
+        "visibilityKm": 28.299999237060547,
+        "waterVapour": 5.0
       },
       "seeing": {
         "rating": "Excellent",
-        "maxCape": 0.0
+        "maxCape": 30.0
       },
       "dewRisk": {
         "rating": "Low Risk",
@@ -282,186 +90,90 @@
       }
     },
     "overallRating": {
-      "percentage": 100,
-      "description": "Excellent",
-      "recommendation": "Based on current conditions, this location has excellent stargazing conditions for 2026-03-16."
+      "percentage": 72,
+      "description": "Very Good",
+      "recommendation": "Based on current conditions, this location has very good stargazing conditions for 2026-03-17."
     }
   },
-  "Anza-Borrego Desert State Park": {
-    "locationName": "Anza-Borrego Desert State Park",
-    "date": "2026-03-16",
+  "Katahdin Woods and Waters": {
+    "locationName": "Katahdin Woods and Waters",
+    "date": "2026-03-17",
     "bortleClass": 2,
     "coordinates": {
-      "latitude": 33.1025,
-      "longitude": -116.315
+      "latitude": 46.02,
+      "longitude": -68.73
     },
     "astronomicalInfo": {
-      "sunset": "18:52",
-      "sunrise": "06:53",
-      "darkStart": "20:16",
-      "darkEnd": "05:30",
-      "optimalTimeRange": "20:16 - 05:30",
-      "milkyWayRise": "02:18",
-      "milkyWaySet": "11:33",
+      "sunset": "18:41",
+      "sunrise": "06:43",
+      "darkStart": "20:24",
+      "darkEnd": "05:01",
+      "optimalTimeRange": "20:24 - 05:01",
+      "milkyWayRise": "02:58",
+      "milkyWaySet": "10:25",
       "moonPhase": "Waning Crescent",
-      "moonIllumination": 3.8,
-      "moonrise": "06:07",
-      "moonset": "16:43"
+      "moonIllumination": 1.0,
+      "moonrise": "06:27",
+      "moonset": "17:17"
     },
     "weatherConditions": {
       "cloudCover": {
         "rating": "Poor",
-        "averagePercentage": 83.80000305175781,
-        "clearestHour": "02:00"
-      },
-      "transparency": {
-        "rating": "Good",
-        "visibilityKm": 90.0,
-        "waterVapour": 11.0
-      },
-      "seeing": {
-        "rating": "Excellent",
-        "maxCape": 0.0
-      },
-      "dewRisk": {
-        "rating": "Low Risk",
-        "minTemperatureSpread": 31.6,
-        "riskHour": null
-      }
-    },
-    "overallRating": {
-      "percentage": 63,
-      "description": "Good",
-      "recommendation": "Based on current conditions, this location has good stargazing conditions for 2026-03-16."
-    }
-  },
-  "Chaco Culture National Park": {
-    "locationName": "Chaco Culture National Park",
-    "date": "2026-03-16",
-    "bortleClass": 1,
-    "coordinates": {
-      "latitude": 36.0622,
-      "longitude": -107.9611
-    },
-    "astronomicalInfo": {
-      "sunset": "19:18",
-      "sunrise": "07:20",
-      "darkStart": "20:45",
-      "darkEnd": "05:54",
-      "optimalTimeRange": "20:45 - 05:54",
-      "milkyWayRise": "02:54",
-      "milkyWaySet": "11:49",
-      "moonPhase": "Waning Crescent",
-      "moonIllumination": 4.0,
-      "moonrise": "06:36",
-      "moonset": "17:04"
-    },
-    "weatherConditions": {
-      "cloudCover": {
-        "rating": "Fair",
-        "averagePercentage": 49.400001525878906,
-        "clearestHour": "05:00"
+        "averagePercentage": 82.4000015258789,
+        "clearestHour": "00:00"
       },
       "transparency": {
         "rating": "Excellent",
-        "visibilityKm": 69.30000305175781,
-        "waterVapour": 7.699999809265137
+        "visibilityKm": 25.700000762939453,
+        "waterVapour": 4.199999809265137
       },
       "seeing": {
         "rating": "Excellent",
-        "maxCape": 0.0
+        "maxCape": 10.0
       },
       "dewRisk": {
         "rating": "Low Risk",
-        "minTemperatureSpread": 16.0,
-        "riskHour": null
-      }
-    },
-    "overallRating": {
-      "percentage": 81,
-      "description": "Very Good",
-      "recommendation": "Based on current conditions, this location has very good stargazing conditions for 2026-03-16."
-    }
-  },
-  "Cosmic Campground": {
-    "locationName": "Cosmic Campground",
-    "date": "2026-03-16",
-    "bortleClass": 1,
-    "coordinates": {
-      "latitude": 33.4831,
-      "longitude": -108.9211
-    },
-    "astronomicalInfo": {
-      "sunset": "19:23",
-      "sunrise": "07:24",
-      "darkStart": "20:47",
-      "darkEnd": "06:00",
-      "optimalTimeRange": "20:47 - 06:00",
-      "milkyWayRise": "02:49",
-      "milkyWaySet": "12:02",
-      "moonPhase": "Waning Crescent",
-      "moonIllumination": 4.0,
-      "moonrise": "06:37",
-      "moonset": "17:11"
-    },
-    "weatherConditions": {
-      "cloudCover": {
-        "rating": "Poor",
-        "averagePercentage": 65.0999984741211,
-        "clearestHour": "20:00"
-      },
-      "transparency": {
-        "rating": "Excellent",
-        "visibilityKm": 85.4000015258789,
-        "waterVapour": 8.199999809265137
-      },
-      "seeing": {
-        "rating": "Excellent",
-        "maxCape": 0.0
-      },
-      "dewRisk": {
-        "rating": "Low Risk",
-        "minTemperatureSpread": 20.0,
+        "minTemperatureSpread": 4.7,
         "riskHour": null
       }
     },
     "overallRating": {
       "percentage": 72,
       "description": "Very Good",
-      "recommendation": "Based on current conditions, this location has very good stargazing conditions for 2026-03-16."
+      "recommendation": "Based on current conditions, this location has very good stargazing conditions for 2026-03-17."
     }
   },
-  "Great Sand Dunes National Park": {
-    "locationName": "Great Sand Dunes National Park",
-    "date": "2026-03-16",
-    "bortleClass": 2,
+  "Death Valley National Park": {
+    "locationName": "Death Valley National Park",
+    "date": "2026-03-17",
+    "bortleClass": 1,
     "coordinates": {
-      "latitude": 37.7916,
-      "longitude": -105.5943
+      "latitude": 36.5054,
+      "longitude": -117.0794
     },
     "astronomicalInfo": {
-      "sunset": "19:09",
-      "sunrise": "07:11",
-      "darkStart": "20:38",
-      "darkEnd": "05:42",
-      "optimalTimeRange": "20:38 - 05:42",
-      "milkyWayRise": "02:52",
-      "milkyWaySet": "11:34",
+      "sunset": "18:56",
+      "sunrise": "06:55",
+      "darkStart": "20:23",
+      "darkEnd": "05:28",
+      "optimalTimeRange": "20:23 - 05:28",
+      "milkyWayRise": "02:29",
+      "milkyWaySet": "11:20",
       "moonPhase": "Waning Crescent",
-      "moonIllumination": 4.0,
-      "moonrise": "06:28",
-      "moonset": "16:51"
+      "moonIllumination": 0.8,
+      "moonrise": "06:40",
+      "moonset": "17:48"
     },
     "weatherConditions": {
       "cloudCover": {
-        "rating": "Good",
-        "averagePercentage": 33.099998474121094,
-        "clearestHour": "04:00"
+        "rating": "Excellent",
+        "averagePercentage": 0.0,
+        "clearestHour": "20:00"
       },
       "transparency": {
         "rating": "Excellent",
-        "visibilityKm": 65.9000015258789,
-        "waterVapour": 6.400000095367432
+        "visibilityKm": 87.30000305175781,
+        "waterVapour": 7.0
       },
       "seeing": {
         "rating": "Excellent",
@@ -469,335 +181,47 @@
       },
       "dewRisk": {
         "rating": "Low Risk",
-        "minTemperatureSpread": 13.5,
-        "riskHour": null
-      }
-    },
-    "overallRating": {
-      "percentage": 90,
-      "description": "Excellent",
-      "recommendation": "Based on current conditions, this location has excellent stargazing conditions for 2026-03-16."
-    }
-  },
-  "Black Canyon of the Gunnison": {
-    "locationName": "Black Canyon of the Gunnison",
-    "date": "2026-03-16",
-    "bortleClass": 2,
-    "coordinates": {
-      "latitude": 38.5754,
-      "longitude": -107.7413
-    },
-    "astronomicalInfo": {
-      "sunset": "19:17",
-      "sunrise": "07:20",
-      "darkStart": "20:47",
-      "darkEnd": "05:50",
-      "optimalTimeRange": "20:47 - 05:50",
-      "milkyWayRise": "03:03",
-      "milkyWaySet": "11:39",
-      "moonPhase": "Waning Crescent",
-      "moonIllumination": 4.0,
-      "moonrise": "06:38",
-      "moonset": "16:59"
-    },
-    "weatherConditions": {
-      "cloudCover": {
-        "rating": "Excellent",
-        "averagePercentage": 12.0,
-        "clearestHour": "01:00"
-      },
-      "transparency": {
-        "rating": "Excellent",
-        "visibilityKm": 68.0,
-        "waterVapour": 7.800000190734863
-      },
-      "seeing": {
-        "rating": "Excellent",
-        "maxCape": 0.0
-      },
-      "dewRisk": {
-        "rating": "Low Risk",
-        "minTemperatureSpread": 16.4,
+        "minTemperatureSpread": 25.3,
         "riskHour": null
       }
     },
     "overallRating": {
       "percentage": 100,
       "description": "Excellent",
-      "recommendation": "Based on current conditions, this location has excellent stargazing conditions for 2026-03-16."
+      "recommendation": "Based on current conditions, this location has excellent stargazing conditions for 2026-03-17."
     }
   },
-  "Crater Lake National Park": {
-    "locationName": "Crater Lake National Park",
-    "date": "2026-03-16",
-    "bortleClass": 1,
+  "Joshua Tree National Park": {
+    "locationName": "Joshua Tree National Park",
+    "date": "2026-03-17",
+    "bortleClass": 2,
     "coordinates": {
-      "latitude": 42.8684,
-      "longitude": -122.1685
+      "latitude": 33.8734,
+      "longitude": -115.901
     },
     "astronomicalInfo": {
-      "sunset": "19:15",
-      "sunrise": "07:18",
-      "darkStart": "20:51",
-      "darkEnd": "05:42",
-      "optimalTimeRange": "20:51 - 05:42",
-      "milkyWayRise": "03:19",
-      "milkyWaySet": "11:18",
+      "sunset": "18:51",
+      "sunrise": "06:51",
+      "darkStart": "20:16",
+      "darkEnd": "05:26",
+      "optimalTimeRange": "20:16 - 05:26",
+      "milkyWayRise": "02:15",
+      "milkyWaySet": "11:25",
       "moonPhase": "Waning Crescent",
-      "moonIllumination": 3.8,
-      "moonrise": "06:41",
-      "moonset": "16:53"
-    },
-    "weatherConditions": {
-      "cloudCover": {
-        "rating": "Good",
-        "averagePercentage": 31.600000381469727,
-        "clearestHour": "00:00"
-      },
-      "transparency": {
-        "rating": "Excellent",
-        "visibilityKm": 45.0,
-        "waterVapour": 4.400000095367432
-      },
-      "seeing": {
-        "rating": "Excellent",
-        "maxCape": 0.0
-      },
-      "dewRisk": {
-        "rating": "Low Risk",
-        "minTemperatureSpread": 8.2,
-        "riskHour": null
-      }
-    },
-    "overallRating": {
-      "percentage": 90,
-      "description": "Excellent",
-      "recommendation": "Based on current conditions, this location has excellent stargazing conditions for 2026-03-16."
-    }
-  },
-  "Oregon Outback": {
-    "locationName": "Oregon Outback",
-    "date": "2026-03-16",
-    "bortleClass": 1,
-    "coordinates": {
-      "latitude": 42.5,
-      "longitude": -119.6
-    },
-    "astronomicalInfo": {
-      "sunset": "19:04",
-      "sunrise": "07:08",
-      "darkStart": "20:40",
-      "darkEnd": "05:32",
-      "optimalTimeRange": "20:40 - 05:32",
-      "milkyWayRise": "03:07",
-      "milkyWaySet": "11:10",
-      "moonPhase": "Waning Crescent",
-      "moonIllumination": 3.8,
-      "moonrise": "06:30",
-      "moonset": "16:42"
-    },
-    "weatherConditions": {
-      "cloudCover": {
-        "rating": "Good",
-        "averagePercentage": 24.5,
-        "clearestHour": "00:00"
-      },
-      "transparency": {
-        "rating": "Excellent",
-        "visibilityKm": 76.69999694824219,
-        "waterVapour": 7.800000190734863
-      },
-      "seeing": {
-        "rating": "Excellent",
-        "maxCape": 0.0
-      },
-      "dewRisk": {
-        "rating": "Low Risk",
-        "minTemperatureSpread": 20.9,
-        "riskHour": null
-      }
-    },
-    "overallRating": {
-      "percentage": 90,
-      "description": "Excellent",
-      "recommendation": "Based on current conditions, this location has excellent stargazing conditions for 2026-03-16."
-    }
-  },
-  "Mount Rainier National Park": {
-    "locationName": "Mount Rainier National Park",
-    "date": "2026-03-16",
-    "bortleClass": 3,
-    "coordinates": {
-      "latitude": 46.88,
-      "longitude": -121.7269
-    },
-    "astronomicalInfo": {
-      "sunset": "19:12",
-      "sunrise": "07:16",
-      "darkStart": "20:56",
-      "darkEnd": "05:33",
-      "optimalTimeRange": "20:56 - 05:33",
-      "milkyWayRise": "03:38",
-      "milkyWaySet": "10:56",
-      "moonPhase": "Waning Crescent",
-      "moonIllumination": 3.8,
-      "moonrise": "06:44",
-      "moonset": "16:43"
-    },
-    "weatherConditions": {
-      "cloudCover": {
-        "rating": "Fair",
-        "averagePercentage": 37.29999923706055,
-        "clearestHour": "03:00"
-      },
-      "transparency": {
-        "rating": "Excellent",
-        "visibilityKm": 69.5999984741211,
-        "waterVapour": 6.800000190734863
-      },
-      "seeing": {
-        "rating": "Excellent",
-        "maxCape": 0.0
-      },
-      "dewRisk": {
-        "rating": "Low Risk",
-        "minTemperatureSpread": 6.2,
-        "riskHour": null
-      }
-    },
-    "overallRating": {
-      "percentage": 81,
-      "description": "Very Good",
-      "recommendation": "Based on current conditions, this location has very good stargazing conditions for 2026-03-16."
-    }
-  },
-  "Yellowstone National Park": {
-    "locationName": "Yellowstone National Park",
-    "date": "2026-03-16",
-    "bortleClass": 1,
-    "coordinates": {
-      "latitude": 44.428,
-      "longitude": -110.5885
-    },
-    "astronomicalInfo": {
-      "sunset": "19:28",
-      "sunrise": "07:32",
-      "darkStart": "21:07",
-      "darkEnd": "05:53",
-      "optimalTimeRange": "21:07 - 05:53",
-      "milkyWayRise": "03:41",
-      "milkyWaySet": "11:24",
-      "moonPhase": "Waning Crescent",
-      "moonIllumination": 4.0,
-      "moonrise": "06:56",
-      "moonset": "17:01"
-    },
-    "weatherConditions": {
-      "cloudCover": {
-        "rating": "Poor",
-        "averagePercentage": 74.19999694824219,
-        "clearestHour": "00:00"
-      },
-      "transparency": {
-        "rating": "Fair",
-        "visibilityKm": 7.099999904632568,
-        "waterVapour": 11.5
-      },
-      "seeing": {
-        "rating": "Excellent",
-        "maxCape": 0.0
-      },
-      "dewRisk": {
-        "rating": "High Risk",
-        "minTemperatureSpread": 1.0,
-        "riskHour": "03:00"
-      }
-    },
-    "overallRating": {
-      "percentage": 36,
-      "description": "Poor",
-      "recommendation": "Based on current conditions, this location has poor stargazing conditions for 2026-03-16."
-    }
-  },
-  "Glacier National Park": {
-    "locationName": "Glacier National Park",
-    "date": "2026-03-16",
-    "bortleClass": 1,
-    "coordinates": {
-      "latitude": 48.7596,
-      "longitude": -113.787
-    },
-    "astronomicalInfo": {
-      "sunset": "19:40",
-      "sunrise": "07:45",
-      "darkStart": "21:28",
-      "darkEnd": "05:57",
-      "optimalTimeRange": "21:28 - 05:57",
-      "milkyWayRise": "04:18",
-      "milkyWaySet": "11:13",
-      "moonPhase": "Waning Crescent",
-      "moonIllumination": 4.0,
-      "moonrise": "07:15",
-      "moonset": "17:06"
-    },
-    "weatherConditions": {
-      "cloudCover": {
-        "rating": "Poor",
-        "averagePercentage": 100.0,
-        "clearestHour": "20:00"
-      },
-      "transparency": {
-        "rating": "Fair",
-        "visibilityKm": 0.30000001192092896,
-        "waterVapour": 14.800000190734863
-      },
-      "seeing": {
-        "rating": "Excellent",
-        "maxCape": 0.0
-      },
-      "dewRisk": {
-        "rating": "High Risk",
-        "minTemperatureSpread": 0.1,
-        "riskHour": "20:00"
-      }
-    },
-    "overallRating": {
-      "percentage": 36,
-      "description": "Poor",
-      "recommendation": "Based on current conditions, this location has poor stargazing conditions for 2026-03-16."
-    }
-  },
-  "Great Basin National Park": {
-    "locationName": "Great Basin National Park",
-    "date": "2026-03-16",
-    "bortleClass": 1,
-    "coordinates": {
-      "latitude": 38.98,
-      "longitude": -114.3
-    },
-    "astronomicalInfo": {
-      "sunset": "18:43",
-      "sunrise": "06:46",
-      "darkStart": "20:14",
-      "darkEnd": "05:16",
-      "optimalTimeRange": "20:14 - 05:16",
-      "milkyWayRise": "02:31",
-      "milkyWaySet": "11:04",
-      "moonPhase": "Waning Crescent",
-      "moonIllumination": 3.8,
-      "moonrise": "06:05",
-      "moonset": "16:26"
+      "moonIllumination": 0.8,
+      "moonrise": "06:34",
+      "moonset": "17:45"
     },
     "weatherConditions": {
       "cloudCover": {
         "rating": "Excellent",
-        "averagePercentage": 11.899999618530273,
+        "averagePercentage": 0.0,
         "clearestHour": "20:00"
       },
       "transparency": {
         "rating": "Excellent",
-        "visibilityKm": 34.599998474121094,
-        "waterVapour": 6.300000190734863
+        "visibilityKm": 89.4000015258789,
+        "waterVapour": 8.899999618530273
       },
       "seeing": {
         "rating": "Excellent",
@@ -805,46 +229,94 @@
       },
       "dewRisk": {
         "rating": "Low Risk",
-        "minTemperatureSpread": 7.3,
+        "minTemperatureSpread": 27.6,
         "riskHour": null
       }
     },
     "overallRating": {
       "percentage": 100,
       "description": "Excellent",
-      "recommendation": "Based on current conditions, this location has excellent stargazing conditions for 2026-03-16."
+      "recommendation": "Based on current conditions, this location has excellent stargazing conditions for 2026-03-17."
     }
   },
-  "Arches National Park": {
-    "locationName": "Arches National Park",
-    "date": "2026-03-16",
+  "Lassen Volcanic National Park": {
+    "locationName": "Lassen Volcanic National Park",
+    "date": "2026-03-17",
     "bortleClass": 2,
     "coordinates": {
-      "latitude": 38.7331,
-      "longitude": -109.5925
+      "latitude": 40.4977,
+      "longitude": -121.4207
     },
     "astronomicalInfo": {
-      "sunset": "19:25",
-      "sunrise": "07:27",
-      "darkStart": "20:55",
-      "darkEnd": "05:57",
-      "optimalTimeRange": "20:55 - 05:57",
-      "milkyWayRise": "03:11",
-      "milkyWaySet": "11:46",
+      "sunset": "19:13",
+      "sunrise": "07:13",
+      "darkStart": "20:46",
+      "darkEnd": "05:40",
+      "optimalTimeRange": "20:46 - 05:40",
+      "milkyWayRise": "03:02",
+      "milkyWaySet": "11:22",
       "moonPhase": "Waning Crescent",
-      "moonIllumination": 4.0,
-      "moonrise": "06:45",
-      "moonset": "17:07"
+      "moonIllumination": 0.8,
+      "moonrise": "06:58",
+      "moonset": "18:03"
     },
     "weatherConditions": {
       "cloudCover": {
         "rating": "Excellent",
-        "averagePercentage": 10.199999809265137,
-        "clearestHour": "02:00"
+        "averagePercentage": 0.0,
+        "clearestHour": "20:00"
+      },
+      "transparency": {
+        "rating": "Excellent",
+        "visibilityKm": 47.400001525878906,
+        "waterVapour": 3.5999999046325684
+      },
+      "seeing": {
+        "rating": "Excellent",
+        "maxCape": 0.0
+      },
+      "dewRisk": {
+        "rating": "Low Risk",
+        "minTemperatureSpread": 6.0,
+        "riskHour": null
+      }
+    },
+    "overallRating": {
+      "percentage": 100,
+      "description": "Excellent",
+      "recommendation": "Based on current conditions, this location has excellent stargazing conditions for 2026-03-17."
+    }
+  },
+  "Anza-Borrego Desert State Park": {
+    "locationName": "Anza-Borrego Desert State Park",
+    "date": "2026-03-17",
+    "bortleClass": 2,
+    "coordinates": {
+      "latitude": 33.1025,
+      "longitude": -116.315
+    },
+    "astronomicalInfo": {
+      "sunset": "18:53",
+      "sunrise": "06:52",
+      "darkStart": "20:17",
+      "darkEnd": "05:29",
+      "optimalTimeRange": "20:17 - 05:29",
+      "milkyWayRise": "02:14",
+      "milkyWaySet": "11:29",
+      "moonPhase": "Waning Crescent",
+      "moonIllumination": 0.8,
+      "moonrise": "06:35",
+      "moonset": "17:47"
+    },
+    "weatherConditions": {
+      "cloudCover": {
+        "rating": "Excellent",
+        "averagePercentage": 0.5,
+        "clearestHour": "20:00"
       },
       "transparency": {
         "rating": "Good",
-        "visibilityKm": 78.4000015258789,
+        "visibilityKm": 90.0,
         "waterVapour": 10.600000381469727
       },
       "seeing": {
@@ -853,47 +325,47 @@
       },
       "dewRisk": {
         "rating": "Low Risk",
-        "minTemperatureSpread": 19.2,
+        "minTemperatureSpread": 29.6,
         "riskHour": null
       }
     },
     "overallRating": {
       "percentage": 90,
       "description": "Excellent",
-      "recommendation": "Based on current conditions, this location has excellent stargazing conditions for 2026-03-16."
+      "recommendation": "Based on current conditions, this location has excellent stargazing conditions for 2026-03-17."
     }
   },
-  "Canyonlands National Park": {
-    "locationName": "Canyonlands National Park",
-    "date": "2026-03-16",
+  "Chaco Culture National Park": {
+    "locationName": "Chaco Culture National Park",
+    "date": "2026-03-17",
     "bortleClass": 1,
     "coordinates": {
-      "latitude": 38.3269,
-      "longitude": -109.8783
+      "latitude": 36.0622,
+      "longitude": -107.9611
     },
     "astronomicalInfo": {
-      "sunset": "19:26",
-      "sunrise": "07:28",
-      "darkStart": "20:56",
-      "darkEnd": "05:59",
-      "optimalTimeRange": "20:56 - 05:59",
-      "milkyWayRise": "03:11",
-      "milkyWaySet": "11:49",
+      "sunset": "19:19",
+      "sunrise": "07:19",
+      "darkStart": "20:46",
+      "darkEnd": "05:52",
+      "optimalTimeRange": "20:46 - 05:52",
+      "milkyWayRise": "02:51",
+      "milkyWaySet": "11:45",
       "moonPhase": "Waning Crescent",
-      "moonIllumination": 4.0,
-      "moonrise": "06:46",
-      "moonset": "17:08"
+      "moonIllumination": 0.9,
+      "moonrise": "07:02",
+      "moonset": "18:10"
     },
     "weatherConditions": {
       "cloudCover": {
-        "rating": "Good",
-        "averagePercentage": 33.099998474121094,
-        "clearestHour": "04:00"
+        "rating": "Excellent",
+        "averagePercentage": 0.0,
+        "clearestHour": "20:00"
       },
       "transparency": {
-        "rating": "Good",
-        "visibilityKm": 75.9000015258789,
-        "waterVapour": 10.800000190734863
+        "rating": "Excellent",
+        "visibilityKm": 79.5,
+        "waterVapour": 5.0
       },
       "seeing": {
         "rating": "Excellent",
@@ -901,36 +373,372 @@
       },
       "dewRisk": {
         "rating": "Low Risk",
-        "minTemperatureSpread": 16.5,
+        "minTemperatureSpread": 20.4,
         "riskHour": null
       }
     },
     "overallRating": {
-      "percentage": 81,
-      "description": "Very Good",
-      "recommendation": "Based on current conditions, this location has very good stargazing conditions for 2026-03-16."
+      "percentage": 100,
+      "description": "Excellent",
+      "recommendation": "Based on current conditions, this location has excellent stargazing conditions for 2026-03-17."
     }
   },
-  "Headlands Dark Sky Park": {
-    "locationName": "Headlands Dark Sky Park",
-    "date": "2026-03-16",
-    "bortleClass": 3,
+  "Cosmic Campground": {
+    "locationName": "Cosmic Campground",
+    "date": "2026-03-17",
+    "bortleClass": 1,
     "coordinates": {
-      "latitude": 45.782,
-      "longitude": -84.789
+      "latitude": 33.4831,
+      "longitude": -108.9211
     },
     "astronomicalInfo": {
-      "sunset": "19:44",
-      "sunrise": "07:49",
-      "darkStart": "21:26",
-      "darkEnd": "06:08",
-      "optimalTimeRange": "21:26 - 06:08",
-      "milkyWayRise": "04:05",
-      "milkyWaySet": "11:34",
+      "sunset": "19:23",
+      "sunrise": "07:23",
+      "darkStart": "20:47",
+      "darkEnd": "05:59",
+      "optimalTimeRange": "20:47 - 05:59",
+      "milkyWayRise": "02:45",
+      "milkyWaySet": "11:58",
       "moonPhase": "Waning Crescent",
-      "moonIllumination": 4.4,
-      "moonrise": "07:13",
-      "moonset": "17:10"
+      "moonIllumination": 0.9,
+      "moonrise": "07:05",
+      "moonset": "18:16"
+    },
+    "weatherConditions": {
+      "cloudCover": {
+        "rating": "Excellent",
+        "averagePercentage": 0.0,
+        "clearestHour": "20:00"
+      },
+      "transparency": {
+        "rating": "Excellent",
+        "visibilityKm": 88.5,
+        "waterVapour": 7.300000190734863
+      },
+      "seeing": {
+        "rating": "Excellent",
+        "maxCape": 0.0
+      },
+      "dewRisk": {
+        "rating": "Low Risk",
+        "minTemperatureSpread": 24.9,
+        "riskHour": null
+      }
+    },
+    "overallRating": {
+      "percentage": 100,
+      "description": "Excellent",
+      "recommendation": "Based on current conditions, this location has excellent stargazing conditions for 2026-03-17."
+    }
+  },
+  "Great Sand Dunes National Park": {
+    "locationName": "Great Sand Dunes National Park",
+    "date": "2026-03-17",
+    "bortleClass": 2,
+    "coordinates": {
+      "latitude": 37.7916,
+      "longitude": -105.5943
+    },
+    "astronomicalInfo": {
+      "sunset": "19:10",
+      "sunrise": "07:10",
+      "darkStart": "20:39",
+      "darkEnd": "05:41",
+      "optimalTimeRange": "20:39 - 05:41",
+      "milkyWayRise": "02:48",
+      "milkyWaySet": "11:30",
+      "moonPhase": "Waning Crescent",
+      "moonIllumination": 0.9,
+      "moonrise": "06:53",
+      "moonset": "17:59"
+    },
+    "weatherConditions": {
+      "cloudCover": {
+        "rating": "Good",
+        "averagePercentage": 30.0,
+        "clearestHour": "20:00"
+      },
+      "transparency": {
+        "rating": "Excellent",
+        "visibilityKm": 81.80000305175781,
+        "waterVapour": 6.599999904632568
+      },
+      "seeing": {
+        "rating": "Excellent",
+        "maxCape": 0.0
+      },
+      "dewRisk": {
+        "rating": "Low Risk",
+        "minTemperatureSpread": 20.5,
+        "riskHour": null
+      }
+    },
+    "overallRating": {
+      "percentage": 90,
+      "description": "Excellent",
+      "recommendation": "Based on current conditions, this location has excellent stargazing conditions for 2026-03-17."
+    }
+  },
+  "Black Canyon of the Gunnison": {
+    "locationName": "Black Canyon of the Gunnison",
+    "date": "2026-03-17",
+    "bortleClass": 2,
+    "coordinates": {
+      "latitude": 38.5754,
+      "longitude": -107.7413
+    },
+    "astronomicalInfo": {
+      "sunset": "19:18",
+      "sunrise": "07:18",
+      "darkStart": "20:48",
+      "darkEnd": "05:48",
+      "optimalTimeRange": "20:48 - 05:48",
+      "milkyWayRise": "02:59",
+      "milkyWaySet": "11:35",
+      "moonPhase": "Waning Crescent",
+      "moonIllumination": 0.9,
+      "moonrise": "07:02",
+      "moonset": "18:07"
+    },
+    "weatherConditions": {
+      "cloudCover": {
+        "rating": "Excellent",
+        "averagePercentage": 0.800000011920929,
+        "clearestHour": "20:00"
+      },
+      "transparency": {
+        "rating": "Excellent",
+        "visibilityKm": 82.19999694824219,
+        "waterVapour": 6.199999809265137
+      },
+      "seeing": {
+        "rating": "Excellent",
+        "maxCape": 0.0
+      },
+      "dewRisk": {
+        "rating": "Low Risk",
+        "minTemperatureSpread": 22.5,
+        "riskHour": null
+      }
+    },
+    "overallRating": {
+      "percentage": 100,
+      "description": "Excellent",
+      "recommendation": "Based on current conditions, this location has excellent stargazing conditions for 2026-03-17."
+    }
+  },
+  "Crater Lake National Park": {
+    "locationName": "Crater Lake National Park",
+    "date": "2026-03-17",
+    "bortleClass": 1,
+    "coordinates": {
+      "latitude": 42.8684,
+      "longitude": -122.1685
+    },
+    "astronomicalInfo": {
+      "sunset": "19:16",
+      "sunrise": "07:16",
+      "darkStart": "20:52",
+      "darkEnd": "05:40",
+      "optimalTimeRange": "20:52 - 05:40",
+      "milkyWayRise": "03:15",
+      "milkyWaySet": "11:14",
+      "moonPhase": "Waning Crescent",
+      "moonIllumination": 0.8,
+      "moonrise": "07:02",
+      "moonset": "18:04"
+    },
+    "weatherConditions": {
+      "cloudCover": {
+        "rating": "Poor",
+        "averagePercentage": 67.5,
+        "clearestHour": "05:00"
+      },
+      "transparency": {
+        "rating": "Excellent",
+        "visibilityKm": 50.20000076293945,
+        "waterVapour": 3.5999999046325684
+      },
+      "seeing": {
+        "rating": "Excellent",
+        "maxCape": 0.0
+      },
+      "dewRisk": {
+        "rating": "Low Risk",
+        "minTemperatureSpread": 10.3,
+        "riskHour": null
+      }
+    },
+    "overallRating": {
+      "percentage": 72,
+      "description": "Very Good",
+      "recommendation": "Based on current conditions, this location has very good stargazing conditions for 2026-03-17."
+    }
+  },
+  "Oregon Outback": {
+    "locationName": "Oregon Outback",
+    "date": "2026-03-17",
+    "bortleClass": 1,
+    "coordinates": {
+      "latitude": 42.5,
+      "longitude": -119.6
+    },
+    "astronomicalInfo": {
+      "sunset": "19:05",
+      "sunrise": "07:06",
+      "darkStart": "20:41",
+      "darkEnd": "05:30",
+      "optimalTimeRange": "20:41 - 05:30",
+      "milkyWayRise": "03:03",
+      "milkyWaySet": "11:06",
+      "moonPhase": "Waning Crescent",
+      "moonIllumination": 0.8,
+      "moonrise": "06:52",
+      "moonset": "17:54"
+    },
+    "weatherConditions": {
+      "cloudCover": {
+        "rating": "Poor",
+        "averagePercentage": 88.19999694824219,
+        "clearestHour": "05:00"
+      },
+      "transparency": {
+        "rating": "Excellent",
+        "visibilityKm": 89.30000305175781,
+        "waterVapour": 4.400000095367432
+      },
+      "seeing": {
+        "rating": "Excellent",
+        "maxCape": 0.0
+      },
+      "dewRisk": {
+        "rating": "Low Risk",
+        "minTemperatureSpread": 24.7,
+        "riskHour": null
+      }
+    },
+    "overallRating": {
+      "percentage": 72,
+      "description": "Very Good",
+      "recommendation": "Based on current conditions, this location has very good stargazing conditions for 2026-03-17."
+    }
+  },
+  "Mount Rainier National Park": {
+    "locationName": "Mount Rainier National Park",
+    "date": "2026-03-17",
+    "bortleClass": 3,
+    "coordinates": {
+      "latitude": 46.88,
+      "longitude": -121.7269
+    },
+    "astronomicalInfo": {
+      "sunset": "19:14",
+      "sunrise": "07:15",
+      "darkStart": "20:57",
+      "darkEnd": "05:31",
+      "optimalTimeRange": "20:57 - 05:31",
+      "milkyWayRise": "03:34",
+      "milkyWaySet": "10:52",
+      "moonPhase": "Waning Crescent",
+      "moonIllumination": 0.8,
+      "moonrise": "07:02",
+      "moonset": "17:59"
+    },
+    "weatherConditions": {
+      "cloudCover": {
+        "rating": "Fair",
+        "averagePercentage": 35.29999923706055,
+        "clearestHour": "05:00"
+      },
+      "transparency": {
+        "rating": "Fair",
+        "visibilityKm": 4.800000190734863,
+        "waterVapour": 11.0
+      },
+      "seeing": {
+        "rating": "Excellent",
+        "maxCape": 0.0
+      },
+      "dewRisk": {
+        "rating": "Moderate Risk",
+        "minTemperatureSpread": 2.9,
+        "riskHour": null
+      }
+    },
+    "overallRating": {
+      "percentage": 54,
+      "description": "Fair",
+      "recommendation": "Based on current conditions, this location has fair stargazing conditions for 2026-03-17."
+    }
+  },
+  "Yellowstone National Park": {
+    "locationName": "Yellowstone National Park",
+    "date": "2026-03-17",
+    "bortleClass": 1,
+    "coordinates": {
+      "latitude": 44.428,
+      "longitude": -110.5885
+    },
+    "astronomicalInfo": {
+      "sunset": "19:29",
+      "sunrise": "07:30",
+      "darkStart": "21:08",
+      "darkEnd": "05:51",
+      "optimalTimeRange": "21:08 - 05:51",
+      "milkyWayRise": "03:37",
+      "milkyWaySet": "11:20",
+      "moonPhase": "Waning Crescent",
+      "moonIllumination": 0.9,
+      "moonrise": "07:16",
+      "moonset": "18:14"
+    },
+    "weatherConditions": {
+      "cloudCover": {
+        "rating": "Poor",
+        "averagePercentage": 74.9000015258789,
+        "clearestHour": "01:00"
+      },
+      "transparency": {
+        "rating": "Good",
+        "visibilityKm": 31.299999237060547,
+        "waterVapour": 11.0
+      },
+      "seeing": {
+        "rating": "Excellent",
+        "maxCape": 0.0
+      },
+      "dewRisk": {
+        "rating": "Low Risk",
+        "minTemperatureSpread": 5.5,
+        "riskHour": null
+      }
+    },
+    "overallRating": {
+      "percentage": 63,
+      "description": "Good",
+      "recommendation": "Based on current conditions, this location has good stargazing conditions for 2026-03-17."
+    }
+  },
+  "Glacier National Park": {
+    "locationName": "Glacier National Park",
+    "date": "2026-03-17",
+    "bortleClass": 1,
+    "coordinates": {
+      "latitude": 48.7596,
+      "longitude": -113.787
+    },
+    "astronomicalInfo": {
+      "sunset": "19:42",
+      "sunrise": "07:43",
+      "darkStart": "21:30",
+      "darkEnd": "05:55",
+      "optimalTimeRange": "21:30 - 05:55",
+      "milkyWayRise": "04:14",
+      "milkyWaySet": "11:09",
+      "moonPhase": "Waning Crescent",
+      "moonIllumination": 0.9,
+      "moonrise": "07:30",
+      "moonset": "18:24"
     },
     "weatherConditions": {
       "cloudCover": {
@@ -940,56 +748,56 @@
       },
       "transparency": {
         "rating": "Fair",
-        "visibilityKm": 2.299999952316284,
-        "waterVapour": 5.400000095367432
+        "visibilityKm": 7.900000095367432,
+        "waterVapour": 12.899999618530273
       },
       "seeing": {
         "rating": "Excellent",
-        "maxCape": 20.0
+        "maxCape": 0.0
       },
       "dewRisk": {
-        "rating": "Moderate Risk",
-        "minTemperatureSpread": 2.2,
-        "riskHour": null
+        "rating": "High Risk",
+        "minTemperatureSpread": 1.2,
+        "riskHour": "03:00"
       }
     },
     "overallRating": {
-      "percentage": 45,
-      "description": "Fair",
-      "recommendation": "Based on current conditions, this location has fair stargazing conditions for 2026-03-16."
+      "percentage": 36,
+      "description": "Poor",
+      "recommendation": "Based on current conditions, this location has poor stargazing conditions for 2026-03-17."
     }
   },
-  "Badlands National Park": {
-    "locationName": "Badlands National Park",
-    "date": "2026-03-16",
-    "bortleClass": 2,
+  "Great Basin National Park": {
+    "locationName": "Great Basin National Park",
+    "date": "2026-03-17",
+    "bortleClass": 1,
     "coordinates": {
-      "latitude": 43.8553,
-      "longitude": -102.3397
+      "latitude": 38.98,
+      "longitude": -114.3
     },
     "astronomicalInfo": {
-      "sunset": "18:55",
-      "sunrise": "06:59",
-      "darkStart": "20:33",
-      "darkEnd": "05:21",
-      "optimalTimeRange": "20:33 - 05:21",
-      "milkyWayRise": "03:05",
-      "milkyWaySet": "10:54",
+      "sunset": "18:44",
+      "sunrise": "06:44",
+      "darkStart": "20:15",
+      "darkEnd": "05:14",
+      "optimalTimeRange": "20:15 - 05:14",
+      "milkyWayRise": "02:27",
+      "milkyWaySet": "11:00",
       "moonPhase": "Waning Crescent",
-      "moonIllumination": 4.0,
-      "moonrise": "06:22",
-      "moonset": "16:28"
+      "moonIllumination": 0.8,
+      "moonrise": "06:29",
+      "moonset": "17:34"
     },
     "weatherConditions": {
       "cloudCover": {
-        "rating": "Poor",
-        "averagePercentage": 78.19999694824219,
+        "rating": "Excellent",
+        "averagePercentage": 0.0,
         "clearestHour": "20:00"
       },
       "transparency": {
         "rating": "Excellent",
-        "visibilityKm": 36.599998474121094,
-        "waterVapour": 9.199999809265137
+        "visibilityKm": 73.9000015258789,
+        "waterVapour": 2.4000000953674316
       },
       "seeing": {
         "rating": "Excellent",
@@ -997,14 +805,206 @@
       },
       "dewRisk": {
         "rating": "Low Risk",
-        "minTemperatureSpread": 6.3,
+        "minTemperatureSpread": 18.0,
         "riskHour": null
       }
     },
     "overallRating": {
-      "percentage": 72,
-      "description": "Very Good",
-      "recommendation": "Based on current conditions, this location has very good stargazing conditions for 2026-03-16."
+      "percentage": 100,
+      "description": "Excellent",
+      "recommendation": "Based on current conditions, this location has excellent stargazing conditions for 2026-03-17."
+    }
+  },
+  "Arches National Park": {
+    "locationName": "Arches National Park",
+    "date": "2026-03-17",
+    "bortleClass": 2,
+    "coordinates": {
+      "latitude": 38.7331,
+      "longitude": -109.5925
+    },
+    "astronomicalInfo": {
+      "sunset": "19:26",
+      "sunrise": "07:26",
+      "darkStart": "20:56",
+      "darkEnd": "05:55",
+      "optimalTimeRange": "20:56 - 05:55",
+      "milkyWayRise": "03:07",
+      "milkyWaySet": "11:42",
+      "moonPhase": "Waning Crescent",
+      "moonIllumination": 0.9,
+      "moonrise": "07:10",
+      "moonset": "18:15"
+    },
+    "weatherConditions": {
+      "cloudCover": {
+        "rating": "Excellent",
+        "averagePercentage": 10.199999809265137,
+        "clearestHour": "20:00"
+      },
+      "transparency": {
+        "rating": "Excellent",
+        "visibilityKm": 87.9000015258789,
+        "waterVapour": 6.199999809265137
+      },
+      "seeing": {
+        "rating": "Excellent",
+        "maxCape": 0.0
+      },
+      "dewRisk": {
+        "rating": "Low Risk",
+        "minTemperatureSpread": 24.8,
+        "riskHour": null
+      }
+    },
+    "overallRating": {
+      "percentage": 100,
+      "description": "Excellent",
+      "recommendation": "Based on current conditions, this location has excellent stargazing conditions for 2026-03-17."
+    }
+  },
+  "Canyonlands National Park": {
+    "locationName": "Canyonlands National Park",
+    "date": "2026-03-17",
+    "bortleClass": 1,
+    "coordinates": {
+      "latitude": 38.3269,
+      "longitude": -109.8783
+    },
+    "astronomicalInfo": {
+      "sunset": "19:27",
+      "sunrise": "07:27",
+      "darkStart": "20:57",
+      "darkEnd": "05:57",
+      "optimalTimeRange": "20:57 - 05:57",
+      "milkyWayRise": "03:07",
+      "milkyWaySet": "11:45",
+      "moonPhase": "Waning Crescent",
+      "moonIllumination": 0.9,
+      "moonrise": "07:11",
+      "moonset": "18:16"
+    },
+    "weatherConditions": {
+      "cloudCover": {
+        "rating": "Excellent",
+        "averagePercentage": 3.5999999046325684,
+        "clearestHour": "20:00"
+      },
+      "transparency": {
+        "rating": "Excellent",
+        "visibilityKm": 88.4000015258789,
+        "waterVapour": 6.099999904632568
+      },
+      "seeing": {
+        "rating": "Excellent",
+        "maxCape": 0.0
+      },
+      "dewRisk": {
+        "rating": "Low Risk",
+        "minTemperatureSpread": 24.8,
+        "riskHour": null
+      }
+    },
+    "overallRating": {
+      "percentage": 100,
+      "description": "Excellent",
+      "recommendation": "Based on current conditions, this location has excellent stargazing conditions for 2026-03-17."
+    }
+  },
+  "Headlands Dark Sky Park": {
+    "locationName": "Headlands Dark Sky Park",
+    "date": "2026-03-17",
+    "bortleClass": 3,
+    "coordinates": {
+      "latitude": 45.782,
+      "longitude": -84.789
+    },
+    "astronomicalInfo": {
+      "sunset": "19:46",
+      "sunrise": "07:47",
+      "darkStart": "21:27",
+      "darkEnd": "06:05",
+      "optimalTimeRange": "21:27 - 06:05",
+      "milkyWayRise": "04:01",
+      "milkyWaySet": "11:30",
+      "moonPhase": "Waning Crescent",
+      "moonIllumination": 1.1,
+      "moonrise": "07:32",
+      "moonset": "18:25"
+    },
+    "weatherConditions": {
+      "cloudCover": {
+        "rating": "Poor",
+        "averagePercentage": 100.0,
+        "clearestHour": "20:00"
+      },
+      "transparency": {
+        "rating": "Excellent",
+        "visibilityKm": 22.899999618530273,
+        "waterVapour": 3.700000047683716
+      },
+      "seeing": {
+        "rating": "Excellent",
+        "maxCape": 70.0
+      },
+      "dewRisk": {
+        "rating": "Moderate Risk",
+        "minTemperatureSpread": 2.3,
+        "riskHour": null
+      }
+    },
+    "overallRating": {
+      "percentage": 63,
+      "description": "Good",
+      "recommendation": "Based on current conditions, this location has good stargazing conditions for 2026-03-17."
+    }
+  },
+  "Badlands National Park": {
+    "locationName": "Badlands National Park",
+    "date": "2026-03-17",
+    "bortleClass": 2,
+    "coordinates": {
+      "latitude": 43.8553,
+      "longitude": -102.3397
+    },
+    "astronomicalInfo": {
+      "sunset": "18:56",
+      "sunrise": "06:57",
+      "darkStart": "20:34",
+      "darkEnd": "05:19",
+      "optimalTimeRange": "20:34 - 05:19",
+      "milkyWayRise": "03:01",
+      "milkyWaySet": "10:50",
+      "moonPhase": "Waning Crescent",
+      "moonIllumination": 0.9,
+      "moonrise": "06:42",
+      "moonset": "17:40"
+    },
+    "weatherConditions": {
+      "cloudCover": {
+        "rating": "Poor",
+        "averagePercentage": 76.4000015258789,
+        "clearestHour": "05:00"
+      },
+      "transparency": {
+        "rating": "Good",
+        "visibilityKm": 58.0,
+        "waterVapour": 14.899999618530273
+      },
+      "seeing": {
+        "rating": "Excellent",
+        "maxCape": 0.0
+      },
+      "dewRisk": {
+        "rating": "Low Risk",
+        "minTemperatureSpread": 9.6,
+        "riskHour": null
+      }
+    },
+    "overallRating": {
+      "percentage": 63,
+      "description": "Good",
+      "recommendation": "Based on current conditions, this location has good stargazing conditions for 2026-03-17."
     }
   }
 }
