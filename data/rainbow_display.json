@@ -1,7 +1,7 @@
 {
-    "Chicago": {
-        "locationName": "Chicago",
-        "bestTimeSlot": "11:00",
+    "Cleveland": {
+        "locationName": "Cleveland",
+        "bestTimeSlot": "09:00",
         "bestRecommendLevel": 2,
         "bestRecommendPercentage": 66,
         "allTimeSlots": [
@@ -22,13 +22,13 @@
             },
             {
                 "time": "09:00",
-                "level": 1,
-                "percentage": 33
+                "level": 2,
+                "percentage": 66
             },
             {
                 "time": "10:00",
-                "level": 1,
-                "percentage": 33
+                "level": 2,
+                "percentage": 66
             },
             {
                 "time": "11:00",
@@ -52,28 +52,28 @@
             },
             {
                 "time": "15:00",
-                "level": 1,
-                "percentage": 33
+                "level": 0,
+                "percentage": 0
             },
             {
                 "time": "16:00",
-                "level": 1,
-                "percentage": 33
+                "level": 2,
+                "percentage": 66
             },
             {
                 "time": "17:00",
-                "level": 1,
-                "percentage": 33
+                "level": 2,
+                "percentage": 66
             },
             {
                 "time": "18:00",
-                "level": 0,
-                "percentage": 0
+                "level": 2,
+                "percentage": 66
             },
             {
                 "time": "19:00",
-                "level": 0,
-                "percentage": 0
+                "level": 1,
+                "percentage": 33
             },
             {
                 "time": "20:00",
@@ -81,12 +81,12 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.093,
+        "airQualityValue": 0.068,
         "airQuality": "Good"
     },
-    "Madison": {
-        "locationName": "Madison",
-        "bestTimeSlot": "11:00",
+    "Glacier National Park": {
+        "locationName": "Glacier National Park",
+        "bestTimeSlot": "12:00",
         "bestRecommendLevel": 2,
         "bestRecommendPercentage": 66,
         "allTimeSlots": [
@@ -107,33 +107,33 @@
             },
             {
                 "time": "09:00",
-                "level": 1,
-                "percentage": 33
+                "level": 0,
+                "percentage": 0
             },
             {
                 "time": "10:00",
-                "level": 1,
-                "percentage": 33
+                "level": 0,
+                "percentage": 0
             },
             {
                 "time": "11:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "12:00",
                 "level": 2,
                 "percentage": 66
             },
             {
-                "time": "12:00",
-                "level": 0,
-                "percentage": 0
-            },
-            {
                 "time": "13:00",
-                "level": 0,
-                "percentage": 0
+                "level": 2,
+                "percentage": 66
             },
             {
                 "time": "14:00",
-                "level": 0,
-                "percentage": 0
+                "level": 2,
+                "percentage": 66
             },
             {
                 "time": "15:00",
@@ -147,13 +147,13 @@
             },
             {
                 "time": "17:00",
-                "level": 2,
-                "percentage": 66
+                "level": 0,
+                "percentage": 0
             },
             {
                 "time": "18:00",
-                "level": 2,
-                "percentage": 66
+                "level": 0,
+                "percentage": 0
             },
             {
                 "time": "19:00",
@@ -166,7 +166,7 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.16,
+        "airQualityValue": 0.043,
         "airQuality": "Good"
     }
 }
