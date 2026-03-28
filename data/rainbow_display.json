@@ -62,8 +62,8 @@
             },
             {
                 "time": "17:00",
-                "level": 1,
-                "percentage": 33
+                "level": 2,
+                "percentage": 66
             },
             {
                 "time": "18:00",
@@ -81,11 +81,11 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.092,
+        "airQualityValue": 0.124,
         "airQuality": "Good"
     },
-    "Mt. Whitney": {
-        "locationName": "Mt. Whitney",
+    "Yosemite National Park": {
+        "locationName": "Yosemite National Park",
         "bestTimeSlot": "16:00",
         "bestRecommendLevel": 2,
         "bestRecommendPercentage": 66,
@@ -166,7 +166,7 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.133,
+        "airQualityValue": 0.097,
         "airQuality": "Good"
     }
 }
