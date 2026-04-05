@@ -1,7 +1,7 @@
 {
-    "Cleveland": {
-        "locationName": "Cleveland",
-        "bestTimeSlot": "16:00",
+    "New York": {
+        "locationName": "New York",
+        "bestTimeSlot": "09:00",
         "bestRecommendLevel": 2,
         "bestRecommendPercentage": 66,
         "allTimeSlots": [
@@ -22,13 +22,13 @@
             },
             {
                 "time": "09:00",
-                "level": 0,
-                "percentage": 0
+                "level": 2,
+                "percentage": 66
             },
             {
                 "time": "10:00",
-                "level": 0,
-                "percentage": 0
+                "level": 2,
+                "percentage": 66
             },
             {
                 "time": "11:00",
@@ -57,18 +57,18 @@
             },
             {
                 "time": "16:00",
-                "level": 2,
-                "percentage": 66
+                "level": 0,
+                "percentage": 0
             },
             {
                 "time": "17:00",
-                "level": 2,
-                "percentage": 66
+                "level": 0,
+                "percentage": 0
             },
             {
                 "time": "18:00",
-                "level": 1,
-                "percentage": 33
+                "level": 0,
+                "percentage": 0
             },
             {
                 "time": "19:00",
@@ -81,14 +81,14 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.286,
+        "airQualityValue": 0.28,
         "airQuality": "Moderate"
     },
-    "Houston": {
-        "locationName": "Houston",
+    "Darien": {
+        "locationName": "Darien",
         "bestTimeSlot": "09:00",
-        "bestRecommendLevel": 1,
-        "bestRecommendPercentage": 33,
+        "bestRecommendLevel": 2,
+        "bestRecommendPercentage": 66,
         "allTimeSlots": [
             {
                 "time": "06:00",
@@ -107,13 +107,13 @@
             },
             {
                 "time": "09:00",
-                "level": 1,
-                "percentage": 33
+                "level": 2,
+                "percentage": 66
             },
             {
                 "time": "10:00",
-                "level": 1,
-                "percentage": 33
+                "level": 2,
+                "percentage": 66
             },
             {
                 "time": "11:00",
@@ -147,13 +147,13 @@
             },
             {
                 "time": "17:00",
-                "level": 1,
-                "percentage": 33
+                "level": 0,
+                "percentage": 0
             },
             {
                 "time": "18:00",
-                "level": 1,
-                "percentage": 33
+                "level": 0,
+                "percentage": 0
             },
             {
                 "time": "19:00",
@@ -166,7 +166,7 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.32,
+        "airQualityValue": 0.272,
         "airQuality": "Moderate"
     }
 }
