@@ -67,13 +67,13 @@
             },
             {
                 "time": "18:00",
-                "level": 1,
-                "percentage": 33
+                "level": 2,
+                "percentage": 66
             },
             {
                 "time": "19:00",
-                "level": 0,
-                "percentage": 0
+                "level": 1,
+                "percentage": 33
             },
             {
                 "time": "20:00",
@@ -81,7 +81,7 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.296,
+        "airQualityValue": 0.21,
         "airQuality": "Moderate"
     },
     "Yellowstone National Park": {
@@ -166,7 +166,7 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.093,
+        "airQualityValue": 0.187,
         "airQuality": "Good"
     }
 }
