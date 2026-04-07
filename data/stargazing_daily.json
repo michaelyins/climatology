@@ -1,4 +1,100 @@
 {
+  "Cherry Springs State Park": {
+    "locationName": "Cherry Springs State Park",
+    "date": "2026-04-07",
+    "bortleClass": 2,
+    "coordinates": {
+      "latitude": 41.6655,
+      "longitude": -77.8272
+    },
+    "astronomicalInfo": {
+      "sunset": "19:41",
+      "sunrise": "06:43",
+      "darkStart": "21:20",
+      "darkEnd": "05:05",
+      "optimalTimeRange": "21:20 - 05:05",
+      "milkyWayRise": "01:50",
+      "milkyWaySet": "10:00",
+      "moonPhase": "Waning Gibbous",
+      "moonIllumination": 68.4,
+      "moonrise": "01:48",
+      "moonset": "10:12"
+    },
+    "weatherConditions": {
+      "cloudCover": {
+        "rating": "Poor",
+        "averagePercentage": 85.5999984741211,
+        "clearestHour": "22:00"
+      },
+      "transparency": {
+        "rating": "Excellent",
+        "visibilityKm": 25.399999618530273,
+        "waterVapour": 2.9000000953674316
+      },
+      "seeing": {
+        "rating": "Excellent",
+        "maxCape": 30.0
+      },
+      "dewRisk": {
+        "rating": "Low Risk",
+        "minTemperatureSpread": 4.2,
+        "riskHour": null
+      }
+    },
+    "overallRating": {
+      "percentage": 72,
+      "description": "Very Good",
+      "recommendation": "Based on current conditions, this location has very good stargazing conditions for 2026-04-07."
+    }
+  },
+  "Acadia National Park": {
+    "locationName": "Acadia National Park",
+    "date": "2026-04-07",
+    "bortleClass": 2,
+    "coordinates": {
+      "latitude": 44.3389,
+      "longitude": -68.2734
+    },
+    "astronomicalInfo": {
+      "sunset": "19:06",
+      "sunrise": "06:03",
+      "darkStart": "20:50",
+      "darkEnd": "04:18",
+      "optimalTimeRange": "20:50 - 04:18",
+      "milkyWayRise": "01:25",
+      "milkyWaySet": "09:10",
+      "moonPhase": "Waning Gibbous",
+      "moonIllumination": 68.5,
+      "moonrise": "01:21",
+      "moonset": "09:19"
+    },
+    "weatherConditions": {
+      "cloudCover": {
+        "rating": "Poor",
+        "averagePercentage": 100.0,
+        "clearestHour": "20:00"
+      },
+      "transparency": {
+        "rating": "Good",
+        "visibilityKm": 10.300000190734863,
+        "waterVapour": 7.900000095367432
+      },
+      "seeing": {
+        "rating": "Excellent",
+        "maxCape": 20.0
+      },
+      "dewRisk": {
+        "rating": "High Risk",
+        "minTemperatureSpread": -0.0,
+        "riskHour": "04:00"
+      }
+    },
+    "overallRating": {
+      "percentage": 45,
+      "description": "Fair",
+      "recommendation": "Based on current conditions, this location has fair stargazing conditions for 2026-04-07."
+    }
+  },
   "Katahdin Woods and Waters": {
     "locationName": "Katahdin Woods and Waters",
     "date": "2026-04-07",
@@ -237,6 +333,54 @@
       "percentage": 90,
       "description": "Excellent",
       "recommendation": "Based on current conditions, this location has excellent stargazing conditions for 2026-04-07."
+    }
+  },
+  "Chaco Culture National Park": {
+    "locationName": "Chaco Culture National Park",
+    "date": "2026-04-07",
+    "bortleClass": 1,
+    "coordinates": {
+      "latitude": 36.0622,
+      "longitude": -107.9611
+    },
+    "astronomicalInfo": {
+      "sunset": "19:37",
+      "sunrise": "06:49",
+      "darkStart": "21:07",
+      "darkEnd": "05:19",
+      "optimalTimeRange": "21:07 - 05:19",
+      "milkyWayRise": "01:28",
+      "milkyWaySet": "10:23",
+      "moonPhase": "Waning Gibbous",
+      "moonIllumination": 67.7,
+      "moonrise": "01:29",
+      "moonset": "10:40"
+    },
+    "weatherConditions": {
+      "cloudCover": {
+        "rating": "Excellent",
+        "averagePercentage": 7.699999809265137,
+        "clearestHour": "00:00"
+      },
+      "transparency": {
+        "rating": "Excellent",
+        "visibilityKm": 65.4000015258789,
+        "waterVapour": 8.300000190734863
+      },
+      "seeing": {
+        "rating": "Fair",
+        "maxCape": 300.0
+      },
+      "dewRisk": {
+        "rating": "Low Risk",
+        "minTemperatureSpread": 9.2,
+        "riskHour": null
+      }
+    },
+    "overallRating": {
+      "percentage": 81,
+      "description": "Very Good",
+      "recommendation": "Based on current conditions, this location has very good stargazing conditions for 2026-04-07."
     }
   },
   "Cosmic Campground": {
