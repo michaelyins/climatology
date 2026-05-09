@@ -81,7 +81,7 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.164,
+        "airQualityValue": 0.173,
         "airQuality": "Good"
     },
     "Zion National Park": {
@@ -166,14 +166,14 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.08,
+        "airQualityValue": 0.09,
         "airQuality": "Good"
     },
     "Houston": {
         "locationName": "Houston",
         "bestTimeSlot": "17:00",
-        "bestRecommendLevel": 1,
-        "bestRecommendPercentage": 33,
+        "bestRecommendLevel": 2,
+        "bestRecommendPercentage": 66,
         "allTimeSlots": [
             {
                 "time": "06:00",
@@ -232,13 +232,13 @@
             },
             {
                 "time": "17:00",
-                "level": 1,
-                "percentage": 33
+                "level": 2,
+                "percentage": 66
             },
             {
                 "time": "18:00",
-                "level": 0,
-                "percentage": 0
+                "level": 2,
+                "percentage": 66
             },
             {
                 "time": "19:00",
@@ -251,7 +251,7 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.332,
+        "airQualityValue": 0.33,
         "airQuality": "Moderate"
     },
     "Yellowstone National Park": {
@@ -336,7 +336,7 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.07,
+        "airQualityValue": 0.08,
         "airQuality": "Good"
     },
     "Glacier National Park": {
@@ -421,7 +421,7 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.21,
+        "airQualityValue": 0.233,
         "airQuality": "Moderate"
     }
 }
