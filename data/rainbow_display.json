@@ -1,9 +1,9 @@
 {
-    "Chicago": {
-        "locationName": "Chicago",
+    "Madison": {
+        "locationName": "Madison",
         "bestTimeSlot": "17:00",
-        "bestRecommendLevel": 1,
-        "bestRecommendPercentage": 33,
+        "bestRecommendLevel": 2,
+        "bestRecommendPercentage": 66,
         "allTimeSlots": [
             {
                 "time": "06:00",
@@ -17,13 +17,13 @@
             },
             {
                 "time": "08:00",
-                "level": 0,
-                "percentage": 0
+                "level": 1,
+                "percentage": 33
             },
             {
                 "time": "09:00",
-                "level": 0,
-                "percentage": 0
+                "level": 1,
+                "percentage": 33
             },
             {
                 "time": "10:00",
@@ -62,13 +62,13 @@
             },
             {
                 "time": "17:00",
-                "level": 1,
-                "percentage": 33
+                "level": 2,
+                "percentage": 66
             },
             {
                 "time": "18:00",
-                "level": 0,
-                "percentage": 0
+                "level": 1,
+                "percentage": 33
             },
             {
                 "time": "19:00",
@@ -81,8 +81,8 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.361,
-        "airQuality": "Moderate"
+        "airQualityValue": 0.109,
+        "airQuality": "Good"
     },
     "Houston": {
         "locationName": "Houston",
@@ -166,7 +166,7 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.227,
+        "airQualityValue": 0.253,
         "airQuality": "Moderate"
     },
     "Yellowstone National Park": {
@@ -251,7 +251,7 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.133,
-        "airQuality": "Good"
+        "airQualityValue": 0.21,
+        "airQuality": "Moderate"
     }
 }
