@@ -1,7 +1,7 @@
 {
-    "New York": {
-        "locationName": "New York",
-        "bestTimeSlot": "08:00",
+    "Boston": {
+        "locationName": "Boston",
+        "bestTimeSlot": "09:00",
         "bestRecommendLevel": 1,
         "bestRecommendPercentage": 33,
         "allTimeSlots": [
@@ -17,13 +17,13 @@
             },
             {
                 "time": "08:00",
-                "level": 1,
-                "percentage": 33
+                "level": 0,
+                "percentage": 0
             },
             {
                 "time": "09:00",
-                "level": 0,
-                "percentage": 0
+                "level": 1,
+                "percentage": 33
             },
             {
                 "time": "10:00",
@@ -62,8 +62,8 @@
             },
             {
                 "time": "17:00",
-                "level": 1,
-                "percentage": 33
+                "level": 0,
+                "percentage": 0
             },
             {
                 "time": "18:00",
@@ -81,12 +81,12 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.093,
+        "airQualityValue": 0.133,
         "airQuality": "Good"
     },
     "Darien": {
         "locationName": "Darien",
-        "bestTimeSlot": "17:00",
+        "bestTimeSlot": "09:00",
         "bestRecommendLevel": 2,
         "bestRecommendPercentage": 66,
         "allTimeSlots": [
@@ -102,13 +102,13 @@
             },
             {
                 "time": "08:00",
-                "level": 1,
-                "percentage": 33
+                "level": 0,
+                "percentage": 0
             },
             {
                 "time": "09:00",
-                "level": 1,
-                "percentage": 33
+                "level": 2,
+                "percentage": 66
             },
             {
                 "time": "10:00",
@@ -166,8 +166,93 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.08,
+        "airQualityValue": 0.139,
         "airQuality": "Good"
+    },
+    "Madison": {
+        "locationName": "Madison",
+        "bestTimeSlot": "07:00",
+        "bestRecommendLevel": 2,
+        "bestRecommendPercentage": 66,
+        "allTimeSlots": [
+            {
+                "time": "06:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "07:00",
+                "level": 2,
+                "percentage": 66
+            },
+            {
+                "time": "08:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "09:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "10:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "11:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "12:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "13:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "14:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "15:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "16:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "17:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "18:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "19:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "20:00",
+                "level": 0,
+                "percentage": 0
+            }
+        ],
+        "airQualityValue": 0.211,
+        "airQuality": "Moderate"
     },
     "Mt. Whitney": {
         "locationName": "Mt. Whitney",
@@ -251,14 +336,14 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.094,
+        "airQualityValue": 0.057,
         "airQuality": "Good"
     },
     "Seattle": {
         "locationName": "Seattle",
         "bestTimeSlot": "18:00",
-        "bestRecommendLevel": 2,
-        "bestRecommendPercentage": 66,
+        "bestRecommendLevel": 1,
+        "bestRecommendPercentage": 33,
         "allTimeSlots": [
             {
                 "time": "06:00",
@@ -322,8 +407,8 @@
             },
             {
                 "time": "18:00",
-                "level": 2,
-                "percentage": 66
+                "level": 1,
+                "percentage": 33
             },
             {
                 "time": "19:00",
@@ -336,14 +421,14 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.12,
-        "airQuality": "Good"
+        "airQualityValue": 0.243,
+        "airQuality": "Moderate"
     },
     "Mt. Rainier": {
         "locationName": "Mt. Rainier",
         "bestTimeSlot": "09:00",
-        "bestRecommendLevel": 2,
-        "bestRecommendPercentage": 66,
+        "bestRecommendLevel": 1,
+        "bestRecommendPercentage": 33,
         "allTimeSlots": [
             {
                 "time": "06:00",
@@ -362,8 +447,8 @@
             },
             {
                 "time": "09:00",
-                "level": 2,
-                "percentage": 66
+                "level": 1,
+                "percentage": 33
             },
             {
                 "time": "10:00",
@@ -421,7 +506,7 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.15,
+        "airQualityValue": 0.16,
         "airQuality": "Good"
     },
     "Mt. Hood": {
@@ -437,8 +522,8 @@
             },
             {
                 "time": "07:00",
-                "level": 1,
-                "percentage": 33
+                "level": 0,
+                "percentage": 0
             },
             {
                 "time": "08:00",
@@ -492,8 +577,8 @@
             },
             {
                 "time": "18:00",
-                "level": 1,
-                "percentage": 33
+                "level": 0,
+                "percentage": 0
             },
             {
                 "time": "19:00",
@@ -506,7 +591,7 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.1,
+        "airQualityValue": 0.124,
         "airQuality": "Good"
     },
     "Glacier National Park": {
@@ -517,18 +602,18 @@
         "allTimeSlots": [
             {
                 "time": "06:00",
-                "level": 2,
-                "percentage": 66
+                "level": 1,
+                "percentage": 33
             },
             {
                 "time": "07:00",
-                "level": 2,
-                "percentage": 66
+                "level": 1,
+                "percentage": 33
             },
             {
                 "time": "08:00",
-                "level": 2,
-                "percentage": 66
+                "level": 1,
+                "percentage": 33
             },
             {
                 "time": "09:00",
@@ -591,7 +676,7 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.073,
-        "airQuality": "Good"
+        "airQualityValue": 0.24,
+        "airQuality": "Moderate"
     }
 }
