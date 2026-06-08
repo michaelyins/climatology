@@ -1,7 +1,7 @@
 {
     "Chicago": {
         "locationName": "Chicago",
-        "bestTimeSlot": "09:00",
+        "bestTimeSlot": "08:00",
         "bestRecommendLevel": 2,
         "bestRecommendPercentage": 66,
         "allTimeSlots": [
@@ -17,8 +17,8 @@
             },
             {
                 "time": "08:00",
-                "level": 1,
-                "percentage": 33
+                "level": 2,
+                "percentage": 66
             },
             {
                 "time": "09:00",
@@ -81,7 +81,92 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.361,
+        "airQualityValue": 0.313,
+        "airQuality": "Moderate"
+    },
+    "Madison": {
+        "locationName": "Madison",
+        "bestTimeSlot": "09:00",
+        "bestRecommendLevel": 1,
+        "bestRecommendPercentage": 33,
+        "allTimeSlots": [
+            {
+                "time": "06:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "07:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "08:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "09:00",
+                "level": 1,
+                "percentage": 33
+            },
+            {
+                "time": "10:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "11:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "12:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "13:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "14:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "15:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "16:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "17:00",
+                "level": 1,
+                "percentage": 33
+            },
+            {
+                "time": "18:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "19:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "20:00",
+                "level": 0,
+                "percentage": 0
+            }
+        ],
+        "airQualityValue": 0.297,
         "airQuality": "Moderate"
     },
     "Mt. Whitney": {
@@ -166,8 +251,93 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.076,
+        "airQualityValue": 0.12,
         "airQuality": "Good"
+    },
+    "Houston": {
+        "locationName": "Houston",
+        "bestTimeSlot": "09:00",
+        "bestRecommendLevel": 1,
+        "bestRecommendPercentage": 33,
+        "allTimeSlots": [
+            {
+                "time": "06:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "07:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "08:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "09:00",
+                "level": 1,
+                "percentage": 33
+            },
+            {
+                "time": "10:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "11:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "12:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "13:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "14:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "15:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "16:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "17:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "18:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "19:00",
+                "level": 0,
+                "percentage": 0
+            },
+            {
+                "time": "20:00",
+                "level": 0,
+                "percentage": 0
+            }
+        ],
+        "airQualityValue": 0.21,
+        "airQuality": "Moderate"
     },
     "Glacier National Park": {
         "locationName": "Glacier National Park",
@@ -251,7 +421,7 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.147,
-        "airQuality": "Good"
+        "airQualityValue": 0.273,
+        "airQuality": "Moderate"
     }
 }
