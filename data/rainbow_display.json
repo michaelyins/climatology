@@ -2,8 +2,8 @@
     "Boston": {
         "locationName": "Boston",
         "bestTimeSlot": "17:00",
-        "bestRecommendLevel": 1,
-        "bestRecommendPercentage": 33,
+        "bestRecommendLevel": 2,
+        "bestRecommendPercentage": 66,
         "allTimeSlots": [
             {
                 "time": "06:00",
@@ -62,8 +62,8 @@
             },
             {
                 "time": "17:00",
-                "level": 1,
-                "percentage": 33
+                "level": 2,
+                "percentage": 66
             },
             {
                 "time": "18:00",
@@ -81,12 +81,12 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.287,
+        "airQualityValue": 0.377,
         "airQuality": "Moderate"
     },
     "New York": {
         "locationName": "New York",
-        "bestTimeSlot": "08:00",
+        "bestTimeSlot": "17:00",
         "bestRecommendLevel": 1,
         "bestRecommendPercentage": 33,
         "allTimeSlots": [
@@ -102,8 +102,8 @@
             },
             {
                 "time": "08:00",
-                "level": 1,
-                "percentage": 33
+                "level": 0,
+                "percentage": 0
             },
             {
                 "time": "09:00",
@@ -152,8 +152,8 @@
             },
             {
                 "time": "18:00",
-                "level": 0,
-                "percentage": 0
+                "level": 1,
+                "percentage": 33
             },
             {
                 "time": "19:00",
@@ -166,14 +166,14 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.41,
-        "airQuality": "Poor"
+        "airQualityValue": 0.283,
+        "airQuality": "Moderate"
     },
     "Darien": {
         "locationName": "Darien",
-        "bestTimeSlot": "07:00",
-        "bestRecommendLevel": 2,
-        "bestRecommendPercentage": 66,
+        "bestTimeSlot": "17:00",
+        "bestRecommendLevel": 1,
+        "bestRecommendPercentage": 33,
         "allTimeSlots": [
             {
                 "time": "06:00",
@@ -182,18 +182,18 @@
             },
             {
                 "time": "07:00",
-                "level": 2,
-                "percentage": 66
+                "level": 0,
+                "percentage": 0
             },
             {
                 "time": "08:00",
-                "level": 2,
-                "percentage": 66
+                "level": 0,
+                "percentage": 0
             },
             {
                 "time": "09:00",
-                "level": 2,
-                "percentage": 66
+                "level": 0,
+                "percentage": 0
             },
             {
                 "time": "10:00",
@@ -237,8 +237,8 @@
             },
             {
                 "time": "18:00",
-                "level": 0,
-                "percentage": 0
+                "level": 1,
+                "percentage": 33
             },
             {
                 "time": "19:00",
@@ -251,12 +251,12 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.368,
+        "airQualityValue": 0.286,
         "airQuality": "Moderate"
     },
     "Cleveland": {
         "locationName": "Cleveland",
-        "bestTimeSlot": "09:00",
+        "bestTimeSlot": "18:00",
         "bestRecommendLevel": 2,
         "bestRecommendPercentage": 66,
         "allTimeSlots": [
@@ -272,13 +272,13 @@
             },
             {
                 "time": "08:00",
-                "level": 1,
-                "percentage": 33
+                "level": 0,
+                "percentage": 0
             },
             {
                 "time": "09:00",
-                "level": 2,
-                "percentage": 66
+                "level": 0,
+                "percentage": 0
             },
             {
                 "time": "10:00",
@@ -332,11 +332,11 @@
             },
             {
                 "time": "20:00",
-                "level": 1,
-                "percentage": 33
+                "level": 0,
+                "percentage": 0
             }
         ],
-        "airQualityValue": 0.17,
+        "airQualityValue": 0.186,
         "airQuality": "Good"
     },
     "Chicago": {
@@ -421,14 +421,14 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.304,
+        "airQualityValue": 0.25,
         "airQuality": "Moderate"
     },
     "Madison": {
         "locationName": "Madison",
-        "bestTimeSlot": "08:00",
-        "bestRecommendLevel": 2,
-        "bestRecommendPercentage": 66,
+        "bestTimeSlot": "17:00",
+        "bestRecommendLevel": 3,
+        "bestRecommendPercentage": 99,
         "allTimeSlots": [
             {
                 "time": "06:00",
@@ -442,13 +442,13 @@
             },
             {
                 "time": "08:00",
-                "level": 2,
-                "percentage": 66
+                "level": 0,
+                "percentage": 0
             },
             {
                 "time": "09:00",
-                "level": 2,
-                "percentage": 66
+                "level": 0,
+                "percentage": 0
             },
             {
                 "time": "10:00",
@@ -487,13 +487,13 @@
             },
             {
                 "time": "17:00",
-                "level": 2,
-                "percentage": 66
+                "level": 3,
+                "percentage": 99
             },
             {
                 "time": "18:00",
-                "level": 0,
-                "percentage": 0
+                "level": 3,
+                "percentage": 99
             },
             {
                 "time": "19:00",
@@ -506,8 +506,8 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.193,
-        "airQuality": "Good"
+        "airQualityValue": 0.237,
+        "airQuality": "Moderate"
     },
     "Houston": {
         "locationName": "Houston",
@@ -591,7 +591,7 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.149,
+        "airQualityValue": 0.139,
         "airQuality": "Good"
     },
     "Seattle": {
@@ -676,7 +676,7 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.08,
+        "airQualityValue": 0.09,
         "airQuality": "Good"
     },
     "Mt. Rainier": {
@@ -692,8 +692,8 @@
             },
             {
                 "time": "07:00",
-                "level": 1,
-                "percentage": 33
+                "level": 0,
+                "percentage": 0
             },
             {
                 "time": "08:00",
@@ -832,8 +832,8 @@
             },
             {
                 "time": "18:00",
-                "level": 2,
-                "percentage": 66
+                "level": 1,
+                "percentage": 33
             },
             {
                 "time": "19:00",
@@ -846,12 +846,12 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.078,
+        "airQualityValue": 0.157,
         "airQuality": "Good"
     },
     "Yellowstone National Park": {
         "locationName": "Yellowstone National Park",
-        "bestTimeSlot": "17:00",
+        "bestTimeSlot": "06:00",
         "bestRecommendLevel": 2,
         "bestRecommendPercentage": 66,
         "allTimeSlots": [
@@ -912,13 +912,13 @@
             },
             {
                 "time": "17:00",
-                "level": 2,
-                "percentage": 66
+                "level": 1,
+                "percentage": 33
             },
             {
                 "time": "18:00",
-                "level": 2,
-                "percentage": 66
+                "level": 1,
+                "percentage": 33
             },
             {
                 "time": "19:00",
@@ -931,7 +931,7 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.063,
+        "airQualityValue": 0.133,
         "airQuality": "Good"
     },
     "Grand Teton National Park": {
@@ -942,18 +942,18 @@
         "allTimeSlots": [
             {
                 "time": "06:00",
-                "level": 0,
-                "percentage": 0
+                "level": 2,
+                "percentage": 66
             },
             {
                 "time": "07:00",
-                "level": 0,
-                "percentage": 0
+                "level": 2,
+                "percentage": 66
             },
             {
                 "time": "08:00",
-                "level": 0,
-                "percentage": 0
+                "level": 2,
+                "percentage": 66
             },
             {
                 "time": "09:00",
@@ -992,8 +992,8 @@
             },
             {
                 "time": "16:00",
-                "level": 2,
-                "percentage": 66
+                "level": 1,
+                "percentage": 33
             },
             {
                 "time": "17:00",
@@ -1002,13 +1002,13 @@
             },
             {
                 "time": "18:00",
-                "level": 0,
-                "percentage": 0
+                "level": 2,
+                "percentage": 66
             },
             {
                 "time": "19:00",
-                "level": 0,
-                "percentage": 0
+                "level": 1,
+                "percentage": 33
             },
             {
                 "time": "20:00",
@@ -1016,7 +1016,7 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.062,
+        "airQualityValue": 0.182,
         "airQuality": "Good"
     },
     "Glacier National Park": {
@@ -1101,7 +1101,7 @@
                 "percentage": 0
             }
         ],
-        "airQualityValue": 0.037,
+        "airQualityValue": 0.173,
         "airQuality": "Good"
     }
 }
