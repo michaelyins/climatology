@@ -444,7 +444,7 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log("Loading sea of clouds prediction data from data directory...");
         try {
             // 优先读取data目录中的集成数据
-            const response = await fetch(`../data/sea_of_clouds_results.json?v=${Date.now()}`);
+            const response = await fetch(`../data/sea_of_clouds_daily.json?v=${Date.now()}`);
             if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
             allPredictionData = await response.json();
             console.log("✅ Sea of clouds prediction data loaded successfully from data directory:", allPredictionData);
